@@ -59,9 +59,15 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/ETraffic.csproj.CopyComplete
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/ETraffic.exe
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/ETraffic.pdb
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/ETraffic.exe.config
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.dll
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.xml
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.xml
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/ibtool/_BundleResourceWithLogicalName.items
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_PartialAppManifest.items
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_BundleResourceWithLogicalName.items
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_PartialAppManifest.items
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_BundleResourceWithLogicalName.items
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/ETraffic.exe.config

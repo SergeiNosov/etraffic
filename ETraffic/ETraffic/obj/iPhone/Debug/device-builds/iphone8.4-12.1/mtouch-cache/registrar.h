@@ -32,6 +32,7 @@
 @class Foundation_NSAsyncDispatcher;
 @class __MonoMac_NSAsyncActionDispatcher;
 @class __MonoMac_NSAsyncSynchronizationContextDispatcher;
+@class NSURLSessionDataDelegate;
 @class AVCaptureMetadataOutputObjectsDelegate;
 @class AVCaptureVideoDataOutputSampleBufferDelegate;
 @class AppDelegate;
@@ -64,6 +65,8 @@
 @class ZXing_Mobile_ZXingDefaultOverlayView;
 @class ZXing_Mobile_ZXingScannerView_OutputRecorder;
 @class ZXing_Mobile_ZXingScannerView;
+@class System_Net_Http_NSUrlSessionHandler_WrappedNSInputStream;
+@class System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate;
 @class Xamarin_Forms_Platform_iOS_VisualElementRenderer_1;
 @class Xamarin_Forms_Platform_iOS_ViewRenderer_2;
 @class ZXing_Net_Mobile_Forms_iOS_ZXingScannerViewRenderer;
@@ -181,6 +184,11 @@
 	-(id) init;
 @end
 
+@interface NSURLSessionDataDelegate : NSObject<NSURLSessionDataDelegate, NSURLSessionTaskDelegate, NSURLSessionDelegate> {
+}
+	-(id) init;
+@end
+
 @interface AVCaptureMetadataOutputObjectsDelegate : NSObject<AVCaptureMetadataOutputObjectsDelegate> {
 }
 	-(id) init;
@@ -211,10 +219,13 @@
 
 @interface ViewController : UIViewController {
 }
+	@property (nonatomic, assign) UILabel * BalanceLabel;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UILabel *) BalanceLabel;
+	-(void) setBalanceLabel:(UILabel *)p0;
 	-(void) viewDidLoad;
 	-(void) didReceiveMemoryWarning;
 	-(void) StartScan:(UIButton *)p0;

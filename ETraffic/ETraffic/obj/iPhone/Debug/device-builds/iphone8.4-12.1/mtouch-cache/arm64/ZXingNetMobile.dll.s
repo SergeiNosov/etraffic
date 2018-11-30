@@ -50294,8 +50294,8 @@ bl _p_91
 adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x0, [x16, #416]
-.word 0xd2802661
-.word 0xd2802661
+.word 0xd28027a1
+.word 0xd28027a1
 bl _p_347
 bl _p_348
 .word 0xf9007ba0
@@ -53101,8 +53101,8 @@ bl _p_91
 adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x0, [x16, #416]
-.word 0xd2801f21
-.word 0xd2801f21
+.word 0xd2802061
+.word 0xd2802061
 bl _p_347
 bl _p_348
 .word 0xf9005ba0
@@ -53397,8 +53397,8 @@ bl _p_91
 adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x0, [x16, #416]
-.word 0xd2801f21
-.word 0xd2801f21
+.word 0xd2802061
+.word 0xd2802061
 bl _p_347
 bl _p_348
 .word 0xf90043a0
@@ -56852,7 +56852,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 7254
+.word 7256
 	.no_dead_strip plt_System_DateTime_AddYears_int
 plt_System_DateTime_AddYears_int:
 _p_2:
@@ -56860,7 +56860,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 7259
+.word 7261
 	.no_dead_strip plt_UIKit_UIView__ctor
 plt_UIKit_UIView__ctor:
 _p_3:
@@ -56868,7 +56868,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 7264
+.word 7266
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_4:
@@ -56876,7 +56876,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 7269
+.word 7271
 	.no_dead_strip plt_UIKit_UIView__ctor_intptr
 plt_UIKit_UIView__ctor_intptr:
 _p_5:
@@ -56884,7 +56884,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 7304
+.word 7306
 	.no_dead_strip plt_UIKit_UIView__ctor_CoreGraphics_CGRect
 plt_UIKit_UIView__ctor_CoreGraphics_CGRect:
 _p_6:
@@ -56892,7 +56892,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 7309
+.word 7311
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_7:
@@ -56900,7 +56900,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 7314
+.word 7316
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_8:
@@ -56908,7 +56908,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 7319
+.word 7321
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_get_UseCustomOverlayView
 plt_ZXing_Mobile_AVCaptureScannerView_get_UseCustomOverlayView:
 _p_9:
@@ -56916,7 +56916,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 7324
+.word 7326
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_get_CustomOverlayView
 plt_ZXing_Mobile_AVCaptureScannerView_get_CustomOverlayView:
 _p_10:
@@ -56924,7 +56924,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 7326
+.word 7328
 	.no_dead_strip plt_System_nfloat_op_Implicit_int
 plt_System_nfloat_op_Implicit_int:
 _p_11:
@@ -56932,7 +56932,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 7328
+.word 7330
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Width
 plt_CoreGraphics_CGRect_get_Width:
 _p_12:
@@ -56940,7 +56940,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 7333
+.word 7335
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Height
 plt_CoreGraphics_CGRect_get_Height:
 _p_13:
@@ -56948,7 +56948,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 7338
+.word 7340
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_14:
@@ -56956,7 +56956,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 7343
+.word 7345
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_get_TopText
 plt_ZXing_Mobile_AVCaptureScannerView_get_TopText:
 _p_15:
@@ -56964,7 +56964,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 7348
+.word 7350
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_get_BottomText
 plt_ZXing_Mobile_AVCaptureScannerView_get_BottomText:
 _p_16:
@@ -56972,7 +56972,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 7350
+.word 7352
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_get_CancelButtonText
 plt_ZXing_Mobile_AVCaptureScannerView_get_CancelButtonText:
 _p_17:
@@ -56980,7 +56980,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 7352
+.word 7354
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_get_FlashButtonText
 plt_ZXing_Mobile_AVCaptureScannerView_get_FlashButtonText:
 _p_18:
@@ -56988,7 +56988,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 7354
+.word 7356
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_19:
@@ -56996,7 +56996,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 7356
+.word 7358
 	.no_dead_strip plt__jit_icall_mono_ldvirtfn
 plt__jit_icall_mono_ldvirtfn:
 _p_20:
@@ -57004,7 +57004,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 7364
+.word 7366
 	.no_dead_strip plt_System_Action__ctor_object_intptr
 plt_System_Action__ctor_object_intptr:
 _p_21:
@@ -57012,7 +57012,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 7380
+.word 7382
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_22:
@@ -57020,7 +57020,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 7385
+.word 7387
 	.no_dead_strip plt_ZXing_Mobile_ZXingDefaultOverlayView__ctor_CoreGraphics_CGRect_string_string_string_string_System_Action_System_Action
 plt_ZXing_Mobile_ZXingDefaultOverlayView__ctor_CoreGraphics_CGRect_string_string_string_string_System_Action_System_Action:
 _p_23:
@@ -57028,7 +57028,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 7417
+.word 7419
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass32_0__ctor
 plt_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass32_0__ctor:
 _p_24:
@@ -57036,7 +57036,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 7420
+.word 7422
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution__ctor
 plt_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution__ctor:
 _p_25:
@@ -57044,7 +57044,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 7422
+.word 7424
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution__ctor
 plt_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution__ctor:
 _p_26:
@@ -57052,7 +57052,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 7433
+.word 7435
 	.no_dead_strip plt_AVFoundation_AVCaptureSession_get_Preset352x288
 plt_AVFoundation_AVCaptureSession_get_Preset352x288:
 _p_27:
@@ -57060,7 +57060,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 7444
+.word 7446
 	.no_dead_strip plt_ZXing_Mobile_CameraResolution__ctor
 plt_ZXing_Mobile_CameraResolution__ctor:
 _p_28:
@@ -57068,7 +57068,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 7449
+.word 7451
 	.no_dead_strip plt_ZXing_Mobile_CameraResolution_set_Width_int
 plt_ZXing_Mobile_CameraResolution_set_Width_int:
 _p_29:
@@ -57076,7 +57076,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 7454
+.word 7456
 	.no_dead_strip plt_ZXing_Mobile_CameraResolution_set_Height_int
 plt_ZXing_Mobile_CameraResolution_set_Height_int:
 _p_30:
@@ -57084,7 +57084,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 7459
+.word 7461
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Add_Foundation_NSString_ZXing_Mobile_CameraResolution
 plt_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Add_Foundation_NSString_ZXing_Mobile_CameraResolution:
 _p_31:
@@ -57092,7 +57092,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 7464
+.word 7466
 	.no_dead_strip plt_AVFoundation_AVCaptureSession_get_PresetMedium
 plt_AVFoundation_AVCaptureSession_get_PresetMedium:
 _p_32:
@@ -57100,7 +57100,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 7475
+.word 7477
 	.no_dead_strip plt_AVFoundation_AVCaptureSession_get_Preset640x480
 plt_AVFoundation_AVCaptureSession_get_Preset640x480:
 _p_33:
@@ -57108,7 +57108,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 7480
+.word 7482
 	.no_dead_strip plt_AVFoundation_AVCaptureSession_get_Preset1280x720
 plt_AVFoundation_AVCaptureSession_get_Preset1280x720:
 _p_34:
@@ -57116,7 +57116,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 7485
+.word 7487
 	.no_dead_strip plt_AVFoundation_AVCaptureSession_get_Preset1920x1080
 plt_AVFoundation_AVCaptureSession_get_Preset1920x1080:
 _p_35:
@@ -57124,7 +57124,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 7490
+.word 7492
 	.no_dead_strip plt_AVFoundation_AVCaptureSession__ctor
 plt_AVFoundation_AVCaptureSession__ctor:
 _p_36:
@@ -57132,7 +57132,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 7495
+.word 7497
 	.no_dead_strip plt_AVFoundation_AVMediaType_get_Video
 plt_AVFoundation_AVMediaType_get_Video:
 _p_37:
@@ -57140,7 +57140,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 7500
+.word 7502
 	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
 plt_Foundation_NSString_op_Implicit_Foundation_NSString:
 _p_38:
@@ -57148,7 +57148,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 7505
+.word 7507
 	.no_dead_strip plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string
 plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string:
 _p_39:
@@ -57156,7 +57156,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 7510
+.word 7512
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_get_ScanningOptions
 plt_ZXing_Mobile_AVCaptureScannerView_get_ScanningOptions:
 _p_40:
@@ -57164,7 +57164,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 7515
+.word 7517
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_UseFrontCameraIfAvailable
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_UseFrontCameraIfAvailable:
 _p_41:
@@ -57172,7 +57172,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 7517
+.word 7519
 	.no_dead_strip plt_System_Nullable_1_bool_get_HasValue
 plt_System_Nullable_1_bool_get_HasValue:
 _p_42:
@@ -57180,7 +57180,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 7522
+.word 7524
 	.no_dead_strip plt_System_Nullable_1_bool_get_Value
 plt_System_Nullable_1_bool_get_Value:
 _p_43:
@@ -57188,7 +57188,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 7533
+.word 7535
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_44:
@@ -57196,7 +57196,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 7544
+.word 7546
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_GetEnumerator:
 _p_45:
@@ -57204,7 +57204,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 7549
+.word 7551
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_get_Current
 plt_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_get_Current:
 _p_46:
@@ -57212,7 +57212,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 7560
+.word 7562
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_get_Key
 plt_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_get_Key:
 _p_47:
@@ -57220,7 +57220,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 7571
+.word 7573
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_get_Value
 plt_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_get_Value:
 _p_48:
@@ -57228,7 +57228,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 7582
+.word 7584
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_Add_ZXing_Mobile_CameraResolution
 plt_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_Add_ZXing_Mobile_CameraResolution:
 _p_49:
@@ -57236,7 +57236,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 7593
+.word 7595
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_MoveNext
 plt_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_MoveNext:
 _p_50:
@@ -57244,7 +57244,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 7604
+.word 7606
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_51:
@@ -57252,7 +57252,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 7615
+.word 7617
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_Dispose
 plt_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_Dispose:
 _p_52:
@@ -57260,7 +57260,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 7653
+.word 7655
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution:
 _p_53:
@@ -57268,7 +57268,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 7678
+.word 7680
 	.no_dead_strip plt_System_Linq_Enumerable_Where_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_bool
 plt_System_Linq_Enumerable_Where_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_bool:
 _p_54:
@@ -57276,7 +57276,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 7683
+.word 7685
 	.no_dead_strip plt_System_Linq_Enumerable_Select_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString
 plt_System_Linq_Enumerable_Select_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString:
 _p_55:
@@ -57284,7 +57284,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 7695
+.word 7697
 	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_Foundation_NSString_System_Collections_Generic_IEnumerable_1_Foundation_NSString
 plt_System_Linq_Enumerable_FirstOrDefault_Foundation_NSString_System_Collections_Generic_IEnumerable_1_Foundation_NSString:
 _p_56:
@@ -57292,7 +57292,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 7707
+.word 7709
 	.no_dead_strip plt_string_IsNullOrEmpty_string
 plt_string_IsNullOrEmpty_string:
 _p_57:
@@ -57300,7 +57300,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 7719
+.word 7721
 	.no_dead_strip plt_AVFoundation_AVCaptureDeviceInput_FromDevice_AVFoundation_AVCaptureDevice
 plt_AVFoundation_AVCaptureDeviceInput_FromDevice_AVFoundation_AVCaptureDevice:
 _p_58:
@@ -57308,7 +57308,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 7724
+.word 7726
 	.no_dead_strip plt_AVFoundation_AVCaptureMetadataOutput__ctor
 plt_AVFoundation_AVCaptureMetadataOutput__ctor:
 _p_59:
@@ -57316,7 +57316,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 7729
+.word 7731
 	.no_dead_strip plt_ZXing_Mobile_CaptureDelegate__ctor_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
 plt_ZXing_Mobile_CaptureDelegate__ctor_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject:
 _p_60:
@@ -57324,7 +57324,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 7734
+.word 7736
 	.no_dead_strip plt_CoreFoundation_DispatchQueue_get_MainQueue
 plt_CoreFoundation_DispatchQueue_get_MainQueue:
 _p_61:
@@ -57332,7 +57332,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 7736
+.word 7738
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_PossibleFormats
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_PossibleFormats:
 _p_62:
@@ -57340,7 +57340,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 7741
+.word 7743
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_get_Count
 plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_get_Count:
 _p_63:
@@ -57348,7 +57348,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 7746
+.word 7748
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_GetEnumerator
 plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_GetEnumerator:
 _p_64:
@@ -57356,7 +57356,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 7757
+.word 7759
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_get_Current
 plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_get_Current:
 _p_65:
@@ -57364,7 +57364,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 7768
+.word 7770
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_AVCaptureBarcodeFormatFromZXingBarcodeFormat_ZXing_BarcodeFormat
 plt_ZXing_Mobile_AVCaptureScannerView_AVCaptureBarcodeFormatFromZXingBarcodeFormat_ZXing_BarcodeFormat:
 _p_66:
@@ -57372,7 +57372,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 7779
+.word 7781
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_MoveNext:
 _p_67:
@@ -57380,7 +57380,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 7781
+.word 7783
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_Dispose
 plt_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_Dispose:
 _p_68:
@@ -57388,7 +57388,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 7792
+.word 7794
 	.no_dead_strip plt_AVFoundation_AVCaptureMetadataOutput_set_MetadataObjectTypes_AVFoundation_AVMetadataObjectType
 plt_AVFoundation_AVCaptureMetadataOutput_set_MetadataObjectTypes_AVFoundation_AVMetadataObjectType:
 _p_69:
@@ -57396,7 +57396,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 7813
+.word 7815
 	.no_dead_strip plt_AVFoundation_AVCaptureMetadataOutput_get_AvailableMetadataObjectTypes
 plt_AVFoundation_AVCaptureMetadataOutput_get_AvailableMetadataObjectTypes:
 _p_70:
@@ -57404,7 +57404,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 7818
+.word 7820
 	.no_dead_strip plt_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession
 plt_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession:
 _p_71:
@@ -57412,7 +57412,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 7823
+.word 7825
 	.no_dead_strip plt_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity
 plt_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity:
 _p_72:
@@ -57420,7 +57420,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 7828
+.word 7830
 	.no_dead_strip plt_CoreGraphics_CGPoint__ctor_System_nfloat_System_nfloat
 plt_CoreGraphics_CGPoint__ctor_System_nfloat_System_nfloat:
 _p_73:
@@ -57428,7 +57428,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 7833
+.word 7835
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_74:
@@ -57436,7 +57436,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 7838
+.word 7840
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_ResizePreview_UIKit_UIInterfaceOrientation
 plt_ZXing_Mobile_AVCaptureScannerView_ResizePreview_UIKit_UIInterfaceOrientation:
 _p_75:
@@ -57444,7 +57444,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 7843
+.word 7845
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_76:
@@ -57452,7 +57452,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 7845
+.word 7847
 	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
 plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_77:
@@ -57460,7 +57460,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 7850
+.word 7852
 	.no_dead_strip plt_CoreGraphics_CGPoint__ctor_single_single
 plt_CoreGraphics_CGPoint__ctor_single_single:
 _p_78:
@@ -57468,7 +57468,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 7855
+.word 7857
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_79:
@@ -57476,7 +57476,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 7860
+.word 7862
 	.no_dead_strip plt_ObjCRuntime_Selector__ctor_string
 plt_ObjCRuntime_Selector__ctor_string:
 _p_80:
@@ -57484,7 +57484,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 7865
+.word 7867
 	.no_dead_strip plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString
 plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString:
 _p_81:
@@ -57492,7 +57492,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 7870
+.word 7872
 	.no_dead_strip plt_AVFoundation_AVCaptureDevice_DefaultDeviceWithMediaType_string
 plt_AVFoundation_AVCaptureDevice_DefaultDeviceWithMediaType_string:
 _p_82:
@@ -57500,7 +57500,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 7875
+.word 7877
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_83:
@@ -57508,7 +57508,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 7880
+.word 7882
 	.no_dead_strip plt_CoreGraphics_CGPoint_get_X
 plt_CoreGraphics_CGPoint_get_X:
 _p_84:
@@ -57516,7 +57516,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 7888
+.word 7890
 	.no_dead_strip plt_CoreGraphics_CGPoint_get_Y
 plt_CoreGraphics_CGPoint_get_Y:
 _p_85:
@@ -57524,7 +57524,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 7893
+.word 7895
 	.no_dead_strip plt_string_Concat_object__
 plt_string_Concat_object__:
 _p_86:
@@ -57532,7 +57532,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 7898
+.word 7900
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_Setup
 plt_ZXing_Mobile_AVCaptureScannerView_Setup:
 _p_87:
@@ -57540,7 +57540,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 7903
+.word 7905
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions
 plt_ZXing_Mobile_AVCaptureScannerView_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions:
 _p_88:
@@ -57548,7 +57548,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 7905
+.word 7907
 	.no_dead_strip plt_Foundation_NSObject_InvokeOnMainThread_System_Action
 plt_Foundation_NSObject_InvokeOnMainThread_System_Action:
 _p_89:
@@ -57556,7 +57556,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 7907
+.word 7909
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_90:
@@ -57564,7 +57564,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 7912
+.word 7914
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_91:
@@ -57572,7 +57572,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 7951
+.word 7953
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_get_IsTorchOn
 plt_ZXing_Mobile_AVCaptureScannerView_get_IsTorchOn:
 _p_92:
@@ -57580,7 +57580,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 7979
+.word 7981
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_Torch_bool
 plt_ZXing_Mobile_AVCaptureScannerView_Torch_bool:
 _p_93:
@@ -57588,7 +57588,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 7981
+.word 7983
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_94:
@@ -57596,7 +57596,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 7983
+.word 7985
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass67_0__ctor
 plt_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass67_0__ctor:
 _p_95:
@@ -57604,7 +57604,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 7994
+.word 7996
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat__ctor
 plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat__ctor:
 _p_96:
@@ -57612,7 +57612,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 7996
+.word 7998
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Add_ZXing_BarcodeFormat
 plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Add_ZXing_BarcodeFormat:
 _p_97:
@@ -57620,7 +57620,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 8007
+.word 8009
 	.no_dead_strip plt_System_Linq_Enumerable_Any_ZXing_BarcodeFormat_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_System_Func_2_ZXing_BarcodeFormat_bool
 plt_System_Linq_Enumerable_Any_ZXing_BarcodeFormat_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_System_Func_2_ZXing_BarcodeFormat_bool:
 _p_98:
@@ -57628,7 +57628,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 8018
+.word 8020
 	.no_dead_strip plt__PrivateImplementationDetails_ComputeStringHash_string
 plt__PrivateImplementationDetails_ComputeStringHash_string:
 _p_99:
@@ -57636,7 +57636,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 8030
+.word 8032
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_100:
@@ -57644,7 +57644,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 8033
+.word 8035
 	.no_dead_strip plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime
 plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime:
 _p_101:
@@ -57652,7 +57652,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 8038
+.word 8040
 	.no_dead_strip plt_System_TimeSpan_get_TotalMilliseconds
 plt_System_TimeSpan_get_TotalMilliseconds:
 _p_102:
@@ -57660,7 +57660,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 8043
+.word 8045
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenAnalyzingFrames
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenAnalyzingFrames:
 _p_103:
@@ -57668,7 +57668,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 8048
+.word 8050
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenContinuousScans
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_DelayBetweenContinuousScans:
 _p_104:
@@ -57676,7 +57676,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 8053
+.word 8055
 	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVMetadataObject_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
 plt_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVMetadataObject_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject:
 _p_105:
@@ -57684,7 +57684,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 8058
+.word 8060
 	.no_dead_strip plt_AVFoundation_AVMetadataObject_get_Type
 plt_AVFoundation_AVMetadataObject_get_Type:
 _p_106:
@@ -57692,7 +57692,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 8070
+.word 8072
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_ZXingBarcodeFormatFromAVCaptureBarcodeFormat_string
 plt_ZXing_Mobile_AVCaptureScannerView_ZXingBarcodeFormatFromAVCaptureBarcodeFormat_string:
 _p_107:
@@ -57700,7 +57700,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 8075
+.word 8077
 	.no_dead_strip plt_ZXing_Result__ctor_string_byte___ZXing_ResultPoint___ZXing_BarcodeFormat
 plt_ZXing_Result__ctor_string_byte___ZXing_ResultPoint___ZXing_BarcodeFormat:
 _p_108:
@@ -57708,7 +57708,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 8077
+.word 8079
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_SetupCaptureSession
 plt_ZXing_Mobile_AVCaptureScannerView_SetupCaptureSession:
 _p_109:
@@ -57716,7 +57716,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 8082
+.word 8084
 	.no_dead_strip plt_UIKit_UIColor_get_LightGray
 plt_UIKit_UIColor_get_LightGray:
 _p_110:
@@ -57724,7 +57724,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 8084
+.word 8086
 	.no_dead_strip plt_ZXing_Mobile_CameraResolution_get_Width
 plt_ZXing_Mobile_CameraResolution_get_Width:
 _p_111:
@@ -57732,7 +57732,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 8089
+.word 8091
 	.no_dead_strip plt_ZXing_Mobile_CameraResolution_get_Height
 plt_ZXing_Mobile_CameraResolution_get_Height:
 _p_112:
@@ -57740,7 +57740,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 8094
+.word 8096
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView__c__ctor
 plt_ZXing_Mobile_AVCaptureScannerView__c__ctor:
 _p_113:
@@ -57748,7 +57748,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 8099
+.word 8101
 	.no_dead_strip plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Contains_ZXing_BarcodeFormat
 plt_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Contains_ZXing_BarcodeFormat:
 _p_114:
@@ -57756,7 +57756,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 8101
+.word 8103
 	.no_dead_strip plt_AVFoundation_AVCaptureMetadataOutputObjectsDelegate__ctor
 plt_AVFoundation_AVCaptureMetadataOutputObjectsDelegate__ctor:
 _p_115:
@@ -57764,7 +57764,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 8112
+.word 8114
 	.no_dead_strip plt_ZXing_Mobile_CaptureDelegate_set_OnCapture_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
 plt_ZXing_Mobile_CaptureDelegate_set_OnCapture_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject:
 _p_116:
@@ -57772,7 +57772,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 8117
+.word 8119
 	.no_dead_strip plt_ZXing_Mobile_CaptureDelegate_get_OnCapture
 plt_ZXing_Mobile_CaptureDelegate_get_OnCapture:
 _p_117:
@@ -57780,7 +57780,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 8119
+.word 8121
 	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
 _p_118:
@@ -57788,7 +57788,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 8121
+.word 8123
 	.no_dead_strip plt_UIKit_UIViewController__ctor
 plt_UIKit_UIViewController__ctor:
 _p_119:
@@ -57796,7 +57796,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 8129
+.word 8131
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerViewController_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions
 plt_ZXing_Mobile_AVCaptureScannerViewController_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions:
 _p_120:
@@ -57804,7 +57804,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 8134
+.word 8136
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerViewController_set_Scanner_ZXing_Mobile_MobileBarcodeScanner
 plt_ZXing_Mobile_AVCaptureScannerViewController_set_Scanner_ZXing_Mobile_MobileBarcodeScanner:
 _p_121:
@@ -57812,7 +57812,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 8136
+.word 8138
 	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
 plt_UIKit_UIScreen_get_MainScreen:
 _p_122:
@@ -57820,7 +57820,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 8138
+.word 8140
 	.no_dead_strip plt_UIKit_UIColor_get_Black
 plt_UIKit_UIColor_get_Black:
 _p_123:
@@ -57828,7 +57828,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 8143
+.word 8145
 	.no_dead_strip plt_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle
 plt_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle:
 _p_124:
@@ -57836,7 +57836,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 8148
+.word 8150
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView__ctor_CoreGraphics_CGRect
 plt_ZXing_Mobile_AVCaptureScannerView__ctor_CoreGraphics_CGRect:
 _p_125:
@@ -57844,7 +57844,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 8153
+.word 8155
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerViewController_get_Scanner
 plt_ZXing_Mobile_AVCaptureScannerViewController_get_Scanner:
 _p_126:
@@ -57852,7 +57852,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 8155
+.word 8157
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase_get_UseCustomOverlay
 plt_ZXing_Mobile_MobileBarcodeScannerBase_get_UseCustomOverlay:
 _p_127:
@@ -57860,7 +57860,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 8157
+.word 8159
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_set_UseCustomOverlayView_bool
 plt_ZXing_Mobile_AVCaptureScannerView_set_UseCustomOverlayView_bool:
 _p_128:
@@ -57868,7 +57868,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 8162
+.word 8164
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner_get_CustomOverlay
 plt_ZXing_Mobile_MobileBarcodeScanner_get_CustomOverlay:
 _p_129:
@@ -57876,7 +57876,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 8164
+.word 8166
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_set_CustomOverlayView_UIKit_UIView
 plt_ZXing_Mobile_AVCaptureScannerView_set_CustomOverlayView_UIKit_UIView:
 _p_130:
@@ -57884,7 +57884,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 8166
+.word 8168
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase_get_TopText
 plt_ZXing_Mobile_MobileBarcodeScannerBase_get_TopText:
 _p_131:
@@ -57892,7 +57892,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 8168
+.word 8170
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_set_TopText_string
 plt_ZXing_Mobile_AVCaptureScannerView_set_TopText_string:
 _p_132:
@@ -57900,7 +57900,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 8173
+.word 8175
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase_get_BottomText
 plt_ZXing_Mobile_MobileBarcodeScannerBase_get_BottomText:
 _p_133:
@@ -57908,7 +57908,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 8175
+.word 8177
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_set_BottomText_string
 plt_ZXing_Mobile_AVCaptureScannerView_set_BottomText_string:
 _p_134:
@@ -57916,7 +57916,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 8180
+.word 8182
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase_get_CancelButtonText
 plt_ZXing_Mobile_MobileBarcodeScannerBase_get_CancelButtonText:
 _p_135:
@@ -57924,7 +57924,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 8182
+.word 8184
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_set_CancelButtonText_string
 plt_ZXing_Mobile_AVCaptureScannerView_set_CancelButtonText_string:
 _p_136:
@@ -57932,7 +57932,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 8187
+.word 8189
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase_get_FlashButtonText
 plt_ZXing_Mobile_MobileBarcodeScannerBase_get_FlashButtonText:
 _p_137:
@@ -57940,7 +57940,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 8189
+.word 8191
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_set_FlashButtonText_string
 plt_ZXing_Mobile_AVCaptureScannerView_set_FlashButtonText_string:
 _p_138:
@@ -57948,7 +57948,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 8194
+.word 8196
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_add_OnCancelButtonPressed_System_Action
 plt_ZXing_Mobile_AVCaptureScannerView_add_OnCancelButtonPressed_System_Action:
 _p_139:
@@ -57956,7 +57956,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 8196
+.word 8198
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_ToggleTorch
 plt_ZXing_Mobile_AVCaptureScannerView_ToggleTorch:
 _p_140:
@@ -57964,7 +57964,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 8198
+.word 8200
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_PauseAnalysis
 plt_ZXing_Mobile_AVCaptureScannerView_PauseAnalysis:
 _p_141:
@@ -57972,7 +57972,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 8200
+.word 8202
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_ResumeAnalysis
 plt_ZXing_Mobile_AVCaptureScannerView_ResumeAnalysis:
 _p_142:
@@ -57980,7 +57980,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 8202
+.word 8204
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerViewController_get_ScanningOptions
 plt_ZXing_Mobile_AVCaptureScannerViewController_get_ScanningOptions:
 _p_143:
@@ -57988,7 +57988,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 8204
+.word 8206
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions
 plt_ZXing_Mobile_AVCaptureScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions:
 _p_144:
@@ -57996,7 +57996,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 8206
+.word 8208
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_StopScanning
 plt_ZXing_Mobile_AVCaptureScannerView_StopScanning:
 _p_145:
@@ -58004,7 +58004,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 8208
+.word 8210
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_DidRotate_UIKit_UIInterfaceOrientation
 plt_ZXing_Mobile_AVCaptureScannerView_DidRotate_UIKit_UIInterfaceOrientation:
 _p_146:
@@ -58012,7 +58012,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 8210
+.word 8212
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_AutoRotate
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_AutoRotate:
 _p_147:
@@ -58020,7 +58020,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 8212
+.word 8214
 	.no_dead_strip plt_Foundation_NSObject_BeginInvokeOnMainThread_System_Action
 plt_Foundation_NSObject_BeginInvokeOnMainThread_System_Action:
 _p_148:
@@ -58028,7 +58028,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 8217
+.word 8219
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerViewController_get_ContinuousScanning
 plt_ZXing_Mobile_AVCaptureScannerViewController_get_ContinuousScanning:
 _p_149:
@@ -58036,7 +58036,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 8222
+.word 8224
 	.no_dead_strip plt_UIKit_UIView_BeginAnimations_string
 plt_UIKit_UIView_BeginAnimations_string:
 _p_150:
@@ -58044,7 +58044,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 8224
+.word 8226
 	.no_dead_strip plt_UIKit_UIView_SetAnimationDuration_double
 plt_UIKit_UIView_SetAnimationDuration_double:
 _p_151:
@@ -58052,7 +58052,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 8229
+.word 8231
 	.no_dead_strip plt_UIKit_UIView_SetAnimationCurve_UIKit_UIViewAnimationCurve
 plt_UIKit_UIView_SetAnimationCurve_UIKit_UIViewAnimationCurve:
 _p_152:
@@ -58060,7 +58060,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 8234
+.word 8236
 	.no_dead_strip plt_CoreGraphics_CGAffineTransform_MakeScale_System_nfloat_System_nfloat
 plt_CoreGraphics_CGAffineTransform_MakeScale_System_nfloat_System_nfloat:
 _p_153:
@@ -58068,7 +58068,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 8239
+.word 8241
 	.no_dead_strip plt_UIKit_UIView_CommitAnimations
 plt_UIKit_UIView_CommitAnimations:
 _p_154:
@@ -58076,7 +58076,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 8244
+.word 8246
 	.no_dead_strip plt_ZXing_BarcodeWriter_1_UIKit_UIImage__ctor
 plt_ZXing_BarcodeWriter_1_UIKit_UIImage__ctor:
 _p_155:
@@ -58084,7 +58084,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 8249
+.word 8251
 	.no_dead_strip plt_ZXing_Mobile_BitmapRenderer__ctor
 plt_ZXing_Mobile_BitmapRenderer__ctor:
 _p_156:
@@ -58092,7 +58092,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 8260
+.word 8262
 	.no_dead_strip plt_ZXing_BarcodeWriter_1_UIKit_UIImage_set_Renderer_ZXing_Rendering_IBarcodeRenderer_1_UIKit_UIImage
 plt_ZXing_BarcodeWriter_1_UIKit_UIImage_set_Renderer_ZXing_Rendering_IBarcodeRenderer_1_UIKit_UIImage:
 _p_157:
@@ -58100,7 +58100,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 8262
+.word 8264
 	.no_dead_strip plt_ZXing_Common_EncodingOptions__ctor
 plt_ZXing_Common_EncodingOptions__ctor:
 _p_158:
@@ -58108,7 +58108,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 8273
+.word 8275
 	.no_dead_strip plt_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string_ZXing_Common_EncodingOptions
 plt_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string_ZXing_Common_EncodingOptions:
 _p_159:
@@ -58116,7 +58116,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 8278
+.word 8280
 	.no_dead_strip plt_ZXing_Common_BitMatrix_get_Width
 plt_ZXing_Common_BitMatrix_get_Width:
 _p_160:
@@ -58124,7 +58124,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 8280
+.word 8282
 	.no_dead_strip plt_ZXing_Common_BitMatrix_get_Height
 plt_ZXing_Common_BitMatrix_get_Height:
 _p_161:
@@ -58132,7 +58132,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 8285
+.word 8287
 	.no_dead_strip plt_CoreGraphics_CGSize__ctor_single_single
 plt_CoreGraphics_CGSize__ctor_single_single:
 _p_162:
@@ -58140,7 +58140,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 8290
+.word 8292
 	.no_dead_strip plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize
 plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize:
 _p_163:
@@ -58148,7 +58148,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 8295
+.word 8297
 	.no_dead_strip plt_UIKit_UIGraphics_GetCurrentContext
 plt_UIKit_UIGraphics_GetCurrentContext:
 _p_164:
@@ -58156,7 +58156,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 8300
+.word 8302
 	.no_dead_strip plt_CoreGraphics_CGColor__ctor_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGColor__ctor_System_nfloat_System_nfloat_System_nfloat:
 _p_165:
@@ -58164,7 +58164,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 8305
+.word 8307
 	.no_dead_strip plt_ZXing_Common_BitMatrix_get_Item_int_int
 plt_ZXing_Common_BitMatrix_get_Item_int_int:
 _p_166:
@@ -58172,7 +58172,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 8310
+.word 8312
 	.no_dead_strip plt_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor
 plt_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor:
 _p_167:
@@ -58180,7 +58180,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 8315
+.word 8317
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
 plt_CoreGraphics_CGRect__ctor_single_single_single_single:
 _p_168:
@@ -58188,7 +58188,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 8320
+.word 8322
 	.no_dead_strip plt_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect
 plt_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect:
 _p_169:
@@ -58196,7 +58196,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 8325
+.word 8327
 	.no_dead_strip plt_UIKit_UIGraphics_GetImageFromCurrentImageContext
 plt_UIKit_UIGraphics_GetImageFromCurrentImageContext:
 _p_170:
@@ -58204,7 +58204,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 8330
+.word 8332
 	.no_dead_strip plt_UIKit_UIGraphics_EndImageContext
 plt_UIKit_UIGraphics_EndImageContext:
 _p_171:
@@ -58212,7 +58212,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 8335
+.word 8337
 	.no_dead_strip plt_System_Threading_ManualResetEvent__ctor_bool
 plt_System_Threading_ManualResetEvent__ctor_bool:
 _p_172:
@@ -58220,7 +58220,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 8340
+.word 8342
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase__ctor
 plt_ZXing_Mobile_MobileBarcodeScannerBase__ctor:
 _p_173:
@@ -58228,7 +58228,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 8345
+.word 8347
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions__ctor
 plt_ZXing_Mobile_MobileBarcodeScanningOptions__ctor:
 _p_174:
@@ -58236,7 +58236,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 8350
+.word 8352
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions_bool
 plt_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions_bool:
 _p_175:
@@ -58244,7 +58244,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 8355
+.word 8357
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_bool_System_Action_1_ZXing_Result
 plt_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_bool_System_Action_1_ZXing_Result:
 _p_176:
@@ -58252,7 +58252,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 8357
+.word 8359
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_0__ctor
 plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_0__ctor:
 _p_177:
@@ -58260,7 +58260,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 8359
+.word 8361
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_1__ctor
 plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_1__ctor:
 _p_178:
@@ -58268,7 +58268,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 8361
+.word 8363
 	.no_dead_strip plt_System_Version__ctor_int_int_int
 plt_System_Version__ctor_int_int_int:
 _p_179:
@@ -58276,7 +58276,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 8363
+.word 8365
 	.no_dead_strip plt_System_Version_TryParse_string_System_Version_
 plt_System_Version_TryParse_string_System_Version_:
 _p_180:
@@ -58284,7 +58284,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 8368
+.word 8370
 	.no_dead_strip plt_System_Version_get_Major
 plt_System_Version_get_Major:
 _p_181:
@@ -58292,7 +58292,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 8373
+.word 8375
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerView_SupportsAllRequestedBarcodeFormats_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat
 plt_ZXing_Mobile_AVCaptureScannerView_SupportsAllRequestedBarcodeFormats_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat:
 _p_182:
@@ -58300,7 +58300,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 8378
+.word 8380
 	.no_dead_strip plt_System_Console_WriteLine_object
 plt_System_Console_WriteLine_object:
 _p_183:
@@ -58308,7 +58308,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 8380
+.word 8382
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_0__ctor
 plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_0__ctor:
 _p_184:
@@ -58316,7 +58316,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 8385
+.word 8387
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Factory
 plt_System_Threading_Tasks_Task_get_Factory:
 _p_185:
@@ -58324,7 +58324,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 8387
+.word 8389
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_StartNew_ZXing_Result_System_Func_1_ZXing_Result
 plt_System_Threading_Tasks_TaskFactory_StartNew_ZXing_Result_System_Func_1_ZXing_Result:
 _p_186:
@@ -58332,7 +58332,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 8392
+.word 8394
 	.no_dead_strip plt_System_Threading_EventWaitHandle_Set
 plt_System_Threading_EventWaitHandle_Set:
 _p_187:
@@ -58340,7 +58340,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 8404
+.word 8406
 	.no_dead_strip plt_ZXing_Mobile_AVCaptureScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner
 plt_ZXing_Mobile_AVCaptureScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner:
 _p_188:
@@ -58348,7 +58348,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 8409
+.word 8411
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner
 plt_ZXing_Mobile_ZXingScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner:
 _p_189:
@@ -58356,7 +58356,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 8411
+.word 8413
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_1__ctor
 plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_1__ctor:
 _p_190:
@@ -58364,7 +58364,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 8414
+.word 8416
 	.no_dead_strip plt_System_Threading_EventWaitHandle_Reset
 plt_System_Threading_EventWaitHandle_Reset:
 _p_191:
@@ -58372,7 +58372,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 8416
+.word 8418
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_192:
@@ -58380,7 +58380,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 8421
+.word 8423
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_2__ctor
 plt_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_2__ctor:
 _p_193:
@@ -58388,7 +58388,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 8426
+.word 8428
 	.no_dead_strip plt_CoreGraphics_CGImage_get_Width
 plt_CoreGraphics_CGImage_get_Width:
 _p_194:
@@ -58396,7 +58396,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 8428
+.word 8430
 	.no_dead_strip plt_CoreGraphics_CGImage_get_Height
 plt_CoreGraphics_CGImage_get_Height:
 _p_195:
@@ -58404,7 +58404,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 8433
+.word 8435
 	.no_dead_strip plt_ZXing_RGBLuminanceSource__ctor_int_int
 plt_ZXing_RGBLuminanceSource__ctor_int_int:
 _p_196:
@@ -58412,7 +58412,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 8438
+.word 8440
 	.no_dead_strip plt_ZXing_Mobile_RGBLuminanceSourceiOS_CalculateLuminance_UIKit_UIImage
 plt_ZXing_Mobile_RGBLuminanceSourceiOS_CalculateLuminance_UIKit_UIImage:
 _p_197:
@@ -58420,7 +58420,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 8443
+.word 8445
 	.no_dead_strip plt_CoreGraphics_CGColorSpace_CreateDeviceRGB
 plt_CoreGraphics_CGColorSpace_CreateDeviceRGB:
 _p_198:
@@ -58428,7 +58428,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 8446
+.word 8448
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int
 plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int:
 _p_199:
@@ -58436,7 +58436,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 8451
+.word 8453
 	.no_dead_strip plt_CoreGraphics_CGBitmapContext__ctor_intptr_System_nint_System_nint_System_nint_System_nint_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo
 plt_CoreGraphics_CGBitmapContext__ctor_intptr_System_nint_System_nint_System_nint_System_nint_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo:
 _p_200:
@@ -58444,7 +58444,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 8456
+.word 8458
 	.no_dead_strip plt_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage
 plt_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage:
 _p_201:
@@ -58452,7 +58452,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 8461
+.word 8463
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int
 plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int:
 _p_202:
@@ -58460,7 +58460,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 8466
+.word 8468
 	.no_dead_strip plt_ZXing_RGBLuminanceSource_CalculateLuminance_byte___ZXing_RGBLuminanceSource_BitmapFormat
 plt_ZXing_RGBLuminanceSource_CalculateLuminance_byte___ZXing_RGBLuminanceSource_BitmapFormat:
 _p_203:
@@ -58468,7 +58468,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 8471
+.word 8473
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr
 plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr:
 _p_204:
@@ -58476,7 +58476,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 8476
+.word 8478
 	.no_dead_strip plt_ZXing_Mobile_ZXingDefaultOverlayView_Initialize
 plt_ZXing_Mobile_ZXingDefaultOverlayView_Initialize:
 _p_205:
@@ -58484,7 +58484,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 8481
+.word 8483
 	.no_dead_strip plt_ZXing_Mobile_ZXingDefaultOverlayView__c__DisplayClass12_0__ctor
 plt_ZXing_Mobile_ZXingDefaultOverlayView__c__DisplayClass12_0__ctor:
 _p_206:
@@ -58492,7 +58492,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 8484
+.word 8486
 	.no_dead_strip plt_UIKit_UIColor_get_Clear
 plt_UIKit_UIColor_get_Clear:
 _p_207:
@@ -58500,7 +58500,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 8487
+.word 8489
 	.no_dead_strip plt_System_Math_Round_double
 plt_System_Math_Round_double:
 _p_208:
@@ -58508,7 +58508,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 8492
+.word 8494
 	.no_dead_strip plt_CoreGraphics_CGSize__ctor_System_nfloat_System_nfloat
 plt_CoreGraphics_CGSize__ctor_System_nfloat_System_nfloat:
 _p_209:
@@ -58516,7 +58516,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 8497
+.word 8499
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
 plt_CoreGraphics_CGSize_get_Width:
 _p_210:
@@ -58524,7 +58524,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 8502
+.word 8504
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
 plt_CoreGraphics_CGSize_get_Height:
 _p_211:
@@ -58532,7 +58532,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 8507
+.word 8509
 	.no_dead_strip plt_UIKit_UIColor_get_Red
 plt_UIKit_UIColor_get_Red:
 _p_212:
@@ -58540,7 +58540,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 8512
+.word 8514
 	.no_dead_strip plt_string_Split_char__
 plt_string_Split_char__:
 _p_213:
@@ -58548,7 +58548,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 8517
+.word 8519
 	.no_dead_strip plt_UIKit_UILabel__ctor
 plt_UIKit_UILabel__ctor:
 _p_214:
@@ -58556,7 +58556,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 8522
+.word 8524
 	.no_dead_strip plt_UIKit_UIFont_SystemFontOfSize_System_nfloat
 plt_UIKit_UIFont_SystemFontOfSize_System_nfloat:
 _p_215:
@@ -58564,7 +58564,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 8527
+.word 8529
 	.no_dead_strip plt_UIKit_UIColor_get_White
 plt_UIKit_UIColor_get_White:
 _p_216:
@@ -58572,7 +58572,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 8532
+.word 8534
 	.no_dead_strip plt_UIKit_UIView_LayoutSubviews
 plt_UIKit_UIView_LayoutSubviews:
 _p_217:
@@ -58580,7 +58580,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 8537
+.word 8539
 	.no_dead_strip plt_UIKit_UIToolbar__ctor_CoreGraphics_CGRect
 plt_UIKit_UIToolbar__ctor_CoreGraphics_CGRect:
 _p_218:
@@ -58588,7 +58588,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 8542
+.word 8544
 	.no_dead_strip plt_System_Collections_Generic_List_1_UIKit_UIBarButtonItem__ctor
 plt_System_Collections_Generic_List_1_UIKit_UIBarButtonItem__ctor:
 _p_219:
@@ -58596,7 +58596,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 8547
+.word 8549
 	.no_dead_strip plt_UIKit_UIBarButtonItem__ctor_string_UIKit_UIBarButtonItemStyle_System_EventHandler
 plt_UIKit_UIBarButtonItem__ctor_string_UIKit_UIBarButtonItemStyle_System_EventHandler:
 _p_220:
@@ -58604,7 +58604,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 8558
+.word 8560
 	.no_dead_strip plt_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_Add_UIKit_UIBarButtonItem
 plt_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_Add_UIKit_UIBarButtonItem:
 _p_221:
@@ -58612,7 +58612,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 8563
+.word 8565
 	.no_dead_strip plt_UIKit_UIBarButtonItem__ctor_UIKit_UIBarButtonSystemItem
 plt_UIKit_UIBarButtonItem__ctor_UIKit_UIBarButtonSystemItem:
 _p_222:
@@ -58620,7 +58620,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 8574
+.word 8576
 	.no_dead_strip plt_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_ToArray
 plt_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_ToArray:
 _p_223:
@@ -58628,7 +58628,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 8579
+.word 8581
 	.no_dead_strip plt_UIKit_UIView_Add_UIKit_UIView
 plt_UIKit_UIView_Add_UIKit_UIView:
 _p_224:
@@ -58636,7 +58636,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 8590
+.word 8592
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_get_UseCustomOverlayView
 plt_ZXing_Mobile_ZXingScannerView_get_UseCustomOverlayView:
 _p_225:
@@ -58644,7 +58644,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 8595
+.word 8597
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_get_CustomOverlayView
 plt_ZXing_Mobile_ZXingScannerView_get_CustomOverlayView:
 _p_226:
@@ -58652,7 +58652,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 8598
+.word 8600
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_get_TopText
 plt_ZXing_Mobile_ZXingScannerView_get_TopText:
 _p_227:
@@ -58660,7 +58660,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 8601
+.word 8603
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_get_BottomText
 plt_ZXing_Mobile_ZXingScannerView_get_BottomText:
 _p_228:
@@ -58668,7 +58668,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 8604
+.word 8606
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_get_CancelButtonText
 plt_ZXing_Mobile_ZXingScannerView_get_CancelButtonText:
 _p_229:
@@ -58676,7 +58676,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 8607
+.word 8609
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_get_FlashButtonText
 plt_ZXing_Mobile_ZXingScannerView_get_FlashButtonText:
 _p_230:
@@ -58684,7 +58684,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 8610
+.word 8612
 	.no_dead_strip plt_System_Console_WriteLine_string_object
 plt_System_Console_WriteLine_string_object:
 _p_231:
@@ -58692,7 +58692,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 8613
+.word 8615
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView__c__DisplayClass35_0__ctor
 plt_ZXing_Mobile_ZXingScannerView__c__DisplayClass35_0__ctor:
 _p_232:
@@ -58700,7 +58700,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 8618
+.word 8620
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_get_ScanningOptions
 plt_ZXing_Mobile_ZXingScannerView_get_ScanningOptions:
 _p_233:
@@ -58708,7 +58708,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 8621
+.word 8623
 	.no_dead_strip plt_ZXing_Mobile_PerformanceCounter_Start
 plt_ZXing_Mobile_PerformanceCounter_Start:
 _p_234:
@@ -58716,7 +58716,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 8624
+.word 8626
 	.no_dead_strip plt_ZXing_Mobile_PerformanceCounter_Stop_string_string
 plt_ZXing_Mobile_PerformanceCounter_Stop_string_string:
 _p_235:
@@ -58724,7 +58724,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 8629
+.word 8631
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_ResizePreview_UIKit_UIInterfaceOrientation
 plt_ZXing_Mobile_ZXingScannerView_ResizePreview_UIKit_UIInterfaceOrientation:
 _p_236:
@@ -58732,7 +58732,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 8634
+.word 8636
 	.no_dead_strip plt_Foundation_NSNumber__ctor_int
 plt_Foundation_NSNumber__ctor_int:
 _p_237:
@@ -58740,7 +58740,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 8637
+.word 8639
 	.no_dead_strip plt_CoreVideo_CVPixelBuffer_get_PixelFormatTypeKey
 plt_CoreVideo_CVPixelBuffer_get_PixelFormatTypeKey:
 _p_238:
@@ -58748,7 +58748,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 8642
+.word 8644
 	.no_dead_strip plt_Foundation_NSDictionary_FromObjectAndKey_Foundation_NSObject_Foundation_NSObject
 plt_Foundation_NSDictionary_FromObjectAndKey_Foundation_NSObject_Foundation_NSObject:
 _p_239:
@@ -58756,7 +58756,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 8647
+.word 8649
 	.no_dead_strip plt_AVFoundation_AVCaptureVideoDataOutput__ctor
 plt_AVFoundation_AVCaptureVideoDataOutput__ctor:
 _p_240:
@@ -58764,7 +58764,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 8652
+.word 8654
 	.no_dead_strip plt_CoreFoundation_DispatchQueue__ctor_string
 plt_CoreFoundation_DispatchQueue__ctor_string:
 _p_241:
@@ -58772,7 +58772,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 8657
+.word 8659
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_BuildBarcodeReader
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_BuildBarcodeReader:
 _p_242:
@@ -58780,7 +58780,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 8662
+.word 8664
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_OutputRecorder__ctor_ZXing_Mobile_IScannerSessionHost_System_Func_2_ZXing_LuminanceSource_bool
 plt_ZXing_Mobile_ZXingScannerView_OutputRecorder__ctor_ZXing_Mobile_IScannerSessionHost_System_Func_2_ZXing_LuminanceSource_bool:
 _p_243:
@@ -58788,7 +58788,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 8667
+.word 8669
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_DisableAutofocus
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_DisableAutofocus:
 _p_244:
@@ -58796,7 +58796,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 8670
+.word 8672
 	.no_dead_strip plt_System_Drawing_PointF__ctor_single_single
 plt_System_Drawing_PointF__ctor_single_single:
 _p_245:
@@ -58804,7 +58804,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 8675
+.word 8677
 	.no_dead_strip plt_CoreGraphics_CGPoint_op_Implicit_System_Drawing_PointF
 plt_CoreGraphics_CGPoint_op_Implicit_System_Drawing_PointF:
 _p_246:
@@ -58812,7 +58812,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 8680
+.word 8682
 	.no_dead_strip plt_System_Drawing_PointF_get_X
 plt_System_Drawing_PointF_get_X:
 _p_247:
@@ -58820,7 +58820,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 8685
+.word 8687
 	.no_dead_strip plt_System_Drawing_PointF_get_Y
 plt_System_Drawing_PointF_get_Y:
 _p_248:
@@ -58828,7 +58828,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 8690
+.word 8692
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_Setup_CoreGraphics_CGRect
 plt_ZXing_Mobile_ZXingScannerView_Setup_CoreGraphics_CGRect:
 _p_249:
@@ -58836,7 +58836,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 8695
+.word 8697
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default:
 _p_250:
@@ -58844,7 +58844,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 8698
+.word 8700
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions
 plt_ZXing_Mobile_ZXingScannerView_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions:
 _p_251:
@@ -58852,7 +58852,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 8703
+.word 8705
 	.no_dead_strip plt_ZXing_Mobile_ZXingDefaultOverlayView_Destroy
 plt_ZXing_Mobile_ZXingDefaultOverlayView_Destroy:
 _p_252:
@@ -58860,7 +58860,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 8706
+.word 8708
 	.no_dead_strip plt_System_Threading_CancellationTokenSource_Cancel
 plt_System_Threading_CancellationTokenSource_Cancel:
 _p_253:
@@ -58868,7 +58868,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 8709
+.word 8711
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_get_IsTorchOn
 plt_ZXing_Mobile_ZXingScannerView_get_IsTorchOn:
 _p_254:
@@ -58876,7 +58876,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 8714
+.word 8716
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_Torch_bool
 plt_ZXing_Mobile_ZXingScannerView_Torch_bool:
 _p_255:
@@ -58884,7 +58884,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 8717
+.word 8719
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_SetupCaptureSession
 plt_ZXing_Mobile_ZXingScannerView_SetupCaptureSession:
 _p_256:
@@ -58892,7 +58892,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 8720
+.word 8722
 	.no_dead_strip plt_System_Threading_CancellationTokenSource__ctor
 plt_System_Threading_CancellationTokenSource__ctor:
 _p_257:
@@ -58900,7 +58900,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 8723
+.word 8725
 	.no_dead_strip plt_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate__ctor
 plt_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate__ctor:
 _p_258:
@@ -58908,7 +58908,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 8728
+.word 8730
 	.no_dead_strip plt_System_Threading_CancellationTokenSource_get_IsCancellationRequested
 plt_System_Threading_CancellationTokenSource_get_IsCancellationRequested:
 _p_259:
@@ -58916,7 +58916,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 8733
+.word 8735
 	.no_dead_strip plt_CoreMedia_CMSampleBuffer_Dispose
 plt_CoreMedia_CMSampleBuffer_Dispose:
 _p_260:
@@ -58924,7 +58924,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 8738
+.word 8740
 	.no_dead_strip plt_CoreMedia_CMSampleBuffer_GetImageBuffer
 plt_CoreMedia_CMSampleBuffer_GetImageBuffer:
 _p_261:
@@ -58932,7 +58932,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 8743
+.word 8745
 	.no_dead_strip plt_CoreVideo_CVPixelBuffer_Lock_CoreVideo_CVPixelBufferLock
 plt_CoreVideo_CVPixelBuffer_Lock_CoreVideo_CVPixelBufferLock:
 _p_262:
@@ -58940,7 +58940,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 8748
+.word 8750
 	.no_dead_strip plt_CoreVideo_CVPixelBuffer_get_BaseAddress
 plt_CoreVideo_CVPixelBuffer_get_BaseAddress:
 _p_263:
@@ -58948,7 +58948,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 8753
+.word 8755
 	.no_dead_strip plt_intptr_ToPointer
 plt_intptr_ToPointer:
 _p_264:
@@ -58956,7 +58956,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 8758
+.word 8760
 	.no_dead_strip plt_CoreVideo_CVPixelBuffer_get_Height
 plt_CoreVideo_CVPixelBuffer_get_Height:
 _p_265:
@@ -58964,7 +58964,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 8763
+.word 8765
 	.no_dead_strip plt_CoreVideo_CVPixelBuffer_get_Width
 plt_CoreVideo_CVPixelBuffer_get_Width:
 _p_266:
@@ -58972,7 +58972,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 8768
+.word 8770
 	.no_dead_strip plt_ZXing_Mobile_CVPixelBufferBGRA32LuminanceSource__ctor_byte__int_int_int
 plt_ZXing_Mobile_CVPixelBufferBGRA32LuminanceSource__ctor_byte__int_int_int:
 _p_267:
@@ -58980,7 +58980,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 8773
+.word 8775
 	.no_dead_strip plt_CoreVideo_CVPixelBuffer_Unlock_CoreVideo_CVPixelBufferLock
 plt_CoreVideo_CVPixelBuffer_Unlock_CoreVideo_CVPixelBufferLock:
 _p_268:
@@ -58988,7 +58988,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 8776
+.word 8778
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_get_IsAnalyzing
 plt_ZXing_Mobile_ZXingScannerView_get_IsAnalyzing:
 _p_269:
@@ -58996,7 +58996,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 8781
+.word 8783
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_270:
@@ -59004,7 +59004,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 8784
+.word 8786
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView__c__ctor
 plt_ZXing_Mobile_ZXingScannerView__c__ctor:
 _p_271:
@@ -59012,7 +59012,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 8789
+.word 8791
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerViewController_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions
 plt_ZXing_Mobile_ZXingScannerViewController_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions:
 _p_272:
@@ -59020,7 +59020,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 8792
+.word 8794
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerViewController_set_Scanner_ZXing_Mobile_MobileBarcodeScanner
 plt_ZXing_Mobile_ZXingScannerViewController_set_Scanner_ZXing_Mobile_MobileBarcodeScanner:
 _p_273:
@@ -59028,7 +59028,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 8795
+.word 8797
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView__ctor_CoreGraphics_CGRect
 plt_ZXing_Mobile_ZXingScannerView__ctor_CoreGraphics_CGRect:
 _p_274:
@@ -59036,7 +59036,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 8798
+.word 8800
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerViewController_get_Scanner
 plt_ZXing_Mobile_ZXingScannerViewController_get_Scanner:
 _p_275:
@@ -59044,7 +59044,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 8801
+.word 8803
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_set_UseCustomOverlayView_bool
 plt_ZXing_Mobile_ZXingScannerView_set_UseCustomOverlayView_bool:
 _p_276:
@@ -59052,7 +59052,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 8804
+.word 8806
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_set_CustomOverlayView_UIKit_UIView
 plt_ZXing_Mobile_ZXingScannerView_set_CustomOverlayView_UIKit_UIView:
 _p_277:
@@ -59060,7 +59060,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 8807
+.word 8809
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_set_TopText_string
 plt_ZXing_Mobile_ZXingScannerView_set_TopText_string:
 _p_278:
@@ -59068,7 +59068,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 8810
+.word 8812
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_set_BottomText_string
 plt_ZXing_Mobile_ZXingScannerView_set_BottomText_string:
 _p_279:
@@ -59076,7 +59076,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 8813
+.word 8815
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_set_CancelButtonText_string
 plt_ZXing_Mobile_ZXingScannerView_set_CancelButtonText_string:
 _p_280:
@@ -59084,7 +59084,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 8816
+.word 8818
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_set_FlashButtonText_string
 plt_ZXing_Mobile_ZXingScannerView_set_FlashButtonText_string:
 _p_281:
@@ -59092,7 +59092,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 8819
+.word 8821
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_add_OnCancelButtonPressed_System_Action
 plt_ZXing_Mobile_ZXingScannerView_add_OnCancelButtonPressed_System_Action:
 _p_282:
@@ -59100,7 +59100,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 8822
+.word 8824
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_ToggleTorch
 plt_ZXing_Mobile_ZXingScannerView_ToggleTorch:
 _p_283:
@@ -59108,7 +59108,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 8825
+.word 8827
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_PauseAnalysis
 plt_ZXing_Mobile_ZXingScannerView_PauseAnalysis:
 _p_284:
@@ -59116,7 +59116,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 8828
+.word 8830
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_ResumeAnalysis
 plt_ZXing_Mobile_ZXingScannerView_ResumeAnalysis:
 _p_285:
@@ -59124,7 +59124,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 8831
+.word 8833
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_add_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate
 plt_ZXing_Mobile_ZXingScannerView_add_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate:
 _p_286:
@@ -59132,7 +59132,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 8834
+.word 8836
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_StartNew_System_Action
 plt_System_Threading_Tasks_TaskFactory_StartNew_System_Action:
 _p_287:
@@ -59140,7 +59140,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 8837
+.word 8839
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_StopScanning
 plt_ZXing_Mobile_ZXingScannerView_StopScanning:
 _p_288:
@@ -59148,7 +59148,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 8842
+.word 8844
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_remove_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate
 plt_ZXing_Mobile_ZXingScannerView_remove_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate:
 _p_289:
@@ -59156,7 +59156,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 8845
+.word 8847
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_DidRotate_UIKit_UIInterfaceOrientation
 plt_ZXing_Mobile_ZXingScannerView_DidRotate_UIKit_UIInterfaceOrientation:
 _p_290:
@@ -59164,7 +59164,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 8848
+.word 8850
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerViewController_get_ScanningOptions
 plt_ZXing_Mobile_ZXingScannerViewController_get_ScanningOptions:
 _p_291:
@@ -59172,7 +59172,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 8851
+.word 8853
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions
 plt_ZXing_Mobile_ZXingScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions:
 _p_292:
@@ -59180,7 +59180,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 8854
+.word 8856
 	.no_dead_strip plt_ZXing_Mobile_ZXingScannerViewController_get_ContinuousScanning
 plt_ZXing_Mobile_ZXingScannerViewController_get_ContinuousScanning:
 _p_293:
@@ -59188,7 +59188,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 8857
+.word 8859
 	.no_dead_strip plt_ZXing_BaseLuminanceSource__ctor_int_int
 plt_ZXing_BaseLuminanceSource__ctor_int_int:
 _p_294:
@@ -59196,7 +59196,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 8860
+.word 8862
 	.no_dead_strip plt_ZXing_Mobile_CVPixelBufferBGRA32LuminanceSource_CalculateLuminance_byte__int
 plt_ZXing_Mobile_CVPixelBufferBGRA32LuminanceSource_CalculateLuminance_byte__int:
 _p_295:
@@ -59204,7 +59204,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 8865
+.word 8867
 	.no_dead_strip plt_ZXing_BaseLuminanceSource__ctor_byte___int_int
 plt_ZXing_BaseLuminanceSource__ctor_byte___int_int:
 _p_296:
@@ -59212,7 +59212,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 8868
+.word 8870
 	.no_dead_strip plt_ZXing_Mobile_CVPixelBufferBGRA32LuminanceSource__ctor_byte___int_int
 plt_ZXing_Mobile_CVPixelBufferBGRA32LuminanceSource__ctor_byte___int_int:
 _p_297:
@@ -59220,7 +59220,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 8873
+.word 8875
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_298:
@@ -59228,7 +59228,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 8876
+.word 8878
 	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
 plt_System_Nullable_1_bool_Unbox_object:
 _p_299:
@@ -59236,7 +59236,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 8905
+.word 8907
 	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
 plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_300:
@@ -59244,7 +59244,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 8927
+.word 8929
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_301:
@@ -59252,7 +59252,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 8949
+.word 8951
 	.no_dead_strip plt_bool_GetHashCode
 plt_bool_GetHashCode:
 _p_302:
@@ -59260,7 +59260,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 8954
+.word 8956
 	.no_dead_strip plt_bool_ToString
 plt_bool_ToString:
 _p_303:
@@ -59268,7 +59268,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 8959
+.word 8961
 	.no_dead_strip plt_System_Type_op_Inequality_System_Type_System_Type
 plt_System_Type_op_Inequality_System_Type_System_Type:
 _p_304:
@@ -59276,7 +59276,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 8964
+.word 8966
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_305:
@@ -59284,7 +59284,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 8995
+.word 8997
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_306:
@@ -59292,7 +59292,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 9003
+.word 9005
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_307:
@@ -59300,7 +59300,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 9029
+.word 9031
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_308:
@@ -59308,7 +59308,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 9045
+.word 9047
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_309:
@@ -59316,7 +59316,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 9053
+.word 9055
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_310:
@@ -59324,7 +59324,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 9072
+.word 9074
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_311:
@@ -59332,7 +59332,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 9095
+.word 9097
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_312:
@@ -59340,7 +59340,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 9118
+.word 9120
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_313:
@@ -59348,7 +59348,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 9123
+.word 9125
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_314:
@@ -59356,7 +59356,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 9179
+.word 9181
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_315:
@@ -59364,7 +59364,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 9202
+.word 9204
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_316:
@@ -59372,7 +59372,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 9243
+.word 9245
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_317:
@@ -59380,7 +59380,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 9251
+.word 9253
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_318:
@@ -59388,7 +59388,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 9274
+.word 9276
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_319:
@@ -59396,7 +59396,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 9308
+.word 9310
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_320:
@@ -59404,7 +59404,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 9316
+.word 9318
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_321:
@@ -59412,7 +59412,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 9332
+.word 9334
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_322:
@@ -59420,7 +59420,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 9340
+.word 9342
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_323:
@@ -59428,7 +59428,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 9381
+.word 9383
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_324:
@@ -59436,7 +59436,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 9404
+.word 9406
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_325:
@@ -59444,7 +59444,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 9445
+.word 9447
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_326:
@@ -59452,7 +59452,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 9453
+.word 9455
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_327:
@@ -59460,7 +59460,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 9476
+.word 9478
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_328:
@@ -59468,7 +59468,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 9510
+.word 9512
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_329:
@@ -59476,7 +59476,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 9518
+.word 9520
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_330:
@@ -59484,7 +59484,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 9534
+.word 9536
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_331:
@@ -59492,7 +59492,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 9542
+.word 9544
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_332:
@@ -59500,7 +59500,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 9583
+.word 9585
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_333:
@@ -59508,7 +59508,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 9606
+.word 9608
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_334:
@@ -59516,7 +59516,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 9614
+.word 9616
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_335:
@@ -59524,7 +59524,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 9628
+.word 9630
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_336:
@@ -59532,7 +59532,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 9660
+.word 9662
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_337:
@@ -59540,7 +59540,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 9668
+.word 9670
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion:
 _p_338:
@@ -59548,7 +59548,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 9691
+.word 9693
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen:
 _p_339:
@@ -59556,7 +59556,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 9696
+.word 9698
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_340:
@@ -59564,7 +59564,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 9719
+.word 9721
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_341:
@@ -59572,7 +59572,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 9727
+.word 9729
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_342:
@@ -59580,7 +59580,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 9750
+.word 9752
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_343:
@@ -59588,7 +59588,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 9758
+.word 9760
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_344:
@@ -59596,7 +59596,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 9787
+.word 9789
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_345:
@@ -59604,7 +59604,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 9841
+.word 9843
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_346:
@@ -59612,7 +59612,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 9849
+.word 9851
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_347:
@@ -59620,7 +59620,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 9872
+.word 9874
 	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
 plt_System_Linq_Error_ArgumentNull_string:
 _p_348:
@@ -59628,7 +59628,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 9892
+.word 9894
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_349:
@@ -59636,7 +59636,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 9926
+.word 9928
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_350:
@@ -59644,7 +59644,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 9934
+.word 9936
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_351:
@@ -59652,7 +59652,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 9960
+.word 9962
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_352:
@@ -59660,7 +59660,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 9995
+.word 9997
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_353:
@@ -59668,7 +59668,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 10003
+.word 10005
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_354:
@@ -59676,7 +59676,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 10011
+.word 10013
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_355:
@@ -59684,7 +59684,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 10032
+.word 10034
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_356:
@@ -59692,7 +59692,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 10040
+.word 10042
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_357:
@@ -59700,7 +59700,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 10074
+.word 10076
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_358:
@@ -59708,7 +59708,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 10082
+.word 10084
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_359:
@@ -59716,7 +59716,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 10099
+.word 10101
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_360:
@@ -59724,7 +59724,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 10118
+.word 10120
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_361:
@@ -59732,7 +59732,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 10126
+.word 10128
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_362:
@@ -59740,7 +59740,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 10163
+.word 10165
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_363:
@@ -59748,7 +59748,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 10171
+.word 10173
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_364:
@@ -59756,7 +59756,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 10205
+.word 10207
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_365:
@@ -59764,7 +59764,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 10221
+.word 10223
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_366:
@@ -59772,7 +59772,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 10240
+.word 10242
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_367:
@@ -59780,7 +59780,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 10248
+.word 10250
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_368:
@@ -59788,7 +59788,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 10285
+.word 10287
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_369:
@@ -59796,7 +59796,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 10293
+.word 10295
 	.no_dead_strip plt_System_Environment_get_CurrentManagedThreadId
 plt_System_Environment_get_CurrentManagedThreadId:
 _p_370:
@@ -59804,7 +59804,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 10319
+.word 10321
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_371:
@@ -59812,7 +59812,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 10350
+.word 10352
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_372:
@@ -59820,7 +59820,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 10358
+.word 10360
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_373:
@@ -59828,7 +59828,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 10399
+.word 10401
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_374:
@@ -59836,7 +59836,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 10422
+.word 10424
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_375:
@@ -59844,7 +59844,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 10448
+.word 10450
 	.no_dead_strip plt_System_Linq_Error_NotSupported
 plt_System_Linq_Error_NotSupported:
 _p_376:
@@ -59852,7 +59852,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 10471
+.word 10473
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_377:
@@ -59860,7 +59860,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 10494
+.word 10496
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_378:
@@ -59868,7 +59868,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 10517
+.word 10519
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_379:
@@ -59876,7 +59876,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 10525
+.word 10527
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_380:
@@ -59884,7 +59884,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 10539
+.word 10541
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_381:
@@ -59892,7 +59892,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 10571
+.word 10573
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_382:
@@ -59900,7 +59900,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 10612
+.word 10614
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_383:
@@ -59908,7 +59908,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 10620
+.word 10622
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_384:
@@ -59916,7 +59916,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 10661
+.word 10663
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_385:
@@ -59924,7 +59924,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 10684
+.word 10686
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_386:
@@ -59932,7 +59932,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 10692
+.word 10694
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_387:
@@ -59940,7 +59940,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 10706
+.word 10708
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_388:
@@ -59948,7 +59948,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 10746
+.word 10748
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_389:
@@ -59956,7 +59956,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 10754
+.word 10756
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_390:
@@ -59964,7 +59964,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 10772
+.word 10774
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_391:
@@ -59972,7 +59972,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 10780
+.word 10782
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_392:
@@ -59980,7 +59980,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 10811
+.word 10813
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_393:
@@ -59988,7 +59988,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 10819
+.word 10821
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_394:
@@ -59996,7 +59996,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+4096
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 10836
+.word 10838
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_395:
@@ -60004,7 +60004,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 10852
+.word 10854
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_396:
@@ -60012,7 +60012,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 10860
+.word 10862
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_397:
@@ -60020,7 +60020,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 10891
+.word 10893
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_398:
@@ -60028,7 +60028,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 10899
+.word 10901
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_399:
@@ -60036,7 +60036,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 10949
+.word 10951
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_400:
@@ -60044,7 +60044,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 10981
+.word 10983
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_401:
@@ -60052,7 +60052,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 11022
+.word 11024
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_402:
@@ -60060,7 +60060,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 11063
+.word 11065
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_403:
@@ -60068,7 +60068,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 11071
+.word 11073
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_404:
@@ -60076,7 +60076,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 11097
+.word 11099
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_405:
@@ -60084,7 +60084,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 11138
+.word 11140
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor:
 _p_406:
@@ -60092,7 +60092,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 11169
+.word 11171
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_0
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_0:
 _p_407:
@@ -60100,7 +60100,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 11196
+.word 11198
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_1
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_1:
 _p_408:
@@ -60108,7 +60108,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 11223
+.word 11225
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_2
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_2:
 _p_409:
@@ -60116,7 +60116,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 11250
+.word 11252
 	.no_dead_strip plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_3
 plt_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_3:
 _p_410:
@@ -60124,7 +60124,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 11277
+.word 11279
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_411:
@@ -60132,7 +60132,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 11322
+.word 11324
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_412:
@@ -60140,7 +60140,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 11371
+.word 11373
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_413:
@@ -60148,7 +60148,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 11420
+.word 11422
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_414:
@@ -60156,7 +60156,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 11461
+.word 11463
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_415:
@@ -60164,7 +60164,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 11502
+.word 11504
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_416:
@@ -60172,7 +60172,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 11525
+.word 11527
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_417:
@@ -60180,7 +60180,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 11566
+.word 11568
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_418:
@@ -60188,7 +60188,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 11607
+.word 11609
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_419:
@@ -60196,7 +60196,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 11630
+.word 11632
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
 _p_420:
@@ -60204,7 +60204,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 11653
+.word 11655
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_421:
@@ -60212,7 +60212,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 11676
+.word 11678
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_422:
@@ -60220,7 +60220,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 11686
+.word 11688
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_423:
@@ -60228,7 +60228,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 11694
+.word 11696
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_424:
@@ -60236,7 +60236,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 11729
+.word 11731
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_425:
@@ -60244,7 +60244,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 11737
+.word 11739
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_426:
@@ -60252,7 +60252,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 11778
+.word 11780
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_427:
@@ -60260,7 +60260,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 11786
+.word 11788
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_428:
@@ -60268,7 +60268,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 11794
+.word 11796
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_429:
@@ -60276,7 +60276,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 11835
+.word 11837
 	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
 plt_System_Collections_Generic_ByteEqualityComparer__ctor:
 _p_430:
@@ -60284,7 +60284,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 11843
+.word 11845
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_431:
@@ -60292,7 +60292,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 11848
+.word 11850
 	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
 plt_System_Collections_Generic_InternalStringComparer__ctor:
 _p_432:
@@ -60300,7 +60300,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 11856
+.word 11858
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_433:
@@ -60308,7 +60308,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 11870
+.word 11872
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_434:
@@ -60316,7 +60316,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 11878
+.word 11880
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_435:
@@ -60324,7 +60324,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 11883
+.word 11885
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_436:
@@ -60332,7 +60332,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 11888
+.word 11890
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_437:
@@ -60340,7 +60340,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 11902
+.word 11904
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_438:
@@ -60348,7 +60348,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 11910
+.word 11912
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_439:
@@ -60356,7 +60356,7 @@ adrp x16, mono_aot_ZXingNetMobile_got@PAGE+8192
 add x16, x16, mono_aot_ZXingNetMobile_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 11960
+.word 11962
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -60470,13 +60470,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 629,8552,440,419,70,391195135,0,93022
+	.long 629,8552,440,419,70,391195135,0,93024
 	.long 128,8,8,8,0,25,101312,8280
 	.long 7736,5648,0,6800,7664,5960,0,4128
 	.long 640,8272,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 151,12,231,171,203,240,231,218,207,150,243,159,239,91,175,141
+	.byte 168,225,193,164,108,112,87,103,9,174,101,119,229,215,238,77
 	.globl _mono_aot_module_ZXingNetMobile_info
 	.align 3
 _mono_aot_module_ZXingNetMobile_info:

@@ -65,3 +65,9 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/ETraffic.csproj.CopyComplete
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/ETraffic.csprojAssemblyReference.cache
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/ETraffic.exe.config
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/ETraffic.exe.config
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/System.Net.Http.Extensions.dll
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/System.Net.Http.Primitives.dll
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/System.Net.Http.Extensions.xml
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/System.Net.Http.Primitives.xml
