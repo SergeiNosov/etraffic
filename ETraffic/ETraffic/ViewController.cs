@@ -16,6 +16,7 @@ namespace ETraffic
         {
             ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             UpdateBalance();
+           
             base.ViewDidLoad();
 
         }
@@ -78,6 +79,16 @@ namespace ETraffic
             if(Response=="E")
             {
                 Console.WriteLine("Error Payment");
+                ResultView.Hidden = false;
+                ErorrPayment.Hidden = false;
+                SuccessPayment.Hidden = true;
+            }else {
+                Console.WriteLine("Success Payment");
+                ResultView.Hidden = false;
+                ErorrPayment.Hidden = true;
+                SuccessPayment.Hidden = false;
+
+
             }
             UpdateBalance();
         }
@@ -94,14 +105,25 @@ namespace ETraffic
             var encodedContent = new FormUrlEncodedContent(parameters);
             var result = await client.PostAsync("http://z98950oc.beget.tech/ETApi/event.php", encodedContent);
             String Response = await result.Content.ReadAsStringAsync();
+
+        
+
             SetNewBalanceClient(Response);
+
+        }
+
+        partial void OffShowResultPayment(UIButton sender)
+        {
+            SuccessPayment.Hidden = true;
+            ErorrPayment.Hidden = true;
+            ResultView.Hidden = true;
         }
 
         public void SetNewBalanceClient(string balance)
         {
             BalanceLabel.Text = balance + " руб";
         }
-
+        
 
     }
 }

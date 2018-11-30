@@ -19,7 +19,19 @@ namespace ETraffic
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITableView view228 { get; set; }
+        UIKit.UIImageView ErorrPayment { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIScrollView ResultView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView SuccessPayment { get; set; }
+
+        [Action ("OffShowResultPayment:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void OffShowResultPayment (UIKit.UIButton sender);
 
         [Action ("StartScan:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -32,9 +44,19 @@ namespace ETraffic
                 BalanceLabel = null;
             }
 
-            if (view228 != null) {
-                view228.Dispose ();
-                view228 = null;
+            if (ErorrPayment != null) {
+                ErorrPayment.Dispose ();
+                ErorrPayment = null;
+            }
+
+            if (ResultView != null) {
+                ResultView.Dispose ();
+                ResultView = null;
+            }
+
+            if (SuccessPayment != null) {
+                SuccessPayment.Dispose ();
+                SuccessPayment = null;
             }
         }
     }

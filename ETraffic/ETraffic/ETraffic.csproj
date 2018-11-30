@@ -149,6 +149,11 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w4MSwP0mc_I.jpg" />
+    <BundleResource Include="Resources\Erorr.png" />
+    <BundleResource Include="Resources\Success.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.122203\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.122203\build\netstandard1.0\Xamarin.Forms.targets')" />

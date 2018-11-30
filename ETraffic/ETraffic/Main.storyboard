@@ -43,7 +43,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24,58 руб" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5168" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00,00 руб" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5168" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="228" y="79" width="92" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -58,11 +58,36 @@
                                     <action selector="StartScan:" destination="1204" id="6354" eventType="touchDown"/>
                                 </connections>
                             </button>
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" id="13998" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" clipsSubviews="YES" canCancelContentTouches="NO" hidden="YES">
+                                <rect key="frame" x="51" y="198" width="240" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="14607" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Success.png" hidden="YES">
+                                        <rect key="frame" x="30" y="28" width="179" height="174"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="14609" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="68" y="238" width="104" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Продолжить"/>
+                                        <connections>
+                                            <action selector="OffShowResultPayment:" destination="1204" id="14610" eventType="touchDown"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="14608" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Erorr.png" hidden="YES">
+                                        <rect key="frame" x="22" y="8" width="195" height="183"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                     </view>
                     <navigationItem title="Главная" id="1339" key="navigationItem"/>
                     <connections>
                         <outlet property="BalanceLabel" destination="5168" id="name-outlet-5168"/>
+                        <outlet property="ResultView" destination="13998" id="name-outlet-13998"/>
+                        <outlet property="SuccessPayment" destination="14607" id="name-outlet-14607"/>
+                        <outlet property="ErorrPayment" destination="14608" id="name-outlet-14608"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1206" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -70,4 +95,8 @@
             <point key="canvasLocation" x="457" y="-121"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Erorr.png" width="720" height="720"/>
+        <image name="Success.png" width="512" height="512"/>
+    </resources>
 </document>

@@ -220,14 +220,24 @@
 @interface ViewController : UIViewController {
 }
 	@property (nonatomic, assign) UILabel * BalanceLabel;
+	@property (nonatomic, assign) UIImageView * ErorrPayment;
+	@property (nonatomic, assign) UIScrollView * ResultView;
+	@property (nonatomic, assign) UIImageView * SuccessPayment;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(UILabel *) BalanceLabel;
 	-(void) setBalanceLabel:(UILabel *)p0;
+	-(UIImageView *) ErorrPayment;
+	-(void) setErorrPayment:(UIImageView *)p0;
+	-(UIScrollView *) ResultView;
+	-(void) setResultView:(UIScrollView *)p0;
+	-(UIImageView *) SuccessPayment;
+	-(void) setSuccessPayment:(UIImageView *)p0;
 	-(void) viewDidLoad;
 	-(void) didReceiveMemoryWarning;
+	-(void) OffShowResultPayment:(UIButton *)p0;
 	-(void) StartScan:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end

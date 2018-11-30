@@ -71,3 +71,5 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/System.Net.Http.Primitives.dll
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/System.Net.Http.Extensions.xml
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/System.Net.Http.Primitives.xml
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/optimized/Erorr.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/optimized/Success.png
