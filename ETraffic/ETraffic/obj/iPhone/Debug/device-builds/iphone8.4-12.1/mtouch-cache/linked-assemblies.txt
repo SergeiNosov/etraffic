@@ -1,0 +1,4 @@
+RemoveDynamicRegistrar:true
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/device-builds/iphone8.4-12.1/ETraffic.app:/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/mtouch-cache/1-Link/ETraffic.exe
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/device-builds/iphone8.4-12.1/ETraffic.app:/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/mtouch-cache/1-Link/mscorlib.dll
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/device-builds/iphone8.4-12.1/ETraffic.app:/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll

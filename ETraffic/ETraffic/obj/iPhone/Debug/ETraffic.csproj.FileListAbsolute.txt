@@ -1,0 +1,11 @@
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/ETraffic.exe
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/ETraffic.pdb
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/actool/_PartialAppManifest.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/coremlc/_PartialAppManifest.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/optimized/
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/ETraffic.csproj.CoreCompileInputs.cache
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/ETraffic.exe
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/ETraffic.pdb
