@@ -16,8 +16,8 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib">
-      <LogicalName>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc/1204-view-1205.nib">
+      <LogicalName>Main.storyboardc/1204-view-1205.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
@@ -26,8 +26,8 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc/UIViewController-BYZ-38-t0r.nib">
-      <LogicalName>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc/UINavigationController-1195.nib">
+      <LogicalName>Main.storyboardc/UINavigationController-1195.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>

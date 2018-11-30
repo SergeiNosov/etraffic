@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{47A750FD-1A1A-4282-AE98-E632A6FAD3A1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ETraffic/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ETraffic/Main.storyboard">
     <Files>
       <File FileName="ETraffic/Main.storyboard" />
-      <File FileName="ETraffic/Info.plist" />
+      <File FileName="ETraffic/ViewController.cs" Line="23" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -11,5 +11,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ETraffic PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.077CAF36-038A-40AE-85E5-DFAF8BB44C80" FirstBuild="True" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.ETraffic PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.077CAF36-038A-40AE-85E5-DFAF8BB44C80" automaticSigning="False" />
 </Properties>

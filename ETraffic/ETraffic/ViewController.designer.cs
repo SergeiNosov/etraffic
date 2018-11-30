@@ -13,6 +13,10 @@ namespace ETraffic
     [Register ("ViewController")]
     partial class ViewController
     {
+        [Action ("StartScan:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void StartScan (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
         }

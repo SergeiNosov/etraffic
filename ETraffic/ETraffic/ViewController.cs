@@ -8,19 +8,47 @@ namespace ETraffic
     {
         protected ViewController(IntPtr handle) : base(handle)
         {
-            // Note: this .ctor should not contain any initialization logic.
+          
         }
 
         public override void ViewDidLoad()
         {
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             base.ViewDidLoad();
-            // Perform any additional setup after loading the view, typically from a nib.
+
         }
 
         public override void DidReceiveMemoryWarning()
         {
             base.DidReceiveMemoryWarning();
-            // Release any cached data, images, etc that aren't in use.
+
         }
+
+
+
+        partial void StartScan(UIButton sender)
+        {
+
+
+
+            WaitScan();
+
+         
+        }
+
+        public async void WaitScan()
+        {
+
+            var scanner = new ZXing.Mobile.MobileBarcodeScanner();
+
+            var result = await scanner.Scan();
+
+            if (result != null)
+                Console.WriteLine("Scanned Barcode: " + result.Text);
+
+        }
+
     }
+  
+
 }
