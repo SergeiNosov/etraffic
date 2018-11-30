@@ -80,9 +80,19 @@
                                     </imageView>
                                 </subviews>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="16028" translatesAutoresizingMaskIntoConstraints="NO" key="customView" fixedFrame="YES">
+                                <rect key="frame" x="201" y="108" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Пополнить"/>
+                                <connections>
+                                    <segue id="16116" destination="16040" kind="show"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
-                    <navigationItem title="Главная" id="1339" key="navigationItem"/>
+                    <navigationItem title="Главная" id="1339" key="navigationItem">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="16029"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="BalanceLabel" destination="5168" id="name-outlet-5168"/>
                         <outlet property="ResultView" destination="13998" id="name-outlet-13998"/>
@@ -93,6 +103,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1206" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="457" y="-121"/>
+        </scene>
+        <scene sceneID="16039">
+            <objects>
+                <viewController id="16040" sceneMemberID="viewController" customClass="ViewControllerPay">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="16037"/>
+                        <viewControllerLayoutGuide type="bottom" id="16038"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="16041">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" id="16119" translatesAutoresizingMaskIntoConstraints="NO" customUserAgent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11">
+                                <rect key="frame" x="20" y="101" width="280" height="455"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="WebView1" destination="16119" id="name-outlet-16119"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="16042" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="454" y="817"/>
         </scene>
     </scenes>
     <resources>
