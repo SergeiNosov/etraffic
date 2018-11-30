@@ -2497,6 +2497,380 @@ bl _p_32
 Lme_1e:
 .text
 	.align 4
+	.no_dead_strip ETraffic_ViewControllerPay__ctor_intptr
+ETraffic_ViewControllerPay__ctor_intptr:
+.file 5 "/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/ViewControllerPay.cs"
+.loc 5 9 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #528]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fa1
+bl _p_3
+.word 0xf94013b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 10 0
+.word 0xf94013b1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 11 0
+.word 0xf94013b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_1f:
+.text
+	.align 4
+	.no_dead_strip ETraffic_ViewControllerPay_ViewDidLoad
+ETraffic_ViewControllerPay_ViewDidLoad:
+.loc 5 14 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #536]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xd2800019
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 16 0
+.word 0xf94013b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x0, [x16, #544]
+.word 0xaa0003f9
+.loc 5 17 0
+.word 0xf94013b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_33
+.word 0xf90027a0
+.word 0xf94013b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9002fa0
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x0, [x16, #552]
+bl _p_34
+.word 0xf9402fa1
+.word 0xf9002ba0
+bl _p_35
+.word 0xf94013b1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x0, [x16, #560]
+bl _p_34
+.word 0xf9402ba1
+.word 0xf90023a0
+bl _p_36
+.word 0xf94013b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9426450
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9413231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 18 0
+.word 0xf94013b1
+.word 0xf9414231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_6
+.word 0xf94013b1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 20 0
+.word 0xf94013b1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9417e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_20:
+.text
+	.align 4
+	.no_dead_strip ETraffic_ViewControllerPay_get_WebView1
+ETraffic_ViewControllerPay_get_WebView1:
+.file 6 "/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/ViewControllerPay.designer.cs"
+.loc 6 19 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #568]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9401c00
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_21:
+.text
+	.align 4
+	.no_dead_strip ETraffic_ViewControllerPay_set_WebView1_WebKit_WKWebView
+ETraffic_ViewControllerPay_set_WebView1_WebKit_WKWebView:
+.loc 6 19 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #576]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba1
+.word 0xf9400fa0
+.word 0xf9001c20
+.word 0x9100e021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94013b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_22:
+.text
+	.align 4
+	.no_dead_strip ETraffic_ViewControllerPay_ReleaseDesignerOutlets
+ETraffic_ViewControllerPay_ReleaseDesignerOutlets:
+.loc 6 22 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #584]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xd2800019
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 23 0
+.word 0xf94013b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_33
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xd2800001
+.word 0xeb01001f
+.word 0x9a9f97e0
+.word 0x53001c00
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x34000540
+.word 0xf94013b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 24 0
+.word 0xf94013b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_33
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf940ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_28
+.word 0xf94013b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 25 0
+.word 0xf94013b1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_37
+.word 0xf94013b1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 26 0
+.word 0xf94013b1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 27 0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9417e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_23:
+.text
+	.align 4
 	.no_dead_strip ETraffic_ViewController__WaitScand__6__ctor
 ETraffic_ViewController__WaitScand__6__ctor:
 .word 0xa9bd7bfd
@@ -2505,7 +2879,7 @@ ETraffic_ViewController__WaitScand__6__ctor:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #592]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2526,7 +2900,7 @@ ldr x16, [x16, #528]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1f:
+Lme_24:
 .text
 	.align 4
 	.no_dead_strip ETraffic_ViewController__WaitScand__6_MoveNext
@@ -2540,7 +2914,7 @@ ETraffic_ViewController__WaitScand__6_MoveNext:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #600]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -2580,12 +2954,12 @@ ldr x16, [x16, #536]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #544]
+ldr x0, [x16, #608]
 .word 0xd2800c01
 .word 0xd2800c01
 bl _p_13
 .word 0xf90063a0
-bl _p_33
+bl _p_38
 .word 0xf9401fb1
 .word 0xf940d631
 .word 0xb4000051
@@ -2614,7 +2988,7 @@ ldr x2, [x16, #16]
 .word 0xf9401c01
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_34
+bl _p_39
 .word 0xf9005fa0
 .word 0xf9401fb1
 .word 0xf9414631
@@ -2625,7 +2999,7 @@ bl _p_34
 .word 0xf90043a0
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_35
+bl _p_40
 .word 0xf94043be
 .word 0xf90003c0
 .word 0xf9401fb1
@@ -2640,8 +3014,8 @@ bl _p_35
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #552]
-bl _p_36
+ldr x15, [x16, #616]
+bl _p_41
 .word 0x53001c00
 .word 0xf9005ba0
 .word 0xf9401fb1
@@ -2694,8 +3068,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #560]
-bl _p_37
+ldr x15, [x16, #624]
+bl _p_42
 .word 0xf9401fb1
 .word 0xf9427a31
 .word 0xb4000051
@@ -2744,8 +3118,8 @@ bl _p_37
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #552]
-bl _p_38
+ldr x15, [x16, #616]
+bl _p_43
 .word 0xf9005ba0
 .word 0xf9401fb1
 .word 0xf9434231
@@ -2815,7 +3189,7 @@ ldr x2, [x16, #16]
 .word 0xf9402001
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_39
+bl _p_44
 .word 0xf9005fa0
 .word 0xf9401fb1
 .word 0xf9444a31
@@ -2823,7 +3197,7 @@ bl _p_39
 .word 0xd63f0220
 .word 0xf9405ba0
 .word 0xf9405fa1
-bl _p_40
+bl _p_45
 .word 0xf9401fb1
 .word 0xf9446631
 .word 0xb4000051
@@ -2844,17 +3218,17 @@ bl _p_40
 .word 0x54000600
 .word 0x91004000
 .word 0xf9403fa1
-bl _p_41
+bl _p_46
 .word 0xf9401fb1
 .word 0xf944ba31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_42
+bl _p_47
 .word 0xf90057a0
 .word 0xf94057a0
 .word 0xb4000060
 .word 0xf94057a0
-bl _p_43
+bl _p_48
 .word 0x14000019
 .loc 3 63 0
 .word 0xf94023b1
@@ -2876,7 +3250,7 @@ bl _p_43
 .word 0x10000011
 .word 0x54000200
 .word 0x91004000
-bl _p_44
+bl _p_49
 .word 0xf9401fb1
 .word 0xf9453631
 .word 0xb4000051
@@ -2894,7 +3268,7 @@ bl _p_44
 .word 0xaa1103e1
 bl _p_10
 
-Lme_20:
+Lme_25:
 .text
 	.align 4
 	.no_dead_strip ETraffic_ViewController__WaitScand__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
@@ -2906,7 +3280,7 @@ ETraffic_ViewController__WaitScand__6_SetStateMachine_System_Runtime_CompilerSer
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #632]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2922,7 +3296,7 @@ ldr x16, [x16, #568]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_21:
+Lme_26:
 .text
 	.align 4
 	.no_dead_strip ETraffic_ViewController__WaitPaymentResultd__7__ctor
@@ -2933,7 +3307,7 @@ ETraffic_ViewController__WaitPaymentResultd__7__ctor:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #640]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2954,7 +3328,7 @@ ldr x16, [x16, #576]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_22:
+Lme_27:
 .text
 	.align 4
 	.no_dead_strip ETraffic_ViewController__WaitPaymentResultd__7_MoveNext
@@ -2970,7 +3344,7 @@ ETraffic_ViewController__WaitPaymentResultd__7_MoveNext:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #648]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -3018,12 +3392,12 @@ ldr x16, [x16, #584]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #656]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_13
 .word 0xf900b3a0
-bl _p_45
+bl _p_50
 .word 0xf9402fb1
 .word 0xf940fe31
 .word 0xb4000051
@@ -3052,7 +3426,7 @@ ldr x2, [x16, #16]
 .word 0xf9402801
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_46
+bl _p_51
 .word 0xf900afa0
 .word 0xf9402fb1
 .word 0xf9416e31
@@ -3062,14 +3436,14 @@ bl _p_46
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #600]
+ldr x1, [x16, #664]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x2, [x16, #608]
+ldr x2, [x16, #672]
 .word 0xaa0303e0
 .word 0x3940007e
-bl _p_47
+bl _p_52
 .word 0xf9402fb1
 .word 0xf941a631
 .word 0xb4000051
@@ -3084,12 +3458,12 @@ bl _p_47
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #680]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_13
 .word 0xf900aba0
-bl _p_48
+bl _p_53
 .word 0xf9402fb1
 .word 0xf941ee31
 .word 0xb4000051
@@ -3102,14 +3476,14 @@ bl _p_48
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #624]
+ldr x1, [x16, #688]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x2, [x16, #632]
+ldr x2, [x16, #696]
 .word 0xaa1503e0
 .word 0x394002be
-bl _p_49
+bl _p_54
 .word 0xf9402fb1
 .word 0xf9423631
 .word 0xb4000051
@@ -3122,12 +3496,12 @@ bl _p_49
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #640]
+ldr x1, [x16, #704]
 .word 0xf9402ba0
 .word 0xf9401802
 .word 0xaa1403e0
 .word 0x3940029e
-bl _p_49
+bl _p_54
 .word 0xf9402fb1
 .word 0xf9427a31
 .word 0xb4000051
@@ -3140,12 +3514,12 @@ bl _p_49
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #648]
+ldr x1, [x16, #712]
 .word 0xf9402ba0
 .word 0xf9401c02
 .word 0xaa1303e0
 .word 0x3940027e
-bl _p_49
+bl _p_54
 .word 0xf9402fb1
 .word 0xf942be31
 .word 0xb4000051
@@ -3158,12 +3532,12 @@ bl _p_49
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #656]
+ldr x1, [x16, #720]
 .word 0xf9402ba0
 .word 0xf9402002
 .word 0xaa0303e0
 .word 0x3940007e
-bl _p_49
+bl _p_54
 .word 0xf9402fb1
 .word 0xf9430231
 .word 0xb4000051
@@ -3196,13 +3570,13 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #728]
 .word 0xd2800801
 .word 0xd2800801
 bl _p_13
 .word 0xf94093a1
 .word 0xf9008ba0
-bl _p_50
+bl _p_55
 .word 0xf9402fb1
 .word 0xf9439231
 .word 0xb4000051
@@ -3232,12 +3606,12 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #672]
+ldr x1, [x16, #736]
 .word 0xf9402ba0
 .word 0xf9403002
 .word 0xaa0303e0
 .word 0x3940007e
-bl _p_51
+bl _p_56
 .word 0xf90087a0
 .word 0xf9402fb1
 .word 0xf9441631
@@ -3248,7 +3622,7 @@ bl _p_51
 .word 0xf90063a0
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_52
+bl _p_57
 .word 0xf94063be
 .word 0xf90003c0
 .word 0xf9402fb1
@@ -3263,8 +3637,8 @@ bl _p_52
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #680]
-bl _p_53
+ldr x15, [x16, #744]
+bl _p_58
 .word 0x53001c00
 .word 0xf90083a0
 .word 0xf9402fb1
@@ -3317,8 +3691,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #688]
-bl _p_54
+ldr x15, [x16, #752]
+bl _p_59
 .word 0xf9402fb1
 .word 0xf9454a31
 .word 0xb4000051
@@ -3367,8 +3741,8 @@ bl _p_54
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #680]
-bl _p_55
+ldr x15, [x16, #744]
+bl _p_60
 .word 0xf9008fa0
 .word 0xf9402fb1
 .word 0xf9461231
@@ -3417,7 +3791,7 @@ ldr x2, [x16, #16]
 .word 0xf9403401
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_56
+bl _p_61
 .word 0xf9008ba0
 .word 0xf9402fb1
 .word 0xf946ca31
@@ -3426,7 +3800,7 @@ bl _p_56
 .word 0xf9408ba1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_57
+bl _p_62
 .word 0xf90087a0
 .word 0xf9402fb1
 .word 0xf946ee31
@@ -3437,7 +3811,7 @@ bl _p_57
 .word 0xf90063a0
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_58
+bl _p_63
 .word 0xf94063be
 .word 0xf90003c0
 .word 0xf9402fb1
@@ -3452,8 +3826,8 @@ bl _p_58
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #696]
-bl _p_59
+ldr x15, [x16, #760]
+bl _p_64
 .word 0x53001c00
 .word 0xf90083a0
 .word 0xf9402fb1
@@ -3507,8 +3881,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #704]
-bl _p_60
+ldr x15, [x16, #768]
+bl _p_65
 .word 0xf9402fb1
 .word 0xf9482631
 .word 0xb4000051
@@ -3557,8 +3931,8 @@ bl _p_60
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #696]
-bl _p_61
+ldr x15, [x16, #760]
+bl _p_66
 .word 0xf90087a0
 .word 0xf9402fb1
 .word 0xf948ee31
@@ -3608,8 +3982,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #712]
-bl _p_62
+ldr x1, [x16, #776]
+bl _p_67
 .word 0x53001c00
 .word 0xf90083a0
 .word 0xf9402fb1
@@ -3638,7 +4012,7 @@ bl _p_62
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #720]
+ldr x0, [x16, #784]
 bl _p_26
 .word 0xf9402fb1
 .word 0xf94a1231
@@ -3738,7 +4112,7 @@ bl _p_23
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #728]
+ldr x0, [x16, #792]
 bl _p_26
 .word 0xf9402fb1
 .word 0xf94b8a31
@@ -3853,17 +4227,17 @@ bl _p_5
 .word 0x54000640
 .word 0x91004000
 .word 0xf9405fa1
-bl _p_41
+bl _p_46
 .word 0xf9402fb1
 .word 0xf94d3e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_42
+bl _p_47
 .word 0xf9007fa0
 .word 0xf9407fa0
 .word 0xb4000060
 .word 0xf9407fa0
-bl _p_43
+bl _p_48
 .word 0x14000019
 .loc 3 94 0
 .word 0xf94033b1
@@ -3885,7 +4259,7 @@ bl _p_43
 .word 0x10000011
 .word 0x54000240
 .word 0x91004000
-bl _p_44
+bl _p_49
 .word 0xf9402fb1
 .word 0xf94dba31
 .word 0xb4000051
@@ -3905,7 +4279,7 @@ bl _p_44
 .word 0xaa1103e1
 bl _p_10
 
-Lme_23:
+Lme_28:
 .text
 	.align 4
 	.no_dead_strip ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
@@ -3917,7 +4291,7 @@ ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_Co
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #800]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3933,7 +4307,7 @@ ldr x16, [x16, #736]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_24:
+Lme_29:
 .text
 	.align 4
 	.no_dead_strip ETraffic_ViewController__WaitGetBalanced__8__ctor
@@ -3944,7 +4318,7 @@ ETraffic_ViewController__WaitGetBalanced__8__ctor:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #808]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3965,7 +4339,7 @@ ldr x16, [x16, #744]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_25:
+Lme_2a:
 .text
 	.align 4
 	.no_dead_strip ETraffic_ViewController__WaitGetBalanced__8_MoveNext
@@ -3981,7 +4355,7 @@ ETraffic_ViewController__WaitGetBalanced__8_MoveNext:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #816]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4028,12 +4402,12 @@ ldr x16, [x16, #752]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #656]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_13
 .word 0xf900a3a0
-bl _p_45
+bl _p_50
 .word 0xf9402bb1
 .word 0xf940fa31
 .word 0xb4000051
@@ -4062,7 +4436,7 @@ ldr x2, [x16, #16]
 .word 0xf9402001
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_46
+bl _p_51
 .word 0xf9009fa0
 .word 0xf9402bb1
 .word 0xf9416a31
@@ -4072,14 +4446,14 @@ bl _p_46
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #600]
+ldr x1, [x16, #664]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x2, [x16, #608]
+ldr x2, [x16, #672]
 .word 0xaa0303e0
 .word 0x3940007e
-bl _p_47
+bl _p_52
 .word 0xf9402bb1
 .word 0xf941a231
 .word 0xb4000051
@@ -4094,12 +4468,12 @@ bl _p_47
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #680]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_13
 .word 0xf9009ba0
-bl _p_48
+bl _p_53
 .word 0xf9402bb1
 .word 0xf941ea31
 .word 0xb4000051
@@ -4112,14 +4486,14 @@ bl _p_48
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #624]
+ldr x1, [x16, #688]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x2, [x16, #760]
+ldr x2, [x16, #824]
 .word 0xaa1603e0
 .word 0x394002de
-bl _p_49
+bl _p_54
 .word 0xf9402bb1
 .word 0xf9423231
 .word 0xb4000051
@@ -4132,12 +4506,12 @@ bl _p_49
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #640]
+ldr x1, [x16, #704]
 .word 0xf94027a0
 .word 0xf9401802
 .word 0xaa1503e0
 .word 0x394002be
-bl _p_49
+bl _p_54
 .word 0xf9402bb1
 .word 0xf9427631
 .word 0xb4000051
@@ -4170,13 +4544,13 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #728]
 .word 0xd2800801
 .word 0xd2800801
 bl _p_13
 .word 0xf9408ba1
 .word 0xf90083a0
-bl _p_50
+bl _p_55
 .word 0xf9402bb1
 .word 0xf9430631
 .word 0xb4000051
@@ -4206,12 +4580,12 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x1, [x16, #672]
+ldr x1, [x16, #736]
 .word 0xf94027a0
 .word 0xf9402802
 .word 0xaa0303e0
 .word 0x3940007e
-bl _p_51
+bl _p_56
 .word 0xf9007fa0
 .word 0xf9402bb1
 .word 0xf9438a31
@@ -4222,7 +4596,7 @@ bl _p_51
 .word 0xf9005fa0
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_52
+bl _p_57
 .word 0xf9405fbe
 .word 0xf90003c0
 .word 0xf9402bb1
@@ -4237,8 +4611,8 @@ bl _p_52
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #680]
-bl _p_53
+ldr x15, [x16, #744]
+bl _p_58
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf9402bb1
@@ -4291,8 +4665,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #768]
-bl _p_63
+ldr x15, [x16, #832]
+bl _p_68
 .word 0xf9402bb1
 .word 0xf944be31
 .word 0xb4000051
@@ -4341,8 +4715,8 @@ bl _p_63
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #680]
-bl _p_55
+ldr x15, [x16, #744]
+bl _p_60
 .word 0xf90087a0
 .word 0xf9402bb1
 .word 0xf9458631
@@ -4391,7 +4765,7 @@ ldr x2, [x16, #16]
 .word 0xf9402c01
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_56
+bl _p_61
 .word 0xf90083a0
 .word 0xf9402bb1
 .word 0xf9463e31
@@ -4400,7 +4774,7 @@ bl _p_56
 .word 0xf94083a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_57
+bl _p_62
 .word 0xf9007fa0
 .word 0xf9402bb1
 .word 0xf9466231
@@ -4411,7 +4785,7 @@ bl _p_57
 .word 0xf9005fa0
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_58
+bl _p_63
 .word 0xf9405fbe
 .word 0xf90003c0
 .word 0xf9402bb1
@@ -4426,8 +4800,8 @@ bl _p_58
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #696]
-bl _p_59
+ldr x15, [x16, #760]
+bl _p_64
 .word 0x53001c00
 .word 0xf9007ba0
 .word 0xf9402bb1
@@ -4481,8 +4855,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #776]
-bl _p_64
+ldr x15, [x16, #840]
+bl _p_69
 .word 0xf9402bb1
 .word 0xf9479a31
 .word 0xb4000051
@@ -4531,8 +4905,8 @@ bl _p_64
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x15, [x16, #696]
-bl _p_61
+ldr x15, [x16, #760]
+bl _p_66
 .word 0xf9007ba0
 .word 0xf9402bb1
 .word 0xf9486231
@@ -4581,7 +4955,7 @@ ldr x2, [x16, #16]
 .word 0xf9401c00
 .word 0xf94027a1
 .word 0xf9403021
-bl _p_65
+bl _p_70
 .word 0xf9402bb1
 .word 0xf9491631
 .word 0xb4000051
@@ -4602,17 +4976,17 @@ bl _p_65
 .word 0x54000640
 .word 0x91004000
 .word 0xf9405ba1
-bl _p_41
+bl _p_46
 .word 0xf9402bb1
 .word 0xf9496a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_42
+bl _p_47
 .word 0xf90073a0
 .word 0xf94073a0
 .word 0xb4000060
 .word 0xf94073a0
-bl _p_43
+bl _p_48
 .word 0x14000019
 .loc 3 113 0
 .word 0xf9402fb1
@@ -4634,7 +5008,7 @@ bl _p_43
 .word 0x10000011
 .word 0x54000240
 .word 0x91004000
-bl _p_44
+bl _p_49
 .word 0xf9402bb1
 .word 0xf949e631
 .word 0xb4000051
@@ -4654,7 +5028,7 @@ bl _p_44
 .word 0xaa1103e1
 bl _p_10
 
-Lme_26:
+Lme_2b:
 .text
 	.align 4
 	.no_dead_strip ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
@@ -4666,7 +5040,7 @@ ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_Compi
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #848]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4682,7 +5056,7 @@ ldr x16, [x16, #784]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_27:
+Lme_2c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_object
@@ -4698,7 +5072,7 @@ wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_objec
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #856]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4715,17 +5089,17 @@ ldr x16, [x16, #792]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_66
+bl _p_71
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_43
+bl _p_48
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4823,7 +5197,7 @@ bl _p_43
 .word 0xaa1103e1
 bl _p_10
 
-Lme_29:
+Lme_2e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult
@@ -4838,7 +5212,7 @@ wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #872]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4855,17 +5229,17 @@ ldr x16, [x16, #808]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_66
+bl _p_71
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_43
+bl _p_48
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -4957,7 +5331,7 @@ bl _p_43
 .word 0xaa1103e1
 bl _p_10
 
-Lme_2a:
+Lme_2f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result
@@ -4973,7 +5347,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Resu
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #880]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4989,17 +5363,17 @@ ldr x16, [x16, #816]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_66
+bl _p_71
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_43
+bl _p_48
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -5091,7 +5465,7 @@ bl _p_43
 .word 0xaa1103e1
 bl _p_10
 
-Lme_2b:
+Lme_30:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult
@@ -5107,7 +5481,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TR
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #888]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5124,17 +5498,17 @@ ldr x16, [x16, #824]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_66
+bl _p_71
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_43
+bl _p_48
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -5232,7 +5606,7 @@ bl _p_43
 .word 0xaa1103e1
 bl _p_10
 
-Lme_2c:
+Lme_31:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
@@ -5248,7 +5622,7 @@ wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #896]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5264,17 +5638,17 @@ ldr x16, [x16, #832]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_66
+bl _p_71
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_43
+bl _p_48
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -5366,7 +5740,7 @@ bl _p_43
 .word 0xaa1103e1
 bl _p_10
 
-Lme_2d:
+Lme_32:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
@@ -5383,7 +5757,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #904]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5400,17 +5774,17 @@ ldr x16, [x16, #840]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_66
+bl _p_71
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_43
+bl _p_48
 .word 0xf9403fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -5513,9 +5887,9 @@ bl _p_43
 .word 0xaa1103e1
 bl _p_10
 
-Lme_2e:
+Lme_33:
 .text
-ut_48:
+ut_53:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 ut_end:
@@ -5523,14 +5897,14 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_48
+LDIFF_SYM3=ut_end - ut_53
 	.long LDIFF_SYM3
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
-.loc 5 217 0 prologue_end
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.loc 7 217 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -5540,7 +5914,7 @@ System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #912]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5571,7 +5945,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 218 0
+.loc 7 218 0
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
@@ -5582,7 +5956,7 @@ ldr x2, [x16, #16]
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb9000b3e
-.loc 5 219 0
+.loc 7 219 0
 .word 0xf94013b1
 .word 0xf940ce31
 .word 0xb4000051
@@ -5596,16 +5970,16 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_30:
+Lme_35:
 .text
-ut_49:
+ut_54:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_Dispose
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_Dispose
 System_Array_InternalEnumerator_1_T_INST_Dispose:
-.loc 5 223 0 prologue_end
+.loc 7 223 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001baf
@@ -5613,7 +5987,7 @@ System_Array_InternalEnumerator_1_T_INST_Dispose:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #920]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5637,16 +6011,16 @@ ldr x16, [x16, #856]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_31:
+Lme_36:
 .text
-ut_50:
+ut_55:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_MoveNext
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_MoveNext
 System_Array_InternalEnumerator_1_T_INST_MoveNext:
-.loc 5 227 0 prologue_end
+.loc 7 227 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -5655,7 +6029,7 @@ System_Array_InternalEnumerator_1_T_INST_MoveNext:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #928]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5678,7 +6052,7 @@ ldr x16, [x16, #864]
 .word 0xf2bfffe1
 .word 0x6b01001f
 .word 0x54000201
-.loc 5 228 0
+.loc 7 228 0
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -5694,7 +6068,7 @@ ldr x16, [x16, #864]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xb9000b40
-.loc 5 230 0
+.loc 7 230 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -5736,16 +6110,16 @@ ldr x16, [x16, #864]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_37:
 .text
-ut_51:
+ut_56:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_get_Current
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_get_Current
 System_Array_InternalEnumerator_1_T_INST_get_Current:
-.loc 5 235 0 prologue_end
+.loc 7 235 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -5754,7 +6128,7 @@ System_Array_InternalEnumerator_1_T_INST_get_Current:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #936]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -5776,22 +6150,22 @@ ldr x16, [x16, #872]
 .word 0xf2bfffe1
 .word 0x6b01001f
 .word 0x540001e1
-.loc 5 236 0
+.loc 7 236 0
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2894ae0
 .word 0xd2894ae0
-bl _p_67
+bl _p_72
 .word 0xaa0003e1
 .word 0xd2801fc0
 .word 0xf2a04000
 .word 0xd2801fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_43
-.loc 5 237 0
+bl _p_48
+.loc 7 237 0
 .word 0xf94017b1
 .word 0xf940ba31
 .word 0xb4000051
@@ -5802,22 +6176,22 @@ bl _p_43
 .word 0xf2bfffe1
 .word 0x6b01001f
 .word 0x540001e1
-.loc 5 238 0
+.loc 7 238 0
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28955a0
 .word 0xd28955a0
-bl _p_67
+bl _p_72
 .word 0xaa0003e1
 .word 0xd2801fc0
 .word 0xf2a04000
 .word 0xd2801fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_43
-.loc 5 240 0
+bl _p_48
+.loc 7 240 0
 .word 0xf94017b1
 .word 0xf9411a31
 .word 0xb4000051
@@ -5840,7 +6214,7 @@ bl _p_43
 .word 0x4b010000
 .word 0xf90037a0
 .word 0xf9402ba0
-bl _p_68
+bl _p_73
 .word 0xaa0003e1
 .word 0xf9403fa0
 .word 0xf9003ba1
@@ -5848,7 +6222,7 @@ bl _p_68
 .word 0x3940001e
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_69
+bl _p_74
 .word 0xaa0003e2
 .word 0xf94033a0
 .word 0xf94037a1
@@ -5880,16 +6254,16 @@ bl _p_69
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_33:
+Lme_38:
 .text
-ut_52:
+ut_57:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
-.loc 5 246 0 prologue_end
+.loc 7 246 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001baf
@@ -5897,7 +6271,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #944]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5919,7 +6293,7 @@ ldr x16, [x16, #880]
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb900081e
-.loc 5 247 0
+.loc 7 247 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -5932,16 +6306,16 @@ ldr x16, [x16, #880]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_39:
 .text
-ut_53:
+ut_58:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current:
-.loc 5 251 0 prologue_end
+.loc 7 251 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf90023af
@@ -5949,7 +6323,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Curr
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #952]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5968,14 +6342,14 @@ ldr x16, [x16, #888]
 .word 0xf9400ba0
 .word 0xf90033a0
 .word 0xf94023a0
-bl _p_70
+bl _p_75
 .word 0xaa0003e1
 .word 0xf94033a0
 .word 0xf9002fa1
 .word 0x3940001e
 .word 0xf9002ba0
 .word 0xf94023a0
-bl _p_71
+bl _p_76
 .word 0xaa0003e1
 .word 0xf9402ba0
 .word 0xf9402faf
@@ -5990,7 +6364,7 @@ bl _p_71
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-bl _p_72
+bl _p_77
 .word 0xd2800401
 .word 0xd2800401
 bl _p_13
@@ -6032,12 +6406,12 @@ ldr x3, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_35:
+Lme_3a:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
-.loc 5 70 0 prologue_end
+.loc 7 70 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -6046,7 +6420,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #960]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6071,21 +6445,21 @@ ldr x16, [x16, #896]
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x350001c0
-.loc 5 71 0
+.loc 7 71 0
 .word 0xf9400fb1
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_73
+bl _p_78
 .word 0x3980b410
 .word 0xb5000050
-bl _p_74
+bl _p_79
 .word 0xf9402ba0
-bl _p_75
+bl _p_80
 .word 0xf9400000
 .word 0x14000037
-.loc 5 73 0
+.loc 7 73 0
 .word 0xf9400fb1
 .word 0xf940c231
 .word 0xb4000051
@@ -6098,10 +6472,10 @@ bl _p_75
 .word 0x910103a0
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_76
+bl _p_81
 .word 0xf90037a0
 .word 0xf9402ba0
-bl _p_77
+bl _p_82
 .word 0xaa0003e2
 .word 0xf94033a0
 .word 0xf94037af
@@ -6118,7 +6492,7 @@ bl _p_77
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_76
+bl _p_81
 .word 0xd2800401
 .word 0xd2800401
 bl _p_13
@@ -6150,7 +6524,7 @@ ldr x4, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_36:
+Lme_3b:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
@@ -6166,7 +6540,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #968]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6183,17 +6557,17 @@ ldr x16, [x16, #904]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_66
+bl _p_71
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_43
+bl _p_48
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -6291,7 +6665,7 @@ bl _p_43
 .word 0xaa1103e1
 bl _p_10
 
-Lme_37:
+Lme_3c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
@@ -6306,7 +6680,7 @@ wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #976]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6323,17 +6697,17 @@ ldr x16, [x16, #912]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_66
+bl _p_71
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_43
+bl _p_48
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -6410,690 +6784,6 @@ bl _p_43
 .word 0x54fffc0b
 .word 0xaa1403e0
 .word 0xaa1403e0
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801ee0
-.word 0xaa1103e1
-bl _p_10
-
-Lme_38:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #920]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
-.word 0xb9400000
-.word 0x34000140
-bl _p_66
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_43
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801ee0
-.word 0xaa1103e1
-bl _p_10
-
-Lme_39:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #928]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
-.word 0xb9400000
-.word 0x34000140
-bl _p_66
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_43
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801ee0
-.word 0xaa1103e1
-bl _p_10
-
-Lme_3a:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #936]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
-.word 0xb9400000
-.word 0x34000140
-bl _p_66
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_43
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801ee0
-.word 0xaa1103e1
-bl _p_10
-
-Lme_3b:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003fa
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #944]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
-.word 0xb9400000
-.word 0x34000140
-bl _p_66
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_43
-.word 0xf94037a0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9101a340
-.word 0xf9403740
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xb50003c0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91008340
-.word 0xf9401340
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb40001a0
-.word 0xaa1503e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b41
-.word 0xaa1503e0
-.word 0xd63f0020
-.word 0x14000032
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b40
-.word 0xd63f0000
-.word 0x14000028
-.word 0xaa1703e0
-.word 0xb9801ae0
-.word 0xaa0003f8
-.word 0xd2800019
-.word 0xaa1703e0
-.word 0xaa1903e0
-.word 0x93407f20
-.word 0xb9801ae1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000509
-.word 0xd37df000
-.word 0x8b0002e0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f6
-.word 0xaa1603e1
-.word 0xaa0103e0
-.word 0xf9003fa1
-.word 0xf9400c30
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf9403fa0
-.word 0xf9003ba1
-.word 0xf9402bb1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xaa0003f4
-.word 0xaa1903e0
-.word 0x11000720
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0xaa1803e1
-.word 0x6b18001f
-.word 0x54fffc0b
-.word 0xaa1403e0
-.word 0xaa1403e0
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801ee0
-.word 0xaa1103e1
-bl _p_10
-
-Lme_3c:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #952]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
-.word 0xb9400000
-.word 0x34000140
-bl _p_66
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_43
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
 .word 0xf9402bb1
 .word 0xf941ce31
 .word 0xb4000051
@@ -7112,8 +6802,142 @@ bl _p_10
 Lme_3d:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #984]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xb9400000
+.word 0x34000140
+bl _p_71
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_48
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801ee0
+.word 0xaa1103e1
+bl _p_10
+
+Lme_3e:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -7125,7 +6949,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #992]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7142,17 +6966,17 @@ ldr x16, [x16, #960]
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #864]
 .word 0xb9400000
 .word 0x34000140
-bl _p_66
+bl _p_71
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_43
+bl _p_48
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -7250,17 +7074,567 @@ bl _p_43
 .word 0xaa1103e1
 bl _p_10
 
-Lme_3e:
+Lme_3f:
 .text
-ut_63:
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1000]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xb9400000
+.word 0x34000140
+bl _p_71
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_48
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801ee0
+.word 0xaa1103e1
+bl _p_10
+
+Lme_40:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1008]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xb9400000
+.word 0x34000140
+bl _p_71
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_48
+.word 0xf94037a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9101a340
+.word 0xf9403740
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xb50003c0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91008340
+.word 0xf9401340
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb40001a0
+.word 0xaa1503e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b41
+.word 0xaa1503e0
+.word 0xd63f0020
+.word 0x14000032
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b40
+.word 0xd63f0000
+.word 0x14000028
+.word 0xaa1703e0
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800019
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0x93407f20
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000509
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f6
+.word 0xaa1603e1
+.word 0xaa0103e0
+.word 0xf9003fa1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf9403fa0
+.word 0xf9003ba1
+.word 0xf9402bb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f4
+.word 0xaa1903e0
+.word 0x11000720
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0xaa1803e1
+.word 0x6b18001f
+.word 0x54fffc0b
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801ee0
+.word 0xaa1103e1
+bl _p_10
+
+Lme_41:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1016]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xb9400000
+.word 0x34000140
+bl _p_71
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_48
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801ee0
+.word 0xaa1103e1
+bl _p_10
+
+Lme_42:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1024]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xb9400000
+.word 0x34000140
+bl _p_71
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_48
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801ee0
+.word 0xaa1103e1
+bl _p_10
+
+Lme_43:
+.text
+ut_68:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
-.loc 6 161 0 prologue_end
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.loc 8 161 0 prologue_end
 .word 0xa9b17bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -7274,7 +7648,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TA
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #1032]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -7293,7 +7667,7 @@ ldr x16, [x16, #968]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf90047bf
-.loc 6 162 0
+.loc 8 162 0
 .word 0xf94033b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -7301,7 +7675,7 @@ ldr x16, [x16, #968]
 .word 0xaa1803e0
 .word 0x91002300
 .word 0xf90067a0
-bl _p_78
+bl _p_83
 .word 0x53001c00
 .word 0xf90063a0
 .word 0xf94033b1
@@ -7320,7 +7694,7 @@ bl _p_78
 .word 0xaa1603e0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_79
+bl _p_84
 .word 0xf90063a0
 .word 0xf94033b1
 .word 0xf940fa31
@@ -7334,7 +7708,7 @@ bl _p_79
 .word 0x910223a2
 .word 0xaa1503e0
 .word 0xaa1403e1
-bl _p_80
+bl _p_85
 .word 0xf90063a0
 .word 0xf94033b1
 .word 0xf9413231
@@ -7342,7 +7716,7 @@ bl _p_80
 .word 0xd63f0220
 .word 0xf94063a0
 .word 0xaa0003f7
-.loc 6 166 0
+.loc 8 166 0
 .word 0xf94033b1
 .word 0xf9414a31
 .word 0xb4000051
@@ -7351,7 +7725,7 @@ bl _p_80
 .word 0x91002300
 .word 0xf9400700
 .word 0xb5000c40
-.loc 6 168 0
+.loc 8 168 0
 .word 0xf94037b1
 .word 0xf9400231
 .word 0xb4000051
@@ -7360,7 +7734,7 @@ bl _p_80
 .word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_78
+bl _p_83
 .word 0x53001c00
 .word 0xf90063a0
 .word 0xf94033b1
@@ -7369,7 +7743,7 @@ bl _p_78
 .word 0xd63f0220
 .word 0xf94063a0
 .word 0x34000820
-.loc 6 169 0
+.loc 8 169 0
 .word 0xf94037b1
 .word 0xf9400231
 .word 0xb4000051
@@ -7381,7 +7755,7 @@ bl _p_78
 .word 0xd2800000
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_79
+bl _p_84
 .word 0xf90077a0
 .word 0xf94033b1
 .word 0xf941e231
@@ -7390,7 +7764,7 @@ bl _p_79
 .word 0xf94077a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_81
+bl _p_86
 .word 0x93407c00
 .word 0xf90063a0
 .word 0xf94033b1
@@ -7400,7 +7774,7 @@ bl _p_81
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x0, [x16, #976]
+ldr x0, [x16, #1040]
 .word 0xf9006ba0
 .word 0xf9402fa0
 .word 0xf9400000
@@ -7434,8 +7808,8 @@ bl _p_22
 .word 0xd2800000
 .word 0xd2800000
 .word 0xd2800003
-bl _p_82
-.loc 6 174 0
+bl _p_87
+.loc 8 174 0
 .word 0xf94037b1
 .word 0xf9400231
 .word 0xb4000051
@@ -7451,8 +7825,8 @@ bl _p_82
 .word 0xf94047a2
 .word 0xd2800003
 .word 0xd2800003
-bl _p_83
-.loc 6 177 0
+bl _p_88
+.loc 8 177 0
 .word 0xf94037b1
 .word 0xf9400231
 .word 0xb4000051
@@ -7464,10 +7838,10 @@ bl _p_83
 .word 0xf9402bb3
 .word 0xaa1703fa
 .word 0xf94043a0
-bl _p_84
+bl _p_89
 .word 0xaa0003f9
 .word 0xf94043a0
-bl _p_85
+bl _p_90
 .word 0xd280005e
 .word 0xeb1e001f
 .word 0x540000a0
@@ -7480,7 +7854,7 @@ bl _p_85
 .word 0xf9400260
 .word 0xf9003fa0
 .word 0xf94043a0
-bl _p_86
+bl _p_91
 .word 0xd2800301
 .word 0xd2800301
 bl _p_13
@@ -7503,7 +7877,7 @@ ldr x3, [x16, #16]
 .word 0xaa1a03e1
 .word 0xd63f0320
 .word 0x14000001
-.loc 6 178 0
+.loc 8 178 0
 .word 0xf94037b1
 .word 0xf9400231
 .word 0xb4000051
@@ -7516,7 +7890,7 @@ ldr x3, [x16, #16]
 .word 0xf9004ba0
 .word 0xf9404ba0
 .word 0xf90063a0
-.loc 6 181 0
+.loc 8 181 0
 .word 0xf94033b1
 .word 0xf943e231
 .word 0xb4000051
@@ -7524,20 +7898,20 @@ ldr x3, [x16, #16]
 .word 0xf94063a0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_87
-.loc 6 182 0
+bl _p_92
+.loc 8 182 0
 .word 0xf94033b1
 .word 0xf9440231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_42
+bl _p_47
 .word 0xf9005ba0
 .word 0xf9405ba0
 .word 0xb4000060
 .word 0xf9405ba0
-bl _p_43
+bl _p_48
 .word 0x14000001
-.loc 6 183 0
+.loc 8 183 0
 .word 0xf94037b1
 .word 0xf9400231
 .word 0xb4000051
@@ -7559,12 +7933,12 @@ bl _p_43
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_3f:
+Lme_44:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_INST_int
 System_Array_InternalArray__get_Item_T_INST_int:
-.loc 5 175 0 prologue_end
+.loc 7 175 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -7574,7 +7948,7 @@ System_Array_InternalArray__get_Item_T_INST_int:
 
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1048]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -7605,22 +7979,22 @@ ldr x16, [x16, #984]
 .word 0xf94043a0
 .word 0x6b00035f
 .word 0x540001e3
-.loc 5 176 0
+.loc 7 176 0
 .word 0xf9401bb1
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd285eb20
 .word 0xd285eb20
-bl _p_67
+bl _p_72
 .word 0xaa0003e1
 .word 0xd28014c0
 .word 0xf2a04000
 .word 0xd28014c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_43
-.loc 5 179 0
+bl _p_48
+.loc 7 179 0
 .word 0xf9401bb1
 .word 0xf940e231
 .word 0xb4000051
@@ -7630,7 +8004,7 @@ bl _p_43
 .word 0x9101c3a0
 .word 0xf90043a0
 .word 0xf94037a0
-bl _p_88
+bl _p_93
 .word 0xf94043a2
 .word 0x93407f40
 .word 0xd37cec00
@@ -7670,7 +8044,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 180 0
+.loc 7 180 0
 .word 0xf9401bb1
 .word 0xf9419e31
 .word 0xb4000051
@@ -7698,7 +8072,7 @@ ldr x2, [x16, #16]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_40:
+Lme_45:
 .text
 	.align 3
 jit_code_end:
@@ -7739,6 +8113,11 @@ bl ETraffic_ViewController_set_SuccessPayment_UIKit_UIImageView
 bl ETraffic_ViewController_OffShowResultPayment_UIKit_UIButton
 bl ETraffic_ViewController_StartScan_UIKit_UIButton
 bl ETraffic_ViewController_ReleaseDesignerOutlets
+bl ETraffic_ViewControllerPay__ctor_intptr
+bl ETraffic_ViewControllerPay_ViewDidLoad
+bl ETraffic_ViewControllerPay_get_WebView1
+bl ETraffic_ViewControllerPay_set_WebView1_WebKit_WKWebView
+bl ETraffic_ViewControllerPay_ReleaseDesignerOutlets
 bl ETraffic_ViewController__WaitScand__6__ctor
 bl ETraffic_ViewController__WaitScand__6_MoveNext
 bl ETraffic_ViewController__WaitScand__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
@@ -7779,20 +8158,20 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 48,49,50,51,52,53,63
+	.long 53,54,55,56,57,58,68
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_48
-bl ut_49
-bl ut_50
-bl ut_51
-bl ut_52
 bl ut_53
-bl ut_63
+bl ut_54
+bl ut_55
+bl ut_56
+bl ut_57
+bl ut_58
+bl ut_68
 
 	.long 0
 .section __TEXT, __const
@@ -7805,16 +8184,16 @@ unwind_info:
 	.byte 6,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,14,12,31,0,68,14,176,1,157,22,158,21
 	.byte 68,13,29,14,12,31,0,68,14,192,1,157,24,158,23,68,13,29,13,12,31,0,68,14,80,157,10,158,9,68,13,29
 	.byte 16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,26,12,31,0,68,14,96,157,12,158,11,68,13,29,68
-	.byte 150,10,151,9,68,152,8,153,7,68,154,6,24,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,151,24,152,23
-	.byte 68,153,22,154,21,34,12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151
-	.byte 40,152,39,68,153,38,154,37,32,12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,148,40,149,39,68,150,38,151
-	.byte 37,68,152,36,153,35,68,154,34,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14
-	.byte 150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13
-	.byte 68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
-	.byte 154,7,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16,13,12,31,0,68,14,112,157,14,158,13,68
-	.byte 13,29,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,34,12,31,0,68,14,240,1,157,30,158,29,68
-	.byte 13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22,154,21,19,12,31,0,68,14,144,1,157,18
-	.byte 158,17,68,13,29,68,153,16,154,15
+	.byte 150,10,151,9,68,152,8,153,7,68,154,6,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,18
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,24,12,31,0,68,14,208,1,157,26,158,25,68,13
+	.byte 29,68,151,24,152,23,68,153,22,154,21,34,12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68
+	.byte 149,42,150,41,68,151,40,152,39,68,153,38,154,37,32,12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,148,40
+	.byte 149,39,68,150,38,151,37,68,152,36,153,35,68,154,34,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147
+	.byte 16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,1,157,16,158,15,68,13
+	.byte 29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,17,12,31,0,68,14,144,1,157,18,158
+	.byte 17,68,13,29,68,154,16,13,12,31,0,68,14,112,157,14,158,13,68,13,29,16,12,31,0,68,14,112,157,14,158,13
+	.byte 68,13,29,68,154,12,34,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68
+	.byte 151,24,152,23,68,153,22,154,21,19,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 
 .text
 	.align 4
@@ -7825,709 +8204,749 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1064]
 br x16
-.word 1426
+.word 1468
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_2:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1072]
 br x16
-.word 1431
+.word 1473
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_3:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1080]
 br x16
-.word 1436
+.word 1478
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_iOS_Platform_Init
 plt_ZXing_Net_Mobile_Forms_iOS_Platform_Init:
 _p_4:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1088]
 br x16
-.word 1441
+.word 1483
 	.no_dead_strip plt_ETraffic_ViewController_UpdateBalance
 plt_ETraffic_ViewController_UpdateBalance:
 _p_5:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1096]
 br x16
-.word 1446
+.word 1488
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_6:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1104]
 br x16
-.word 1451
+.word 1493
 	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
 plt_UIKit_UIViewController_DidReceiveMemoryWarning:
 _p_7:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1112]
 br x16
-.word 1456
+.word 1498
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_8:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1120]
 br x16
-.word 1461
+.word 1503
 	.no_dead_strip plt_ETraffic_ViewController_WaitGetBalance_string
 plt_ETraffic_ViewController_WaitGetBalance_string:
 _p_9:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1128]
 br x16
-.word 1464
+.word 1506
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_10:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1136]
 br x16
-.word 1469
+.word 1511
 	.no_dead_strip plt_string_Split_string_System_StringSplitOptions
 plt_string_Split_string_System_StringSplitOptions:
 _p_11:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1144]
 br x16
-.word 1504
+.word 1546
 	.no_dead_strip plt_ETraffic_ViewController_WaitPaymentResult_string_string_string
 plt_ETraffic_ViewController_WaitPaymentResult_string_string_string:
 _p_12:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1152]
 br x16
-.word 1507
+.word 1549
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_13:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1160]
 br x16
-.word 1512
+.word 1554
 	.no_dead_strip plt_ETraffic_ViewController__WaitScand__6__ctor
 plt_ETraffic_ViewController__WaitScand__6__ctor:
 _p_14:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1168]
 br x16
-.word 1520
+.word 1562
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_15:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1176]
 br x16
-.word 1525
+.word 1567
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_ETraffic_ViewController__WaitScand__6_ETraffic_ViewController__WaitScand__6_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_ETraffic_ViewController__WaitScand__6_ETraffic_ViewController__WaitScand__6_:
 _p_16:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1184]
 br x16
-.word 1528
+.word 1570
 	.no_dead_strip plt_ETraffic_ViewController__WaitPaymentResultd__7__ctor
 plt_ETraffic_ViewController__WaitPaymentResultd__7__ctor:
 _p_17:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1192]
 br x16
-.word 1540
+.word 1582
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_ETraffic_ViewController__WaitPaymentResultd__7_ETraffic_ViewController__WaitPaymentResultd__7_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_ETraffic_ViewController__WaitPaymentResultd__7_ETraffic_ViewController__WaitPaymentResultd__7_:
 _p_18:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1200]
 br x16
-.word 1545
+.word 1587
 	.no_dead_strip plt_ETraffic_ViewController__WaitGetBalanced__8__ctor
 plt_ETraffic_ViewController__WaitGetBalanced__8__ctor:
 _p_19:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1208]
 br x16
-.word 1557
+.word 1599
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_ETraffic_ViewController__WaitGetBalanced__8_ETraffic_ViewController__WaitGetBalanced__8_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_ETraffic_ViewController__WaitGetBalanced__8_ETraffic_ViewController__WaitGetBalanced__8_:
 _p_20:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1216]
 br x16
-.word 1562
+.word 1604
 	.no_dead_strip plt_ETraffic_ViewController_get_BalanceLabel
 plt_ETraffic_ViewController_get_BalanceLabel:
 _p_21:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1224]
 br x16
-.word 1574
+.word 1616
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_22:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1232]
 br x16
-.word 1579
+.word 1621
 	.no_dead_strip plt_ETraffic_ViewController_get_SuccessPayment
 plt_ETraffic_ViewController_get_SuccessPayment:
 _p_23:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1240]
 br x16
-.word 1582
+.word 1624
 	.no_dead_strip plt_ETraffic_ViewController_get_ErorrPayment
 plt_ETraffic_ViewController_get_ErorrPayment:
 _p_24:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1248]
 br x16
-.word 1587
+.word 1629
 	.no_dead_strip plt_ETraffic_ViewController_get_ResultView
 plt_ETraffic_ViewController_get_ResultView:
 _p_25:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1256]
 br x16
-.word 1592
+.word 1634
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_26:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1264]
 br x16
-.word 1597
+.word 1639
 	.no_dead_strip plt_ETraffic_ViewController_WaitScan
 plt_ETraffic_ViewController_WaitScan:
 _p_27:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1272]
 br x16
-.word 1600
+.word 1642
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_28:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1280]
 br x16
-.word 1605
+.word 1647
 	.no_dead_strip plt_ETraffic_ViewController_set_BalanceLabel_UIKit_UILabel
 plt_ETraffic_ViewController_set_BalanceLabel_UIKit_UILabel:
 _p_29:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1288]
 br x16
-.word 1610
+.word 1652
 	.no_dead_strip plt_ETraffic_ViewController_set_ErorrPayment_UIKit_UIImageView
 plt_ETraffic_ViewController_set_ErorrPayment_UIKit_UIImageView:
 _p_30:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1296]
 br x16
-.word 1615
+.word 1657
 	.no_dead_strip plt_ETraffic_ViewController_set_ResultView_UIKit_UIScrollView
 plt_ETraffic_ViewController_set_ResultView_UIKit_UIScrollView:
 _p_31:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1304]
 br x16
-.word 1620
+.word 1662
 	.no_dead_strip plt_ETraffic_ViewController_set_SuccessPayment_UIKit_UIImageView
 plt_ETraffic_ViewController_set_SuccessPayment_UIKit_UIImageView:
 _p_32:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1248]
-br x16
-.word 1625
-	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner__ctor
-plt_ZXing_Mobile_MobileBarcodeScanner__ctor:
-_p_33:
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1256]
-br x16
-.word 1630
-	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase_Scan
-plt_ZXing_Mobile_MobileBarcodeScannerBase_Scan:
-_p_34:
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1264]
-br x16
-.word 1635
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_ZXing_Result_GetAwaiter
-plt_System_Threading_Tasks_Task_1_ZXing_Result_GetAwaiter:
-_p_35:
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1272]
-br x16
-.word 1640
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_get_IsCompleted:
-_p_36:
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1280]
-br x16
-.word 1651
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_ETraffic_ViewController__WaitScand__6_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result__ETraffic_ViewController__WaitScand__6_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_ETraffic_ViewController__WaitScand__6_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result__ETraffic_ViewController__WaitScand__6_:
-_p_37:
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1288]
-br x16
-.word 1662
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_GetResult:
-_p_38:
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1296]
-br x16
-.word 1674
-	.no_dead_strip plt_ZXing_Result_get_Text
-plt_ZXing_Result_get_Text:
-_p_39:
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
-ldr x16, [x16, #1304]
-br x16
-.word 1685
-	.no_dead_strip plt_ETraffic_ViewController_ContinuePayment_string
-plt_ETraffic_ViewController_ContinuePayment_string:
-_p_40:
-adrp x16, mono_aot_ETraffic_got@PAGE+0
-add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 1690
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
-_p_41:
+.word 1667
+	.no_dead_strip plt_ETraffic_ViewControllerPay_get_WebView1
+plt_ETraffic_ViewControllerPay_get_WebView1:
+_p_33:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 1695
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
-_p_42:
+.word 1672
+	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
+plt__jit_icall_ves_icall_object_new_specific:
+_p_34:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 1698
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_43:
+.word 1677
+	.no_dead_strip plt_Foundation_NSUrl__ctor_string
+plt_Foundation_NSUrl__ctor_string:
+_p_35:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 1737
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
-_p_44:
+.word 1709
+	.no_dead_strip plt_Foundation_NSUrlRequest__ctor_Foundation_NSUrl
+plt_Foundation_NSUrlRequest__ctor_Foundation_NSUrl:
+_p_36:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 1765
-	.no_dead_strip plt_System_Net_Http_HttpClient__ctor
-plt_System_Net_Http_HttpClient__ctor:
-_p_45:
+.word 1714
+	.no_dead_strip plt_ETraffic_ViewControllerPay_set_WebView1_WebKit_WKWebView
+plt_ETraffic_ViewControllerPay_set_WebView1_WebKit_WKWebView:
+_p_37:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 1768
-	.no_dead_strip plt_System_Net_Http_HttpClient_get_DefaultRequestHeaders
-plt_System_Net_Http_HttpClient_get_DefaultRequestHeaders:
-_p_46:
+.word 1719
+	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanner__ctor
+plt_ZXing_Mobile_MobileBarcodeScanner__ctor:
+_p_38:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 1773
-	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_Add_string_string
-plt_System_Net_Http_Headers_HttpHeaders_Add_string_string:
-_p_47:
+.word 1724
+	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScannerBase_Scan
+plt_ZXing_Mobile_MobileBarcodeScannerBase_Scan:
+_p_39:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 1778
-	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string__ctor
-plt_System_Collections_Generic_Dictionary_2_string_string__ctor:
-_p_48:
+.word 1729
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_ZXing_Result_GetAwaiter
+plt_System_Threading_Tasks_Task_1_ZXing_Result_GetAwaiter:
+_p_40:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 1783
-	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string
-plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string:
-_p_49:
+.word 1734
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_get_IsCompleted:
+_p_41:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 1794
-	.no_dead_strip plt_System_Net_Http_FormUrlEncodedContent__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_string
-plt_System_Net_Http_FormUrlEncodedContent__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_string:
-_p_50:
+.word 1745
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_ETraffic_ViewController__WaitScand__6_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result__ETraffic_ViewController__WaitScand__6_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_ETraffic_ViewController__WaitScand__6_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result__ETraffic_ViewController__WaitScand__6_:
+_p_42:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 1805
-	.no_dead_strip plt_System_Net_Http_HttpClient_PostAsync_string_System_Net_Http_HttpContent
-plt_System_Net_Http_HttpClient_PostAsync_string_System_Net_Http_HttpContent:
-_p_51:
+.word 1756
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_ZXing_Result_GetResult:
+_p_43:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 1810
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter
-plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter:
-_p_52:
+.word 1768
+	.no_dead_strip plt_ZXing_Result_get_Text
+plt_ZXing_Result_get_Text:
+_p_44:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 1815
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_get_IsCompleted:
-_p_53:
+.word 1779
+	.no_dead_strip plt_ETraffic_ViewController_ContinuePayment_string
+plt_ETraffic_ViewController_ContinuePayment_string:
+_p_45:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 1826
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_ETraffic_ViewController__WaitPaymentResultd__7_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__ETraffic_ViewController__WaitPaymentResultd__7_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_ETraffic_ViewController__WaitPaymentResultd__7_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__ETraffic_ViewController__WaitPaymentResultd__7_:
-_p_54:
+.word 1784
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
+_p_46:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 1837
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult:
-_p_55:
+.word 1789
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_47:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 1849
-	.no_dead_strip plt_System_Net_Http_HttpResponseMessage_get_Content
-plt_System_Net_Http_HttpResponseMessage_get_Content:
-_p_56:
+.word 1792
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_48:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 1860
-	.no_dead_strip plt_System_Net_Http_HttpContent_ReadAsStringAsync
-plt_System_Net_Http_HttpContent_ReadAsStringAsync:
-_p_57:
+.word 1831
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
+_p_49:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 1865
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_string_GetAwaiter
-plt_System_Threading_Tasks_Task_1_string_GetAwaiter:
-_p_58:
+.word 1859
+	.no_dead_strip plt_System_Net_Http_HttpClient__ctor
+plt_System_Net_Http_HttpClient__ctor:
+_p_50:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 1870
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_get_IsCompleted:
-_p_59:
+.word 1862
+	.no_dead_strip plt_System_Net_Http_HttpClient_get_DefaultRequestHeaders
+plt_System_Net_Http_HttpClient_get_DefaultRequestHeaders:
+_p_51:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 1881
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_ETraffic_ViewController__WaitPaymentResultd__7_System_Runtime_CompilerServices_TaskAwaiter_1_string__ETraffic_ViewController__WaitPaymentResultd__7_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_ETraffic_ViewController__WaitPaymentResultd__7_System_Runtime_CompilerServices_TaskAwaiter_1_string__ETraffic_ViewController__WaitPaymentResultd__7_:
-_p_60:
+.word 1867
+	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_Add_string_string
+plt_System_Net_Http_Headers_HttpHeaders_Add_string_string:
+_p_52:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 1892
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult:
-_p_61:
+.word 1872
+	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string__ctor
+plt_System_Collections_Generic_Dictionary_2_string_string__ctor:
+_p_53:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 1904
-	.no_dead_strip plt_string_op_Equality_string_string
-plt_string_op_Equality_string_string:
-_p_62:
+.word 1877
+	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string
+plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string:
+_p_54:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 1915
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_ETraffic_ViewController__WaitGetBalanced__8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__ETraffic_ViewController__WaitGetBalanced__8_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_ETraffic_ViewController__WaitGetBalanced__8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__ETraffic_ViewController__WaitGetBalanced__8_:
-_p_63:
+.word 1888
+	.no_dead_strip plt_System_Net_Http_FormUrlEncodedContent__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_string
+plt_System_Net_Http_FormUrlEncodedContent__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_string:
+_p_55:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 1918
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_ETraffic_ViewController__WaitGetBalanced__8_System_Runtime_CompilerServices_TaskAwaiter_1_string__ETraffic_ViewController__WaitGetBalanced__8_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_ETraffic_ViewController__WaitGetBalanced__8_System_Runtime_CompilerServices_TaskAwaiter_1_string__ETraffic_ViewController__WaitGetBalanced__8_:
-_p_64:
+.word 1899
+	.no_dead_strip plt_System_Net_Http_HttpClient_PostAsync_string_System_Net_Http_HttpContent
+plt_System_Net_Http_HttpClient_PostAsync_string_System_Net_Http_HttpContent:
+_p_56:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 1930
-	.no_dead_strip plt_ETraffic_ViewController_SetNewBalanceClient_string
-plt_ETraffic_ViewController_SetNewBalanceClient_string:
-_p_65:
+.word 1904
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter
+plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter:
+_p_57:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 1942
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_66:
+.word 1909
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_get_IsCompleted:
+_p_58:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 1947
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_67:
+.word 1920
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_ETraffic_ViewController__WaitPaymentResultd__7_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__ETraffic_ViewController__WaitPaymentResultd__7_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_ETraffic_ViewController__WaitPaymentResultd__7_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__ETraffic_ViewController__WaitPaymentResultd__7_:
+_p_59:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 1985
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_68:
+.word 1931
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult:
+_p_60:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 2032
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_69:
+.word 1943
+	.no_dead_strip plt_System_Net_Http_HttpResponseMessage_get_Content
+plt_System_Net_Http_HttpResponseMessage_get_Content:
+_p_61:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 2054
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_70:
+.word 1954
+	.no_dead_strip plt_System_Net_Http_HttpContent_ReadAsStringAsync
+plt_System_Net_Http_HttpContent_ReadAsStringAsync:
+_p_62:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 2094
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_71:
+.word 1959
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_string_GetAwaiter
+plt_System_Threading_Tasks_Task_1_string_GetAwaiter:
+_p_63:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 2102
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
-_p_72:
+.word 1964
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_get_IsCompleted:
+_p_64:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 2125
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
-_p_73:
+.word 1975
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_ETraffic_ViewController__WaitPaymentResultd__7_System_Runtime_CompilerServices_TaskAwaiter_1_string__ETraffic_ViewController__WaitPaymentResultd__7_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_ETraffic_ViewController__WaitPaymentResultd__7_System_Runtime_CompilerServices_TaskAwaiter_1_string__ETraffic_ViewController__WaitPaymentResultd__7_:
+_p_65:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 2157
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
-_p_74:
+.word 1986
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult:
+_p_66:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 2165
-	.no_dead_strip plt__rgctx_fetch_6
-plt__rgctx_fetch_6:
-_p_75:
+.word 1998
+	.no_dead_strip plt_string_op_Equality_string_string
+plt_string_op_Equality_string_string:
+_p_67:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 2191
-	.no_dead_strip plt__rgctx_fetch_7
-plt__rgctx_fetch_7:
-_p_76:
+.word 2009
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_ETraffic_ViewController__WaitGetBalanced__8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__ETraffic_ViewController__WaitGetBalanced__8_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_ETraffic_ViewController__WaitGetBalanced__8_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__ETraffic_ViewController__WaitGetBalanced__8_:
+_p_68:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 2206
-	.no_dead_strip plt__rgctx_fetch_8
-plt__rgctx_fetch_8:
-_p_77:
+.word 2012
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_ETraffic_ViewController__WaitGetBalanced__8_System_Runtime_CompilerServices_TaskAwaiter_1_string__ETraffic_ViewController__WaitGetBalanced__8_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_ETraffic_ViewController__WaitGetBalanced__8_System_Runtime_CompilerServices_TaskAwaiter_1_string__ETraffic_ViewController__WaitGetBalanced__8_:
+_p_69:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 2214
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
-plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
-_p_78:
+.word 2024
+	.no_dead_strip plt_ETraffic_ViewController_SetNewBalanceClient_string
+plt_ETraffic_ViewController_SetNewBalanceClient_string:
+_p_70:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 2237
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
-_p_79:
+.word 2036
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_71:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 2240
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
-_p_80:
+.word 2041
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_72:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 2243
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
-plt_System_Threading_Tasks_Task_get_Id:
-_p_81:
+.word 2079
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_73:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 2246
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
-_p_82:
+.word 2126
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_74:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 2249
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
-_p_83:
+.word 2148
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_75:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 2252
-	.no_dead_strip plt__rgctx_fetch_9
-plt__rgctx_fetch_9:
-_p_84:
+.word 2188
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_76:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 2276
-	.no_dead_strip plt__rgctx_fetch_10
-plt__rgctx_fetch_10:
-_p_85:
+.word 2196
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
+_p_77:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 2288
-	.no_dead_strip plt__rgctx_fetch_11
-plt__rgctx_fetch_11:
-_p_86:
+.word 2219
+	.no_dead_strip plt__rgctx_fetch_5
+plt__rgctx_fetch_5:
+_p_78:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 2300
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
-_p_87:
+.word 2251
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
+_p_79:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 2308
-	.no_dead_strip plt__rgctx_fetch_12
-plt__rgctx_fetch_12:
-_p_88:
+.word 2259
+	.no_dead_strip plt__rgctx_fetch_6
+plt__rgctx_fetch_6:
+_p_80:
 adrp x16, mono_aot_ETraffic_got@PAGE+0
 add x16, x16, mono_aot_ETraffic_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 2328
+.word 2285
+	.no_dead_strip plt__rgctx_fetch_7
+plt__rgctx_fetch_7:
+_p_81:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1704]
+br x16
+.word 2300
+	.no_dead_strip plt__rgctx_fetch_8
+plt__rgctx_fetch_8:
+_p_82:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1712]
+br x16
+.word 2308
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
+plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
+_p_83:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1720]
+br x16
+.word 2331
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
+_p_84:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1728]
+br x16
+.word 2334
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
+_p_85:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1736]
+br x16
+.word 2337
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
+plt_System_Threading_Tasks_Task_get_Id:
+_p_86:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1744]
+br x16
+.word 2340
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
+_p_87:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1752]
+br x16
+.word 2343
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
+_p_88:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1760]
+br x16
+.word 2346
+	.no_dead_strip plt__rgctx_fetch_9
+plt__rgctx_fetch_9:
+_p_89:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1768]
+br x16
+.word 2370
+	.no_dead_strip plt__rgctx_fetch_10
+plt__rgctx_fetch_10:
+_p_90:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1776]
+br x16
+.word 2382
+	.no_dead_strip plt__rgctx_fetch_11
+plt__rgctx_fetch_11:
+_p_91:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1784]
+br x16
+.word 2394
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
+_p_92:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1792]
+br x16
+.word 2402
+	.no_dead_strip plt__rgctx_fetch_12
+plt__rgctx_fetch_12:
+_p_93:
+adrp x16, mono_aot_ETraffic_got@PAGE+0
+add x16, x16, mono_aot_ETraffic_got@PAGEOFF
+ldr x16, [x16, #1800]
+br x16
+.word 2422
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_ETraffic_got, 1704
+.lcomm mono_aot_ETraffic_got, 1808
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -8558,7 +8977,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "BDB8AD08-D07A-48E4-9BF8-96833C568320"
+	.asciz "8ECFCC26-4094-4AA3-BFC7-46C4F5BAB755"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -8637,13 +9056,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 124,1704,89,65,70,391195135,0,12934
-	.long 128,8,8,8,0,25,14904,1960
-	.long 1248,840,0,1080,1216,896,0,640
-	.long 104,1952,0,0,0,0,0,0
+	.long 132,1808,94,70,70,391195135,0,13939
+	.long 128,8,8,8,0,25,15976,2024
+	.long 1312,856,0,1136,1280,944,0,656
+	.long 120,2016,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 167,78,90,253,199,41,253,60,170,193,122,20,124,158,145,120
+	.byte 82,143,182,249,167,15,222,239,19,91,145,131,102,76,95,97
 	.globl _mono_aot_module_ETraffic_info
 	.align 3
 _mono_aot_module_ETraffic_info:
@@ -15131,6 +15550,246 @@ LDIFF_SYM999=Lme_1e - ETraffic_ViewController_ReleaseDesignerOutlets
 Lfde30_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_132:
+
+	.byte 5
+	.asciz "WebKit_WKWebView"
+
+	.byte 48,16
+LDIFF_SYM1000=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1000
+	.byte 2,35,0,0,7
+	.asciz "WebKit_WKWebView"
+
+LDIFF_SYM1001=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM1001
+LTDIE_132_POINTER:
+
+	.byte 13
+LDIFF_SYM1002=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM1002
+LTDIE_132_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1003=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM1003
+LTDIE_131:
+
+	.byte 5
+	.asciz "ETraffic_ViewControllerPay"
+
+	.byte 64,16
+LDIFF_SYM1004=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1004
+	.byte 2,35,0,6
+	.asciz "<WebView1>k__BackingField"
+
+LDIFF_SYM1005=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1005
+	.byte 2,35,56,0,7
+	.asciz "ETraffic_ViewControllerPay"
+
+LDIFF_SYM1006=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM1006
+LTDIE_131_POINTER:
+
+	.byte 13
+LDIFF_SYM1007=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM1007
+LTDIE_131_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1008=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM1008
+	.byte 2
+	.asciz "ETraffic.ViewControllerPay:.ctor"
+	.asciz "ETraffic_ViewControllerPay__ctor_intptr"
+
+	.byte 5,9
+	.quad ETraffic_ViewControllerPay__ctor_intptr
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1009=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1009
+	.byte 2,141,16,3
+	.asciz "handle"
+
+LDIFF_SYM1010=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1010
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1011=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM1011
+Lfde31_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewControllerPay__ctor_intptr
+
+LDIFF_SYM1012=Lme_1f - ETraffic_ViewControllerPay__ctor_intptr
+	.long LDIFF_SYM1012
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde31_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ETraffic.ViewControllerPay:ViewDidLoad"
+	.asciz "ETraffic_ViewControllerPay_ViewDidLoad"
+
+	.byte 5,14
+	.quad ETraffic_ViewControllerPay_ViewDidLoad
+	.quad Lme_20
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1013=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1013
+	.byte 1,106,11
+	.asciz "url"
+
+LDIFF_SYM1014=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1014
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1015=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1015
+Lfde32_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewControllerPay_ViewDidLoad
+
+LDIFF_SYM1016=Lme_20 - ETraffic_ViewControllerPay_ViewDidLoad
+	.long LDIFF_SYM1016
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
+	.align 3
+Lfde32_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ETraffic.ViewControllerPay:get_WebView1"
+	.asciz "ETraffic_ViewControllerPay_get_WebView1"
+
+	.byte 6,19
+	.quad ETraffic_ViewControllerPay_get_WebView1
+	.quad Lme_21
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1017=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1017
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1018=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1018
+Lfde33_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewControllerPay_get_WebView1
+
+LDIFF_SYM1019=Lme_21 - ETraffic_ViewControllerPay_get_WebView1
+	.long LDIFF_SYM1019
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde33_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ETraffic.ViewControllerPay:set_WebView1"
+	.asciz "ETraffic_ViewControllerPay_set_WebView1_WebKit_WKWebView"
+
+	.byte 6,19
+	.quad ETraffic_ViewControllerPay_set_WebView1_WebKit_WKWebView
+	.quad Lme_22
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1020=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1020
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM1021=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1021
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1022=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1022
+Lfde34_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewControllerPay_set_WebView1_WebKit_WKWebView
+
+LDIFF_SYM1023=Lme_22 - ETraffic_ViewControllerPay_set_WebView1_WebKit_WKWebView
+	.long LDIFF_SYM1023
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde34_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ETraffic.ViewControllerPay:ReleaseDesignerOutlets"
+	.asciz "ETraffic_ViewControllerPay_ReleaseDesignerOutlets"
+
+	.byte 6,22
+	.quad ETraffic_ViewControllerPay_ReleaseDesignerOutlets
+	.quad Lme_23
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1024=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1024
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1025=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1025
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1026=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM1026
+Lfde35_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewControllerPay_ReleaseDesignerOutlets
+
+LDIFF_SYM1027=Lme_23 - ETraffic_ViewControllerPay_ReleaseDesignerOutlets
+	.long LDIFF_SYM1027
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
+	.align 3
+Lfde35_end:
+
+.section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "ETraffic.ViewController/<WaitScan>d__6:.ctor"
@@ -15138,31 +15797,31 @@ Lfde30_end:
 
 	.byte 0,0
 	.quad ETraffic_ViewController__WaitScand__6__ctor
-	.quad Lme_1f
+	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1000=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1000
+LDIFF_SYM1028=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1028
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1001=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM1001
-Lfde31_start:
+LDIFF_SYM1029=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM1029
+Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad ETraffic_ViewController__WaitScand__6__ctor
 
-LDIFF_SYM1002=Lme_1f - ETraffic_ViewController__WaitScand__6__ctor
-	.long LDIFF_SYM1002
+LDIFF_SYM1030=Lme_24 - ETraffic_ViewController__WaitScand__6__ctor
+	.long LDIFF_SYM1030
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde31_end:
+Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15172,59 +15831,59 @@ Lfde31_end:
 
 	.byte 3,0
 	.quad ETraffic_ViewController__WaitScand__6_MoveNext
-	.quad Lme_20
+	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1003=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1003
+LDIFF_SYM1031=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1031
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM1004=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1004
+LDIFF_SYM1032=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1032
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM1005=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1005
+LDIFF_SYM1033=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1033
 	.byte 3,141,232,0,11
 	.asciz "V_2"
 
-LDIFF_SYM1006=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1006
+LDIFF_SYM1034=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1034
 	.byte 3,141,240,0,11
 	.asciz "V_3"
 
-LDIFF_SYM1007=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1007
+LDIFF_SYM1035=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1035
 	.byte 1,105,11
 	.asciz "V_4"
 
-LDIFF_SYM1008=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1008
+LDIFF_SYM1036=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1036
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1009=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM1009
-Lfde32_start:
+LDIFF_SYM1037=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1037
+Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad ETraffic_ViewController__WaitScand__6_MoveNext
 
-LDIFF_SYM1010=Lme_20 - ETraffic_ViewController__WaitScand__6_MoveNext
-	.long LDIFF_SYM1010
+LDIFF_SYM1038=Lme_25 - ETraffic_ViewController__WaitScand__6_MoveNext
+	.long LDIFF_SYM1038
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,151,24,152,23,68,153,22,154,21
 	.align 3
-Lfde32_end:
+Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_131:
+LTDIE_133:
 
 	.byte 17
 	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
@@ -15232,54 +15891,54 @@ LTDIE_131:
 	.byte 16,7
 	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
 
-LDIFF_SYM1011=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1011
-LTDIE_131_POINTER:
+LDIFF_SYM1039=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1039
+LTDIE_133_POINTER:
 
 	.byte 13
-LDIFF_SYM1012=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1012
-LTDIE_131_REFERENCE:
+LDIFF_SYM1040=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1040
+LTDIE_133_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1013=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1013
+LDIFF_SYM1041=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1041
 	.byte 2
 	.asciz "ETraffic.ViewController/<WaitScan>d__6:SetStateMachine"
 	.asciz "ETraffic_ViewController__WaitScand__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
 	.byte 0,0
 	.quad ETraffic_ViewController__WaitScand__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_21
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1014=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1014
+LDIFF_SYM1042=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1042
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1015=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1015
+LDIFF_SYM1043=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1043
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1016=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM1016
-Lfde33_start:
+LDIFF_SYM1044=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM1044
+Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad ETraffic_ViewController__WaitScand__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1017=Lme_21 - ETraffic_ViewController__WaitScand__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1017
+LDIFF_SYM1045=Lme_26 - ETraffic_ViewController__WaitScand__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1045
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde33_end:
+Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15289,250 +15948,14 @@ Lfde33_end:
 
 	.byte 0,0
 	.quad ETraffic_ViewController__WaitPaymentResultd__7__ctor
-	.quad Lme_22
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1018=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1018
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1019=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM1019
-Lfde34_start:
-
-	.long 0
-	.align 3
-	.quad ETraffic_ViewController__WaitPaymentResultd__7__ctor
-
-LDIFF_SYM1020=Lme_22 - ETraffic_ViewController__WaitPaymentResultd__7__ctor
-	.long LDIFF_SYM1020
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde34_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "ETraffic.ViewController/<WaitPaymentResult>d__7:MoveNext"
-	.asciz "ETraffic_ViewController__WaitPaymentResultd__7_MoveNext"
-
-	.byte 3,0
-	.quad ETraffic_ViewController__WaitPaymentResultd__7_MoveNext
-	.quad Lme_23
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1021=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1021
-	.byte 3,141,208,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1022=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1022
-	.byte 1,106,11
-	.asciz "V_1"
-
-LDIFF_SYM1023=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1023
-	.byte 3,141,168,1,11
-	.asciz "V_2"
-
-LDIFF_SYM1024=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1024
-	.byte 3,141,176,1,11
-	.asciz "V_3"
-
-LDIFF_SYM1025=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1025
-	.byte 3,141,160,1,11
-	.asciz "V_4"
-
-LDIFF_SYM1026=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1026
-	.byte 1,105,11
-	.asciz "V_5"
-
-LDIFF_SYM1027=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1027
-	.byte 3,141,184,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1028=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM1028
-Lfde35_start:
-
-	.long 0
-	.align 3
-	.quad ETraffic_ViewController__WaitPaymentResultd__7_MoveNext
-
-LDIFF_SYM1029=Lme_23 - ETraffic_ViewController__WaitPaymentResultd__7_MoveNext
-	.long LDIFF_SYM1029
-	.long 0
-	.byte 12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39,68,153,38
-	.byte 154,37
-	.align 3
-Lfde35_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "ETraffic.ViewController/<WaitPaymentResult>d__7:SetStateMachine"
-	.asciz "ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
-
-	.byte 0,0
-	.quad ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_24
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1030=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1030
-	.byte 2,141,16,3
-	.asciz "stateMachine"
-
-LDIFF_SYM1031=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1031
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1032=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM1032
-Lfde36_start:
-
-	.long 0
-	.align 3
-	.quad ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-
-LDIFF_SYM1033=Lme_24 - ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1033
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde36_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "ETraffic.ViewController/<WaitGetBalance>d__8:.ctor"
-	.asciz "ETraffic_ViewController__WaitGetBalanced__8__ctor"
-
-	.byte 0,0
-	.quad ETraffic_ViewController__WaitGetBalanced__8__ctor
-	.quad Lme_25
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1034=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1034
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1035=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1035
-Lfde37_start:
-
-	.long 0
-	.align 3
-	.quad ETraffic_ViewController__WaitGetBalanced__8__ctor
-
-LDIFF_SYM1036=Lme_25 - ETraffic_ViewController__WaitGetBalanced__8__ctor
-	.long LDIFF_SYM1036
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde37_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "ETraffic.ViewController/<WaitGetBalance>d__8:MoveNext"
-	.asciz "ETraffic_ViewController__WaitGetBalanced__8_MoveNext"
-
-	.byte 3,0
-	.quad ETraffic_ViewController__WaitGetBalanced__8_MoveNext
-	.quad Lme_26
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1037=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1037
-	.byte 3,141,200,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1038=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1038
-	.byte 1,106,11
-	.asciz "V_1"
-
-LDIFF_SYM1039=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1039
-	.byte 3,141,160,1,11
-	.asciz "V_2"
-
-LDIFF_SYM1040=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1040
-	.byte 3,141,168,1,11
-	.asciz "V_3"
-
-LDIFF_SYM1041=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1041
-	.byte 3,141,152,1,11
-	.asciz "V_4"
-
-LDIFF_SYM1042=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1042
-	.byte 3,141,176,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1043=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM1043
-Lfde38_start:
-
-	.long 0
-	.align 3
-	.quad ETraffic_ViewController__WaitGetBalanced__8_MoveNext
-
-LDIFF_SYM1044=Lme_26 - ETraffic_ViewController__WaitGetBalanced__8_MoveNext
-	.long LDIFF_SYM1044
-	.long 0
-	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,148,40,149,39,68,150,38,151,37,68,152,36,153,35,68,154,34
-	.align 3
-Lfde38_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "ETraffic.ViewController/<WaitGetBalance>d__8:SetStateMachine"
-	.asciz "ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
-
-	.byte 0,0
-	.quad ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1045=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1045
-	.byte 2,141,16,3
-	.asciz "stateMachine"
-
-LDIFF_SYM1046=LTDIE_131_REFERENCE - Ldebug_info_start
+LDIFF_SYM1046=LTDIE_35_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1046
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -15542,622 +15965,360 @@ Lfde39_start:
 
 	.long 0
 	.align 3
-	.quad ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad ETraffic_ViewController__WaitPaymentResultd__7__ctor
 
-LDIFF_SYM1048=Lme_27 - ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+LDIFF_SYM1048=Lme_27 - ETraffic_ViewController__WaitPaymentResultd__7__ctor
 	.long LDIFF_SYM1048
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_132:
+
+	.byte 2
+	.asciz "ETraffic.ViewController/<WaitPaymentResult>d__7:MoveNext"
+	.asciz "ETraffic_ViewController__WaitPaymentResultd__7_MoveNext"
+
+	.byte 3,0
+	.quad ETraffic_ViewController__WaitPaymentResultd__7_MoveNext
+	.quad Lme_28
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1049=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1049
+	.byte 3,141,208,0,11
+	.asciz "V_0"
+
+LDIFF_SYM1050=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1050
+	.byte 1,106,11
+	.asciz "V_1"
+
+LDIFF_SYM1051=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1051
+	.byte 3,141,168,1,11
+	.asciz "V_2"
+
+LDIFF_SYM1052=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1052
+	.byte 3,141,176,1,11
+	.asciz "V_3"
+
+LDIFF_SYM1053=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1053
+	.byte 3,141,160,1,11
+	.asciz "V_4"
+
+LDIFF_SYM1054=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1054
+	.byte 1,105,11
+	.asciz "V_5"
+
+LDIFF_SYM1055=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1055
+	.byte 3,141,184,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1056=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1056
+Lfde40_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewController__WaitPaymentResultd__7_MoveNext
+
+LDIFF_SYM1057=Lme_28 - ETraffic_ViewController__WaitPaymentResultd__7_MoveNext
+	.long LDIFF_SYM1057
+	.long 0
+	.byte 12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39,68,153,38
+	.byte 154,37
+	.align 3
+Lfde40_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ETraffic.ViewController/<WaitPaymentResult>d__7:SetStateMachine"
+	.asciz "ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_29
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1058=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1058
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1059=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1059
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1060=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1060
+Lfde41_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM1061=Lme_29 - ETraffic_ViewController__WaitPaymentResultd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1061
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde41_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ETraffic.ViewController/<WaitGetBalance>d__8:.ctor"
+	.asciz "ETraffic_ViewController__WaitGetBalanced__8__ctor"
+
+	.byte 0,0
+	.quad ETraffic_ViewController__WaitGetBalanced__8__ctor
+	.quad Lme_2a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1062=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1062
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1063=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1063
+Lfde42_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewController__WaitGetBalanced__8__ctor
+
+LDIFF_SYM1064=Lme_2a - ETraffic_ViewController__WaitGetBalanced__8__ctor
+	.long LDIFF_SYM1064
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde42_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ETraffic.ViewController/<WaitGetBalance>d__8:MoveNext"
+	.asciz "ETraffic_ViewController__WaitGetBalanced__8_MoveNext"
+
+	.byte 3,0
+	.quad ETraffic_ViewController__WaitGetBalanced__8_MoveNext
+	.quad Lme_2b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1065=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1065
+	.byte 3,141,200,0,11
+	.asciz "V_0"
+
+LDIFF_SYM1066=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1066
+	.byte 1,106,11
+	.asciz "V_1"
+
+LDIFF_SYM1067=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1067
+	.byte 3,141,160,1,11
+	.asciz "V_2"
+
+LDIFF_SYM1068=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1068
+	.byte 3,141,168,1,11
+	.asciz "V_3"
+
+LDIFF_SYM1069=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1069
+	.byte 3,141,152,1,11
+	.asciz "V_4"
+
+LDIFF_SYM1070=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1070
+	.byte 3,141,176,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1071=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1071
+Lfde43_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewController__WaitGetBalanced__8_MoveNext
+
+LDIFF_SYM1072=Lme_2b - ETraffic_ViewController__WaitGetBalanced__8_MoveNext
+	.long LDIFF_SYM1072
+	.long 0
+	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,148,40,149,39,68,150,38,151,37,68,152,36,153,35,68,154,34
+	.align 3
+Lfde43_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ETraffic.ViewController/<WaitGetBalance>d__8:SetStateMachine"
+	.asciz "ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_2c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1073=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1073
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1074=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1074
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1075=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1075
+Lfde44_start:
+
+	.long 0
+	.align 3
+	.quad ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM1076=Lme_2c - ETraffic_ViewController__WaitGetBalanced__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1076
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde44_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_134:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1049=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1049
+LDIFF_SYM1077=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1077
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1050=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM1050
-LTDIE_132_POINTER:
+LDIFF_SYM1078=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1078
+LTDIE_134_POINTER:
 
 	.byte 13
-LDIFF_SYM1051=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM1051
-LTDIE_132_REFERENCE:
+LDIFF_SYM1079=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1079
+LTDIE_134_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1052=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM1052
-LTDIE_133:
+LDIFF_SYM1080=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1080
+LTDIE_135:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM1053=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1053
+LDIFF_SYM1081=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1081
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1054=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1054
-LTDIE_133_POINTER:
+LDIFF_SYM1082=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1082
+LTDIE_135_POINTER:
 
 	.byte 13
-LDIFF_SYM1055=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1055
-LTDIE_133_REFERENCE:
+LDIFF_SYM1083=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1083
+LTDIE_135_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1056=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1056
+LDIFF_SYM1084=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1084
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_ZXing.Result>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_object
-	.quad Lme_29
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1057=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1057
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1058=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1058
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1059=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1059
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1060=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1060
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1061=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1061
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1062=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1062
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1063=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1063
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1064=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1064
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1065=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1065
-Lfde40_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_object
-
-LDIFF_SYM1066=Lme_29 - wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_object
-	.long LDIFF_SYM1066
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde40_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_134:
-
-	.byte 5
-	.asciz "System_Func`1"
-
-	.byte 112,16
-LDIFF_SYM1067=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1067
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
-
-LDIFF_SYM1068=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1068
-LTDIE_134_POINTER:
-
-	.byte 13
-LDIFF_SYM1069=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1069
-LTDIE_134_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1070=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1070
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<ZXing.Result>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult
-	.quad Lme_2a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1071=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1071
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1072=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1072
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM1073=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1073
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM1074=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1074
-	.byte 1,103,11
-	.asciz "V_3"
-
-LDIFF_SYM1075=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1075
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM1076=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1076
-	.byte 1,101,11
-	.asciz "V_5"
-
-LDIFF_SYM1077=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1077
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1078=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1078
-Lfde41_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult
-
-LDIFF_SYM1079=Lme_2a - wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult
-	.long LDIFF_SYM1079
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde41_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_135:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 112,16
-LDIFF_SYM1080=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1080
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1081=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1081
-LTDIE_135_POINTER:
-
-	.byte 13
-LDIFF_SYM1082=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1082
-LTDIE_135_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1083=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1083
-LTDIE_136:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_Task`1"
-
-	.byte 80,16
-LDIFF_SYM1084=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1084
-	.byte 2,35,0,6
-	.asciz "m_result"
-
-LDIFF_SYM1085=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1085
-	.byte 2,35,72,0,7
-	.asciz "System_Threading_Tasks_Task`1"
-
-LDIFF_SYM1086=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1086
-LTDIE_136_POINTER:
-
-	.byte 13
-LDIFF_SYM1087=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1087
-LTDIE_136_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1088=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1088
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<ZXing.Result>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result
-	.quad Lme_2b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1089=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1089
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1090=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1090
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1091=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1091
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1092=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1092
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1093=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1093
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1094=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1094
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1095=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1095
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1096=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM1096
-Lfde42_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result
-
-LDIFF_SYM1097=Lme_2b - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result
-	.long LDIFF_SYM1097
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde42_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_137:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 112,16
-LDIFF_SYM1098=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1098
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1099=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1099
-LTDIE_137_POINTER:
-
-	.byte 13
-LDIFF_SYM1100=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1100
-LTDIE_137_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1101=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1101
-LTDIE_138:
-
-	.byte 17
-	.asciz "System_IAsyncResult"
-
-	.byte 16,7
-	.asciz "System_IAsyncResult"
-
-LDIFF_SYM1102=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1102
-LTDIE_138_POINTER:
-
-	.byte 13
-LDIFF_SYM1103=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1103
-LTDIE_138_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1104=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1104
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_ZXing.Result>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_2c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1105=LTDIE_137_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1105
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1106=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1106
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1107=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1107
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1108=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1108
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1109=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1109
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1110=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1110
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1111=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1111
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1112=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1112
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1113=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM1113
-Lfde43_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult
-
-LDIFF_SYM1114=Lme_2c - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1114
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde43_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_139:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 112,16
-LDIFF_SYM1115=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1115
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1116=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM1116
-LTDIE_139_POINTER:
-
-	.byte 13
-LDIFF_SYM1117=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM1117
-LTDIE_139_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1118=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM1118
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.quad Lme_2d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1119=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1119
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1120=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1120
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1121=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1121
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1122=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1122
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1123=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1123
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1124=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1124
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1125=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1125
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1126=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM1126
-Lfde44_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-
-LDIFF_SYM1127=Lme_2d - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.long LDIFF_SYM1127
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde44_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_140:
-
-	.byte 5
-	.asciz "System_Func`3"
-
-	.byte 112,16
-LDIFF_SYM1128=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1128
-	.byte 2,35,0,0,7
-	.asciz "System_Func`3"
-
-LDIFF_SYM1129=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1129
-LTDIE_140_POINTER:
-
-	.byte 13
-LDIFF_SYM1130=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1130
-LTDIE_140_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1131=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1131
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
-	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1132=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1132
-	.byte 1,104,3
+LDIFF_SYM1085=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1085
+	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1133=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1133
-	.byte 1,105,3
-	.asciz "param1"
-
-LDIFF_SYM1134=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1134
+LDIFF_SYM1086=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1135=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1135
-	.byte 1,103,11
+LDIFF_SYM1087=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1087
+	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1136=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1136
-	.byte 1,102,11
+LDIFF_SYM1088=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1088
+	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1137=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1137
-	.byte 1,101,11
+LDIFF_SYM1089=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1089
+	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1138=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1138
-	.byte 1,100,11
+LDIFF_SYM1090=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1090
+	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1139=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1139
-	.byte 1,99,11
+LDIFF_SYM1091=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1091
+	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1140=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1140
-	.byte 3,141,232,0,0
+LDIFF_SYM1092=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1092
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1141=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM1141
+LDIFF_SYM1093=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1093
 Lfde45_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_object
 
-LDIFF_SYM1142=Lme_2e - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.long LDIFF_SYM1142
+LDIFF_SYM1094=Lme_2e - wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_object
+	.long LDIFF_SYM1094
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -16165,75 +16326,573 @@ LDIFF_SYM1142=Lme_2e - wrapper_delegate_invoke_System_Func_3_System_AsyncCallbac
 Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_141:
+LTDIE_136:
 
 	.byte 5
-	.asciz "_InternalEnumerator`1"
+	.asciz "System_Func`1"
 
-	.byte 32,16
-LDIFF_SYM1143=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1143
-	.byte 2,35,0,6
-	.asciz "array"
+	.byte 112,16
+LDIFF_SYM1095=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1095
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
 
-LDIFF_SYM1144=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1144
-	.byte 2,35,16,6
-	.asciz "idx"
-
-LDIFF_SYM1145=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1145
-	.byte 2,35,24,0,7
-	.asciz "_InternalEnumerator`1"
-
-LDIFF_SYM1146=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1146
-LTDIE_141_POINTER:
+LDIFF_SYM1096=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1096
+LTDIE_136_POINTER:
 
 	.byte 13
-LDIFF_SYM1147=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1147
-LTDIE_141_REFERENCE:
+LDIFF_SYM1097=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1097
+LTDIE_136_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1148=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1148
+LDIFF_SYM1098=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1098
 	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
-	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<ZXing.Result>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult"
 
-	.byte 5,217,1
-	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult
+	.quad Lme_2f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1099=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1099
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1100=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1100
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM1101=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1101
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1102=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1102
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1103=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1103
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1104=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1104
+	.byte 1,101,11
+	.asciz "V_5"
+
+LDIFF_SYM1105=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1105
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1106=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1106
+Lfde46_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult
+
+LDIFF_SYM1107=Lme_2f - wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult
+	.long LDIFF_SYM1107
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde46_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_137:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1108=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1108
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1109=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1109
+LTDIE_137_POINTER:
+
+	.byte 13
+LDIFF_SYM1110=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1110
+LTDIE_137_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1111=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1111
+LTDIE_138:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1112=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1112
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1113=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1113
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1114=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1114
+LTDIE_138_POINTER:
+
+	.byte 13
+LDIFF_SYM1115=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1115
+LTDIE_138_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1116=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1116
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<ZXing.Result>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result
 	.quad Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1149=LDIE_I - Ldebug_info_start
+LDIFF_SYM1117=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1117
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1118=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1118
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1119=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1119
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1120=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1120
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1121=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1121
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1122=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1122
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1123=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1123
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1124=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM1124
+Lfde47_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result
+
+LDIFF_SYM1125=Lme_30 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result
+	.long LDIFF_SYM1125
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde47_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_139:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM1126=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1126
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1127=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1127
+LTDIE_139_POINTER:
+
+	.byte 13
+LDIFF_SYM1128=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1128
+LTDIE_139_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1129=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1129
+LTDIE_140:
+
+	.byte 17
+	.asciz "System_IAsyncResult"
+
+	.byte 16,7
+	.asciz "System_IAsyncResult"
+
+LDIFF_SYM1130=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1130
+LTDIE_140_POINTER:
+
+	.byte 13
+LDIFF_SYM1131=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1131
+LTDIE_140_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1132=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1132
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_ZXing.Result>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult
+	.quad Lme_31
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1133=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1133
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1134=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1134
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1135=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1135
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1136=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1136
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1137=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1137
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1138=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1138
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1139=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1139
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1140=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1140
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1141=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM1141
+Lfde48_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult
+
+LDIFF_SYM1142=Lme_31 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1142
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde48_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_141:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1143=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1143
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1144=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1144
+LTDIE_141_POINTER:
+
+	.byte 13
+LDIFF_SYM1145=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1145
+LTDIE_141_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1146=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1146
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.quad Lme_32
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1147=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1147
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1148=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1148
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1149=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1149
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1150=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1150
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1151=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1151
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1152=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1152
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1153=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1153
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1154=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM1154
+Lfde49_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+
+LDIFF_SYM1155=Lme_32 - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.long LDIFF_SYM1155
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde49_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_142:
+
+	.byte 5
+	.asciz "System_Func`3"
+
+	.byte 112,16
+LDIFF_SYM1156=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1156
+	.byte 2,35,0,0,7
+	.asciz "System_Func`3"
+
+LDIFF_SYM1157=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1157
+LTDIE_142_POINTER:
+
+	.byte 13
+LDIFF_SYM1158=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1158
+LTDIE_142_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1159=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1159
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
+	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.quad Lme_33
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1160=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1160
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM1161=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1161
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM1162=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1162
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1163=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1163
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1164=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1164
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM1165=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1165
+	.byte 1,101,11
+	.asciz "V_3"
+
+LDIFF_SYM1166=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1166
+	.byte 1,100,11
+	.asciz "V_4"
+
+LDIFF_SYM1167=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1167
+	.byte 1,99,11
+	.asciz "V_5"
+
+LDIFF_SYM1168=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1168
+	.byte 3,141,232,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1169=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM1169
+Lfde50_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+
+LDIFF_SYM1170=Lme_33 - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM1170
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde50_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_143:
+
+	.byte 5
+	.asciz "_InternalEnumerator`1"
+
+	.byte 32,16
+LDIFF_SYM1171=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1171
+	.byte 2,35,0,6
+	.asciz "array"
+
+LDIFF_SYM1172=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1172
+	.byte 2,35,16,6
+	.asciz "idx"
+
+LDIFF_SYM1173=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1173
+	.byte 2,35,24,0,7
+	.asciz "_InternalEnumerator`1"
+
+LDIFF_SYM1174=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1174
+LTDIE_143_POINTER:
+
+	.byte 13
+LDIFF_SYM1175=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1175
+LTDIE_143_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1176=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1176
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
+	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array"
+
+	.byte 7,217,1
+	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+	.quad Lme_35
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1177=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1177
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1150=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1150
+LDIFF_SYM1178=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1178
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1151=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM1151
-Lfde46_start:
+LDIFF_SYM1179=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM1179
+Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 
-LDIFF_SYM1152=Lme_30 - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.long LDIFF_SYM1152
+LDIFF_SYM1180=Lme_35 - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+	.long LDIFF_SYM1180
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde46_end:
+Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16241,33 +16900,33 @@ Lfde46_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:Dispose"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_Dispose"
 
-	.byte 5,223,1
+	.byte 7,223,1
 	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
-	.quad Lme_31
+	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1153=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1181=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1181
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1154=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM1154
-Lfde47_start:
+LDIFF_SYM1182=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM1182
+Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
 
-LDIFF_SYM1155=Lme_31 - System_Array_InternalEnumerator_1_T_INST_Dispose
-	.long LDIFF_SYM1155
+LDIFF_SYM1183=Lme_36 - System_Array_InternalEnumerator_1_T_INST_Dispose
+	.long LDIFF_SYM1183
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde47_end:
+Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16275,38 +16934,38 @@ Lfde47_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:MoveNext"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_MoveNext"
 
-	.byte 5,227,1
+	.byte 7,227,1
 	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.quad Lme_32
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1156=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1156
+LDIFF_SYM1184=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1184
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1157=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1185=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1185
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1158=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM1158
-Lfde48_start:
+LDIFF_SYM1186=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM1186
+Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
 
-LDIFF_SYM1159=Lme_32 - System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.long LDIFF_SYM1159
+LDIFF_SYM1187=Lme_37 - System_Array_InternalEnumerator_1_T_INST_MoveNext
+	.long LDIFF_SYM1187
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde48_end:
+Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16314,33 +16973,33 @@ Lfde48_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:get_Current"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_get_Current"
 
-	.byte 5,235,1
+	.byte 7,235,1
 	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
-	.quad Lme_33
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1160=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1188=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1161=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM1161
-Lfde49_start:
+LDIFF_SYM1189=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM1189
+Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
 
-LDIFF_SYM1162=Lme_33 - System_Array_InternalEnumerator_1_T_INST_get_Current
-	.long LDIFF_SYM1162
+LDIFF_SYM1190=Lme_38 - System_Array_InternalEnumerator_1_T_INST_get_Current
+	.long LDIFF_SYM1190
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 	.align 3
-Lfde49_end:
+Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16348,33 +17007,33 @@ Lfde49_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.Reset"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset"
 
-	.byte 5,246,1
+	.byte 7,246,1
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.quad Lme_34
+	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1163=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1191=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1191
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1164=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM1164
-Lfde50_start:
+LDIFF_SYM1192=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM1192
+Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM1165=Lme_34 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM1165
+LDIFF_SYM1193=Lme_39 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM1193
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde50_end:
+Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16382,33 +17041,33 @@ Lfde50_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.get_Current"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current"
 
-	.byte 5,251,1
+	.byte 7,251,1
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.quad Lme_35
+	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1166=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1166
+LDIFF_SYM1194=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1194
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1167=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM1167
-Lfde51_start:
+LDIFF_SYM1195=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM1195
+Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM1168=Lme_35 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1168
+LDIFF_SYM1196=Lme_3a - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1196
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde51_end:
+Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16416,523 +17075,339 @@ Lfde51_end:
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_INST>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST"
 
-	.byte 5,70
+	.byte 7,70
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.quad Lme_36
+	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1169=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1197=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1197
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1170=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM1170
-Lfde52_start:
+LDIFF_SYM1198=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM1198
+Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 
-LDIFF_SYM1171=Lme_36 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.long LDIFF_SYM1171
+LDIFF_SYM1199=Lme_3b - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
+	.long LDIFF_SYM1199
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde52_end:
+Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_142:
+LTDIE_144:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1172=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1200=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1200
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1173=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1173
-LTDIE_142_POINTER:
+LDIFF_SYM1201=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1201
+LTDIE_144_POINTER:
 
 	.byte 13
-LDIFF_SYM1174=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1174
-LTDIE_142_REFERENCE:
+LDIFF_SYM1202=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1202
+LTDIE_144_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1175=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1203=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1203
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Net.Http.HttpResponseMessage>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
-	.quad Lme_37
+	.quad Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1176=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1176
+LDIFF_SYM1204=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1204
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1177=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1177
+LDIFF_SYM1205=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1205
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1178=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1178
+LDIFF_SYM1206=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1206
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1179=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1207=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1207
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1180=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1180
+LDIFF_SYM1208=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1208
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1181=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1181
+LDIFF_SYM1209=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1182=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1182
+LDIFF_SYM1210=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1183=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1211=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1211
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1184=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM1184
-Lfde53_start:
+LDIFF_SYM1212=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM1212
+Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
 
-LDIFF_SYM1185=Lme_37 - wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
-	.long LDIFF_SYM1185
+LDIFF_SYM1213=Lme_3c - wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
+	.long LDIFF_SYM1213
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde53_end:
+Lfde58_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_143:
+LTDIE_145:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1186=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1214=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1187=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM1187
-LTDIE_143_POINTER:
+LDIFF_SYM1215=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1215
+LTDIE_145_POINTER:
 
 	.byte 13
-LDIFF_SYM1188=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM1188
-LTDIE_143_REFERENCE:
+LDIFF_SYM1216=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1216
+LTDIE_145_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1189=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1217=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1217
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Net.Http.HttpResponseMessage>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
-	.quad Lme_38
+	.quad Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1190=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1218=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1218
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1191=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1191
+LDIFF_SYM1219=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1192=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1193=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1193
+LDIFF_SYM1221=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1221
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1194=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1194
+LDIFF_SYM1222=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1195=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1223=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1196=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1224=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1197=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM1197
-Lfde54_start:
+LDIFF_SYM1225=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM1225
+Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
 
-LDIFF_SYM1198=Lme_38 - wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
-	.long LDIFF_SYM1198
+LDIFF_SYM1226=Lme_3d - wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
+	.long LDIFF_SYM1226
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde54_end:
+Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_144:
+LTDIE_146:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1199=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1227=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1227
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1200=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1200
-LTDIE_144_POINTER:
+LDIFF_SYM1228=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1228
+LTDIE_146_POINTER:
 
 	.byte 13
-LDIFF_SYM1201=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1201
-LTDIE_144_REFERENCE:
+LDIFF_SYM1229=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1229
+LTDIE_146_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1202=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1202
-LTDIE_145:
+LDIFF_SYM1230=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1230
+LTDIE_147:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1203=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1231=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1231
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1204=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1232=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1205=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1205
-LTDIE_145_POINTER:
+LDIFF_SYM1233=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1233
+LTDIE_147_POINTER:
 
 	.byte 13
-LDIFF_SYM1206=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1206
-LTDIE_145_REFERENCE:
+LDIFF_SYM1234=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1234
+LTDIE_147_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1207=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1235=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
-	.quad Lme_39
+	.quad Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1208=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1236=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1236
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1209=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1209
+LDIFF_SYM1237=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1237
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1210=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1238=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1238
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1211=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1211
+LDIFF_SYM1239=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1239
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1212=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1212
+LDIFF_SYM1240=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1240
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1213=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1213
+LDIFF_SYM1241=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1241
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1214=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1242=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1215=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM1215
-Lfde55_start:
+LDIFF_SYM1243=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM1243
+Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
 
-LDIFF_SYM1216=Lme_39 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
-	.long LDIFF_SYM1216
+LDIFF_SYM1244=Lme_3e - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
+	.long LDIFF_SYM1244
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde55_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_146:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 112,16
-LDIFF_SYM1217=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1217
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1218=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1218
-LTDIE_146_POINTER:
-
-	.byte 13
-LDIFF_SYM1219=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1219
-LTDIE_146_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1220=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1220
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Net.Http.HttpResponseMessage>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_3a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1221=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1221
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1222=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1222
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1223=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1223
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1224=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1224
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1225=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1225
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1226=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1226
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1227=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1227
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1228=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1228
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1229=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM1229
-Lfde56_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
-
-LDIFF_SYM1230=Lme_3a - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1230
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde56_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_147:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 112,16
-LDIFF_SYM1231=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1231
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1232=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1232
-LTDIE_147_POINTER:
-
-	.byte 13
-LDIFF_SYM1233=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1233
-LTDIE_147_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1234=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1234
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_string>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
-	.quad Lme_3b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1235=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1235
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1236=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1236
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1237=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1237
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1238=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1238
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1239=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1239
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1240=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1240
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1241=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1241
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1242=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1242
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1243=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM1243
-Lfde57_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
-
-LDIFF_SYM1244=Lme_3b - wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
-	.long LDIFF_SYM1244
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde57_end:
+Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_148:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "System_Func`2"
 
 	.byte 112,16
 LDIFF_SYM1245=LTDIE_48 - Ldebug_info_start
 	.long LDIFF_SYM1245
 	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.asciz "System_Func`2"
 
 LDIFF_SYM1246=LTDIE_148 - Ldebug_info_start
 	.long LDIFF_SYM1246
@@ -16947,422 +17422,606 @@ LTDIE_148_REFERENCE:
 LDIFF_SYM1248=LTDIE_148 - Ldebug_info_start
 	.long LDIFF_SYM1248
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<string>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_string_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Net.Http.HttpResponseMessage>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
-	.quad Lme_3c
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
+	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM1249=LTDIE_148_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1249
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1250=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1250
 	.byte 1,106,11
 	.asciz "V_0"
-
-LDIFF_SYM1250=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1250
-	.byte 1,105,11
-	.asciz "V_1"
 
 LDIFF_SYM1251=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1251
 	.byte 1,104,11
-	.asciz "V_2"
+	.asciz "V_1"
 
-LDIFF_SYM1252=LTDIE_133_REFERENCE - Ldebug_info_start
+LDIFF_SYM1252=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1252
 	.byte 1,103,11
-	.asciz "V_3"
+	.asciz "V_2"
 
-LDIFF_SYM1253=LTDIE_48_REFERENCE - Ldebug_info_start
+LDIFF_SYM1253=LTDIE_135_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1253
 	.byte 1,102,11
-	.asciz "V_4"
+	.asciz "V_3"
 
-LDIFF_SYM1254=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1254=LTDIE_48_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1254
 	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1255=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1255
+	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1255=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1255
-	.byte 1,100,0
+LDIFF_SYM1256=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1256
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1256=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1256
-Lfde58_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
-
-LDIFF_SYM1257=Lme_3c - wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+LDIFF_SYM1257=Lfde61_end - Lfde61_start
 	.long LDIFF_SYM1257
+Lfde61_start:
+
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
 	.align 3
-Lfde58_end:
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
+
+LDIFF_SYM1258=Lme_3f - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1258
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_149:
 
 	.byte 5
-	.asciz "System_Action`1"
+	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1258=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1258
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1259=LTDIE_149 - Ldebug_info_start
+LDIFF_SYM1259=LTDIE_48 - Ldebug_info_start
 	.long LDIFF_SYM1259
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1260=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1260
 LTDIE_149_POINTER:
 
 	.byte 13
-LDIFF_SYM1260=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1260
+LDIFF_SYM1261=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1261
 LTDIE_149_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1261=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1262=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1262
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_string>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+	.quad Lme_40
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1263=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1263
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1264=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1264
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1265=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1265
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1266=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1266
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1267=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1267
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1268=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1268
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1269=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1269
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1270=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1270
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1271=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM1271
+Lfde62_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+
+LDIFF_SYM1272=Lme_40 - wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+	.long LDIFF_SYM1272
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde62_end:
+
+.section __DWARF, __debug_info,regular,debug
 LTDIE_150:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM1273=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1273
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1274=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1274
+LTDIE_150_POINTER:
+
+	.byte 13
+LDIFF_SYM1275=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1275
+LTDIE_150_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1276=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1276
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<string>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_string_invoke_TResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+	.quad Lme_41
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1277=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1277
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1278=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1278
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM1279=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1279
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1280=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1280
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1281=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1281
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1282=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1282
+	.byte 1,101,11
+	.asciz "V_5"
+
+LDIFF_SYM1283=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1283
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1284=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM1284
+Lfde63_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+
+LDIFF_SYM1285=Lme_41 - wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+	.long LDIFF_SYM1285
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde63_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_151:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1286=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1286
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1287=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1287
+LTDIE_151_POINTER:
+
+	.byte 13
+LDIFF_SYM1288=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1288
+LTDIE_151_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1289=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1289
+LTDIE_152:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1262=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1290=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1290
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1263=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1291=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1291
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1264=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1264
-LTDIE_150_POINTER:
+LDIFF_SYM1292=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1292
+LTDIE_152_POINTER:
 
 	.byte 13
-LDIFF_SYM1265=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1265
-LTDIE_150_REFERENCE:
+LDIFF_SYM1293=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1293
+LTDIE_152_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1266=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1266
+LDIFF_SYM1294=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<string>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
-	.quad Lme_3d
+	.quad Lme_42
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1267=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1267
+LDIFF_SYM1295=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1295
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1268=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1296=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1296
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1269=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1269
+LDIFF_SYM1297=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1297
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1270=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1270
+LDIFF_SYM1298=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1298
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1271=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1299=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1299
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1272=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1272
+LDIFF_SYM1300=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1300
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1273=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1273
+LDIFF_SYM1301=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1301
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1274=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1274
-Lfde59_start:
+LDIFF_SYM1302=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM1302
+Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
 
-LDIFF_SYM1275=Lme_3d - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
-	.long LDIFF_SYM1275
+LDIFF_SYM1303=Lme_42 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+	.long LDIFF_SYM1303
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde59_end:
+Lfde64_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_151:
+LTDIE_153:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1276=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1276
+LDIFF_SYM1304=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1304
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1277=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1277
-LTDIE_151_POINTER:
+LDIFF_SYM1305=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1305
+LTDIE_153_POINTER:
 
 	.byte 13
-LDIFF_SYM1278=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1278
-LTDIE_151_REFERENCE:
+LDIFF_SYM1306=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1306
+LTDIE_153_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1279=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1279
+LDIFF_SYM1307=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1307
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_string>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_3e
+	.quad Lme_43
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1280=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1280
+LDIFF_SYM1308=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1308
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1281=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1281
+LDIFF_SYM1309=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1309
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1282=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1282
+LDIFF_SYM1310=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1310
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1283=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1283
+LDIFF_SYM1311=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1311
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1284=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1284
+LDIFF_SYM1312=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1312
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1285=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1285
+LDIFF_SYM1313=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1313
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1286=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1286
+LDIFF_SYM1314=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1314
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1287=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1315=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1315
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1288=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM1288
-Lfde60_start:
+LDIFF_SYM1316=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM1316
+Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1289=Lme_3e - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1289
+LDIFF_SYM1317=Lme_43 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1317
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde60_end:
+Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_152:
+LTDIE_154:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
 	.byte 48,16
-LDIFF_SYM1290=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1290
+LDIFF_SYM1318=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1318
 	.byte 2,35,0,6
 	.asciz "m_synchronizationContext"
 
-LDIFF_SYM1291=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1291
+LDIFF_SYM1319=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1319
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM1292=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1292
+LDIFF_SYM1320=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1320
 	.byte 2,35,8,6
 	.asciz "m_task"
 
-LDIFF_SYM1293=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1293
+LDIFF_SYM1321=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 2,35,24,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
-LDIFF_SYM1294=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1294
-LTDIE_152_POINTER:
+LDIFF_SYM1322=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1322
+LTDIE_154_POINTER:
 
 	.byte 13
-LDIFF_SYM1295=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1295
-LTDIE_152_REFERENCE:
+LDIFF_SYM1323=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1323
+LTDIE_154_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1296=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1296
-LTDIE_153:
+LDIFF_SYM1324=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1324
+LTDIE_155:
 
 	.byte 5
 	.asciz "_MoveNextRunner"
 
 	.byte 32,16
-LDIFF_SYM1297=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1297
+LDIFF_SYM1325=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1325
 	.byte 2,35,0,6
 	.asciz "m_context"
 
-LDIFF_SYM1298=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1326=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1326
 	.byte 2,35,16,6
 	.asciz "m_stateMachine"
 
-LDIFF_SYM1299=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1299
+LDIFF_SYM1327=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1327
 	.byte 2,35,24,0,7
 	.asciz "_MoveNextRunner"
 
-LDIFF_SYM1300=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1300
-LTDIE_153_POINTER:
+LDIFF_SYM1328=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1328
+LTDIE_155_POINTER:
 
 	.byte 13
-LDIFF_SYM1301=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1301
-LTDIE_153_REFERENCE:
+LDIFF_SYM1329=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1329
+LTDIE_155_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1302=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1302
-LTDIE_154:
+LDIFF_SYM1330=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1330
+LTDIE_156:
 
 	.byte 5
 	.asciz "System_Action"
 
 	.byte 112,16
-LDIFF_SYM1303=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1331=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM1331
 	.byte 2,35,0,0,7
 	.asciz "System_Action"
 
-LDIFF_SYM1304=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1304
-LTDIE_154_POINTER:
+LDIFF_SYM1332=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1332
+LTDIE_156_POINTER:
 
 	.byte 13
-LDIFF_SYM1305=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1305
-LTDIE_154_REFERENCE:
+LDIFF_SYM1333=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1333
+LTDIE_156_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1306=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1306
+LDIFF_SYM1334=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1334
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:AwaitUnsafeOnCompleted<TAwaiter_INST,_TStateMachine_REF>"
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_"
 
-	.byte 6,161,1
+	.byte 8,161,1
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-	.quad Lme_3f
+	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1307=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1307
+LDIFF_SYM1335=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1335
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM1308=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1308
+LDIFF_SYM1336=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1336
 	.byte 3,141,208,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1309=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1309
+LDIFF_SYM1337=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1337
 	.byte 3,141,216,0,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM1310=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1310
+LDIFF_SYM1338=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1338
 	.byte 3,141,136,1,11
 	.asciz "continuation"
 
-LDIFF_SYM1311=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1311
+LDIFF_SYM1339=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1339
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1312=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM1312
-Lfde61_start:
+LDIFF_SYM1340=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM1340
+Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 
-LDIFF_SYM1313=Lme_3f - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-	.long LDIFF_SYM1313
+LDIFF_SYM1341=Lme_44 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
+	.long LDIFF_SYM1341
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22
 	.byte 154,21
 	.align 3
-Lfde61_end:
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -17370,43 +18029,43 @@ Lfde61_end:
 	.asciz "System.Array:InternalArray__get_Item<T_INST>"
 	.asciz "System_Array_InternalArray__get_Item_T_INST_int"
 
-	.byte 5,175,1
+	.byte 7,175,1
 	.quad System_Array_InternalArray__get_Item_T_INST_int
-	.quad Lme_40
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1314=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1314
+LDIFF_SYM1342=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1342
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1315=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1343=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1343
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM1316=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1317=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM1317
-Lfde62_start:
+LDIFF_SYM1345=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM1345
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_INST_int
 
-LDIFF_SYM1318=Lme_40 - System_Array_InternalArray__get_Item_T_INST_int
-	.long LDIFF_SYM1318
+LDIFF_SYM1346=Lme_45 - System_Array_InternalArray__get_Item_T_INST_int
+	.long LDIFF_SYM1346
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 	.align 3
-Lfde62_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 

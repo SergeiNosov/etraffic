@@ -11,6 +11,7 @@
 #import <GLKit/GLKit.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <QuartzCore/QuartzCore.h>
+#import <WebKit/WebKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 
@@ -36,6 +37,7 @@
 @class AVCaptureMetadataOutputObjectsDelegate;
 @class AVCaptureVideoDataOutputSampleBufferDelegate;
 @class AppDelegate;
+@class ViewControllerPay;
 @class ViewController;
 @class GLKit_GLKView__GLKViewDelegate;
 @class UIKit_UIBarButtonItem_Callback;
@@ -215,6 +217,19 @@
 	-(void) applicationWillTerminate:(UIApplication *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
+@end
+
+@interface ViewControllerPay : UIViewController {
+}
+	@property (nonatomic, assign) WKWebView * WebView1;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(WKWebView *) WebView1;
+	-(void) setWebView1:(WKWebView *)p0;
+	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
 @interface ViewController : UIViewController {

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue id="1340" destination="1204" kind="relationship" relationship="rootViewController"/>
+                        <segue id="19954" destination="19838" kind="relationship" relationship="rootViewController"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1198" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -117,12 +117,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" id="16119" translatesAutoresizingMaskIntoConstraints="NO" customUserAgent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11">
-                                <rect key="frame" x="20" y="101" width="280" height="455"/>
+                                <rect key="frame" x="0.0" y="101" width="817" height="455"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
+                                    <wkPreferences key="preferences" minimumFontSize="10"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
                         </subviews>
@@ -134,6 +134,70 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="16042" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="454" y="817"/>
+        </scene>
+        <scene sceneID="19837">
+            <objects>
+                <viewController id="19838" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="19835"/>
+                        <viewControllerLayoutGuide type="bottom" id="19836"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="19839">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="19842" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="117" y="263" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Главная"/>
+                                <connections>
+                                    <segue id="20022" destination="1204" kind="show"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="19843" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="89" y="320" width="142" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Личный Кабинет"/>
+                                <connections>
+                                    <segue id="20125" destination="20027" kind="show"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <navigationItem title="Авторизация" id="20036" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="19840" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-182" y="538"/>
+        </scene>
+        <scene sceneID="20026">
+            <objects>
+                <viewController id="20027" sceneMemberID="viewController" customClass="CabinetController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="20024"/>
+                        <viewControllerLayoutGuide type="bottom" id="20025"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="20028">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="20128" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="112" y="288" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Generate:" destination="20027" id="20129" eventType="touchDown"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <navigationItem id="20032" key="navigationItem" title="Личный кабинет"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="20029" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="907" y="-111"/>
         </scene>
     </scenes>
     <resources>
