@@ -116,7 +116,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" id="16119" translatesAutoresizingMaskIntoConstraints="NO" customUserAgent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11">
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" id="16119" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="0.0" y="101" width="817" height="455"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
