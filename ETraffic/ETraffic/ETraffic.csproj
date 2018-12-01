@@ -201,6 +201,13 @@
     <Compile Include="BusController.designer.cs">
       <DependentUpon>BusController.cs</DependentUpon>
     </Compile>
+    <Compile Include="QRCodeData.cs" />
+    <Compile Include="QRGenerator.cs" />
+    <Compile Include="QrView.cs" />
+    <Compile Include="QrView.designer.cs" />
+    <Compile Include="Framework4.0Methods\Stream4Methods.cs" />
+    <Compile Include="Framework4.0Methods\String4Methods.cs" />
+    <Compile Include="PayloadGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\w4MSwP0mc_I.jpg" />

@@ -291,7 +291,7 @@
                                     <action selector="UIButton20128_TouchUpInside:" destination="20027" id="20572" eventType="touchUpInside"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" id="22552" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" customClass="QrView">
+                            <view contentMode="scaleToFill" id="22552" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" customClass="QrView" multipleTouchEnabled="YES">
                                 <rect key="frame" x="12" y="84" width="296" height="297"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
