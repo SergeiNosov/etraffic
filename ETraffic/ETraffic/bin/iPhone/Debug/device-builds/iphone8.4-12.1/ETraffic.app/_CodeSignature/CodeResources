@@ -6,11 +6,11 @@
 	<dict>
 		<key>ETraffic.aotdata.arm64</key>
 		<data>
-		G9haMrpnV/mZnybw0C+3l/Boauc=
+		tzBVp9ceHbE2fM/0D8v5LJVOfWE=
 		</data>
 		<key>ETraffic.exe</key>
 		<data>
-		mAeEwe4osCLGFunZxtuu6CHxpfw=
+		yNRqvp/jeGNzubabNzERlWB1Frc=
 		</data>
 		<key>ETraffic.exe.config</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>ETraffic.pdb</key>
 		<data>
-		gu5ghIRceHr+gndq1UzOS+J7afo=
+		Ff5xQK+megROkg1RNrg9SfPIgvQ=
 		</data>
 		<key>Erorr.png</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Main.storyboardc/1204-view-1205.nib</key>
 		<data>
-		zBXqUsqVcvq/X6K3ByccBrBprt8=
+		n32BbxhQEpm1ILvQDQdIYqKILhM=
 		</data>
 		<key>Main.storyboardc/13786-view-13788.nib</key>
 		<data>
@@ -50,15 +50,19 @@
 		</data>
 		<key>Main.storyboardc/16040-view-16041.nib</key>
 		<data>
-		sAmjdbl0hN95SuCdXxPnL2e3E7c=
+		IWWQNK+iua+u/HOfbKqlr7s8+r0=
 		</data>
 		<key>Main.storyboardc/19838-view-19839.nib</key>
 		<data>
-		35WePKeKtg4zWlvbbU6onJkhpKA=
+		5FsTQXVVEcJMRHKIPfJP3RPUPqg=
 		</data>
 		<key>Main.storyboardc/20027-view-20028.nib</key>
 		<data>
-		ScIQWbhSm8vWk8RIJmli4+84oTQ=
+		Q9p4elXl37PAxhMPY/KAb6bagE0=
+		</data>
+		<key>Main.storyboardc/22824-view-22825.nib</key>
+		<data>
+		EqvJ3Yiafu1rdiKoTAWvPA6jxm0=
 		</data>
 		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
@@ -66,15 +70,15 @@
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
-		hh27D17PjaisuWLn5EZdyQRfqT8=
+		p9HCY94cXp2nSClGJFoeEX2dDfc=
 		</data>
 		<key>Main.storyboardc/UINavigationController-1195.nib</key>
 		<data>
-		HDranAs+vy9bAv2BPMSjPTIEo1w=
+		0YGCcQRPQF0zk/Vx9ypgJqYFlNA=
 		</data>
 		<key>Main.storyboardc/UIViewController-1204.nib</key>
 		<data>
-		G+DYcSSyEdjWXaBSgKn3GY6d/MU=
+		X0gd3xmeFC4KodyYAQjE1wObB4U=
 		</data>
 		<key>Main.storyboardc/UIViewController-13786.nib</key>
 		<data>
@@ -82,11 +86,15 @@
 		</data>
 		<key>Main.storyboardc/UIViewController-16040.nib</key>
 		<data>
-		ANMgVuHy4TnoeQnpVlykFtD1o4I=
+		EMzEtX95NpmonYUjj+rWF01yVeo=
 		</data>
 		<key>Main.storyboardc/UIViewController-20027.nib</key>
 		<data>
-		lKGpG0nW5HAIyjUnBdq3vGeq7BA=
+		dNSjSIZqlILdJr3dl8yFMWKku/E=
+		</data>
+		<key>Main.storyboardc/UIViewController-22824.nib</key>
+		<data>
+		NxtX5eAJZaz+sSHjv3x8Kw+1J5k=
 		</data>
 		<key>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
@@ -350,7 +358,7 @@
 		</data>
 		<key>libETraffic.exe.dylib</key>
 		<data>
-		37kuLewiiPIF3Zf2tif1xCCg8pI=
+		EpZVjDrFmY7MlL8zpTwpjK9JiEQ=
 		</data>
 		<key>libMono.Security.dll.dylib</key>
 		<data>
@@ -427,6 +435,10 @@
 		<key>libzxing.portable.dll.dylib</key>
 		<data>
 		B4sNWZRyuq7iM9Mobl0J29fQmzI=
+		</data>
+		<key>maps.png</key>
+		<data>
+		qe+CH4Ua+vjtN4dCXfrb55oC2wc=
 		</data>
 		<key>ms/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -527,14 +539,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AAOWvJAfY7h4MG8GNK8GtVrJlr4V9nRjK5rXrfkfbfo=
+			szalcvouaYXg55Sa3KbBgvBCdK5dWZUna2EyxK4A12w=
 			</data>
 		</dict>
 		<key>ETraffic.exe</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jYD9rAHWFfGdldSAH9IBpwzvReWH0AwvbCmO9+w3UkQ=
+			iZdQJR29cNRnahc61X4GO4lGTUP1IMlFIQgUB7Lb/JM=
 			</data>
 		</dict>
 		<key>ETraffic.exe.config</key>
@@ -548,7 +560,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			11n2A8UKU98rikCi31ZEgl4ivVN9g8Ci9n/z+h/M/0Q=
+			TI7+oINzSFU5sVutSln03PIwYPTm1UW1az2JXF3LYw4=
 			</data>
 		</dict>
 		<key>Erorr.png</key>
@@ -583,7 +595,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			awfEJwuOH32/vQTa1xPkHqc0yahZzGvfxhrbIjwivf0=
+			mRPJHZP3T//fAdkCDc+fcy9hKgUE6+3wyk6+UNlDySc=
 			</data>
 		</dict>
 		<key>Main.storyboardc/13786-view-13788.nib</key>
@@ -597,21 +609,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pygt4jcI6OhN9HQB8VxIJbAVeO4nROZjdygK5SaKg8Q=
+			taL+EzrwWlQDi3Qcm4KBkoDlKrF85IrSo29glQRGqys=
 			</data>
 		</dict>
 		<key>Main.storyboardc/19838-view-19839.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4oD/2zhumiR/6SjJIe6l/WCA6z+4fpApK4xD1tvGr6I=
+			YMVorgRIq4/YQrtC0AjmoYnb7eo1Uj5pyVxMldcJUOw=
 			</data>
 		</dict>
 		<key>Main.storyboardc/20027-view-20028.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZyHBbGRCMKA0b0+4SL3NhQC6O7vq6i70ja0/lbD2b7o=
+			z3spuIxAFtrqor3Tt5YbuwsLfOGhhuS7BEUlKepM9VI=
+			</data>
+		</dict>
+		<key>Main.storyboardc/22824-view-22825.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yivyqO2wRNysXvZJY8ruzdO1sqHmaSZrYKYFzWqVnSo=
 			</data>
 		</dict>
 		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
@@ -625,21 +644,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XVuMIRwe4TzduGv7ksP0rWYywK8+qOac+8RtpzKjuKo=
+			9hqHYEhfBhHYuQLvrJmjk3vYwnzKAMaU51YWSTbesg4=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UINavigationController-1195.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u1cmYruuANrV085CkjPEBYtUsB309+K/EstOz75Vyss=
+			UhS263sAM4dtpQpXjTQma6MwORuEkm2pl3WhiucmqNY=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UIViewController-1204.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ogfSS13uTXu1OEPu7X44MfsXXdx/ugn6DFfgKPcjbPM=
+			ltqVLILBbIQljsjOsHrmYNkXpbuhVL+IdLlvOXha9pc=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UIViewController-13786.nib</key>
@@ -653,14 +672,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNuX/TM19XRNECEFnjdduHLmB6QMwa2ZXlo3I8EvePc=
+			VJ5kd2H2qWc4T8sDnjUPb+G3NECnqMi7n7V84i12PCQ=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UIViewController-20027.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWIuyLTE8A9sJuQN7A5OgMHW6j8v5Yh1By0rEM/PYco=
+			XRos2NyMbmxh03HYhGsfpVZw7Gotkdm4hshx0F+5hOE=
+			</data>
+		</dict>
+		<key>Main.storyboardc/UIViewController-22824.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7+kmNdvAJupP0dIbzL5GIVYnpI98D8F1FUFApXeWa0s=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
@@ -1115,7 +1141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			waxM0+PN4eP8DxEJWTDGxAgofhCVdpgN5MqK5pevLXw=
+			gR/Ta867DjsNQlLtbaGZEzdwLrZIX3dyXjQPXBuR+zA=
 			</data>
 		</dict>
 		<key>libMono.Security.dll.dylib</key>
@@ -1249,6 +1275,13 @@
 			<key>hash2</key>
 			<data>
 			qSx4UQb0XXeiHPOSXGfJO+k9Pg/v7/XZLRRfymzQ9y4=
+			</data>
+		</dict>
+		<key>maps.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OrLdefFC/euxsOLUlAPvD5RDd2y6CcKab2Oi70tBsgM=
 			</data>
 		</dict>
 		<key>ms/Xamarin.Forms.Platform.iOS.resources.dll</key>

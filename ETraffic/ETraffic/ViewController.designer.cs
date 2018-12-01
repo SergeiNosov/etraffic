@@ -19,7 +19,19 @@ namespace ETraffic
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel DatePayment { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView ErorrPayment { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel InfoPaymentLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView MapsViewusr { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -29,9 +41,17 @@ namespace ETraffic
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView SuccessPayment { get; set; }
 
-        [Action ("OffShowResultPayment:")]
+        [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void OffShowResultPayment (UIKit.UIButton sender);
+        UIKit.UILabel SummPayment { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel TkName { get; set; }
+
+        [Action ("Off:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void Off (UIKit.UIButton sender);
 
         [Action ("StartScan:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -44,9 +64,24 @@ namespace ETraffic
                 BalanceLabel = null;
             }
 
+            if (DatePayment != null) {
+                DatePayment.Dispose ();
+                DatePayment = null;
+            }
+
             if (ErorrPayment != null) {
                 ErorrPayment.Dispose ();
                 ErorrPayment = null;
+            }
+
+            if (InfoPaymentLabel != null) {
+                InfoPaymentLabel.Dispose ();
+                InfoPaymentLabel = null;
+            }
+
+            if (MapsViewusr != null) {
+                MapsViewusr.Dispose ();
+                MapsViewusr = null;
             }
 
             if (ResultView != null) {
@@ -57,6 +92,16 @@ namespace ETraffic
             if (SuccessPayment != null) {
                 SuccessPayment.Dispose ();
                 SuccessPayment = null;
+            }
+
+            if (SummPayment != null) {
+                SummPayment.Dispose ();
+                SummPayment = null;
+            }
+
+            if (TkName != null) {
+                TkName.Dispose ();
+                TkName = null;
             }
         }
     }

@@ -7735,49 +7735,49 @@ exception_handling:;
 	-(UITextField *) InputMoney
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, 0x2300);
+		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, 0x2D00);
 	}
 
 	-(void) setInputMoney:(UITextField *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_11 (self, _cmd, &managed_method, p0, 0x2400);
+		native_to_managed_trampoline_11 (self, _cmd, &managed_method, p0, 0x2E00);
 	}
 
 	-(UIScrollView *) ViewSetMoney
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x2500);
+		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x2F00);
 	}
 
 	-(void) setViewSetMoney:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, 0x2600);
+		native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, 0x3000);
 	}
 
 	-(WKWebView *) WebView1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_14 (self, _cmd, &managed_method, 0x2700);
+		return native_to_managed_trampoline_14 (self, _cmd, &managed_method, 0x3100);
 	}
 
 	-(void) setWebView1:(WKWebView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x2800);
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x3200);
 	}
 
 	-(void) viewDidLoad
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x2100);
+		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x2B00);
 	}
 
 	-(void) StartPayment:(UIButton *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, 0x2900);
+		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, 0x3300);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -7815,7 +7815,7 @@ exception_handling:;
 	-(void) Generate:(UIButton *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, 0x2C00);
+		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, 0x3600);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -7862,40 +7862,100 @@ exception_handling:;
 		native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, 0x1600);
 	}
 
+	-(UILabel *) DatePayment
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_17 (self, _cmd, &managed_method, 0x1700);
+	}
+
+	-(void) setDatePayment:(UILabel *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, 0x1800);
+	}
+
 	-(UIImageView *) ErorrPayment
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_19 (self, _cmd, &managed_method, 0x1700);
+		return native_to_managed_trampoline_19 (self, _cmd, &managed_method, 0x1900);
 	}
 
 	-(void) setErorrPayment:(UIImageView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_20 (self, _cmd, &managed_method, p0, 0x1800);
+		native_to_managed_trampoline_20 (self, _cmd, &managed_method, p0, 0x1A00);
+	}
+
+	-(UILabel *) InfoPaymentLabel
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_17 (self, _cmd, &managed_method, 0x1B00);
+	}
+
+	-(void) setInfoPaymentLabel:(UILabel *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, 0x1C00);
+	}
+
+	-(UIImageView *) MapsViewusr
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_19 (self, _cmd, &managed_method, 0x1D00);
+	}
+
+	-(void) setMapsViewusr:(UIImageView *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_20 (self, _cmd, &managed_method, p0, 0x1E00);
 	}
 
 	-(UIScrollView *) ResultView
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x1900);
+		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x1F00);
 	}
 
 	-(void) setResultView:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, 0x1A00);
+		native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, 0x2000);
 	}
 
 	-(UIImageView *) SuccessPayment
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_19 (self, _cmd, &managed_method, 0x1B00);
+		return native_to_managed_trampoline_19 (self, _cmd, &managed_method, 0x2100);
 	}
 
 	-(void) setSuccessPayment:(UIImageView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_20 (self, _cmd, &managed_method, p0, 0x1C00);
+		native_to_managed_trampoline_20 (self, _cmd, &managed_method, p0, 0x2200);
+	}
+
+	-(UILabel *) SummPayment
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_17 (self, _cmd, &managed_method, 0x2300);
+	}
+
+	-(void) setSummPayment:(UILabel *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, 0x2400);
+	}
+
+	-(UILabel *) TkName
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_17 (self, _cmd, &managed_method, 0x2500);
+	}
+
+	-(void) setTkName:(UILabel *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, 0x2600);
 	}
 
 	-(void) viewDidLoad
@@ -7910,16 +7970,16 @@ exception_handling:;
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0xE00);
 	}
 
-	-(void) OffShowResultPayment:(UIButton *)p0
+	-(void) Off:(UIButton *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, 0x1D00);
+		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, 0x2700);
 	}
 
 	-(void) StartScan:(UIButton *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, 0x1E00);
+		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, 0x2800);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0

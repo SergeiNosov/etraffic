@@ -253,24 +253,39 @@
 @interface ViewController : UIViewController {
 }
 	@property (nonatomic, assign) UILabel * BalanceLabel;
+	@property (nonatomic, assign) UILabel * DatePayment;
 	@property (nonatomic, assign) UIImageView * ErorrPayment;
+	@property (nonatomic, assign) UILabel * InfoPaymentLabel;
+	@property (nonatomic, assign) UIImageView * MapsViewusr;
 	@property (nonatomic, assign) UIScrollView * ResultView;
 	@property (nonatomic, assign) UIImageView * SuccessPayment;
+	@property (nonatomic, assign) UILabel * SummPayment;
+	@property (nonatomic, assign) UILabel * TkName;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(UILabel *) BalanceLabel;
 	-(void) setBalanceLabel:(UILabel *)p0;
+	-(UILabel *) DatePayment;
+	-(void) setDatePayment:(UILabel *)p0;
 	-(UIImageView *) ErorrPayment;
 	-(void) setErorrPayment:(UIImageView *)p0;
+	-(UILabel *) InfoPaymentLabel;
+	-(void) setInfoPaymentLabel:(UILabel *)p0;
+	-(UIImageView *) MapsViewusr;
+	-(void) setMapsViewusr:(UIImageView *)p0;
 	-(UIScrollView *) ResultView;
 	-(void) setResultView:(UIScrollView *)p0;
 	-(UIImageView *) SuccessPayment;
 	-(void) setSuccessPayment:(UIImageView *)p0;
+	-(UILabel *) SummPayment;
+	-(void) setSummPayment:(UILabel *)p0;
+	-(UILabel *) TkName;
+	-(void) setTkName:(UILabel *)p0;
 	-(void) viewDidLoad;
 	-(void) didReceiveMemoryWarning;
-	-(void) OffShowResultPayment:(UIButton *)p0;
+	-(void) Off:(UIButton *)p0;
 	-(void) StartScan:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end

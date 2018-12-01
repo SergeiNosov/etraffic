@@ -83,15 +83,38 @@ namespace ETraffic
                 ResultView.Hidden = false;
                 ErorrPayment.Hidden = false;
                 SuccessPayment.Hidden = true;
-            }else {
+                DatePayment.Hidden = true;
+                TkName.Hidden = true;
+                SummPayment.Hidden = true;
+                InfoPaymentLabel.Hidden = true;
+                MapsViewusr.Hidden = true;
+            }
+            else {
                 Console.WriteLine("Success Payment");
                 ResultView.Hidden = false;
                 ErorrPayment.Hidden = true;
                 SuccessPayment.Hidden = false;
-
+                DatePayment.Hidden = false;
+                TkName.Hidden = false;
+                SummPayment.Hidden = false;
+                DatePayment.Text = DateTime.Today.ToString();
+                InfoPaymentLabel.Hidden = false;
+                MapsViewusr.Hidden = true;
 
             }
             UpdateBalance();
+        }
+
+        partial void Off(UIButton sender)
+        {
+            SuccessPayment.Hidden = true;
+            ErorrPayment.Hidden = true;
+            ResultView.Hidden = true;
+            DatePayment.Hidden = true;
+            TkName.Hidden = true;
+            SummPayment.Hidden = true;
+            InfoPaymentLabel.Hidden = true;
+            MapsViewusr.Hidden = false;
         }
 
         public async void WaitGetBalance(string id)
@@ -113,13 +136,7 @@ namespace ETraffic
 
         }
 
-        partial void OffShowResultPayment(UIButton sender)
-        {
-            SuccessPayment.Hidden = true;
-            ErorrPayment.Hidden = true;
-            ResultView.Hidden = true;
-        }
-
+      
         public void SetNewBalanceClient(string balance)
         {
             BalanceLabel.Text = balance + " руб";
