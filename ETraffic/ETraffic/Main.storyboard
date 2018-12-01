@@ -283,7 +283,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="20128" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="131" y="456" width="46" height="30"/>
+                                <rect key="frame" x="48" y="456" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -292,15 +292,32 @@
                                 <accessibility key="accessibilityConfiguration" label="G"/>
                             </button>
                             <view contentMode="scaleToFill" id="22552" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" customClass="QrView" multipleTouchEnabled="YES">
-                                <rect key="frame" x="12" y="84" width="296" height="297"/>
+                                <rect key="frame" x="12" y="83" width="296" height="297"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="33774" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Введите цену">
+                                <rect key="frame" x="148" y="456" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="33802" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" hidden="YES">
+                                <rect key="frame" x="124" y="410" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="DownloadQR:" destination="20027" id="33831" eventType="touchDown"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <navigationItem id="20032" key="navigationItem" title="Личный кабинет"/>
                     <connections>
                         <outlet property="QrViewName" destination="22552" id="name-outlet-22552"/>
+                        <outlet property="CostInput" destination="33774" id="name-outlet-33774"/>
+                        <outlet property="DownloadQRBtn" destination="33802" id="name-outlet-33802"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="20029" userLabel="First Responder" sceneMemberID="firstResponder"/>
