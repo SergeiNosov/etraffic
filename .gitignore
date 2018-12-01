@@ -193,5 +193,5 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 *.csproj
-bin/
-obj/
+bin/**
+obj/**

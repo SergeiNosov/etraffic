@@ -287,9 +287,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="Generate:" destination="20027" id="20129" eventType="touchDown"/>
-                                    <action selector="UIButton20128_TouchUpInside:" destination="20027" id="20572" eventType="touchUpInside"/>
+                                    <action selector="Generate:" destination="20027" id="31944" eventType="touchDown"/>
                                 </connections>
+                                <accessibility key="accessibilityConfiguration" label="G"/>
                             </button>
                             <view contentMode="scaleToFill" id="22552" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" customClass="QrView" multipleTouchEnabled="YES">
                                 <rect key="frame" x="12" y="84" width="296" height="297"/>
@@ -299,6 +299,9 @@
                         </subviews>
                     </view>
                     <navigationItem id="20032" key="navigationItem" title="Личный кабинет"/>
+                    <connections>
+                        <outlet property="QrViewName" destination="22552" id="name-outlet-22552"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="20029" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

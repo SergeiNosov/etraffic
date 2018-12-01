@@ -14,16 +14,20 @@ namespace ETraffic
     [Register ("CabinetController")]
     partial class CabinetController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        ETraffic.QrView QrViewName { get; set; }
+
         [Action ("Generate:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void Generate (UIKit.UIButton sender);
 
-        [Action ("UIButton20128_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton20128_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
+            if (QrViewName != null) {
+                QrViewName.Dispose ();
+                QrViewName = null;
+            }
         }
     }
 }
