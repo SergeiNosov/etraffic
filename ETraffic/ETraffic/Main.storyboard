@@ -283,13 +283,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="20128" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="112" y="288" width="46" height="30"/>
+                                <rect key="frame" x="131" y="456" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="Generate:" destination="20027" id="20129" eventType="touchDown"/>
+                                    <action selector="UIButton20128_TouchUpInside:" destination="20027" id="20572" eventType="touchUpInside"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" id="22552" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" customClass="QrView">
+                                <rect key="frame" x="12" y="84" width="296" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                     </view>
                     <navigationItem id="20032" key="navigationItem" title="Личный кабинет"/>
