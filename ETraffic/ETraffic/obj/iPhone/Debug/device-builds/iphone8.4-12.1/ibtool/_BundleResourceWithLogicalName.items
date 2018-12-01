@@ -36,8 +36,8 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc/22824-view-22825.nib">
-      <LogicalName>Main.storyboardc/22824-view-22825.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc/27507-view-27508.nib">
+      <LogicalName>Main.storyboardc/27507-view-27508.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
@@ -66,8 +66,8 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc/UIViewController-22824.nib">
-      <LogicalName>Main.storyboardc/UIViewController-22824.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc/UIViewController-27507.nib">
+      <LogicalName>Main.storyboardc/UIViewController-27507.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.4-12.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>

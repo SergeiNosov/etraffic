@@ -31,6 +31,14 @@ namespace ETraffic
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton MapCloseButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        MapKit.MKMapView MapShow { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView MapsViewusr { get; set; }
 
         [Outlet]
@@ -49,9 +57,17 @@ namespace ETraffic
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel TkName { get; set; }
 
+        [Action ("CloseMaps:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void CloseMaps (UIKit.UIButton sender);
+
         [Action ("Off:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void Off (UIKit.UIButton sender);
+
+        [Action ("StartMaps:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void StartMaps (UIKit.UIButton sender);
 
         [Action ("StartScan:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -77,6 +93,16 @@ namespace ETraffic
             if (InfoPaymentLabel != null) {
                 InfoPaymentLabel.Dispose ();
                 InfoPaymentLabel = null;
+            }
+
+            if (MapCloseButton != null) {
+                MapCloseButton.Dispose ();
+                MapCloseButton = null;
+            }
+
+            if (MapShow != null) {
+                MapShow.Dispose ();
+                MapShow = null;
             }
 
             if (MapsViewusr != null) {

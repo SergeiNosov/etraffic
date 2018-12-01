@@ -589,7 +589,7 @@ ldr x0, [x16, #0]
 .word 0xd2800221
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -601,7 +601,7 @@ ldr x0, [x16, #0]
 .word 0xd2800f21
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -613,7 +613,7 @@ ldr x0, [x16, #0]
 .word 0xd2800f21
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -625,7 +625,7 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -875,11 +875,11 @@ System_Net_Http_HttpClient__SendAsyncWorkerd__48_MoveNext:
 .word 0xaa1803f7
 .word 0x394102e0
 .word 0x34000140
-.word 0xd2881340
+.word 0xd2884480
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e2
-.word 0xd2802200
+.word 0xd28022c0
 .word 0xf2a04000
 .word 0xd2800001
 bl _mono_create_corlib_exception_2
@@ -948,11 +948,11 @@ bl _p_33
 .word 0xf9408ba0
 .word 0x39410000
 .word 0x34000140
-.word 0xd2881340
+.word 0xd2884480
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e2
-.word 0xd2802200
+.word 0xd28022c0
 .word 0xf2a04000
 .word 0xd2800001
 bl _mono_create_corlib_exception_2
@@ -988,7 +988,7 @@ ldr x0, [x16, #0]
 .word 0xd2802241
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -1120,7 +1120,7 @@ ldr x0, [x16, #0]
 .word 0xd2802a81
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -1448,7 +1448,7 @@ ldr x0, [x16, #0]
 .word 0xd2803381
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -1478,7 +1478,7 @@ bl _p_47
 .loc 2 93 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940e430
+.word 0xf940e830
 .word 0xd63f0200
 .word 0xf9001ba0
 bl _p_48
@@ -1490,7 +1490,7 @@ bl _p_17
 .word 0x350001a0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940e430
+.word 0xf940e830
 .word 0xd63f0200
 .word 0xf9001ba0
 bl _p_50
@@ -1503,7 +1503,7 @@ bl _p_17
 .loc 2 102 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .word 0x93407c18
 .word 0xaa1803e0
@@ -1630,7 +1630,7 @@ ldr x0, [x16, #376]
 .loc 2 109 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940e030
+.word 0xf940e430
 .word 0xd63f0200
 .word 0xf9001fa0
 
@@ -1648,7 +1648,7 @@ bl _p_51
 .loc 2 226 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940e030
+.word 0xf940e430
 .word 0xd63f0200
 .word 0xf9001fa0
 
@@ -1794,7 +1794,7 @@ bl _p_58
 .word 0xaa1a03e0
 .word 0xd2800041
 .word 0xf9400342
-.word 0xf940e050
+.word 0xf940e450
 .word 0xd63f0200
 .word 0x1400001b
 .loc 3 82 0
@@ -1805,7 +1805,7 @@ bl _p_58
 .word 0xaa1a03e0
 .word 0xd2800081
 .word 0xf9400342
-.word 0xf940e050
+.word 0xf940e450
 .word 0xd63f0200
 .word 0x14000012
 .loc 3 84 0
@@ -1816,7 +1816,7 @@ bl _p_58
 .word 0xaa1a03e0
 .word 0xd28000e1
 .word 0xf9400342
-.word 0xf940e050
+.word 0xf940e450
 .word 0xd63f0200
 .word 0x14000009
 .loc 3 86 0
@@ -1827,7 +1827,7 @@ bl _p_58
 .word 0xaa1a03e0
 .word 0xd2800101
 .word 0xf9400342
-.word 0xf940e050
+.word 0xf940e450
 .word 0xd63f0200
 .loc 3 89 0
 
@@ -1892,7 +1892,7 @@ ldr x0, [x16, #0]
 .word 0xd2805721
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -1979,7 +1979,7 @@ bl _p_66
 .word 0xb40000b9
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .loc 3 105 0
 .word 0xb4000079
@@ -2057,7 +2057,7 @@ ldr x0, [x16, #464]
 .word 0x14000005
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .loc 3 113 0
 
@@ -2593,7 +2593,7 @@ bl _p_80
 .word 0xb40000ba
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .loc 3 227 0
 .word 0xf9401fba
@@ -2620,7 +2620,7 @@ bl _p_66
 .word 0xb40000ba
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .loc 3 232 0
 .word 0xd2800000
@@ -2732,7 +2732,7 @@ ldr x1, [x16, #528]
 .loc 3 244 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940e430
+.word 0xf940e830
 .word 0xd63f0200
 .word 0x93407c00
 .word 0xf9008ba0
@@ -2828,7 +2828,7 @@ bl _p_1
 .word 0xd2800000
 .word 0x6b0002ff
 .word 0x540000aa
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -2876,12 +2876,12 @@ ldr x2, [x16, #16]
 .word 0xf90093a0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940e030
+.word 0xf940e430
 .word 0xd63f0200
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .word 0xf90097a0
 
@@ -2901,7 +2901,7 @@ bl _p_15
 .loc 3 264 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .word 0xf9008ba0
 .word 0x3940001e
@@ -2937,7 +2937,7 @@ ldr x3, [x16, #16]
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #592]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -3077,7 +3077,7 @@ ldr x1, [x16, #16]
 .word 0xf9400c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e030
+.word 0xf940e430
 .word 0xd63f0200
 .word 0xd2800021
 .word 0xeb01001f
@@ -3087,7 +3087,7 @@ ldr x1, [x16, #16]
 .word 0xf9400c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e430
+.word 0xf940e830
 .word 0xd63f0200
 .loc 3 280 0
 .word 0x14000041
@@ -3174,13 +3174,13 @@ bl _p_25
 .word 0x910003bf
 .word 0xa8d47bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -3517,10 +3517,10 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -3622,7 +3622,7 @@ bl _p_81
 .loc 3 374 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .word 0xd2800001
 .word 0x93407c21
@@ -3684,12 +3684,12 @@ bl _p_94
 .loc 3 382 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940e030
+.word 0xf940e430
 .word 0xd63f0200
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e430
+.word 0xf940e830
 .word 0xd63f0200
 .word 0xf9002ba0
 bl _p_95
@@ -3784,7 +3784,7 @@ bl _p_97
 .loc 3 391 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940e430
+.word 0xf940e830
 .word 0xd63f0200
 .word 0xaa0003e2
 .word 0xaa1a03e0
@@ -3831,7 +3831,7 @@ System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate__c__DisplayClass
 .word 0xf9400f41
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .loc 3 251 0
 .word 0xf9400b40
@@ -4398,7 +4398,7 @@ bl _p_102
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -4527,7 +4527,7 @@ bl _p_103
 .word 0xf94017a0
 .word 0xf94017a1
 .word 0xf9400021
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .word 0xaa0003e1
 .word 0xf94033a0
@@ -4889,7 +4889,7 @@ System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_SetLength_long:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -4922,7 +4922,7 @@ System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_set_Position_long
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -4941,7 +4941,7 @@ System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_Seek_long_System_
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -4958,7 +4958,7 @@ System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_Flush:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -4978,7 +4978,7 @@ System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_Write_byte___int_
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf90017a3
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -5103,7 +5103,7 @@ ldr x2, [x16, #16]
 .word 0xf9402341
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9002740
 .word 0x91012341
@@ -5792,7 +5792,7 @@ bl _p_123
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802280
+.word 0xd2802340
 .word 0xaa1103e1
 bl _p_89
 
@@ -5898,7 +5898,7 @@ System_Net_Http_NSUrlSessionHandler_WrappedNSInputStream_Schedule_Foundation_NSR
 .word 0xf9400fa0
 .word 0xf9400fa1
 .word 0xf9400021
-.word 0xf940e030
+.word 0xf940e430
 .word 0xd63f0200
 .word 0xf9001fa0
 .loc 3 664 0
@@ -5949,7 +5949,7 @@ System_Net_Http_NSUrlSessionHandler_WrappedNSInputStream_Unschedule_Foundation_N
 .word 0xf9400fa0
 .word 0xf9400fa1
 .word 0xf9400021
-.word 0xf940e030
+.word 0xf940e430
 .word 0xd63f0200
 .word 0xf9001fa0
 .loc 3 679 0
@@ -6223,7 +6223,7 @@ bl _p_136
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
-.word 0xf9410050
+.word 0xf9410450
 .word 0xd63f0200
 .word 0xf94073a1
 .word 0xaa0103e2
@@ -6237,7 +6237,7 @@ bl _p_136
 .word 0xaa1703e0
 .word 0xaa1603e1
 .word 0xf94002e2
-.word 0xf940f450
+.word 0xf940f850
 .word 0xd63f0200
 .word 0xf9401fa0
 .word 0xf9401000
@@ -6255,7 +6255,7 @@ bl _p_137
 .word 0xaa0003e1
 .word 0xaa1803e0
 .word 0xf9400302
-.word 0xf940ec50
+.word 0xf940f050
 .word 0xd63f0200
 .word 0xf9401fa0
 .word 0xf9401000
@@ -6269,7 +6269,7 @@ bl _p_139
 .word 0xaa0003e1
 .word 0xaa1803e0
 .word 0xf9400302
-.word 0xf940e450
+.word 0xf940e850
 .word 0xd63f0200
 .word 0xf9401fa0
 .word 0xf9401800
@@ -6336,7 +6336,7 @@ bl _p_141
 .word 0xaa0003e1
 .word 0xaa1803e0
 .word 0xf9400302
-.word 0xf940f050
+.word 0xf940f450
 .word 0xd63f0200
 .word 0xaa1803f7
 .loc 3 162 0
@@ -6398,7 +6398,7 @@ bl _p_143
 .word 0xaa0003e1
 .word 0xaa1703e0
 .word 0xf94002e2
-.word 0xf940fc50
+.word 0xf9410050
 .word 0xd63f0200
 .word 0x1400000d
 .loc 3 168 0
@@ -6413,7 +6413,7 @@ bl _p_144
 .word 0xf94073a1
 .word 0xaa1703e0
 .word 0xf94002e2
-.word 0xf940f850
+.word 0xf940fc50
 .word 0xd63f0200
 .loc 3 170 0
 .word 0xaa1703fa
@@ -6459,10 +6459,10 @@ bl _p_146
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -6727,7 +6727,7 @@ bl _p_152
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0xf940e050
+.word 0xf940e450
 .word 0xd63f0200
 .word 0xf940b3a1
 .word 0xf9000c20
@@ -7019,7 +7019,7 @@ bl _p_66
 .word 0xf9400c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e030
+.word 0xf940e430
 .word 0xd63f0200
 .word 0xd2800021
 .word 0xeb01001f
@@ -7030,7 +7030,7 @@ bl _p_66
 .word 0xf9400c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e430
+.word 0xf940e830
 .word 0xd63f0200
 .loc 3 202 0
 .word 0xf94017a0
@@ -7178,10 +7178,10 @@ bl _p_44
 .word 0x910003bf
 .word 0xa8d97bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -7254,7 +7254,7 @@ ldr x0, [x16, #0]
 .word 0xd28064a1
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -7434,7 +7434,7 @@ ldr x3, [x16, #16]
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1080]
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -7449,7 +7449,7 @@ ldr x15, [x16, #1080]
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1088]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -7600,11 +7600,11 @@ ldr x0, [x16, #0]
 .word 0xd2806f21
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -7749,7 +7749,7 @@ ldr x0, [x16, #0]
 .word 0xd2803381
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -7852,7 +7852,7 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 6 172 0
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -7924,7 +7924,7 @@ bl _p_175
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -8219,7 +8219,7 @@ bl _p_189
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1192]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -8413,10 +8413,10 @@ ldr x15, [x16, #336]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -8598,7 +8598,7 @@ bl _p_15
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -8899,7 +8899,7 @@ ldr x1, [x16, #1344]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -8987,7 +8987,7 @@ System_Net_Http_HttpClientHandler__SendAsyncd__64_MoveNext:
 .word 0xf9402030
 .word 0xd63f0200
 .word 0xaa0003e1
-.word 0xd2802200
+.word 0xd28022c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -9206,7 +9206,7 @@ bl _p_189
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1192]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -9225,7 +9225,7 @@ ldr x0, [x16, #504]
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1400]
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -9238,7 +9238,7 @@ ldr x15, [x16, #1400]
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1408]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -9425,7 +9425,7 @@ ldr x0, [x16, #0]
 .word 0xd2808921
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -10405,13 +10405,13 @@ bl _p_44
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -10596,7 +10596,7 @@ ldr x0, [x16, #0]
 .word 0xd280be81
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -11251,7 +11251,7 @@ bl _p_232
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -11311,7 +11311,7 @@ System_Net_Http_HttpContent_StartsWith_byte___int_byte__:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -11384,7 +11384,7 @@ bl _p_24
 .word 0xf9002ba0
 .word 0xf9402b20
 .word 0xf9002fa0
-.word 0xd2801f80
+.word 0xd2802040
 bl _p_234
 .word 0xaa0003e1
 .word 0xf9402ba0
@@ -11704,7 +11704,7 @@ System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_MoveNext:
 .word 0xf9402030
 .word 0xd63f0200
 .word 0xaa0003e1
-.word 0xd2802200
+.word 0xd28022c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -11953,7 +11953,7 @@ System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_MoveNext:
 .word 0xf9402030
 .word 0xd63f0200
 .word 0xaa0003e1
-.word 0xd2802200
+.word 0xd28022c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -12570,7 +12570,7 @@ ldr x0, [x16, #0]
 .word 0xd280d521
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -12702,7 +12702,7 @@ ldr x0, [x16, #0]
 .word 0xd280d721
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801480
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -13319,7 +13319,7 @@ ldr x0, [x16, #0]
 .word 0xd280d721
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -13393,7 +13393,7 @@ ldr x0, [x16, #0]
 .word 0xd280dee1
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801480
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -13762,7 +13762,7 @@ System_Net_Http_HttpResponseMessage__ctor_System_Net_HttpStatusCode:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -14018,7 +14018,7 @@ System_Net_Http_HttpResponseMessage_set_StatusCode_System_Net_HttpStatusCode:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 13 84 0
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -14341,7 +14341,7 @@ ldr x0, [x16, #0]
 .word 0xd28064a1
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -14353,7 +14353,7 @@ ldr x0, [x16, #0]
 .word 0xd28102a1
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -14500,7 +14500,7 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -16068,7 +16068,7 @@ ldr x1, [x16, #1928]
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -17325,7 +17325,7 @@ bl _p_309
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #2088]
-.word 0x92800af0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -17347,7 +17347,7 @@ bl _p_310
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #2088]
-.word 0x92800af0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -17447,7 +17447,7 @@ bl _p_312
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #2096]
-.word 0x92800af0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -17511,7 +17511,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8dd7bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -18724,7 +18724,7 @@ bl _p_335
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #2096]
-.word 0x92800af0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -18765,7 +18765,7 @@ ldr x0, [x16, #0]
 .word 0xd2813f61
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -20071,7 +20071,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8d67bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -20905,7 +20905,7 @@ bl _p_349
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -20919,7 +20919,7 @@ bl _p_350
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -21162,7 +21162,7 @@ System_Net_Http_Headers_HeaderInfo_get_Separator:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802180
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -21418,7 +21418,7 @@ bl _p_369
 .word 0xf9403fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -25038,7 +25038,7 @@ bl _p_432
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -25184,7 +25184,7 @@ ldr x0, [x16, #0]
 .word 0xd281c2a1
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -25225,7 +25225,7 @@ bl _p_438
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1400]
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -25238,7 +25238,7 @@ ldr x15, [x16, #1400]
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1408]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -25278,7 +25278,7 @@ bl _p_24
 .word 0xaa1703e1
 bl _p_235
 .word 0xaa0003e1
-.word 0xd2801ac0
+.word 0xd2801b80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -25323,7 +25323,7 @@ bl _p_440
 .word 0xf9402fa0
 .word 0xb40000a0
 .loc 26 206 0
-.word 0xd2801ac0
+.word 0xd2801b80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -25536,7 +25536,7 @@ ldr x0, [x16, #0]
 .word 0xd281c2a1
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -25615,12 +25615,12 @@ ldr x0, [x16, #0]
 .word 0xd281ce21
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801480
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
 .loc 26 253 0
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 .word 0xaa1a03e1
 bl _mono_create_corlib_exception_1
@@ -25830,7 +25830,7 @@ bl _p_274
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1400]
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -25843,7 +25843,7 @@ ldr x15, [x16, #1400]
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1408]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -25970,7 +25970,7 @@ bl _p_189
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1192]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -26303,7 +26303,7 @@ ldr x0, [x16, #0]
 .word 0xd281ce21
 bl _p_24
 .word 0xaa0003e1
-.word 0xd2801480
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -27230,7 +27230,7 @@ bl _p_468
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -27258,7 +27258,7 @@ ldr x1, [x16, #4080]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -27290,7 +27290,7 @@ System_Net_Http_Headers_HttpHeaders__GetEnumeratord__19_System_Collections_IEnum
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802180
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -27551,10 +27551,10 @@ bl _p_473
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -27648,10 +27648,10 @@ bl _p_472
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -27785,10 +27785,10 @@ bl _p_473
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -27968,10 +27968,10 @@ bl _p_473
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -28005,7 +28005,7 @@ bl _p_189
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1192]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -28642,7 +28642,7 @@ System_Net_Http_Headers_Lexer_IsStarStringValue_System_Net_Http_Headers_Token:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -28981,7 +28981,7 @@ ldr x0, [x16, #248]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -29021,7 +29021,7 @@ ldr x0, [x16, #248]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -29075,7 +29075,7 @@ System_Net_Http_Headers_Lexer_PeekChar:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -29218,7 +29218,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -29511,7 +29511,7 @@ bl _p_291
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -29718,7 +29718,7 @@ bl _p_335
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #2096]
-.word 0x92800af0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -29759,7 +29759,7 @@ ldr x0, [x16, #0]
 .word 0xd2813f61
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -29878,10 +29878,10 @@ bl _p_490
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -29976,7 +29976,7 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 30 90 0
-.word 0xd2801ac0
+.word 0xd2801b80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -29988,7 +29988,7 @@ ldr x0, [x16, #0]
 .word 0xd281f1e1
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -31783,7 +31783,7 @@ bl _p_497
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #2096]
-.word 0x92800af0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -32366,18 +32366,18 @@ bl _p_503
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 34 53 0
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
 .loc 34 57 0
-.word 0xd2801480
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
 .word 0x14000001
 .loc 34 59 0
-.word 0xd2801ac0
+.word 0xd2801b80
 .word 0xf2a04000
 .word 0xaa1a03e1
 bl _mono_create_corlib_exception_1
@@ -32491,10 +32491,10 @@ ldr x0, [x16, #3096]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -32591,7 +32591,7 @@ bl _p_504
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -32880,10 +32880,10 @@ ldr x0, [x16, #656]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -32961,7 +32961,7 @@ bl _p_508
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -33563,7 +33563,7 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 36 38 0
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -34313,7 +34313,7 @@ ldr x0, [x16, #0]
 .word 0xd281f8e1
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -35001,7 +35001,7 @@ bl _p_522
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #808]
-.word 0x92800af0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -35777,7 +35777,7 @@ bl _p_529
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #808]
-.word 0x92800af0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -35840,7 +35840,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8d77bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -36080,7 +36080,7 @@ ldr x0, [x16, #928]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 .loc 39 36 0
-.word 0xd2801480
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
@@ -36092,7 +36092,7 @@ ldr x0, [x16, #0]
 .word 0xd281fb61
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -36104,7 +36104,7 @@ ldr x0, [x16, #0]
 .word 0xd281fb61
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -36116,7 +36116,7 @@ ldr x0, [x16, #0]
 .word 0xd281fca1
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -36612,7 +36612,7 @@ ldr x0, [x16, #0]
 .word 0xd281fd61
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -38027,7 +38027,7 @@ bl _p_335
 adrp x16, mono_aot_System_Net_Http_got@PAGE+0
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #2096]
-.word 0x92800af0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -38495,7 +38495,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -38715,7 +38715,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -40602,7 +40602,7 @@ _PrivateImplementationDetails_ComputeStringHash_string:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -44254,7 +44254,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -44324,7 +44324,7 @@ bl _p_702
 .word 0xaa0003f9
 .word 0xb5ffff80
 .word 0x17ffffd0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -44398,7 +44398,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -44474,7 +44474,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -44548,7 +44548,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -44628,7 +44628,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -44802,7 +44802,7 @@ bl _p_704
 .word 0xd2894ae0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -44810,7 +44810,7 @@ bl _p_25
 .word 0xd28955a0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -45046,7 +45046,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -45116,7 +45116,7 @@ bl _p_702
 .word 0xaa0003f9
 .word 0xb5ffff80
 .word 0x17ffffd0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -45190,7 +45190,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -45266,7 +45266,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -45405,7 +45405,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -45478,7 +45478,7 @@ bl _p_702
 .word 0xaa0003f9
 .word 0xb5ffff80
 .word 0x17ffffcd
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -45552,7 +45552,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -45626,7 +45626,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -45704,7 +45704,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -45995,20 +45995,20 @@ bl _p_724
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 47 347 0
-.word 0xd28a95e0
+.word 0xd28ad5a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
 .loc 47 351 0
-.word 0xd28a9820
+.word 0xd28ad7e0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -46071,20 +46071,20 @@ bl _p_724
 .word 0xa8c87bfd
 .word 0xd65f03c0
 .loc 47 367 0
-.word 0xd28a95e0
+.word 0xd28ad5a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
 .loc 47 371 0
-.word 0xd28a9820
+.word 0xd28ad7e0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -46169,7 +46169,7 @@ bl _p_729
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -46693,20 +46693,20 @@ bl _p_754
 .word 0xa8c87bfd
 .word 0xd65f03c0
 .loc 47 745 0
-.word 0xd28a9820
+.word 0xd28ad7e0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
-.word 0xd28a9aa0
+.word 0xd28ada60
 .word 0xf2a00020
 .loc 47 740 0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -46806,11 +46806,11 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28adcc0
+.word 0xd28b1740
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -47308,27 +47308,27 @@ bl _p_775
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 .loc 48 774 0
-.word 0xd28aa7a0
+.word 0xd28ae220
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
-.word 0xd28aa4a0
+.word 0xd28adf20
 .word 0xf2a00020
 .loc 48 771 0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -47554,11 +47554,11 @@ bl _p_783
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 49 610 0
-.word 0xd291f920
+.word 0xd29233a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -47695,20 +47695,20 @@ bl _p_757
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 49 649 0
-.word 0xd28b3e20
+.word 0xd28b78a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
 .loc 49 675 0
-.word 0xd291f920
+.word 0xd29233a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -48320,10 +48320,10 @@ bl _p_800
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -48664,7 +48664,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -48734,7 +48734,7 @@ bl _p_702
 .word 0xaa0003f9
 .word 0xb5ffff80
 .word 0x17ffffd0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -48808,7 +48808,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -48884,7 +48884,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -48968,7 +48968,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -49043,7 +49043,7 @@ System_Nullable_1_long_get_Value:
 .word 0xd2876580
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -49347,7 +49347,7 @@ bl _p_218
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -49427,11 +49427,11 @@ bl _p_218
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 51 195 0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -49960,7 +49960,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -49997,7 +49997,7 @@ System_Collections_Generic_List_1_T_BYTE_get_Item_int:
 .loc 52 180 0
 bl _p_829
 .word 0x17fffff1
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -50043,7 +50043,7 @@ System_Collections_Generic_List_1_T_BYTE_set_Item_int_T_BYTE:
 .loc 52 189 0
 bl _p_829
 .word 0x17ffffeb
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -50198,7 +50198,7 @@ bl _p_25
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -50260,7 +50260,7 @@ bl _p_840
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -50311,7 +50311,7 @@ bl _p_841
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -50408,7 +50408,7 @@ bl _p_847
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -50599,7 +50599,7 @@ bl _p_856
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -50664,7 +50664,7 @@ bl _p_826
 .word 0xd285a440
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801480
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -50863,7 +50863,7 @@ System_Collections_Generic_List_1_T_BYTE_Find_System_Predicate_1_T_BYTE:
 .word 0xd2800100
 bl _p_824
 .word 0x17ffffd8
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -50930,13 +50930,13 @@ bl _p_824
 .word 0xd2858540
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
 .loc 52 624 0
 .word 0x17fffff1
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -51306,7 +51306,7 @@ bl _p_874
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -51503,7 +51503,7 @@ bl _p_826
 .word 0xd2800361
 bl _p_816
 .word 0x17ffffc1
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -51591,7 +51591,7 @@ bl _p_25
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -51738,7 +51738,7 @@ bl _p_890
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -51759,7 +51759,7 @@ bl _p_891
 .word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -51954,7 +51954,7 @@ bl _p_899
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -52090,7 +52090,7 @@ bl _p_900
 .word 0xd2800100
 bl _p_824
 .word 0x17ffff98
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -52630,7 +52630,7 @@ bl _p_917
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -52652,7 +52652,7 @@ bl _p_918
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -52740,7 +52740,7 @@ ldr x15, [x16, #336]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -52836,7 +52836,7 @@ System_Nullable_1_bool_get_Value:
 .word 0xd2876580
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -53144,7 +53144,7 @@ bl _p_473
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -53220,11 +53220,11 @@ bl _p_473
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 51 195 0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -53303,7 +53303,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -53377,7 +53377,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -53453,7 +53453,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -53529,7 +53529,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -53599,7 +53599,7 @@ bl _p_702
 .word 0xaa0003f9
 .word 0xb5ffff80
 .word 0x17ffffd0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -53673,7 +53673,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -53749,7 +53749,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -53825,7 +53825,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -53895,7 +53895,7 @@ bl _p_702
 .word 0xaa0003f9
 .word 0xb5ffff80
 .word 0x17ffffd0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -53969,7 +53969,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -54045,7 +54045,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -54134,7 +54134,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -54179,7 +54179,7 @@ System_Array_InternalArray__ICollection_Clear:
 .word 0xd2888320
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2802180
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -54201,7 +54201,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .word 0xd2888920
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2802180
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -54223,7 +54223,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 .word 0xd2888920
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2802180
+.word 0xd2802240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -54297,7 +54297,7 @@ bl _p_925
 .word 0xd28890a0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2802320
+.word 0xd28023e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -54412,7 +54412,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -54486,7 +54486,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -54569,7 +54569,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -54648,7 +54648,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -54722,7 +54722,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -54805,7 +54805,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -54881,7 +54881,7 @@ System_Nullable_1_System_TimeSpan_get_Value:
 .word 0xd2876580
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -55193,7 +55193,7 @@ bl _p_482
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -55276,11 +55276,11 @@ bl _p_482
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 51 195 0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -55369,7 +55369,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -55458,7 +55458,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -55537,7 +55537,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -55611,7 +55611,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -55694,7 +55694,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -55783,7 +55783,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -55862,7 +55862,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -55936,7 +55936,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56019,7 +56019,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56108,7 +56108,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56197,7 +56197,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56280,7 +56280,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56363,7 +56363,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56446,7 +56446,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56529,7 +56529,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56612,7 +56612,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56695,7 +56695,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56778,7 +56778,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56861,7 +56861,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -56944,7 +56944,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57027,7 +57027,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57110,7 +57110,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57189,7 +57189,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57263,7 +57263,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57346,7 +57346,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57435,7 +57435,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57518,7 +57518,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57597,7 +57597,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57671,7 +57671,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57754,7 +57754,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57843,7 +57843,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -57926,7 +57926,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58009,7 +58009,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58098,7 +58098,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58177,7 +58177,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58251,7 +58251,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58334,7 +58334,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58423,7 +58423,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58506,7 +58506,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58589,7 +58589,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58668,7 +58668,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58742,7 +58742,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58825,7 +58825,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58914,7 +58914,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -58993,7 +58993,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59067,7 +59067,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59150,7 +59150,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59239,7 +59239,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59318,7 +59318,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59392,7 +59392,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59475,7 +59475,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59564,7 +59564,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59643,7 +59643,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59717,7 +59717,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59800,7 +59800,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59889,7 +59889,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -59968,7 +59968,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -60042,7 +60042,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -60125,7 +60125,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -60214,7 +60214,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -60293,7 +60293,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -60367,7 +60367,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -60450,7 +60450,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -60539,7 +60539,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -60625,7 +60625,7 @@ System_Nullable_1_System_Net_Http_Headers_Token_get_Value:
 .word 0xd2876580
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -61017,7 +61017,7 @@ bl _p_494
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -61116,11 +61116,11 @@ bl _p_494
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 51 195 0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -61209,7 +61209,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -61298,7 +61298,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -61387,7 +61387,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -61476,7 +61476,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -61558,7 +61558,7 @@ System_Nullable_1_System_DateTimeOffset_get_Value:
 .word 0xd2876580
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -61900,7 +61900,7 @@ bl _p_515
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -62006,11 +62006,11 @@ bl _p_515
 .word 0xa8c97bfd
 .word 0xd65f03c0
 .loc 51 195 0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -62089,7 +62089,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -62163,7 +62163,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -62246,7 +62246,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -62320,7 +62320,7 @@ System_Nullable_1_double_get_Value:
 .word 0xd2876580
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -62619,7 +62619,7 @@ bl _p_537
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -62699,11 +62699,11 @@ bl _p_537
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 51 195 0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_25
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -62792,7 +62792,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -62881,7 +62881,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -62970,7 +62970,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -63059,7 +63059,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -63148,7 +63148,7 @@ bl _p_702
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -63781,7 +63781,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffb8
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -63913,7 +63913,7 @@ ldr x2, [x16, #1352]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -64012,7 +64012,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffbc
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -64136,7 +64136,7 @@ ldr x2, [x16, #1352]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -64241,7 +64241,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffb8
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -64369,7 +64369,7 @@ ldr x2, [x16, #1352]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -64395,7 +64395,7 @@ wrapper_unknown_byte___Get_int:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -64521,7 +64521,7 @@ wrapper_unknown_byte___Set_int_byte:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -64680,11 +64680,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpRes
 .word 0xd2800e02
 bl _p_487
 .word 0x14000009
-.word 0xd291f3e0
+.word 0xd2922e60
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -64956,11 +64956,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest
 .word 0xf9402000
 .word 0xf90033a0
 .word 0x14000009
-.word 0xd291f3e0
+.word 0xd2922e60
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -65019,11 +65019,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpRes
 .word 0xd2800c02
 bl _p_487
 .word 0x14000009
-.word 0xd291f3e0
+.word 0xd2922e60
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -65125,11 +65125,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_Start_System_Net_Ht
 .word 0xd2800e02
 bl _p_487
 .word 0x14000009
-.word 0xd291f3e0
+.word 0xd2922e60
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -65394,7 +65394,7 @@ bl _p_972
 .word 0xf94013a0
 .word 0xf94013a1
 .word 0xf9400021
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -65410,7 +65410,7 @@ bl _p_973
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -65473,7 +65473,7 @@ ldr x15, [x16, #336]
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x0, [x16, #1752]
-.word 0xd2801f21
+.word 0xd280f721
 bl _p_24
 bl _p_974
 bl _p_25
@@ -65482,7 +65482,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x0, [x16, #1752]
 .loc 54 44 0
-.word 0xd2801d61
+.word 0xd280f561
 bl _p_24
 bl _p_974
 bl _p_25
@@ -65540,7 +65540,7 @@ bl _p_978
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x0, [x16, #1752]
-.word 0xd2801d61
+.word 0xd280f561
 bl _p_24
 bl _p_974
 bl _p_25
@@ -66053,7 +66053,7 @@ bl _p_984
 .word 0xd2894ae0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -66061,7 +66061,7 @@ bl _p_25
 .word 0xd28955a0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -66218,11 +66218,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpRes
 .word 0xd2801502
 bl _p_487
 .word 0x14000009
-.word 0xd291f3e0
+.word 0xd2922e60
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -66692,11 +66692,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_
 .word 0xf9401800
 .word 0xf9002ba0
 .word 0x14000009
-.word 0xd291f3e0
+.word 0xd2922e60
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -66768,11 +66768,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_System_Net_Http_Htt
 .word 0xf9401c00
 .word 0xf9002fa0
 .word 0x14000009
-.word 0xd291f3e0
+.word 0xd2922e60
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -66842,11 +66842,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_
 .word 0xf9401800
 .word 0xf9002ba0
 .word 0x14000009
-.word 0xd291f3e0
+.word 0xd2922e60
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -66916,11 +66916,11 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_System_Net
 .word 0xf9401800
 .word 0xf9002ba0
 .word 0x14000009
-.word 0xd291f3e0
+.word 0xd2922e60
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -67384,7 +67384,7 @@ System_Collections_Generic_List_1_T_REF_get_Item_int:
 .loc 52 180 0
 bl _p_829
 .word 0x17fffff0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -67671,7 +67671,7 @@ bl _p_1010
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -67802,7 +67802,7 @@ System_Collections_Generic_List_1_T_REF_Find_System_Predicate_1_T_REF:
 .word 0xd2800100
 bl _p_824
 .word 0x17ffffd6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -67938,7 +67938,7 @@ bl _p_1014
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -68068,7 +68068,7 @@ bl _p_1016
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1848]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -68156,7 +68156,7 @@ bl _p_370
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -68384,7 +68384,7 @@ bl _p_1014
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -68514,7 +68514,7 @@ bl _p_1016
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x15, [x16, #1848]
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -68602,7 +68602,7 @@ bl _p_370
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
 
@@ -68781,7 +68781,7 @@ ldr x2, [x16, #16]
 .word 0xd285eb20
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -69151,7 +69151,7 @@ bl _p_1021
 .word 0xd285d460
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -69163,7 +69163,7 @@ bl _p_31
 bl _p_31
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_25
@@ -69175,7 +69175,7 @@ bl _p_31
 bl _p_31
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_25
@@ -69219,7 +69219,7 @@ ldr x26, [x16, #1864]
 .word 0xd2848fc0
 bl _p_31
 .word 0xaa0003e2
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 .word 0xaa1a03e1
 bl _mono_create_corlib_exception_2
@@ -69288,7 +69288,7 @@ bl _p_25
 .word 0xd2867d00
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801480
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -69296,11 +69296,11 @@ bl _p_25
 .loc 62 907 0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -69345,7 +69345,7 @@ ldr x26, [x16, #1856]
 .word 0xd2848fc0
 bl _p_31
 .word 0xaa0003e2
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 .word 0xaa1a03e1
 bl _mono_create_corlib_exception_2
@@ -69383,7 +69383,7 @@ bl _p_1023
 .word 0xd285d460
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -69391,7 +69391,7 @@ bl _p_25
 .word 0xd2867d00
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801480
+.word 0xd2801540
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -69449,7 +69449,7 @@ bl _p_31
 .word 0xf90057a0
 .word 0xf9401fa0
 .word 0xf9005ba0
-.word 0xd2801fc0
+.word 0xd2802080
 bl _p_234
 .word 0xf94057a1
 .word 0xf9405ba2
@@ -69518,20 +69518,20 @@ bl _p_724
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 47 347 0
-.word 0xd28a95e0
+.word 0xd28ad5a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
 .loc 47 351 0
-.word 0xd28a9820
+.word 0xd28ad7e0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -69735,7 +69735,7 @@ bl _p_1045
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x0, [x16, #1752]
-.word 0xd2802461
+.word 0xd280fc61
 bl _p_24
 bl _p_974
 bl _p_25
@@ -69744,7 +69744,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x0, [x16, #1752]
 .loc 56 19 0
-.word 0xd28022e1
+.word 0xd280fae1
 bl _p_24
 bl _p_974
 bl _p_25
@@ -69784,7 +69784,7 @@ bl _p_1046
 .word 0xd285eb20
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -70177,20 +70177,20 @@ bl _p_724
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 47 347 0
-.word 0xd28a95e0
+.word 0xd28ad5a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
 .loc 47 351 0
-.word 0xd28a9820
+.word 0xd28ad7e0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -70249,20 +70249,20 @@ bl _p_724
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 47 367 0
-.word 0xd28a95e0
+.word 0xd28ad5a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
 .loc 47 371 0
-.word 0xd28a9820
+.word 0xd28ad7e0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -70344,7 +70344,7 @@ bl _p_729
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
 
@@ -70823,20 +70823,20 @@ bl _p_754
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 47 745 0
-.word 0xd28a9820
+.word 0xd28ad7e0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
-.word 0xd28a9aa0
+.word 0xd28ada60
 .word 0xf2a00020
 .loc 47 740 0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -70926,11 +70926,11 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28adcc0
+.word 0xd28b1740
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -71392,27 +71392,27 @@ bl _p_775
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 .loc 48 774 0
-.word 0xd28aa7a0
+.word 0xd28ae220
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
-.word 0xd28aa4a0
+.word 0xd28adf20
 .word 0xf2a00020
 .loc 48 771 0
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
-.word 0xd28021a0
+.word 0xd2802260
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801480
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_89
 
@@ -71623,11 +71623,11 @@ bl _p_1050
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 49 610 0
-.word 0xd291f920
+.word 0xd29233a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -71758,20 +71758,20 @@ bl _p_757
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 49 649 0
-.word 0xd28b3e20
+.word 0xd28b78a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
 .loc 49 675 0
-.word 0xd291f920
+.word 0xd29233a0
 .word 0xf2a00020
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2801fc0
+.word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -72440,10 +72440,10 @@ bl _p_1065
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -72597,7 +72597,7 @@ bl _p_1072
 .word 0xaa1503e0
 .word 0xaa1803e1
 .word 0xf94002a2
-.word 0x928012f0
+.word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -72608,7 +72608,7 @@ bl _p_1072
 .word 0xaa1603e0
 .word 0xaa1803e1
 .word 0xf94002c2
-.word 0x928012f0
+.word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -72620,7 +72620,7 @@ bl _p_1073
 .word 0xf9404fa2
 .word 0xaa1a03e0
 .word 0xf9400343
-.word 0x928008f0
+.word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -72642,7 +72642,7 @@ bl _p_1074
 .word 0xaa0003ef
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -72653,7 +72653,7 @@ bl _p_1074
 .word 0xaa0003ef
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -72681,7 +72681,7 @@ bl _p_1075
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -72694,7 +72694,7 @@ bl _p_1075
 .word 0xf94053a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -72706,7 +72706,7 @@ bl _p_1073
 .word 0xf9404fa2
 .word 0xaa1a03e0
 .word 0xf9400343
-.word 0x928008f0
+.word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -72813,7 +72813,7 @@ ldr x15, [x16, #336]
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x0, [x16, #1752]
-.word 0xd28022e1
+.word 0xd280fae1
 bl _p_24
 bl _p_974
 bl _p_25
@@ -72822,7 +72822,7 @@ bl _p_25
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x0, [x16, #1752]
-.word 0xd2802461
+.word 0xd280fc61
 bl _p_24
 bl _p_974
 bl _p_25
@@ -72996,7 +72996,7 @@ bl _p_1080
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -73017,7 +73017,7 @@ bl _p_1081
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -73207,7 +73207,7 @@ bl _p_1087
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -73247,7 +73247,7 @@ bl _p_1088
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -73310,7 +73310,7 @@ bl _p_1088
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -73385,7 +73385,7 @@ ldr x15, [x16, #336]
 .word 0xd2846940
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -73508,7 +73508,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -73591,7 +73591,7 @@ bl _p_702
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -73713,7 +73713,7 @@ bl _p_31
 .word 0xf90057a0
 .word 0xf9401fa0
 .word 0xf9005ba0
-.word 0xd2801fc0
+.word 0xd2802080
 bl _p_234
 .word 0xf94057a1
 .word 0xf9405ba2
@@ -73907,7 +73907,7 @@ bl _p_1108
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -73958,7 +73958,7 @@ bl _p_1111
 .word 0xf90027a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -74052,7 +74052,7 @@ ldr x15, [x16, #336]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -74299,7 +74299,7 @@ bl _p_702
 .word 0xaa0003f9
 .word 0xb5ffff80
 .word 0x17ffffc1
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -74740,7 +74740,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -74988,7 +74988,7 @@ bl _p_702
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffbd
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -75180,7 +75180,7 @@ bl _p_1123
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x928010f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -75202,7 +75202,7 @@ bl _p_1124
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -75408,7 +75408,7 @@ bl _p_1126
 .word 0xd285d460
 bl _p_31
 .word 0xaa0003e1
-.word 0xd28014a0
+.word 0xd2801560
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_25
@@ -75420,7 +75420,7 @@ bl _p_31
 bl _p_31
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_25
@@ -75432,7 +75432,7 @@ bl _p_31
 bl _p_31
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd28014c0
+.word 0xd2801580
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_25
@@ -76188,7 +76188,7 @@ bl _p_1153
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0xf9407c50
+.word 0xf9408450
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000280
@@ -76216,13 +76216,13 @@ bl _p_1152
 .loc 67 70 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940f830
+.word 0xf9410430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000a80
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940a030
+.word 0xf940ac30
 .word 0xd63f0200
 
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
@@ -76234,7 +76234,7 @@ ldr x1, [x16, #2232]
 .loc 67 71 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940a430
+.word 0xf940b030
 .word 0xd63f0200
 .word 0xd2800002
 .word 0xb9801801
@@ -76280,13 +76280,13 @@ bl _p_124
 .word 0xf9401fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ac50
+.word 0xf940b850
 .word 0xd63f0200
 .word 0xaa0003e2
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0xf9407c50
+.word 0xf9408450
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000280
@@ -76314,7 +76314,7 @@ bl _p_1152
 .loc 67 82 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9410830
+.word 0xf9411430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000be0
@@ -76436,10 +76436,10 @@ bl _p_1158
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -76668,7 +76668,7 @@ bl _p_1166
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0xf9407c50
+.word 0xf9408450
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000280
@@ -76696,13 +76696,13 @@ bl _p_1165
 .loc 67 70 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940f830
+.word 0xf9410430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000a80
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940a030
+.word 0xf940ac30
 .word 0xd63f0200
 
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
@@ -76714,7 +76714,7 @@ ldr x1, [x16, #2328]
 .loc 67 71 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940a430
+.word 0xf940b030
 .word 0xd63f0200
 .word 0xd2800002
 .word 0xb9801801
@@ -76760,13 +76760,13 @@ bl _p_124
 .word 0xf9401fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ac50
+.word 0xf940b850
 .word 0xd63f0200
 .word 0xaa0003e2
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0xf9407c50
+.word 0xf9408450
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000280
@@ -76794,7 +76794,7 @@ bl _p_1165
 .loc 67 82 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9410830
+.word 0xf9411430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000be0
@@ -76921,10 +76921,10 @@ bl _p_1168
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -76961,7 +76961,7 @@ bl _p_1170
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0xf9407c50
+.word 0xf9408450
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000280
@@ -76989,13 +76989,13 @@ bl _p_1171
 .loc 68 74 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940f830
+.word 0xf9410430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000a80
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940a030
+.word 0xf940ac30
 .word 0xd63f0200
 
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
@@ -77007,7 +77007,7 @@ ldr x1, [x16, #2400]
 .loc 68 75 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940a430
+.word 0xf940b030
 .word 0xd63f0200
 .word 0xd2800002
 .word 0xb9801801
@@ -77053,13 +77053,13 @@ bl _p_124
 .word 0xf9401fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ac50
+.word 0xf940b850
 .word 0xd63f0200
 .word 0xaa0003e2
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0xf9407c50
+.word 0xf9408450
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000280
@@ -77101,10 +77101,10 @@ bl _p_1173
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -77281,7 +77281,7 @@ bl _p_1176
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -77469,7 +77469,7 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_InsertionSort_T_BYTE___int_i
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -77556,7 +77556,7 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_SwapIfGreater_T_BYTE___Syste
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -77616,7 +77616,7 @@ bl _p_1180
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -77734,7 +77734,7 @@ bl _p_1184
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0xf9407c50
+.word 0xf9408450
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000280
@@ -77762,13 +77762,13 @@ bl _p_1183
 .loc 67 70 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940f830
+.word 0xf9410430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000a80
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940a030
+.word 0xf940ac30
 .word 0xd63f0200
 
 adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
@@ -77780,7 +77780,7 @@ ldr x1, [x16, #2448]
 .loc 67 71 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940a430
+.word 0xf940b030
 .word 0xd63f0200
 .word 0xd2800002
 .word 0xb9801801
@@ -77826,13 +77826,13 @@ bl _p_124
 .word 0xf9401fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ac50
+.word 0xf940b850
 .word 0xd63f0200
 .word 0xaa0003e2
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0xf9407c50
+.word 0xf9408450
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000280
@@ -77860,7 +77860,7 @@ bl _p_1183
 .loc 67 82 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9410830
+.word 0xf9411430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000be0
@@ -77987,10 +77987,10 @@ bl _p_1186
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802060
 .word 0xaa1103e1
 bl _p_89
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -78090,7 +78090,7 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_Swap_T_BYTE___int_int:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -78226,7 +78226,7 @@ System_Collections_Generic_ArraySortHelper_1_T_BYTE_DownHeap_T_BYTE___int_int_in
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801ee0
+.word 0xd2801fa0
 .word 0xaa1103e1
 bl _p_89
 
@@ -79805,7 +79805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 23668
+.word 23672
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler__ctor
 plt_System_Net_Http_NSUrlSessionHandler__ctor:
 _p_2:
@@ -79813,7 +79813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 23676
+.word 23680
 	.no_dead_strip plt_System_Net_Http_HttpClient__ctor_System_Net_Http_HttpMessageHandler_bool
 plt_System_Net_Http_HttpClient__ctor_System_Net_Http_HttpMessageHandler_bool:
 _p_3:
@@ -79821,7 +79821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 23678
+.word 23682
 	.no_dead_strip plt_System_Net_Http_HttpMessageInvoker__ctor_System_Net_Http_HttpMessageHandler_bool
 plt_System_Net_Http_HttpMessageInvoker__ctor_System_Net_Http_HttpMessageHandler_bool:
 _p_4:
@@ -79829,7 +79829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 23680
+.word 23684
 	.no_dead_strip plt_System_Threading_CancellationTokenSource__ctor
 plt_System_Threading_CancellationTokenSource__ctor:
 _p_5:
@@ -79837,7 +79837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 23683
+.word 23687
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders__ctor
 plt_System_Net_Http_Headers_HttpRequestHeaders__ctor:
 _p_6:
@@ -79845,7 +79845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 23688
+.word 23692
 	.no_dead_strip plt_System_Threading_CancellationTokenSource_Dispose
 plt_System_Threading_CancellationTokenSource_Dispose:
 _p_7:
@@ -79853,7 +79853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 23691
+.word 23695
 	.no_dead_strip plt_System_Net_Http_HttpMessageInvoker_Dispose_bool
 plt_System_Net_Http_HttpMessageInvoker_Dispose_bool:
 _p_8:
@@ -79861,7 +79861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 23696
+.word 23700
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_9:
@@ -79869,7 +79869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 23699
+.word 23703
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage__ctor_System_Net_Http_HttpMethod_System_Uri
 plt_System_Net_Http_HttpRequestMessage__ctor_System_Net_Http_HttpMethod_System_Uri:
 _p_10:
@@ -79877,7 +79877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 23725
+.word 23729
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage__ctor_System_Net_Http_HttpMethod_string
 plt_System_Net_Http_HttpRequestMessage__ctor_System_Net_Http_HttpMethod_string:
 _p_11:
@@ -79885,7 +79885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 23728
+.word 23732
 	.no_dead_strip plt_System_Net_Http_HttpClient_SendAsync_System_Net_Http_HttpRequestMessage
 plt_System_Net_Http_HttpClient_SendAsync_System_Net_Http_HttpRequestMessage:
 _p_12:
@@ -79893,7 +79893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 23731
+.word 23735
 	.no_dead_strip plt_System_Net_Http_HttpClient_SendAsync_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpCompletionOption_System_Threading_CancellationToken
 plt_System_Net_Http_HttpClient_SendAsync_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpCompletionOption_System_Threading_CancellationToken:
 _p_13:
@@ -79901,7 +79901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 23733
+.word 23737
 	.no_dead_strip plt_System_Uri_op_Equality_System_Uri_System_Uri
 plt_System_Uri_op_Equality_System_Uri_System_Uri:
 _p_14:
@@ -79909,7 +79909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 23735
+.word 23739
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage_set_RequestUri_System_Uri
 plt_System_Net_Http_HttpRequestMessage_set_RequestUri_System_Uri:
 _p_15:
@@ -79917,7 +79917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 23740
+.word 23744
 	.no_dead_strip plt_System_Uri_get_Scheme
 plt_System_Uri_get_Scheme:
 _p_16:
@@ -79925,7 +79925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 23743
+.word 23747
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_17:
@@ -79933,7 +79933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 23748
+.word 23752
 	.no_dead_strip plt_System_Uri_get_OriginalString
 plt_System_Uri_get_OriginalString:
 _p_18:
@@ -79941,7 +79941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 23753
+.word 23757
 	.no_dead_strip plt_string_StartsWith_string_System_StringComparison
 plt_string_StartsWith_string_System_StringComparison:
 _p_19:
@@ -79949,7 +79949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 23758
+.word 23762
 	.no_dead_strip plt_System_Uri__ctor_System_Uri_System_Uri
 plt_System_Uri__ctor_System_Uri_System_Uri:
 _p_20:
@@ -79957,7 +79957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 23763
+.word 23767
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage_get_Headers
 plt_System_Net_Http_HttpRequestMessage_get_Headers:
 _p_21:
@@ -79965,7 +79965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 23768
+.word 23772
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_AddHeaders_System_Net_Http_Headers_HttpRequestHeaders
 plt_System_Net_Http_Headers_HttpRequestHeaders_AddHeaders_System_Net_Http_Headers_HttpRequestHeaders:
 _p_22:
@@ -79973,7 +79973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 23771
+.word 23775
 	.no_dead_strip plt_System_Net_Http_HttpClient_SendAsyncWorker_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpCompletionOption_System_Threading_CancellationToken
 plt_System_Net_Http_HttpClient_SendAsyncWorker_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpCompletionOption_System_Threading_CancellationToken:
 _p_23:
@@ -79981,7 +79981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 23774
+.word 23778
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_24:
@@ -79989,7 +79989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 23776
+.word 23780
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_25:
@@ -79997,7 +79997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 23796
+.word 23800
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_26:
@@ -80005,7 +80005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 23824
+.word 23828
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Net_Http_HttpClient__SendAsyncWorkerd__48_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Net_Http_HttpClient__SendAsyncWorkerd__48_:
 _p_27:
@@ -80013,7 +80013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 23829
+.word 23833
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_get_Task:
 _p_28:
@@ -80021,7 +80021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 23841
+.word 23845
 	.no_dead_strip plt_System_TimeSpan_FromSeconds_double
 plt_System_TimeSpan_FromSeconds_double:
 _p_29:
@@ -80029,7 +80029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 23852
+.word 23856
 	.no_dead_strip plt_System_Net_Http_HttpMessageInvoker_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken
 plt_System_Net_Http_HttpMessageInvoker_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken:
 _p_30:
@@ -80037,7 +80037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 23857
+.word 23861
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_31:
@@ -80045,7 +80045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 23860
+.word 23864
 	.no_dead_strip plt_System_Threading_CancellationTokenSource_CreateLinkedTokenSource_System_Threading_CancellationToken_System_Threading_CancellationToken
 plt_System_Threading_CancellationTokenSource_CreateLinkedTokenSource_System_Threading_CancellationToken_System_Threading_CancellationToken:
 _p_32:
@@ -80053,7 +80053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 23889
+.word 23893
 	.no_dead_strip plt_System_Threading_CancellationTokenSource_CancelAfter_System_TimeSpan
 plt_System_Threading_CancellationTokenSource_CancelAfter_System_TimeSpan:
 _p_33:
@@ -80061,7 +80061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 23894
+.word 23898
 	.no_dead_strip plt_System_Net_Http_HttpClient__n__0_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken
 plt_System_Net_Http_HttpClient__n__0_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken:
 _p_34:
@@ -80069,7 +80069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 23899
+.word 23903
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_ConfigureAwait_bool:
 _p_35:
@@ -80077,7 +80077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 23901
+.word 23905
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage__System_Net_Http_HttpClient__SendAsyncWorkerd__48_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage__System_Net_Http_HttpClient__SendAsyncWorkerd__48_:
 _p_36:
@@ -80085,7 +80085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 23912
+.word 23916
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_37:
@@ -80093,7 +80093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 23924
+.word 23928
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_GetResult:
 _p_38:
@@ -80101,7 +80101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 23962
+.word 23966
 	.no_dead_strip plt_System_Net_Http_HttpContent_LoadIntoBufferAsync_long
 plt_System_Net_Http_HttpContent_LoadIntoBufferAsync_long:
 _p_39:
@@ -80109,7 +80109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 23973
+.word 23977
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpClient__SendAsyncWorkerd__48_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpClient__SendAsyncWorkerd__48_:
 _p_40:
@@ -80117,7 +80117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 23976
+.word 23980
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_GetResult:
 _p_41:
@@ -80125,7 +80125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 23988
+.word 23992
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetException_System_Exception:
 _p_42:
@@ -80133,7 +80133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 23993
+.word 23997
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_43:
@@ -80141,7 +80141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 24004
+.word 24008
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetResult_System_Net_Http_HttpResponseMessage
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetResult_System_Net_Http_HttpResponseMessage:
 _p_44:
@@ -80149,7 +80149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 24043
+.word 24047
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_45:
@@ -80157,7 +80157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 24054
+.word 24058
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_EnsureModifiability
 plt_System_Net_Http_NSUrlSessionHandler_EnsureModifiability:
 _p_46:
@@ -80165,7 +80165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 24065
+.word 24069
 	.no_dead_strip plt_Foundation_NSErrorException__ctor_Foundation_NSError
 plt_Foundation_NSErrorException__ctor_Foundation_NSError:
 _p_47:
@@ -80173,7 +80173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 24067
+.word 24071
 	.no_dead_strip plt_Foundation_NSError_get_NSUrlErrorDomain
 plt_Foundation_NSError_get_NSUrlErrorDomain:
 _p_48:
@@ -80181,7 +80181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 24072
+.word 24076
 	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
 plt_Foundation_NSString_op_Implicit_Foundation_NSString:
 _p_49:
@@ -80189,7 +80189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 24077
+.word 24081
 	.no_dead_strip plt_Foundation_NSError_get_CFNetworkErrorDomain
 plt_Foundation_NSError_get_CFNetworkErrorDomain:
 _p_50:
@@ -80197,7 +80197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 24082
+.word 24086
 	.no_dead_strip plt_System_OperationCanceledException__ctor_string_System_Exception
 plt_System_OperationCanceledException__ctor_string_System_Exception:
 _p_51:
@@ -80205,7 +80205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 24087
+.word 24091
 	.no_dead_strip plt_System_Net_WebException__ctor_string_System_Exception
 plt_System_Net_WebException__ctor_string_System_Exception:
 _p_52:
@@ -80213,7 +80213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 24092
+.word 24096
 	.no_dead_strip plt_Foundation_NSUrlSessionConfiguration_get_DefaultSessionConfiguration
 plt_Foundation_NSUrlSessionConfiguration_get_DefaultSessionConfiguration:
 _p_53:
@@ -80221,7 +80221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 24097
+.word 24101
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler__ctor_Foundation_NSUrlSessionConfiguration
 plt_System_Net_Http_NSUrlSessionHandler__ctor_Foundation_NSUrlSessionConfiguration:
 _p_54:
@@ -80229,7 +80229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 24102
+.word 24106
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string__ctor
 plt_System_Collections_Generic_Dictionary_2_string_string__ctor:
 _p_55:
@@ -80237,7 +80237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 24104
+.word 24108
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_set_Item_string_string
 plt_System_Collections_Generic_Dictionary_2_string_string_set_Item_string_string:
 _p_56:
@@ -80245,7 +80245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 24115
+.word 24119
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_set_AllowAutoRedirect_bool
 plt_System_Net_Http_NSUrlSessionHandler_set_AllowAutoRedirect_bool:
 _p_57:
@@ -80253,7 +80253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 24126
+.word 24130
 	.no_dead_strip plt_System_Net_ServicePointManager_get_SecurityProtocol
 plt_System_Net_ServicePointManager_get_SecurityProtocol:
 _p_58:
@@ -80261,7 +80261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 24128
+.word 24132
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_59:
@@ -80269,7 +80269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 24133
+.word 24137
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate__ctor_System_Net_Http_NSUrlSessionHandler
 plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate__ctor_System_Net_Http_NSUrlSessionHandler:
 _p_60:
@@ -80277,7 +80277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 24165
+.word 24169
 	.no_dead_strip plt_Foundation_NSUrlSession_FromConfiguration_Foundation_NSUrlSessionConfiguration_Foundation_NSUrlSessionDelegate_Foundation_NSOperationQueue
 plt_Foundation_NSUrlSession_FromConfiguration_Foundation_NSUrlSessionConfiguration_Foundation_NSUrlSessionDelegate_Foundation_NSOperationQueue:
 _p_61:
@@ -80285,7 +80285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 24167
+.word 24171
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData__ctor
 plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData__ctor:
 _p_62:
@@ -80293,7 +80293,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 24172
+.word 24176
 	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
 plt__jit_icall_mono_monitor_enter_v4_internal:
 _p_63:
@@ -80301,7 +80301,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 24183
+.word 24187
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_TryGetValue_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_
 plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_TryGetValue_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_:
 _p_64:
@@ -80309,7 +80309,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 24216
+.word 24220
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_Remove_Foundation_NSUrlSessionTask
 plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_Remove_Foundation_NSUrlSessionTask:
 _p_65:
@@ -80317,7 +80317,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 24227
+.word 24231
 	.no_dead_strip plt_System_Threading_Monitor_Exit_object
 plt_System_Threading_Monitor_Exit_object:
 _p_66:
@@ -80325,7 +80325,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 24238
+.word 24242
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_67:
@@ -80333,7 +80333,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 24243
+.word 24247
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_GetEnumerator:
 _p_68:
@@ -80341,7 +80341,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 24248
+.word 24252
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_MoveNext
 plt_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_MoveNext:
 _p_69:
@@ -80349,7 +80349,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 24259
+.word 24263
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_Clear
 plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_Clear:
 _p_70:
@@ -80357,7 +80357,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 24270
+.word 24274
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_TryGetValue_string_string_
 plt_System_Collections_Generic_Dictionary_2_string_string_TryGetValue_string_string_:
 _p_71:
@@ -80365,7 +80365,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 24281
+.word 24285
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_Start_System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_Start_System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_:
 _p_72:
@@ -80373,7 +80373,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 24292
+.word 24296
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_get_Task:
 _p_73:
@@ -80381,7 +80381,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 24304
+.word 24308
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_:
 _p_74:
@@ -80389,7 +80389,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 24315
+.word 24319
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_75:
@@ -80397,7 +80397,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 24327
+.word 24331
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_GetHeaderSeparator_string
 plt_System_Net_Http_NSUrlSessionHandler_GetHeaderSeparator_string:
 _p_76:
@@ -80405,7 +80405,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 24332
+.word 24336
 	.no_dead_strip plt_string_Join_string_System_Collections_Generic_IEnumerable_1_string
 plt_string_Join_string_System_Collections_Generic_IEnumerable_1_string:
 _p_77:
@@ -80413,7 +80413,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 24334
+.word 24338
 	.no_dead_strip plt_Foundation_NSMutableDictionary_Add_Foundation_NSObject_Foundation_NSObject
 plt_Foundation_NSMutableDictionary_Add_Foundation_NSObject_Foundation_NSObject:
 _p_78:
@@ -80421,7 +80421,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 24339
+.word 24343
 	.no_dead_strip plt_Foundation_NSUrlSessionDataDelegate__ctor
 plt_Foundation_NSUrlSessionDataDelegate__ctor:
 _p_79:
@@ -80429,7 +80429,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 24344
+.word 24348
 	.no_dead_strip plt_System_Threading_CancellationToken_get_IsCancellationRequested
 plt_System_Threading_CancellationToken_get_IsCancellationRequested:
 _p_80:
@@ -80437,7 +80437,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 24349
+.word 24353
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate_GetInflightData_Foundation_NSUrlSessionTask
 plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate_GetInflightData_Foundation_NSUrlSessionTask:
 _p_81:
@@ -80445,7 +80445,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 24354
+.word 24358
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStreamContent__ctor_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_System_Action_System_Threading_CancellationToken
 plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStreamContent__ctor_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_System_Action_System_Threading_CancellationToken:
 _p_82:
@@ -80453,7 +80453,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 24356
+.word 24360
 	.no_dead_strip plt_System_Uri__ctor_string
 plt_System_Uri__ctor_string:
 _p_83:
@@ -80461,7 +80461,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 24358
+.word 24362
 	.no_dead_strip plt_System_Net_Http_HttpResponseMessage_get_Headers
 plt_System_Net_Http_HttpResponseMessage_get_Headers:
 _p_84:
@@ -80469,7 +80469,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 24363
+.word 24367
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_TryAddWithoutValidation_string_string
 plt_System_Net_Http_Headers_HttpHeaders_TryAddWithoutValidation_string_string:
 _p_85:
@@ -80477,7 +80477,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 24366
+.word 24370
 	.no_dead_strip plt_System_Net_Http_HttpContent_get_Headers
 plt_System_Net_Http_HttpContent_get_Headers:
 _p_86:
@@ -80485,7 +80485,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 24369
+.word 24373
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_TrySetException_System_Exception
 plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_TrySetException_System_Exception:
 _p_87:
@@ -80493,7 +80493,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 24372
+.word 24376
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_RemoveInflightData_Foundation_NSUrlSessionTask_bool
 plt_System_Net_Http_NSUrlSessionHandler_RemoveInflightData_Foundation_NSUrlSessionTask_bool:
 _p_88:
@@ -80501,7 +80501,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 24383
+.word 24387
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_89:
@@ -80509,7 +80509,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 24385
+.word 24389
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_Add_Foundation_NSData
 plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_Add_Foundation_NSData:
 _p_90:
@@ -80517,7 +80517,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 24420
+.word 24424
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate_SetResponse_System_Net_Http_NSUrlSessionHandler_InflightData
 plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate_SetResponse_System_Net_Http_NSUrlSessionHandler_InflightData:
 _p_91:
@@ -80525,7 +80525,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 24422
+.word 24426
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_createExceptionForNSError_Foundation_NSError
 plt_System_Net_Http_NSUrlSessionHandler_createExceptionForNSError_Foundation_NSError:
 _p_92:
@@ -80533,7 +80533,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 24424
+.word 24428
 	.no_dead_strip plt_System_Threading_Tasks_Task_Run_bool_System_Func_1_bool
 plt_System_Threading_Tasks_Task_Run_bool_System_Func_1_bool:
 _p_93:
@@ -80541,7 +80541,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 24426
+.word 24430
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_Authorization
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_Authorization:
 _p_94:
@@ -80549,7 +80549,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 24438
+.word 24442
 	.no_dead_strip plt_Foundation_NSUrlProtectionSpace_get_AuthenticationMethodNTLM
 plt_Foundation_NSUrlProtectionSpace_get_AuthenticationMethodNTLM:
 _p_95:
@@ -80557,7 +80557,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 24441
+.word 24445
 	.no_dead_strip plt_System_Net_NetworkCredential_get_Password
 plt_System_Net_NetworkCredential_get_Password:
 _p_96:
@@ -80565,7 +80565,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 24446
+.word 24450
 	.no_dead_strip plt_Foundation_NSUrlCredential__ctor_string_string_Foundation_NSUrlCredentialPersistence
 plt_Foundation_NSUrlCredential__ctor_string_string_Foundation_NSUrlCredentialPersistence:
 _p_97:
@@ -80573,7 +80573,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 24451
+.word 24455
 	.no_dead_strip plt_System_ObjectDisposedException__ctor_string
 plt_System_ObjectDisposedException__ctor_string:
 _p_98:
@@ -80581,7 +80581,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 24456
+.word 24460
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_TrySetResult_System_Net_Http_HttpResponseMessage
 plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_TrySetResult_System_Net_Http_HttpResponseMessage:
 _p_99:
@@ -80589,7 +80589,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 24461
+.word 24465
 	.no_dead_strip plt_System_Net_Http_StreamContent__ctor_System_IO_Stream_System_Threading_CancellationToken
 plt_System_Net_Http_StreamContent__ctor_System_IO_Stream_System_Threading_CancellationToken:
 _p_100:
@@ -80597,7 +80597,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 24472
+.word 24476
 	.no_dead_strip plt_System_Threading_Interlocked_Exchange_System_Action_System_Action__System_Action
 plt_System_Threading_Interlocked_Exchange_System_Action_System_Action__System_Action:
 _p_101:
@@ -80605,7 +80605,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 24475
+.word 24479
 	.no_dead_strip plt_System_Net_Http_StreamContent_Dispose_bool
 plt_System_Net_Http_StreamContent_Dispose_bool:
 _p_102:
@@ -80613,7 +80613,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 24487
+.word 24491
 	.no_dead_strip plt_System_Collections_Generic_Queue_1_Foundation_NSData_Enqueue_Foundation_NSData
 plt_System_Collections_Generic_Queue_1_Foundation_NSData_Enqueue_Foundation_NSData:
 _p_103:
@@ -80621,7 +80621,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 24490
+.word 24494
 	.no_dead_strip plt_System_Threading_CancellationToken_ThrowIfCancellationRequested
 plt_System_Threading_CancellationToken_ThrowIfCancellationRequested:
 _p_104:
@@ -80629,7 +80629,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 24501
+.word 24505
 	.no_dead_strip plt_System_IO_Stream_ReadAsync_byte___int_int
 plt_System_IO_Stream_ReadAsync_byte___int_int:
 _p_105:
@@ -80637,7 +80637,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 24506
+.word 24510
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_int_get_Result
 plt_System_Threading_Tasks_Task_1_int_get_Result:
 _p_106:
@@ -80645,7 +80645,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 24511
+.word 24515
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_Start_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_Start_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_:
 _p_107:
@@ -80653,7 +80653,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 24522
+.word 24526
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_get_Task:
 _p_108:
@@ -80661,7 +80661,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 24534
+.word 24538
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_ThrowIfNeeded_System_Threading_CancellationToken
 plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream_ThrowIfNeeded_System_Threading_CancellationToken:
 _p_109:
@@ -80669,7 +80669,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 24545
+.word 24549
 	.no_dead_strip plt_System_Collections_Generic_Queue_1_Foundation_NSData_Peek
 plt_System_Collections_Generic_Queue_1_Foundation_NSData_Peek:
 _p_110:
@@ -80677,7 +80677,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 24547
+.word 24551
 	.no_dead_strip plt_System_Threading_Tasks_Task_Delay_int
 plt_System_Threading_Tasks_Task_Delay_int:
 _p_111:
@@ -80685,7 +80685,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 24558
+.word 24562
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_:
 _p_112:
@@ -80693,7 +80693,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 24563
+.word 24567
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_int_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_int_ConfigureAwait_bool:
 _p_113:
@@ -80701,7 +80701,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 24575
+.word 24579
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_int_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_int__System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_int_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_int__System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_:
 _p_114:
@@ -80709,7 +80709,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 24586
+.word 24590
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_int_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_int_GetResult:
 _p_115:
@@ -80717,7 +80717,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 24598
+.word 24602
 	.no_dead_strip plt_System_Collections_Generic_Queue_1_Foundation_NSData_Dequeue
 plt_System_Collections_Generic_Queue_1_Foundation_NSData_Dequeue:
 _p_116:
@@ -80725,7 +80725,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 24609
+.word 24613
 	.no_dead_strip plt_System_IO_Stream_Dispose
 plt_System_IO_Stream_Dispose:
 _p_117:
@@ -80733,7 +80733,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 24620
+.word 24624
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_SetException_System_Exception:
 _p_118:
@@ -80741,7 +80741,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 24625
+.word 24629
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_SetResult_int
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_SetResult_int:
 _p_119:
@@ -80749,7 +80749,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 24636
+.word 24640
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_int_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_120:
@@ -80757,7 +80757,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 24647
+.word 24651
 	.no_dead_strip plt_Foundation_NSInputStream__ctor
 plt_Foundation_NSInputStream__ctor:
 _p_121:
@@ -80765,7 +80765,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 24658
+.word 24662
 	.no_dead_strip plt_CoreFoundation_CFRunLoopSource__ctor_intptr
 plt_CoreFoundation_CFRunLoopSource__ctor_intptr:
 _p_122:
@@ -80773,7 +80773,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 24663
+.word 24667
 	.no_dead_strip plt_Foundation_NSInputStream_Notify_CoreFoundation_CFStreamEventType
 plt_Foundation_NSInputStream_Notify_CoreFoundation_CFStreamEventType:
 _p_123:
@@ -80781,7 +80781,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 24668
+.word 24672
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_124:
@@ -80789,7 +80789,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 24673
+.word 24677
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_byte___int_intptr_int
 plt_System_Runtime_InteropServices_Marshal_Copy_byte___int_intptr_int:
 _p_125:
@@ -80797,7 +80797,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 24681
+.word 24685
 	.no_dead_strip plt_Foundation_NSInputStream_GetBuffer_intptr__System_nuint_
 plt_Foundation_NSInputStream_GetBuffer_intptr__System_nuint_:
 _p_126:
@@ -80805,7 +80805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 24686
+.word 24690
 	.no_dead_strip plt_Foundation_NSInputStream_SetCFClientFlags_CoreFoundation_CFStreamEventType_intptr_intptr
 plt_Foundation_NSInputStream_SetCFClientFlags_CoreFoundation_CFStreamEventType_intptr_intptr:
 _p_127:
@@ -80813,7 +80813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 24691
+.word 24695
 	.no_dead_strip plt_CoreFoundation_CFRunLoop_AddSource_CoreFoundation_CFRunLoopSource_Foundation_NSString
 plt_CoreFoundation_CFRunLoop_AddSource_CoreFoundation_CFRunLoopSource_Foundation_NSString:
 _p_128:
@@ -80821,7 +80821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 24696
+.word 24700
 	.no_dead_strip plt_CoreFoundation_CFRunLoop_RemoveSource_CoreFoundation_CFRunLoopSource_Foundation_NSString
 plt_CoreFoundation_CFRunLoop_RemoveSource_CoreFoundation_CFRunLoopSource_Foundation_NSString:
 _p_129:
@@ -80829,7 +80829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 24701
+.word 24705
 	.no_dead_strip plt_System_Net_Http_HttpContent_ReadAsStreamAsync
 plt_System_Net_Http_HttpContent_ReadAsStreamAsync:
 _p_130:
@@ -80837,7 +80837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 24706
+.word 24710
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_IO_Stream_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_System_IO_Stream_ConfigureAwait_bool:
 _p_131:
@@ -80845,7 +80845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 24709
+.word 24713
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_:
 _p_132:
@@ -80853,7 +80853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 24720
+.word 24724
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_GetResult:
 _p_133:
@@ -80861,7 +80861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 24732
+.word 24736
 	.no_dead_strip plt_System_Linq_Enumerable_Union_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Linq_Enumerable_Union_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string:
 _p_134:
@@ -80869,7 +80869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 24743
+.word 24747
 	.no_dead_strip plt_System_Linq_Enumerable_ToArray_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Linq_Enumerable_ToArray_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string:
 _p_135:
@@ -80877,7 +80877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 24755
+.word 24759
 	.no_dead_strip plt_Foundation_NSMutableUrlRequest__ctor
 plt_Foundation_NSMutableUrlRequest__ctor:
 _p_136:
@@ -80885,7 +80885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 24767
+.word 24771
 	.no_dead_strip plt_string_ToUpperInvariant
 plt_string_ToUpperInvariant:
 _p_137:
@@ -80893,7 +80893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 24772
+.word 24776
 	.no_dead_strip plt_System_Uri_get_AbsoluteUri
 plt_System_Uri_get_AbsoluteUri:
 _p_138:
@@ -80901,7 +80901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 24777
+.word 24781
 	.no_dead_strip plt_Foundation_NSUrl_FromString_string
 plt_Foundation_NSUrl_FromString_string:
 _p_139:
@@ -80909,7 +80909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 24782
+.word 24786
 	.no_dead_strip plt_Foundation_NSMutableDictionary__ctor
 plt_Foundation_NSMutableDictionary__ctor:
 _p_140:
@@ -80917,7 +80917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 24787
+.word 24791
 	.no_dead_strip plt_System_Linq_Enumerable_Aggregate_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_Foundation_NSMutableDictionary_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_Foundation_NSMutableDictionary_System_Func_3_Foundation_NSMutableDictionary_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_Foundation_NSMutableDictionary
 plt_System_Linq_Enumerable_Aggregate_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_Foundation_NSMutableDictionary_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_Foundation_NSMutableDictionary_System_Func_3_Foundation_NSMutableDictionary_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string_Foundation_NSMutableDictionary:
 _p_141:
@@ -80925,7 +80925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 24792
+.word 24796
 	.no_dead_strip plt_System_Net_Http_Headers_HttpContentHeaders_get_ContentLength
 plt_System_Net_Http_Headers_HttpContentHeaders_get_ContentLength:
 _p_142:
@@ -80933,7 +80933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 24804
+.word 24808
 	.no_dead_strip plt_Foundation_NSData_FromStream_System_IO_Stream
 plt_Foundation_NSData_FromStream_System_IO_Stream:
 _p_143:
@@ -80941,7 +80941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 24807
+.word 24811
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_WrappedNSInputStream__ctor_System_IO_Stream
 plt_System_Net_Http_NSUrlSessionHandler_WrappedNSInputStream__ctor_System_IO_Stream:
 _p_144:
@@ -80949,7 +80949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 24812
+.word 24816
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_SetException_System_Exception:
 _p_145:
@@ -80957,7 +80957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 24814
+.word 24818
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_SetResult_Foundation_NSUrlRequest
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_SetResult_Foundation_NSUrlRequest:
 _p_146:
@@ -80965,7 +80965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 24825
+.word 24829
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Foundation_NSUrlRequest_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_147:
@@ -80973,7 +80973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 24836
+.word 24840
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_TrySetCanceled
 plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_TrySetCanceled:
 _p_148:
@@ -80981,7 +80981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 24847
+.word 24851
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_CreateRequest_System_Net_Http_HttpRequestMessage
 plt_System_Net_Http_NSUrlSessionHandler_CreateRequest_System_Net_Http_HttpRequestMessage:
 _p_149:
@@ -80989,7 +80989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 24858
+.word 24862
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Foundation_NSUrlRequest_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_Foundation_NSUrlRequest_ConfigureAwait_bool:
 _p_150:
@@ -80997,7 +80997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 24860
+.word 24864
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Foundation_NSUrlRequest_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Foundation_NSUrlRequest__System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Foundation_NSUrlRequest_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Foundation_NSUrlRequest__System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_:
 _p_151:
@@ -81005,7 +81005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 24871
+.word 24875
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Foundation_NSUrlRequest_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Foundation_NSUrlRequest_GetResult:
 _p_152:
@@ -81013,7 +81013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 24883
+.word 24887
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage__ctor:
 _p_153:
@@ -81021,7 +81021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 24894
+.word 24898
 	.no_dead_strip plt_System_Threading_CancellationToken_Register_System_Action
 plt_System_Threading_CancellationToken_Register_System_Action:
 _p_154:
@@ -81029,7 +81029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 24905
+.word 24909
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ctor
 plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ctor:
 _p_155:
@@ -81037,7 +81037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 24910
+.word 24914
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_Add_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData
 plt_System_Collections_Generic_Dictionary_2_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData_Add_Foundation_NSUrlSessionTask_System_Net_Http_NSUrlSessionHandler_InflightData:
 _p_156:
@@ -81045,7 +81045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 24912
+.word 24916
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage__System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage__System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_:
 _p_157:
@@ -81053,7 +81053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 24923
+.word 24927
 	.no_dead_strip plt_System_IO_MemoryStream__ctor_byte___int_int
 plt_System_IO_MemoryStream__ctor_byte___int_int:
 _p_158:
@@ -81061,7 +81061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 24935
+.word 24939
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_System_IO_Stream_System_IO_Stream
 plt_System_Threading_Tasks_Task_FromResult_System_IO_Stream_System_IO_Stream:
 _p_159:
@@ -81069,7 +81069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 24940
+.word 24944
 	.no_dead_strip plt_System_IO_Stream_WriteAsync_byte___int_int
 plt_System_IO_Stream_WriteAsync_byte___int_int:
 _p_160:
@@ -81077,7 +81077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 24952
+.word 24956
 	.no_dead_strip plt_System_Net_Http_FormUrlEncodedContent_EncodeContent_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_string
 plt_System_Net_Http_FormUrlEncodedContent_EncodeContent_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_string:
 _p_161:
@@ -81085,7 +81085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 24957
+.word 24961
 	.no_dead_strip plt_System_Net_Http_ByteArrayContent__ctor_byte__
 plt_System_Net_Http_ByteArrayContent__ctor_byte__:
 _p_162:
@@ -81093,7 +81093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 24959
+.word 24963
 	.no_dead_strip plt_System_Net_Http_Headers_MediaTypeHeaderValue__ctor_string
 plt_System_Net_Http_Headers_MediaTypeHeaderValue__ctor_string:
 _p_163:
@@ -81101,7 +81101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 24961
+.word 24965
 	.no_dead_strip plt_System_Net_Http_Headers_HttpContentHeaders_set_ContentType_System_Net_Http_Headers_MediaTypeHeaderValue
 plt_System_Net_Http_Headers_HttpContentHeaders_set_ContentType_System_Net_Http_Headers_MediaTypeHeaderValue:
 _p_164:
@@ -81109,7 +81109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 24964
+.word 24968
 	.no_dead_strip plt_System_Collections_Generic_List_1_byte_AddWithResize_byte
 plt_System_Collections_Generic_List_1_byte_AddWithResize_byte:
 _p_165:
@@ -81117,7 +81117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 24967
+.word 24971
 	.no_dead_strip plt_System_Net_Http_FormUrlEncodedContent_SerializeValue_string
 plt_System_Net_Http_FormUrlEncodedContent_SerializeValue_string:
 _p_166:
@@ -81125,7 +81125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 24989
+.word 24993
 	.no_dead_strip plt_System_Collections_Generic_List_1_byte_AddRange_System_Collections_Generic_IEnumerable_1_byte
 plt_System_Collections_Generic_List_1_byte_AddRange_System_Collections_Generic_IEnumerable_1_byte:
 _p_167:
@@ -81133,7 +81133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 24991
+.word 24995
 	.no_dead_strip plt_System_Collections_Generic_List_1_byte_ToArray
 plt_System_Collections_Generic_List_1_byte_ToArray:
 _p_168:
@@ -81141,7 +81141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 25002
+.word 25006
 	.no_dead_strip plt_System_Uri_EscapeDataString_string
 plt_System_Uri_EscapeDataString_string:
 _p_169:
@@ -81149,7 +81149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 25013
+.word 25017
 	.no_dead_strip plt_string_Replace_string_string
 plt_string_Replace_string_string:
 _p_170:
@@ -81157,7 +81157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 25018
+.word 25022
 	.no_dead_strip plt_System_Text_Encoding_get_ASCII
 plt_System_Text_Encoding_get_ASCII:
 _p_171:
@@ -81165,7 +81165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 25023
+.word 25027
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_172:
@@ -81173,7 +81173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 25028
+.word 25032
 	.no_dead_strip plt_System_Net_CookieContainer__ctor
 plt_System_Net_CookieContainer__ctor:
 _p_173:
@@ -81181,7 +81181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 25033
+.word 25037
 	.no_dead_strip plt_System_Net_Http_HttpClientHandler_EnsureModifiability
 plt_System_Net_Http_HttpClientHandler_EnsureModifiability:
 _p_174:
@@ -81189,7 +81189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 25038
+.word 25042
 	.no_dead_strip plt_System_Net_ServicePointManager_CloseConnectionGroup_string
 plt_System_Net_ServicePointManager_CloseConnectionGroup_string:
 _p_175:
@@ -81197,7 +81197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 25040
+.word 25044
 	.no_dead_strip plt_System_Net_HttpWebRequest__ctor_System_Uri
 plt_System_Net_HttpWebRequest__ctor_System_Uri:
 _p_176:
@@ -81205,7 +81205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 25045
+.word 25049
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_ThrowOnError_bool
 plt_System_Net_HttpWebRequest_set_ThrowOnError_bool:
 _p_177:
@@ -81213,7 +81213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 25050
+.word 25054
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_ProtocolVersion_System_Version
 plt_System_Net_HttpWebRequest_set_ProtocolVersion_System_Version:
 _p_178:
@@ -81221,7 +81221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 25055
+.word 25059
 	.no_dead_strip plt_System_Net_HttpWebRequest_get_ProtocolVersion
 plt_System_Net_HttpWebRequest_get_ProtocolVersion:
 _p_179:
@@ -81229,7 +81229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 25060
+.word 25064
 	.no_dead_strip plt_System_Version_op_Equality_System_Version_System_Version
 plt_System_Version_op_Equality_System_Version_System_Version:
 _p_180:
@@ -81237,7 +81237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 25065
+.word 25069
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_ConnectionKeepAlive
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_ConnectionKeepAlive:
 _p_181:
@@ -81245,7 +81245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 25070
+.word 25074
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_KeepAlive_bool
 plt_System_Net_HttpWebRequest_set_KeepAlive_bool:
 _p_182:
@@ -81253,7 +81253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 25073
+.word 25077
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_ConnectionClose
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_ConnectionClose:
 _p_183:
@@ -81261,7 +81261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 25078
+.word 25082
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_MaximumAutomaticRedirections_int
 plt_System_Net_HttpWebRequest_set_MaximumAutomaticRedirections_int:
 _p_184:
@@ -81269,7 +81269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 25081
+.word 25085
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_AutomaticDecompression_System_Net_DecompressionMethods
 plt_System_Net_HttpWebRequest_set_AutomaticDecompression_System_Net_DecompressionMethods:
 _p_185:
@@ -81277,7 +81277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 25086
+.word 25090
 	.no_dead_strip plt_System_Net_Http_HttpClientHandler_get_CookieContainer
 plt_System_Net_Http_HttpClientHandler_get_CookieContainer:
 _p_186:
@@ -81285,7 +81285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 25091
+.word 25095
 	.no_dead_strip plt_System_Net_HttpWebRequest_get_ServicePoint
 plt_System_Net_HttpWebRequest_get_ServicePoint:
 _p_187:
@@ -81293,7 +81293,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 25093
+.word 25097
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_ExpectContinue
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_ExpectContinue:
 _p_188:
@@ -81301,7 +81301,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 25098
+.word 25102
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetEnumerator
 plt_System_Net_Http_Headers_HttpHeaders_GetEnumerator:
 _p_189:
@@ -81309,7 +81309,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 25101
+.word 25105
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_Host
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_Host:
 _p_190:
@@ -81317,7 +81317,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 25104
+.word 25108
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_Host_string
 plt_System_Net_HttpWebRequest_set_Host_string:
 _p_191:
@@ -81325,7 +81325,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 25107
+.word 25111
 	.no_dead_strip plt_System_Linq_Enumerable_Where_string_System_Collections_Generic_IEnumerable_1_string_System_Func_2_string_bool
 plt_System_Linq_Enumerable_Where_string_System_Collections_Generic_IEnumerable_1_string_System_Func_2_string_bool:
 _p_192:
@@ -81333,7 +81333,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 25112
+.word 25116
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetSingleHeaderString_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Net_Http_Headers_HttpHeaders_GetSingleHeaderString_string_System_Collections_Generic_IEnumerable_1_string:
 _p_193:
@@ -81341,7 +81341,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 25124
+.word 25128
 	.no_dead_strip plt_System_Net_WebHeaderCollection_AddInternal_string_string
 plt_System_Net_WebHeaderCollection_AddInternal_string_string:
 _p_194:
@@ -81349,7 +81349,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 25127
+.word 25131
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetKnownHeaderKind_string
 plt_System_Net_Http_Headers_HttpHeaders_GetKnownHeaderKind_string:
 _p_195:
@@ -81357,7 +81357,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 25132
+.word 25136
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_TryAddWithoutValidation_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Net_Http_Headers_HttpHeaders_TryAddWithoutValidation_string_System_Collections_Generic_IEnumerable_1_string:
 _p_196:
@@ -81365,7 +81365,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 25135
+.word 25139
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Net_Http_HttpClientHandler__SendAsyncd__64_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Net_Http_HttpClientHandler__SendAsyncd__64_:
 _p_197:
@@ -81373,7 +81373,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+4096
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 25138
+.word 25142
 	.no_dead_strip plt_string_op_Inequality_string_string
 plt_string_op_Inequality_string_string:
 _p_198:
@@ -81381,7 +81381,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 25150
+.word 25154
 	.no_dead_strip plt_System_Threading_CancellationToken_Register_System_Action_1_object_object
 plt_System_Threading_CancellationToken_Register_System_Action_1_object_object:
 _p_199:
@@ -81389,7 +81389,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 25155
+.word 25159
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_TransferEncodingChunked
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_TransferEncodingChunked:
 _p_200:
@@ -81397,7 +81397,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 25160
+.word 25164
 	.no_dead_strip plt_System_Net_HttpWebRequest_set_SendChunked_bool
 plt_System_Net_HttpWebRequest_set_SendChunked_bool:
 _p_201:
@@ -81405,7 +81405,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 25163
+.word 25167
 	.no_dead_strip plt_System_Nullable_1_long_get_Value
 plt_System_Nullable_1_long_get_Value:
 _p_202:
@@ -81413,7 +81413,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 25168
+.word 25172
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpClientHandler__SendAsyncd__64_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpClientHandler__SendAsyncd__64_:
 _p_203:
@@ -81421,7 +81421,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 25179
+.word 25183
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_HttpClientHandler__SendAsyncd__64_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_HttpClientHandler__SendAsyncd__64_:
 _p_204:
@@ -81429,7 +81429,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 25191
+.word 25195
 	.no_dead_strip plt_System_Net_Http_HttpContent_CopyToAsync_System_IO_Stream
 plt_System_Net_Http_HttpContent_CopyToAsync_System_IO_Stream:
 _p_205:
@@ -81437,7 +81437,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 25203
+.word 25207
 	.no_dead_strip plt_System_Net_Http_HttpClientHandler_MethodHasBody_System_Net_Http_HttpMethod
 plt_System_Net_Http_HttpClientHandler_MethodHasBody_System_Net_Http_HttpMethod:
 _p_206:
@@ -81445,7 +81445,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 25206
+.word 25210
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Net_WebResponse_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_1_System_Net_WebResponse_ConfigureAwait_bool:
 _p_207:
@@ -81453,7 +81453,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 25208
+.word 25212
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse__System_Net_Http_HttpClientHandler__SendAsyncd__64_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse__System_Net_Http_HttpClientHandler__SendAsyncd__64_:
 _p_208:
@@ -81461,7 +81461,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 25219
+.word 25223
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_GetResult:
 _p_209:
@@ -81469,7 +81469,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 25231
+.word 25235
 	.no_dead_strip plt_System_Threading_CancellationTokenRegistration_Dispose
 plt_System_Threading_CancellationTokenRegistration_Dispose:
 _p_210:
@@ -81477,7 +81477,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 25242
+.word 25246
 	.no_dead_strip plt_System_Net_Http_HttpRequestException__ctor_string_System_Exception
 plt_System_Net_Http_HttpRequestException__ctor_string_System_Exception:
 _p_211:
@@ -81485,7 +81485,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 25247
+.word 25251
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_SetCanceled
 plt_System_Threading_Tasks_TaskCompletionSource_1_System_Net_Http_HttpResponseMessage_SetCanceled:
 _p_212:
@@ -81493,7 +81493,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 25250
+.word 25254
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter
 plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter:
 _p_213:
@@ -81501,7 +81501,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 25261
+.word 25265
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__System_Net_Http_HttpClientHandler__SendAsyncd__64_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_System_Net_Http_HttpClientHandler__SendAsyncd__64_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__System_Net_Http_HttpClientHandler__SendAsyncd__64_:
 _p_214:
@@ -81509,7 +81509,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 25272
+.word 25276
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult:
 _p_215:
@@ -81517,7 +81517,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 25284
+.word 25288
 	.no_dead_strip plt_System_Net_Http_HttpClientHandler_CreateResponseMessage_System_Net_HttpWebResponse_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken
 plt_System_Net_Http_HttpClientHandler_CreateResponseMessage_System_Net_HttpWebResponse_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken:
 _p_216:
@@ -81525,7 +81525,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 25295
+.word 25299
 	.no_dead_strip plt_System_Net_Http_Headers_HttpContentHeaders__ctor_System_Net_Http_HttpContent
 plt_System_Net_Http_Headers_HttpContentHeaders__ctor_System_Net_Http_HttpContent:
 _p_217:
@@ -81533,7 +81533,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 25297
+.word 25301
 	.no_dead_strip plt_System_Nullable_1_long__ctor_long
 plt_System_Nullable_1_long__ctor_long:
 _p_218:
@@ -81541,7 +81541,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 25300
+.word 25304
 	.no_dead_strip plt_System_Net_Http_HttpContent_CopyToAsync_System_IO_Stream_System_Net_TransportContext
 plt_System_Net_Http_HttpContent_CopyToAsync_System_IO_Stream_System_Net_TransportContext:
 _p_219:
@@ -81549,7 +81549,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 25311
+.word 25315
 	.no_dead_strip plt_System_IO_Stream_CopyToAsync_System_IO_Stream
 plt_System_IO_Stream_CopyToAsync_System_IO_Stream:
 _p_220:
@@ -81557,7 +81557,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 25314
+.word 25318
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_:
 _p_221:
@@ -81565,7 +81565,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 25319
+.word 25323
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_get_Task:
 _p_222:
@@ -81573,7 +81573,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 25331
+.word 25335
 	.no_dead_strip plt_System_Net_Http_HttpContent_FixedMemoryStream__ctor_long
 plt_System_Net_Http_HttpContent_FixedMemoryStream__ctor_long:
 _p_223:
@@ -81581,7 +81581,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 25342
+.word 25346
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_:
 _p_224:
@@ -81589,7 +81589,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 25345
+.word 25349
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_225:
@@ -81597,7 +81597,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 25357
+.word 25361
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_:
 _p_226:
@@ -81605,7 +81605,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 25362
+.word 25366
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_System_Net_Http_HttpContent__ReadAsStringAsyncd__20_System_Net_Http_HttpContent__ReadAsStringAsyncd__20_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_System_Net_Http_HttpContent__ReadAsStringAsyncd__20_System_Net_Http_HttpContent__ReadAsStringAsyncd__20_:
 _p_227:
@@ -81613,7 +81613,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 25374
+.word 25378
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_get_Task:
 _p_228:
@@ -81621,7 +81621,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 25386
+.word 25390
 	.no_dead_strip plt_System_Text_Encoding_get_UTF8
 plt_System_Text_Encoding_get_UTF8:
 _p_229:
@@ -81629,7 +81629,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 25397
+.word 25401
 	.no_dead_strip plt_System_Text_Encoding_get_UTF32
 plt_System_Text_Encoding_get_UTF32:
 _p_230:
@@ -81637,7 +81637,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 25402
+.word 25406
 	.no_dead_strip plt_System_Text_Encoding_get_Unicode
 plt_System_Text_Encoding_get_Unicode:
 _p_231:
@@ -81645,7 +81645,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 25407
+.word 25411
 	.no_dead_strip plt_System_Net_Http_HttpContent_StartsWith_byte___int_byte__
 plt_System_Net_Http_HttpContent_StartsWith_byte___int_byte__:
 _p_232:
@@ -81653,7 +81653,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 25412
+.word 25416
 	.no_dead_strip plt_System_IO_MemoryStream__ctor
 plt_System_IO_MemoryStream__ctor:
 _p_233:
@@ -81661,7 +81661,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 25415
+.word 25419
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_234:
@@ -81669,7 +81669,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 25420
+.word 25424
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_235:
@@ -81677,7 +81677,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 25450
+.word 25454
 	.no_dead_strip plt_System_Net_Http_HttpRequestException__ctor_string
 plt_System_Net_Http_HttpRequestException__ctor_string:
 _p_236:
@@ -81685,7 +81685,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 25455
+.word 25459
 	.no_dead_strip plt_System_Net_Http_HttpContent_FixedMemoryStream_CheckOverflow_int
 plt_System_Net_Http_HttpContent_FixedMemoryStream_CheckOverflow_int:
 _p_237:
@@ -81693,7 +81693,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 25458
+.word 25462
 	.no_dead_strip plt_System_IO_MemoryStream_WriteByte_byte
 plt_System_IO_MemoryStream_WriteByte_byte:
 _p_238:
@@ -81701,7 +81701,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 25461
+.word 25465
 	.no_dead_strip plt_System_IO_MemoryStream_Write_byte___int_int
 plt_System_IO_MemoryStream_Write_byte___int_int:
 _p_239:
@@ -81709,7 +81709,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 25466
+.word 25470
 	.no_dead_strip plt_System_Net_Http_HttpContent_LoadIntoBufferAsync
 plt_System_Net_Http_HttpContent_LoadIntoBufferAsync:
 _p_240:
@@ -81717,7 +81717,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 25471
+.word 25475
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_:
 _p_241:
@@ -81725,7 +81725,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 25474
+.word 25478
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetException_System_Exception:
 _p_242:
@@ -81733,7 +81733,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 25486
+.word 25490
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetResult_System_IO_Stream
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetResult_System_IO_Stream:
 _p_243:
@@ -81741,7 +81741,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 25497
+.word 25501
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_244:
@@ -81749,7 +81749,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 25508
+.word 25512
 	.no_dead_strip plt_System_Net_Http_HttpContent_CreateFixedMemoryStream_long
 plt_System_Net_Http_HttpContent_CreateFixedMemoryStream_long:
 _p_245:
@@ -81757,7 +81757,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 25519
+.word 25523
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_:
 _p_246:
@@ -81765,7 +81765,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 25522
+.word 25526
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_247:
@@ -81773,7 +81773,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 25534
+.word 25538
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_248:
@@ -81781,7 +81781,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 25539
+.word 25543
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_249:
@@ -81789,7 +81789,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 25544
+.word 25548
 	.no_dead_strip plt_System_IO_MemoryStream__ctor_byte___int_int_bool
 plt_System_IO_MemoryStream__ctor_byte___int_int_bool:
 _p_250:
@@ -81797,7 +81797,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 25549
+.word 25553
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream__System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_:
 _p_251:
@@ -81805,7 +81805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 25554
+.word 25558
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__ReadAsStringAsyncd__20_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__ReadAsStringAsyncd__20_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__ReadAsStringAsyncd__20_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__ReadAsStringAsyncd__20_:
 _p_252:
@@ -81813,7 +81813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 25566
+.word 25570
 	.no_dead_strip plt_System_Net_Http_Headers_HttpContentHeaders_get_ContentType
 plt_System_Net_Http_Headers_HttpContentHeaders_get_ContentType:
 _p_253:
@@ -81821,7 +81821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 25578
+.word 25582
 	.no_dead_strip plt_System_Net_Http_Headers_MediaTypeHeaderValue_get_CharSet
 plt_System_Net_Http_Headers_MediaTypeHeaderValue_get_CharSet:
 _p_254:
@@ -81829,7 +81829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 25581
+.word 25585
 	.no_dead_strip plt_System_Text_Encoding_GetEncoding_string
 plt_System_Text_Encoding_GetEncoding_string:
 _p_255:
@@ -81837,7 +81837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 25584
+.word 25588
 	.no_dead_strip plt_System_Net_Http_HttpContent_GetEncodingFromBuffer_byte___int_int_
 plt_System_Net_Http_HttpContent_GetEncodingFromBuffer_byte___int_int_:
 _p_256:
@@ -81845,7 +81845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 25589
+.word 25593
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetException_System_Exception:
 _p_257:
@@ -81853,7 +81853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 25592
+.word 25596
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetResult_string
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetResult_string:
 _p_258:
@@ -81861,7 +81861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 25603
+.word 25607
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_259:
@@ -81869,7 +81869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 25614
+.word 25618
 	.no_dead_strip plt_System_Net_Http_HttpMessageHandler_Dispose
 plt_System_Net_Http_HttpMessageHandler_Dispose:
 _p_260:
@@ -81877,7 +81877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 25625
+.word 25629
 	.no_dead_strip plt_System_Net_Http_Headers_Parser_Token_Check_string
 plt_System_Net_Http_Headers_Parser_Token_Check_string:
 _p_261:
@@ -81885,7 +81885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 25628
+.word 25632
 	.no_dead_strip plt_System_Net_Http_HttpMethod_Equals_System_Net_Http_HttpMethod
 plt_System_Net_Http_HttpMethod_Equals_System_Net_Http_HttpMethod:
 _p_262:
@@ -81893,7 +81893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 25631
+.word 25635
 	.no_dead_strip plt_string_Equals_string_string_System_StringComparison
 plt_string_Equals_string_string_System_StringComparison:
 _p_263:
@@ -81901,7 +81901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 25634
+.word 25638
 	.no_dead_strip plt_System_Net_Http_HttpMethod__ctor_string
 plt_System_Net_Http_HttpMethod__ctor_string:
 _p_264:
@@ -81909,7 +81909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 25639
+.word 25643
 	.no_dead_strip plt_System_Exception__ctor
 plt_System_Exception__ctor:
 _p_265:
@@ -81917,7 +81917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 25642
+.word 25646
 	.no_dead_strip plt_System_Exception__ctor_string
 plt_System_Exception__ctor_string:
 _p_266:
@@ -81925,7 +81925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 25647
+.word 25651
 	.no_dead_strip plt_System_Exception__ctor_string_System_Exception
 plt_System_Exception__ctor_string_System_Exception:
 _p_267:
@@ -81933,7 +81933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 25652
+.word 25656
 	.no_dead_strip plt_System_Uri__ctor_string_System_UriKind
 plt_System_Uri__ctor_string_System_UriKind:
 _p_268:
@@ -81941,7 +81941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 25657
+.word 25661
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage_set_Method_System_Net_Http_HttpMethod
 plt_System_Net_Http_HttpRequestMessage_set_Method_System_Net_Http_HttpMethod:
 _p_269:
@@ -81949,7 +81949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 25662
+.word 25666
 	.no_dead_strip plt_System_Net_Http_HttpMethod_op_Equality_System_Net_Http_HttpMethod_System_Net_Http_HttpMethod
 plt_System_Net_Http_HttpMethod_op_Equality_System_Net_Http_HttpMethod_System_Net_Http_HttpMethod:
 _p_270:
@@ -81957,7 +81957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 25665
+.word 25669
 	.no_dead_strip plt_System_Uri_op_Inequality_System_Uri_System_Uri
 plt_System_Uri_op_Inequality_System_Uri_System_Uri:
 _p_271:
@@ -81965,7 +81965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 25668
+.word 25672
 	.no_dead_strip plt_System_Net_Http_HttpRequestMessage_IsAllowedAbsoluteUri_System_Uri
 plt_System_Net_Http_HttpRequestMessage_IsAllowedAbsoluteUri_System_Uri:
 _p_272:
@@ -81973,7 +81973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 25673
+.word 25677
 	.no_dead_strip plt_System_Net_Http_HttpContent_Dispose
 plt_System_Net_Http_HttpContent_Dispose:
 _p_273:
@@ -81981,7 +81981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 25676
+.word 25680
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_274:
@@ -81989,7 +81989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 25679
+.word 25683
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_275:
@@ -81997,7 +81997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 25684
+.word 25688
 	.no_dead_strip plt_System_Text_StringBuilder_Append_object
 plt_System_Text_StringBuilder_Append_object:
 _p_276:
@@ -82005,7 +82005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 25689
+.word 25693
 	.no_dead_strip plt_System_Net_Http_Headers_HttpResponseHeaders__ctor
 plt_System_Net_Http_Headers_HttpResponseHeaders__ctor:
 _p_277:
@@ -82013,7 +82013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 25694
+.word 25698
 	.no_dead_strip plt_System_Net_HttpStatusDescription_Get_System_Net_HttpStatusCode
 plt_System_Net_HttpStatusDescription_Get_System_Net_HttpStatusCode:
 _p_278:
@@ -82021,7 +82021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 25697
+.word 25701
 	.no_dead_strip plt_System_Text_StringBuilder_Append_int
 plt_System_Text_StringBuilder_Append_int:
 _p_279:
@@ -82029,7 +82029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 25702
+.word 25706
 	.no_dead_strip plt_System_Net_Http_HttpResponseMessage_get_ReasonPhrase
 plt_System_Net_Http_HttpResponseMessage_get_ReasonPhrase:
 _p_280:
@@ -82037,7 +82037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 25707
+.word 25711
 	.no_dead_strip plt_System_Net_Http_StreamContent__ctor_System_IO_Stream_int
 plt_System_Net_Http_StreamContent__ctor_System_IO_Stream_int:
 _p_281:
@@ -82045,7 +82045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 25710
+.word 25714
 	.no_dead_strip plt_System_Net_Http_StreamContent__ctor_System_IO_Stream
 plt_System_Net_Http_StreamContent__ctor_System_IO_Stream:
 _p_282:
@@ -82053,7 +82053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 25713
+.word 25717
 	.no_dead_strip plt_System_Net_Http_HttpContent_Dispose_bool
 plt_System_Net_Http_HttpContent_Dispose_bool:
 _p_283:
@@ -82061,7 +82061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 25716
+.word 25720
 	.no_dead_strip plt_object_MemberwiseClone
 plt_object_MemberwiseClone:
 _p_284:
@@ -82069,7 +82069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 25719
+.word 25723
 	.no_dead_strip plt_string_ToLowerInvariant
 plt_string_ToLowerInvariant:
 _p_285:
@@ -82077,7 +82077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 25724
+.word 25728
 	.no_dead_strip plt_System_Net_Http_Headers_AuthenticationHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_AuthenticationHeaderValue__System_Net_Http_Headers_Token_
 plt_System_Net_Http_Headers_AuthenticationHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_AuthenticationHeaderValue__System_Net_Http_Headers_Token_:
 _p_286:
@@ -82085,7 +82085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 25729
+.word 25733
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_AuthenticationHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_AuthenticationHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_AuthenticationHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_AuthenticationHeaderValue_:
 _p_287:
@@ -82093,7 +82093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 25732
+.word 25736
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_Scan_bool
 plt_System_Net_Http_Headers_Lexer_Scan_bool:
 _p_288:
@@ -82101,7 +82101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 25744
+.word 25748
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_GetStringValue_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_GetStringValue_System_Net_Http_Headers_Token:
 _p_289:
@@ -82109,7 +82109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 25747
+.word 25751
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_GetRemainingStringValue_int
 plt_System_Net_Http_Headers_Lexer_GetRemainingStringValue_int:
 _p_290:
@@ -82117,7 +82117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 25750
+.word 25754
 	.no_dead_strip plt_System_Net_Http_Headers_Token__ctor_System_Net_Http_Headers_Token_Type_int_int
 plt_System_Net_Http_Headers_Token__ctor_System_Net_Http_Headers_Token_Type_int_int:
 _p_291:
@@ -82125,7 +82125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 25753
+.word 25757
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_292:
@@ -82133,7 +82133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 25756
+.word 25760
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_GetEnumerator
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_GetEnumerator:
 _p_293:
@@ -82141,7 +82141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 25761
+.word 25765
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_AddWithResize_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_AddWithResize_System_Net_Http_Headers_NameValueHeaderValue:
 _p_294:
@@ -82149,7 +82149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 25772
+.word 25776
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_System_Net_Http_Headers_NameValueHeaderValue_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_System_Net_Http_Headers_NameValueHeaderValue_MoveNext:
 _p_295:
@@ -82157,7 +82157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 25792
+.word 25796
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_GetEnumerator
 plt_System_Collections_Generic_List_1_string_GetEnumerator:
 _p_296:
@@ -82165,7 +82165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 25803
+.word 25807
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_AddWithResize_string
 plt_System_Collections_Generic_List_1_string_AddWithResize_string:
 _p_297:
@@ -82173,7 +82173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 25814
+.word 25818
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext:
 _p_298:
@@ -82181,7 +82181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 25835
+.word 25839
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue:
 _p_299:
@@ -82189,7 +82189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 25846
+.word 25850
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_string_System_Collections_Generic_List_1_string_System_Collections_Generic_List_1_string
 plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_string_System_Collections_Generic_List_1_string_System_Collections_Generic_List_1_string:
 _p_300:
@@ -82197,7 +82197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 25858
+.word 25862
 	.no_dead_strip plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_ICollection_1_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_ICollection_1_System_Net_Http_Headers_NameValueHeaderValue:
 _p_301:
@@ -82205,7 +82205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 25870
+.word 25874
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_GetHashCode
 plt_System_Nullable_1_System_TimeSpan_GetHashCode:
 _p_302:
@@ -82213,7 +82213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 25882
+.word 25886
 	.no_dead_strip plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_string_System_Collections_Generic_ICollection_1_string
 plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_string_System_Collections_Generic_ICollection_1_string:
 _p_303:
@@ -82221,7 +82221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 25904
+.word 25908
 	.no_dead_strip plt__PrivateImplementationDetails_ComputeStringHash_string
 plt__PrivateImplementationDetails_ComputeStringHash_string:
 _p_304:
@@ -82229,7 +82229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 25916
+.word 25920
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetTimeSpanValue_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_TryGetTimeSpanValue_System_Net_Http_Headers_Token:
 _p_305:
@@ -82237,7 +82237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 25919
+.word 25923
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_GetQuotedStringValue_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_GetQuotedStringValue_System_Net_Http_Headers_Token:
 _p_306:
@@ -82245,7 +82245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 25922
+.word 25926
 	.no_dead_strip plt_string_Split_char_System_StringSplitOptions
 plt_string_Split_char_System_StringSplitOptions:
 _p_307:
@@ -82253,7 +82253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 25925
+.word 25929
 	.no_dead_strip plt_string_Trim_char__
 plt_string_Trim_char__:
 _p_308:
@@ -82261,7 +82261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 25930
+.word 25934
 	.no_dead_strip plt_System_Net_Http_Headers_CacheControlHeaderValue_get_PrivateHeaders
 plt_System_Net_Http_Headers_CacheControlHeaderValue_get_PrivateHeaders:
 _p_309:
@@ -82269,7 +82269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 25935
+.word 25939
 	.no_dead_strip plt_System_Net_Http_Headers_CacheControlHeaderValue_get_NoCacheHeaders
 plt_System_Net_Http_Headers_CacheControlHeaderValue_get_NoCacheHeaders:
 _p_310:
@@ -82277,7 +82277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 25938
+.word 25942
 	.no_dead_strip plt_System_Net_Http_Headers_CacheControlHeaderValue_get_Extensions
 plt_System_Net_Http_Headers_CacheControlHeaderValue_get_Extensions:
 _p_311:
@@ -82285,7 +82285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 25941
+.word 25945
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_Create_string_string
 plt_System_Net_Http_Headers_NameValueHeaderValue_Create_string_string:
 _p_312:
@@ -82293,7 +82293,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 25944
+.word 25948
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_ToStringBuilder_string_System_Collections_Generic_List_1_string_System_Text_StringBuilder
 plt_System_Net_Http_Headers_CollectionExtensions_ToStringBuilder_string_System_Collections_Generic_List_1_string_System_Text_StringBuilder:
 _p_313:
@@ -82301,7 +82301,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 25947
+.word 25951
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_get_Value
 plt_System_Nullable_1_System_TimeSpan_get_Value:
 _p_314:
@@ -82309,7 +82309,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 25959
+.word 25963
 	.no_dead_strip plt_double_ToString_System_IFormatProvider
 plt_double_ToString_System_IFormatProvider:
 _p_315:
@@ -82317,7 +82317,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 25970
+.word 25974
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_ToStringBuilder_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_System_Text_StringBuilder
 plt_System_Net_Http_Headers_CollectionExtensions_ToStringBuilder_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_System_Text_StringBuilder:
 _p_316:
@@ -82325,7 +82325,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 25975
+.word 25979
 	.no_dead_strip plt_System_Text_StringBuilder_get_Chars_int
 plt_System_Text_StringBuilder_get_Chars_int:
 _p_317:
@@ -82333,7 +82333,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 25987
+.word 25991
 	.no_dead_strip plt_System_Text_StringBuilder_Remove_int_int
 plt_System_Text_StringBuilder_Remove_int_int:
 _p_318:
@@ -82341,7 +82341,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 25992
+.word 25996
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_319:
@@ -82349,7 +82349,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 26033
+.word 26037
 	.no_dead_strip plt_System_Collections_Generic_List_1_TSource_REF_get_Count
 plt_System_Collections_Generic_List_1_TSource_REF_get_Count:
 _p_320:
@@ -82357,7 +82357,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 26045
+.word 26049
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_321:
@@ -82365,7 +82365,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 26068
+.word 26072
 	.no_dead_strip plt_System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF
 plt_System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF:
 _p_322:
@@ -82373,7 +82373,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 26095
+.word 26099
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_323:
@@ -82381,7 +82381,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 26152
+.word 26156
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Count
 plt_System_Collections_Generic_List_1_T_REF_get_Count:
 _p_324:
@@ -82389,7 +82389,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 26164
+.word 26168
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Item_int
 plt_System_Collections_Generic_List_1_T_REF_get_Item_int:
 _p_325:
@@ -82397,7 +82397,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 26187
+.word 26191
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_326:
@@ -82405,7 +82405,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 26246
+.word 26250
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Count_0
 plt_System_Collections_Generic_List_1_T_REF_get_Count_0:
 _p_327:
@@ -82413,7 +82413,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 26258
+.word 26262
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Item_int_0
 plt_System_Collections_Generic_List_1_T_REF_get_Item_int_0:
 _p_328:
@@ -82421,7 +82421,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 26281
+.word 26285
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_329:
@@ -82429,7 +82429,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 26340
+.word 26344
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF__ctor
 plt_System_Collections_Generic_List_1_T_REF__ctor:
 _p_330:
@@ -82437,7 +82437,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 26352
+.word 26356
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Add_T_REF
 plt_System_Collections_Generic_List_1_T_REF_Add_T_REF:
 _p_331:
@@ -82445,7 +82445,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 26375
+.word 26379
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Count_1
 plt_System_Collections_Generic_List_1_T_REF_get_Count_1:
 _p_332:
@@ -82453,7 +82453,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 26398
+.word 26402
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_string_string_int_System_Net_Http_Headers_ElementTryParser_1_string_System_Collections_Generic_List_1_string_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_string_string_int_System_Net_Http_Headers_ElementTryParser_1_string_System_Collections_Generic_List_1_string_:
 _p_333:
@@ -82461,7 +82461,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 26421
+.word 26425
 	.no_dead_strip plt_System_Net_Http_Headers_ContentDispositionHeaderValue_get_Parameters
 plt_System_Net_Http_Headers_ContentDispositionHeaderValue_get_Parameters:
 _p_334:
@@ -82469,7 +82469,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 26433
+.word 26437
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue__ctor_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Net_Http_Headers_NameValueHeaderValue__ctor_System_Net_Http_Headers_NameValueHeaderValue:
 _p_335:
@@ -82477,7 +82477,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 26436
+.word 26440
 	.no_dead_strip plt_System_Net_Http_Headers_ContentDispositionHeaderValue__ctor_System_Net_Http_Headers_ContentDispositionHeaderValue
 plt_System_Net_Http_Headers_ContentDispositionHeaderValue__ctor_System_Net_Http_Headers_ContentDispositionHeaderValue:
 _p_336:
@@ -82485,7 +82485,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 26439
+.word 26443
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_ToString_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Net_Http_Headers_CollectionExtensions_ToString_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue:
 _p_337:
@@ -82493,7 +82493,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 26442
+.word 26446
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_338:
@@ -82501,7 +82501,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 26454
+.word 26458
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_TryParseParameters_System_Net_Http_Headers_Lexer_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue__System_Net_Http_Headers_Token_
 plt_System_Net_Http_Headers_NameValueHeaderValue_TryParseParameters_System_Net_Http_Headers_Lexer_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue__System_Net_Http_Headers_Token_:
 _p_339:
@@ -82509,7 +82509,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 26459
+.word 26463
 	.no_dead_strip plt_System_Nullable_1_long_GetHashCode
 plt_System_Nullable_1_long_GetHashCode:
 _p_340:
@@ -82517,7 +82517,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 26462
+.word 26466
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_IsStarStringValue_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_IsStarStringValue_System_Net_Http_Headers_Token:
 _p_341:
@@ -82525,7 +82525,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 26484
+.word 26488
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetNumericValue_System_Net_Http_Headers_Token_long_
 plt_System_Net_Http_Headers_Lexer_TryGetNumericValue_System_Net_Http_Headers_Token_long_:
 _p_342:
@@ -82533,7 +82533,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 26487
+.word 26491
 	.no_dead_strip plt_long_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_long_
 plt_long_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_long_:
 _p_343:
@@ -82541,7 +82541,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 26490
+.word 26494
 	.no_dead_strip plt_System_Text_StringBuilder__ctor_string
 plt_System_Text_StringBuilder__ctor_string:
 _p_344:
@@ -82549,7 +82549,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 26495
+.word 26499
 	.no_dead_strip plt_long_ToString_System_IFormatProvider
 plt_long_ToString_System_IFormatProvider:
 _p_345:
@@ -82557,7 +82557,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 26500
+.word 26504
 	.no_dead_strip plt_System_Net_Http_Headers_EntityTagHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_EntityTagHeaderValue__System_Net_Http_Headers_Token_
 plt_System_Net_Http_Headers_EntityTagHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_EntityTagHeaderValue__System_Net_Http_Headers_Token_:
 _p_346:
@@ -82565,7 +82565,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 26505
+.word 26509
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_PeekChar
 plt_System_Net_Http_Headers_Lexer_PeekChar:
 _p_347:
@@ -82573,7 +82573,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 26508
+.word 26512
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_EntityTagHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_EntityTagHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_EntityTagHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_EntityTagHeaderValue_:
 _p_348:
@@ -82581,7 +82581,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 26511
+.word 26515
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_349:
@@ -82589,7 +82589,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 26559
+.word 26563
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_350:
@@ -82597,7 +82597,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 26599
+.word 26603
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_351:
@@ -82605,7 +82605,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 26666
+.word 26670
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_T_REF_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_T_REF_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind:
 _p_352:
@@ -82613,7 +82613,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 26678
+.word 26682
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_353:
@@ -82621,7 +82621,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 26744
+.word 26748
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CollectionHeaderTypeInfo_2_T_REF_T_REF__ctor_string_System_Net_Http_Headers_TryParseListDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CollectionHeaderTypeInfo_2_T_REF_T_REF__ctor_string_System_Net_Http_Headers_TryParseListDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_354:
@@ -82629,7 +82629,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 26756
+.word 26760
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo__ctor_string_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo__ctor_string_System_Net_Http_Headers_HttpHeaderKind:
 _p_355:
@@ -82637,7 +82637,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 26784
+.word 26788
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_356:
@@ -82645,7 +82645,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 26837
+.word 26841
 	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
 _p_357:
@@ -82653,7 +82653,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 26849
+.word 26853
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_358:
@@ -82661,7 +82661,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 26866
+.word 26870
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_AddRange_System_Collections_Generic_List_1_U_REF
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_AddRange_System_Collections_Generic_List_1_U_REF:
 _p_359:
@@ -82669,7 +82669,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 26878
+.word 26882
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_360:
@@ -82677,7 +82677,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 26899
+.word 26903
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_361:
@@ -82685,7 +82685,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 26909
+.word 26913
 	.no_dead_strip plt_System_Collections_Generic_List_1_U_REF_Add_U_REF
 plt_System_Collections_Generic_List_1_U_REF_Add_U_REF:
 _p_362:
@@ -82693,7 +82693,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 26921
+.word 26925
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_363:
@@ -82701,7 +82701,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 26967
+.word 26971
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo:
 _p_364:
@@ -82709,7 +82709,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 26979
+.word 26983
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_365:
@@ -82717,7 +82717,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 27025
+.word 27029
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_get_Count
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_get_Count:
 _p_366:
@@ -82725,7 +82725,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 27037
+.word 27041
 	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor_System_Collections_Generic_IEnumerable_1_string
 plt_System_Collections_Generic_List_1_string__ctor_System_Collections_Generic_IEnumerable_1_string:
 _p_367:
@@ -82733,7 +82733,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 27058
+.word 27062
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_GetEnumerator
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_U_REF_GetEnumerator:
 _p_368:
@@ -82741,7 +82741,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 27079
+.word 27083
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_369:
@@ -82749,7 +82749,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 27109
+.word 27113
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_AddRange_System_Collections_Generic_IEnumerable_1_string
 plt_System_Collections_Generic_List_1_string_AddRange_System_Collections_Generic_IEnumerable_1_string:
 _p_370:
@@ -82757,7 +82757,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 27136
+.word 27140
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_T_REF_U_REF__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_T_REF_U_REF__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_T_REF_System_Net_Http_Headers_HttpHeaderKind:
 _p_371:
@@ -82765,7 +82765,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 27173
+.word 27177
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders__ctor_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HttpHeaders__ctor_System_Net_Http_Headers_HttpHeaderKind:
 _p_372:
@@ -82773,7 +82773,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 27201
+.word 27205
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValue_System_Nullable_1_long_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValue_System_Nullable_1_long_string:
 _p_373:
@@ -82781,7 +82781,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 27204
+.word 27208
 	.no_dead_strip plt_System_Net_Http_HttpContent_get_LoadedBufferLength
 plt_System_Net_Http_HttpContent_get_LoadedBufferLength:
 _p_374:
@@ -82789,7 +82789,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 27216
+.word 27220
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_SetValue_long_string_long_System_Func_2_object_string
 plt_System_Net_Http_Headers_HttpHeaders_SetValue_long_string_long_System_Func_2_object_string:
 _p_375:
@@ -82797,7 +82797,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 27219
+.word 27223
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValue_System_Net_Http_Headers_MediaTypeHeaderValue_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValue_System_Net_Http_Headers_MediaTypeHeaderValue_string:
 _p_376:
@@ -82805,7 +82805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 27231
+.word 27235
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_AddOrRemove_System_Net_Http_Headers_MediaTypeHeaderValue_string_System_Net_Http_Headers_MediaTypeHeaderValue_System_Func_2_object_string
 plt_System_Net_Http_Headers_HttpHeaders_AddOrRemove_System_Net_Http_Headers_MediaTypeHeaderValue_string_System_Net_Http_Headers_MediaTypeHeaderValue_System_Func_2_object_string:
 _p_377:
@@ -82813,7 +82813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 27243
+.word 27247
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_378:
@@ -82821,7 +82821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 27303
+.word 27307
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF__ctor_0
 plt_System_Collections_Generic_List_1_T_REF__ctor_0:
 _p_379:
@@ -82829,7 +82829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 27315
+.word 27319
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_380:
@@ -82837,7 +82837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 27360
+.word 27364
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_get_Count_2
 plt_System_Collections_Generic_List_1_T_REF_get_Count_2:
 _p_381:
@@ -82845,7 +82845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 27372
+.word 27376
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_382:
@@ -82853,7 +82853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 27417
+.word 27421
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Add_T_REF_0
 plt_System_Collections_Generic_List_1_T_REF_Add_T_REF_0:
 _p_383:
@@ -82861,7 +82861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 27429
+.word 27433
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_384:
@@ -82869,7 +82869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 27474
+.word 27478
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_AddRange_System_Collections_Generic_IEnumerable_1_T_REF
 plt_System_Collections_Generic_List_1_T_REF_AddRange_System_Collections_Generic_IEnumerable_1_T_REF:
 _p_385:
@@ -82877,7 +82877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 27486
+.word 27490
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_386:
@@ -82885,7 +82885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 27531
+.word 27535
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Clear
 plt_System_Collections_Generic_List_1_T_REF_Clear:
 _p_387:
@@ -82893,7 +82893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 27543
+.word 27547
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_388:
@@ -82901,7 +82901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 27588
+.word 27592
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Contains_T_REF
 plt_System_Collections_Generic_List_1_T_REF_Contains_T_REF:
 _p_389:
@@ -82909,7 +82909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 27600
+.word 27604
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_390:
@@ -82917,7 +82917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 27645
+.word 27649
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_CopyTo_T_REF___int
 plt_System_Collections_Generic_List_1_T_REF_CopyTo_T_REF___int:
 _p_391:
@@ -82925,7 +82925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 27657
+.word 27661
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_392:
@@ -82933,7 +82933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 27702
+.word 27706
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Remove_T_REF
 plt_System_Collections_Generic_List_1_T_REF_Remove_T_REF:
 _p_393:
@@ -82941,7 +82941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 27714
+.word 27718
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_394:
@@ -82949,7 +82949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 27759
+.word 27763
 	.no_dead_strip plt_string_Join_T_REF_string_System_Collections_Generic_IEnumerable_1_T_REF
 plt_string_Join_T_REF_string_System_Collections_Generic_IEnumerable_1_T_REF:
 _p_395:
@@ -82957,7 +82957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 27786
+.word 27790
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_396:
@@ -82965,7 +82965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 27829
+.word 27833
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_GetEnumerator
 plt_System_Collections_Generic_List_1_T_REF_GetEnumerator:
 _p_397:
@@ -82973,7 +82973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 27841
+.word 27845
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_398:
@@ -82981,7 +82981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 27875
+.word 27879
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF_GetEnumerator
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF_GetEnumerator:
 _p_399:
@@ -82989,7 +82989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 27887
+.word 27891
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_400:
@@ -82997,7 +82997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 27932
+.word 27936
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Find_System_Predicate_1_T_REF
 plt_System_Collections_Generic_List_1_T_REF_Find_System_Predicate_1_T_REF:
 _p_401:
@@ -83005,7 +83005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 27944
+.word 27948
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_402:
@@ -83013,7 +83013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 27967
+.word 27971
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_StringWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_StringWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_StringWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_StringWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_403:
@@ -83021,7 +83021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 27979
+.word 27983
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_string_string_System_Net_Http_Headers_TryParseListDelegate_1_string_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_string_string_System_Net_Http_Headers_TryParseListDelegate_1_string_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_404:
@@ -83029,7 +83029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 27991
+.word 27995
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_TimeSpan_string_System_Net_Http_Headers_TryParseDelegate_1_System_TimeSpan_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_TimeSpan_string_System_Net_Http_Headers_TryParseDelegate_1_System_TimeSpan_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_405:
@@ -83037,7 +83037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 28003
+.word 28007
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_AuthenticationHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_AuthenticationHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_406:
@@ -83045,7 +83045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 28015
+.word 28019
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_CacheControlHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_CacheControlHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_CacheControlHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_CacheControlHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_407:
@@ -83053,7 +83053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 28027
+.word 28031
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_ContentDispositionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_ContentDispositionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_ContentDispositionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_ContentDispositionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_408:
@@ -83061,7 +83061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 28039
+.word 28043
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_long_string_System_Net_Http_Headers_TryParseDelegate_1_long_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_long_string_System_Net_Http_Headers_TryParseDelegate_1_long_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_409:
@@ -83069,7 +83069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 28051
+.word 28055
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Uri_string_System_Net_Http_Headers_TryParseDelegate_1_System_Uri_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Uri_string_System_Net_Http_Headers_TryParseDelegate_1_System_Uri_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_410:
@@ -83077,7 +83077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 28063
+.word 28067
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_byte___string_System_Net_Http_Headers_TryParseDelegate_1_byte___System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_byte___string_System_Net_Http_Headers_TryParseDelegate_1_byte___System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_411:
@@ -83085,7 +83085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 28075
+.word 28079
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_ContentRangeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_ContentRangeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_ContentRangeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_ContentRangeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_412:
@@ -83093,7 +83093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 28087
+.word 28091
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_MediaTypeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_MediaTypeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_MediaTypeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_MediaTypeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_413:
@@ -83101,7 +83101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 28099
+.word 28103
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_DateTimeOffset_string_System_Net_Http_Headers_TryParseDelegate_1_System_DateTimeOffset_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_DateTimeOffset_string_System_Net_Http_Headers_TryParseDelegate_1_System_DateTimeOffset_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_414:
@@ -83109,7 +83109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 28111
+.word 28115
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_EntityTagHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_EntityTagHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_415:
@@ -83117,7 +83117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 28123
+.word 28127
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_NameValueWithParametersHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_NameValueWithParametersHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_416:
@@ -83125,7 +83125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 28135
+.word 28139
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_string_string_System_Net_Http_Headers_TryParseDelegate_1_string_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_string_string_System_Net_Http_Headers_TryParseDelegate_1_string_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_417:
@@ -83133,7 +83133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 28147
+.word 28151
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_EntityTagHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_EntityTagHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_EntityTagHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_418:
@@ -83141,7 +83141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 28159
+.word 28163
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RangeConditionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RangeConditionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RangeConditionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RangeConditionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_419:
@@ -83149,7 +83149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 28171
+.word 28175
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_int_string_System_Net_Http_Headers_TryParseDelegate_1_int_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_int_string_System_Net_Http_Headers_TryParseDelegate_1_int_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_420:
@@ -83157,7 +83157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 28183
+.word 28187
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_NameValueHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_NameValueHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_NameValueHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_NameValueHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_421:
@@ -83165,7 +83165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 28195
+.word 28199
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_AuthenticationHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_AuthenticationHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_AuthenticationHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_422:
@@ -83173,7 +83173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 28207
+.word 28211
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RangeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RangeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RangeHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RangeHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_423:
@@ -83181,7 +83181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 28219
+.word 28223
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RetryConditionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RetryConditionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateSingle_System_Net_Http_Headers_RetryConditionHeaderValue_string_System_Net_Http_Headers_TryParseDelegate_1_System_Net_Http_Headers_RetryConditionHeaderValue_System_Net_Http_Headers_HttpHeaderKind_System_Func_2_object_string:
 _p_424:
@@ -83189,7 +83189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 28231
+.word 28235
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ProductInfoHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ProductInfoHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ProductInfoHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ProductInfoHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_425:
@@ -83197,7 +83197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 28243
+.word 28247
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_426:
@@ -83205,7 +83205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 28255
+.word 28259
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_TransferCodingHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_TransferCodingHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_TransferCodingHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_TransferCodingHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_427:
@@ -83213,7 +83213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 28267
+.word 28271
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ProductHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ProductHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ProductHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ProductHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_428:
@@ -83221,7 +83221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 28279
+.word 28283
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ViaHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ViaHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_ViaHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_ViaHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_429:
@@ -83229,7 +83229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 28291
+.word 28295
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_WarningHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_WarningHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string
 plt_System_Net_Http_Headers_HeaderInfo_CreateMulti_System_Net_Http_Headers_WarningHeaderValue_string_System_Net_Http_Headers_TryParseListDelegate_1_System_Net_Http_Headers_WarningHeaderValue_System_Net_Http_Headers_HttpHeaderKind_int_string:
 _p_430:
@@ -83237,7 +83237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 28303
+.word 28307
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo__ctor_System_Collections_Generic_IEqualityComparer_1_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo__ctor_System_Collections_Generic_IEqualityComparer_1_string:
 _p_431:
@@ -83245,7 +83245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 28315
+.word 28319
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_Add_string_System_Net_Http_Headers_HeaderInfo
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_Add_string_System_Net_Http_Headers_HeaderInfo:
 _p_432:
@@ -83253,7 +83253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 28326
+.word 28330
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket__ctor_System_Collections_Generic_IEqualityComparer_1_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket__ctor_System_Collections_Generic_IEqualityComparer_1_string:
 _p_433:
@@ -83261,7 +83261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 28337
+.word 28341
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders__ctor
 plt_System_Net_Http_Headers_HttpHeaders__ctor:
 _p_434:
@@ -83269,7 +83269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 28348
+.word 28352
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_Add_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Net_Http_Headers_HttpHeaders_Add_string_System_Collections_Generic_IEnumerable_1_string:
 _p_435:
@@ -83277,7 +83277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 28351
+.word 28355
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_CheckName_string
 plt_System_Net_Http_Headers_HttpHeaders_CheckName_string:
 _p_436:
@@ -83285,7 +83285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 28354
+.word 28358
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_AddInternal_string_System_Collections_Generic_IEnumerable_1_string_System_Net_Http_Headers_HeaderInfo_bool
 plt_System_Net_Http_Headers_HttpHeaders_AddInternal_string_System_Collections_Generic_IEnumerable_1_string_System_Net_Http_Headers_HeaderInfo_bool:
 _p_437:
@@ -83293,7 +83293,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 28357
+.word 28361
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_TryGetValue_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_TryGetValue_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_:
 _p_438:
@@ -83301,7 +83301,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 28360
+.word 28364
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_CreateCollection_System_Net_Http_Headers_HttpHeaders
 plt_System_Net_Http_Headers_HeaderInfo_CreateCollection_System_Net_Http_Headers_HttpHeaders:
 _p_439:
@@ -83309,7 +83309,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 28371
+.word 28375
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket__ctor_object_System_Func_2_object_string
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket__ctor_object_System_Func_2_object_string:
 _p_440:
@@ -83317,7 +83317,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 28374
+.word 28378
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_Values
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_Values:
 _p_441:
@@ -83325,7 +83325,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 28377
+.word 28381
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_Add_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_Add_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket:
 _p_442:
@@ -83333,7 +83333,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 28380
+.word 28384
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_TryCheckName_string_System_Net_Http_Headers_HeaderInfo_
 plt_System_Net_Http_Headers_HttpHeaders_TryCheckName_string_System_Net_Http_Headers_HeaderInfo_:
 _p_443:
@@ -83341,7 +83341,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 28391
+.word 28395
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_TryGetValue_string_System_Net_Http_Headers_HeaderInfo_
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_TryGetValue_string_System_Net_Http_Headers_HeaderInfo_:
 _p_444:
@@ -83349,7 +83349,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 28394
+.word 28398
 	.no_dead_strip plt_System_Net_Http_Headers_Parser_Token_TryCheck_string
 plt_System_Net_Http_Headers_Parser_Token_TryCheck_string:
 _p_445:
@@ -83357,7 +83357,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 28405
+.word 28409
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_Remove_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_Remove_string:
 _p_446:
@@ -83365,7 +83365,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 28408
+.word 28412
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_Remove_string
 plt_System_Net_Http_Headers_HttpHeaders_Remove_string:
 _p_447:
@@ -83373,7 +83373,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 28419
+.word 28423
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_448:
@@ -83381,7 +83381,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 28447
+.word 28451
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_SetValue_T_REF_string_T_REF_System_Func_2_object_string
 plt_System_Net_Http_Headers_HttpHeaders_SetValue_T_REF_string_T_REF_System_Func_2_object_string:
 _p_449:
@@ -83389,7 +83389,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 28473
+.word 28477
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_ParsedToString
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_ParsedToString:
 _p_450:
@@ -83397,7 +83397,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 28493
+.word 28497
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_HasStringValues
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_HasStringValues:
 _p_451:
@@ -83405,7 +83405,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 28496
+.word 28500
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_get_Item_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HeaderInfo_get_Item_string:
 _p_452:
@@ -83413,7 +83413,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 28499
+.word 28503
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_get_Item_int
 plt_System_Collections_Generic_List_1_string_get_Item_int:
 _p_453:
@@ -83421,7 +83421,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 28522
+.word 28526
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_454:
@@ -83429,7 +83429,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 28562
+.word 28566
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_455:
@@ -83437,7 +83437,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 28574
+.word 28578
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_456:
@@ -83445,7 +83445,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 28620
+.word 28624
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo:
 _p_457:
@@ -83453,7 +83453,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 28632
+.word 28636
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_458:
@@ -83461,7 +83461,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 28655
+.word 28659
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF_AddInvalidValue_string
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_T_REF_AddInvalidValue_string:
 _p_459:
@@ -83469,7 +83469,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 28667
+.word 28671
 	.no_dead_strip plt_System_Array_Clear_System_Array_int_int
 plt_System_Array_Clear_System_Array_int_int:
 _p_460:
@@ -83477,7 +83477,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 28690
+.word 28694
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_set_Item_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_set_Item_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket:
 _p_461:
@@ -83485,7 +83485,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 28695
+.word 28699
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders__GetEnumeratord__19__m__Finally1
 plt_System_Net_Http_Headers_HttpHeaders__GetEnumeratord__19__m__Finally1:
 _p_462:
@@ -83493,7 +83493,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 28718
+.word 28722
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_GetEnumerator:
 _p_463:
@@ -83501,7 +83501,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 28721
+.word 28725
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_Item_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_get_Item_string:
 _p_464:
@@ -83509,7 +83509,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 28732
+.word 28736
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetAllHeaderValues_System_Net_Http_Headers_HttpHeaders_HeaderBucket_System_Net_Http_Headers_HeaderInfo
 plt_System_Net_Http_Headers_HttpHeaders_GetAllHeaderValues_System_Net_Http_Headers_HttpHeaders_HeaderBucket_System_Net_Http_Headers_HeaderInfo:
 _p_465:
@@ -83517,7 +83517,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 28743
+.word 28747
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string__ctor_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Collections_Generic_KeyValuePair_2_string_System_Collections_Generic_IEnumerable_1_string__ctor_string_System_Collections_Generic_IEnumerable_1_string:
 _p_466:
@@ -83525,7 +83525,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 28746
+.word 28750
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_MoveNext
 plt_System_Collections_Generic_Dictionary_2_Enumerator_string_System_Net_Http_Headers_HttpHeaders_HeaderBucket_MoveNext:
 _p_467:
@@ -83533,7 +83533,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 28757
+.word 28761
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders__GetEnumeratord__19_System_IDisposable_Dispose
 plt_System_Net_Http_Headers_HttpHeaders__GetEnumeratord__19_System_IDisposable_Dispose:
 _p_468:
@@ -83541,7 +83541,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 28768
+.word 28772
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValue_System_Net_Http_Headers_AuthenticationHeaderValue_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValue_System_Net_Http_Headers_AuthenticationHeaderValue_string:
 _p_469:
@@ -83549,7 +83549,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 28771
+.word 28775
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValues_string_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValues_string_string:
 _p_470:
@@ -83557,7 +83557,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 28783
+.word 28787
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_Connection
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_Connection:
 _p_471:
@@ -83565,7 +83565,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 28795
+.word 28799
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_string_Find_System_Predicate_1_string
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_string_Find_System_Predicate_1_string:
 _p_472:
@@ -83573,7 +83573,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 28798
+.word 28802
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_473:
@@ -83581,7 +83581,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 28809
+.word 28813
 	.no_dead_strip plt_System_Net_Http_Headers_HttpRequestHeaders_get_TransferEncoding
 plt_System_Net_Http_Headers_HttpRequestHeaders_get_TransferEncoding:
 _p_474:
@@ -83589,7 +83589,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 28820
+.word 28824
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_System_Net_Http_Headers_TransferCodingHeaderValue_Find_System_Predicate_1_System_Net_Http_Headers_TransferCodingHeaderValue
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_System_Net_Http_Headers_TransferCodingHeaderValue_Find_System_Predicate_1_System_Net_Http_Headers_TransferCodingHeaderValue:
 _p_475:
@@ -83597,7 +83597,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 28823
+.word 28827
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValue_string_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValue_string_string:
 _p_476:
@@ -83605,7 +83605,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 28834
+.word 28838
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_GetValues_System_Net_Http_Headers_TransferCodingHeaderValue_string
 plt_System_Net_Http_Headers_HttpHeaders_GetValues_System_Net_Http_Headers_TransferCodingHeaderValue_string:
 _p_477:
@@ -83613,7 +83613,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 28846
+.word 28850
 	.no_dead_strip plt_string_Substring_int_int
 plt_string_Substring_int_int:
 _p_478:
@@ -83621,7 +83621,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 28858
+.word 28862
 	.no_dead_strip plt_string_Substring_int
 plt_string_Substring_int:
 _p_479:
@@ -83629,7 +83629,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 28863
+.word 28867
 	.no_dead_strip plt_int_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_int_
 plt_int_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_int_:
 _p_480:
@@ -83637,7 +83637,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 28868
+.word 28872
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetNumericValue_System_Net_Http_Headers_Token_int_
 plt_System_Net_Http_Headers_Lexer_TryGetNumericValue_System_Net_Http_Headers_Token_int_:
 _p_481:
@@ -83645,7 +83645,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 28873
+.word 28877
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan:
 _p_482:
@@ -83653,7 +83653,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 28876
+.word 28880
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetDateValue_string_System_DateTimeOffset_
 plt_System_Net_Http_Headers_Lexer_TryGetDateValue_string_System_DateTimeOffset_:
 _p_483:
@@ -83661,7 +83661,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 28887
+.word 28891
 	.no_dead_strip plt_System_Globalization_DateTimeFormatInfo_get_InvariantInfo
 plt_System_Globalization_DateTimeFormatInfo_get_InvariantInfo:
 _p_484:
@@ -83669,7 +83669,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 28890
+.word 28894
 	.no_dead_strip plt_System_DateTimeOffset_TryParseExact_string_string___System_IFormatProvider_System_Globalization_DateTimeStyles_System_DateTimeOffset_
 plt_System_DateTimeOffset_TryParseExact_string_string___System_IFormatProvider_System_Globalization_DateTimeStyles_System_DateTimeOffset_:
 _p_485:
@@ -83677,7 +83677,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 28895
+.word 28899
 	.no_dead_strip plt_double_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_double_
 plt_double_TryParse_string_System_Globalization_NumberStyles_System_IFormatProvider_double_:
 _p_486:
@@ -83685,7 +83685,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 28900
+.word 28904
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_487:
@@ -83693,7 +83693,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 28905
+.word 28909
 	.no_dead_strip plt_System_Net_Http_Headers_MediaTypeHeaderValue_set_MediaType_string
 plt_System_Net_Http_Headers_MediaTypeHeaderValue_set_MediaType_string:
 _p_488:
@@ -83701,7 +83701,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 28910
+.word 28914
 	.no_dead_strip plt_System_Net_Http_Headers_MediaTypeHeaderValue_get_Parameters
 plt_System_Net_Http_Headers_MediaTypeHeaderValue_get_Parameters:
 _p_489:
@@ -83709,7 +83709,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 28913
+.word 28917
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_Find_System_Predicate_1_System_Net_Http_Headers_NameValueHeaderValue
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_Find_System_Predicate_1_System_Net_Http_Headers_NameValueHeaderValue:
 _p_490:
@@ -83717,7 +83717,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 28916
+.word 28920
 	.no_dead_strip plt_System_Net_Http_Headers_MediaTypeHeaderValue_TryParseMediaType_System_Net_Http_Headers_Lexer_string_
 plt_System_Net_Http_Headers_MediaTypeHeaderValue_TryParseMediaType_System_Net_Http_Headers_Lexer_string_:
 _p_491:
@@ -83725,7 +83725,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 28927
+.word 28931
 	.no_dead_strip plt_System_Nullable_1_System_Net_Http_Headers_Token_get_Value
 plt_System_Nullable_1_System_Net_Http_Headers_Token_get_Value:
 _p_492:
@@ -83733,7 +83733,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 28930
+.word 28934
 	.no_dead_strip plt_System_Net_Http_Headers_MediaTypeHeaderValue__ctor_System_Net_Http_Headers_MediaTypeHeaderValue
 plt_System_Net_Http_Headers_MediaTypeHeaderValue__ctor_System_Net_Http_Headers_MediaTypeHeaderValue:
 _p_493:
@@ -83741,7 +83741,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 28941
+.word 28945
 	.no_dead_strip plt_System_Nullable_1_System_Net_Http_Headers_Token__ctor_System_Net_Http_Headers_Token
 plt_System_Nullable_1_System_Net_Http_Headers_Token__ctor_System_Net_Http_Headers_Token:
 _p_494:
@@ -83749,7 +83749,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 28944
+.word 28948
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_MediaTypeWithQualityHeaderValue_:
 _p_495:
@@ -83757,7 +83757,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 28955
+.word 28959
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_NameValueHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_NameValueHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_NameValueHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueHeaderValue_:
 _p_496:
@@ -83765,7 +83765,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 28967
+.word 28971
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueWithParametersHeaderValue_get_Parameters
 plt_System_Net_Http_Headers_NameValueWithParametersHeaderValue_get_Parameters:
 _p_497:
@@ -83773,7 +83773,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 28979
+.word 28983
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueWithParametersHeaderValue__ctor_System_Net_Http_Headers_NameValueWithParametersHeaderValue
 plt_System_Net_Http_Headers_NameValueWithParametersHeaderValue__ctor_System_Net_Http_Headers_NameValueWithParametersHeaderValue:
 _p_498:
@@ -83781,7 +83781,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 28982
+.word 28986
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_Equals_object
 plt_System_Net_Http_Headers_NameValueHeaderValue_Equals_object:
 _p_499:
@@ -83789,7 +83789,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 28985
+.word 28989
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_GetHashCode
 plt_System_Net_Http_Headers_NameValueHeaderValue_GetHashCode:
 _p_500:
@@ -83797,7 +83797,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 28988
+.word 28992
 	.no_dead_strip plt_System_Net_Http_Headers_NameValueHeaderValue_ToString
 plt_System_Net_Http_Headers_NameValueHeaderValue_ToString:
 _p_501:
@@ -83805,7 +83805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 28991
+.word 28995
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_NameValueWithParametersHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_NameValueWithParametersHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_NameValueWithParametersHeaderValue_:
 _p_502:
@@ -83813,7 +83813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 28994
+.word 28998
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_IsValidToken_string
 plt_System_Net_Http_Headers_Lexer_IsValidToken_string:
 _p_503:
@@ -83821,7 +83821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 29006
+.word 29010
 	.no_dead_strip plt_System_DateTimeOffset_ToString_string_System_IFormatProvider
 plt_System_DateTimeOffset_ToString_string_System_IFormatProvider:
 _p_504:
@@ -83829,7 +83829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 29009
+.word 29013
 	.no_dead_strip plt_System_Net_Mail_MailAddress__ctor_string
 plt_System_Net_Mail_MailAddress__ctor_string:
 _p_505:
@@ -83837,7 +83837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 29014
+.word 29018
 	.no_dead_strip plt_System_Uri_TryCreate_string_System_UriKind_System_Uri_
 plt_System_Uri_TryCreate_string_System_UriKind_System_Uri_:
 _p_506:
@@ -83845,7 +83845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 29019
+.word 29023
 	.no_dead_strip plt_System_Convert_FromBase64String_string
 plt_System_Convert_FromBase64String_string:
 _p_507:
@@ -83853,7 +83853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 29024
+.word 29028
 	.no_dead_strip plt_System_Convert_ToBase64String_byte__
 plt_System_Convert_ToBase64String_byte__:
 _p_508:
@@ -83861,7 +83861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 29029
+.word 29033
 	.no_dead_strip plt_System_Net_Http_Headers_Parser_Int_TryParse_string_int_
 plt_System_Net_Http_Headers_Parser_Int_TryParse_string_int_:
 _p_509:
@@ -83869,7 +83869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 29034
+.word 29038
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_ProductHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_ProductHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_ProductHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_ProductHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_ProductHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_ProductHeaderValue_:
 _p_510:
@@ -83877,7 +83877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 29037
+.word 29041
 	.no_dead_strip plt_System_Net_Http_Headers_ProductInfoHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_ProductInfoHeaderValue_
 plt_System_Net_Http_Headers_ProductInfoHeaderValue_TryParseElement_System_Net_Http_Headers_Lexer_System_Net_Http_Headers_ProductInfoHeaderValue_:
 _p_511:
@@ -83885,7 +83885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 29049
+.word 29053
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_ProductInfoHeaderValue_AddWithResize_System_Net_Http_Headers_ProductInfoHeaderValue
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_ProductInfoHeaderValue_AddWithResize_System_Net_Http_Headers_ProductInfoHeaderValue:
 _p_512:
@@ -83893,7 +83893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 29052
+.word 29056
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_ScanCommentOptional_string__System_Net_Http_Headers_Token_
 plt_System_Net_Http_Headers_Lexer_ScanCommentOptional_string__System_Net_Http_Headers_Token_:
 _p_513:
@@ -83901,7 +83901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 29072
+.word 29076
 	.no_dead_strip plt_System_Net_Http_Headers_ProductInfoHeaderValue__ctor_System_Net_Http_Headers_ProductHeaderValue
 plt_System_Net_Http_Headers_ProductInfoHeaderValue__ctor_System_Net_Http_Headers_ProductHeaderValue:
 _p_514:
@@ -83909,7 +83909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 29075
+.word 29079
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset__ctor_System_DateTimeOffset
 plt_System_Nullable_1_System_DateTimeOffset__ctor_System_DateTimeOffset:
 _p_515:
@@ -83917,7 +83917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 29078
+.word 29082
 	.no_dead_strip plt_System_DateTimeOffset_op_Equality_System_DateTimeOffset_System_DateTimeOffset
 plt_System_DateTimeOffset_op_Equality_System_DateTimeOffset_System_DateTimeOffset:
 _p_516:
@@ -83925,7 +83925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 29089
+.word 29093
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset_GetHashCode
 plt_System_Nullable_1_System_DateTimeOffset_GetHashCode:
 _p_517:
@@ -83933,7 +83933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 29094
+.word 29098
 	.no_dead_strip plt_System_Net_Http_Headers_RangeConditionHeaderValue__ctor_System_DateTimeOffset
 plt_System_Net_Http_Headers_RangeConditionHeaderValue__ctor_System_DateTimeOffset:
 _p_518:
@@ -83941,7 +83941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 29116
+.word 29120
 	.no_dead_strip plt_System_Net_Http_Headers_RangeConditionHeaderValue__ctor_System_Net_Http_Headers_EntityTagHeaderValue
 plt_System_Net_Http_Headers_RangeConditionHeaderValue__ctor_System_Net_Http_Headers_EntityTagHeaderValue:
 _p_519:
@@ -83949,7 +83949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 29119
+.word 29123
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset_get_Value
 plt_System_Nullable_1_System_DateTimeOffset_get_Value:
 _p_520:
@@ -83957,7 +83957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 29122
+.word 29126
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_GetEnumerator
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_GetEnumerator:
 _p_521:
@@ -83965,7 +83965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 29133
+.word 29137
 	.no_dead_strip plt_System_Net_Http_Headers_RangeHeaderValue_get_Ranges
 plt_System_Net_Http_Headers_RangeHeaderValue_get_Ranges:
 _p_522:
@@ -83973,7 +83973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 29144
+.word 29148
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_System_Net_Http_Headers_RangeItemHeaderValue_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_System_Net_Http_Headers_RangeItemHeaderValue_MoveNext:
 _p_523:
@@ -83981,7 +83981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 29147
+.word 29151
 	.no_dead_strip plt_System_Net_Http_Headers_RangeHeaderValue__ctor_System_Net_Http_Headers_RangeHeaderValue
 plt_System_Net_Http_Headers_RangeHeaderValue__ctor_System_Net_Http_Headers_RangeHeaderValue:
 _p_524:
@@ -83989,7 +83989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 29158
+.word 29162
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue
 plt_System_Net_Http_Headers_CollectionExtensions_SequenceEqual_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue:
 _p_525:
@@ -83997,7 +83997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 29161
+.word 29165
 	.no_dead_strip plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_ICollection_1_System_Net_Http_Headers_RangeItemHeaderValue
 plt_System_Net_Http_Headers_HashCodeCalculator_Calculate_System_Net_Http_Headers_RangeItemHeaderValue_System_Collections_Generic_ICollection_1_System_Net_Http_Headers_RangeItemHeaderValue:
 _p_526:
@@ -84005,7 +84005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 29173
+.word 29177
 	.no_dead_strip plt_string_Split_char___System_StringSplitOptions
 plt_string_Split_char___System_StringSplitOptions:
 _p_527:
@@ -84013,7 +84013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 29185
+.word 29189
 	.no_dead_strip plt_System_Net_Http_Headers_Parser_Long_TryParse_string_long_
 plt_System_Net_Http_Headers_Parser_Long_TryParse_string_long_:
 _p_528:
@@ -84021,7 +84021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 29190
+.word 29194
 	.no_dead_strip plt_System_Net_Http_Headers_RangeItemHeaderValue__ctor_System_Nullable_1_long_System_Nullable_1_long
 plt_System_Net_Http_Headers_RangeItemHeaderValue__ctor_System_Nullable_1_long_System_Nullable_1_long:
 _p_529:
@@ -84029,7 +84029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 29193
+.word 29197
 	.no_dead_strip plt_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_get_Item_int
 plt_System_Collections_Generic_List_1_System_Net_Http_Headers_RangeItemHeaderValue_get_Item_int:
 _p_530:
@@ -84037,7 +84037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 29196
+.word 29200
 	.no_dead_strip plt_string_Concat_object_object_object
 plt_string_Concat_object_object_object:
 _p_531:
@@ -84045,7 +84045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 29207
+.word 29211
 	.no_dead_strip plt_System_Net_Http_Headers_RetryConditionHeaderValue__ctor_System_TimeSpan
 plt_System_Net_Http_Headers_RetryConditionHeaderValue__ctor_System_TimeSpan:
 _p_532:
@@ -84053,7 +84053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 29212
+.word 29216
 	.no_dead_strip plt_System_Net_Http_Headers_RetryConditionHeaderValue__ctor_System_DateTimeOffset
 plt_System_Net_Http_Headers_RetryConditionHeaderValue__ctor_System_DateTimeOffset:
 _p_533:
@@ -84061,7 +84061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 29215
+.word 29219
 	.no_dead_strip plt_System_Nullable_1_double_GetHashCode
 plt_System_Nullable_1_double_GetHashCode:
 _p_534:
@@ -84069,7 +84069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 29218
+.word 29222
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_StringWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_StringWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_StringWithQualityHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_StringWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_StringWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_StringWithQualityHeaderValue_:
 _p_535:
@@ -84077,7 +84077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 29240
+.word 29244
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetDoubleValue_System_Net_Http_Headers_Token_double_
 plt_System_Net_Http_Headers_Lexer_TryGetDoubleValue_System_Net_Http_Headers_Token_double_:
 _p_536:
@@ -84085,7 +84085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 29252
+.word 29256
 	.no_dead_strip plt_System_Nullable_1_double__ctor_double
 plt_System_Nullable_1_double__ctor_double:
 _p_537:
@@ -84093,7 +84093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 29255
+.word 29259
 	.no_dead_strip plt_System_Nullable_1_double_get_Value
 plt_System_Nullable_1_double_get_Value:
 _p_538:
@@ -84101,7 +84101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 29266
+.word 29270
 	.no_dead_strip plt_double_ToString_string_System_IFormatProvider
 plt_double_ToString_string_System_IFormatProvider:
 _p_539:
@@ -84109,7 +84109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 29277
+.word 29281
 	.no_dead_strip plt_System_Net_Http_Headers_TransferCodingHeaderValue_get_Parameters
 plt_System_Net_Http_Headers_TransferCodingHeaderValue_get_Parameters:
 _p_540:
@@ -84117,7 +84117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 29282
+.word 29286
 	.no_dead_strip plt_System_Net_Http_Headers_TransferCodingHeaderValue__ctor_System_Net_Http_Headers_TransferCodingHeaderValue
 plt_System_Net_Http_Headers_TransferCodingHeaderValue__ctor_System_Net_Http_Headers_TransferCodingHeaderValue:
 _p_541:
@@ -84125,7 +84125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 29285
+.word 29289
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_TransferCodingHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_TransferCodingHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_TransferCodingHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_TransferCodingHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_TransferCodingHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_TransferCodingHeaderValue_:
 _p_542:
@@ -84133,7 +84133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 29288
+.word 29292
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_TransferCodingWithQualityHeaderValue_:
 _p_543:
@@ -84141,7 +84141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 29300
+.word 29304
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_ViaHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_ViaHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_ViaHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_ViaHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_ViaHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_ViaHeaderValue_:
 _p_544:
@@ -84149,7 +84149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 29312
+.word 29316
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_GetStringValue_System_Net_Http_Headers_Token_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Lexer_GetStringValue_System_Net_Http_Headers_Token_System_Net_Http_Headers_Token:
 _p_545:
@@ -84157,7 +84157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 29324
+.word 29328
 	.no_dead_strip plt_string_Concat_string__
 plt_string_Concat_string__:
 _p_546:
@@ -84165,7 +84165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 29327
+.word 29331
 	.no_dead_strip plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_WarningHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_WarningHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_WarningHeaderValue_
 plt_System_Net_Http_Headers_CollectionParser_TryParse_System_Net_Http_Headers_WarningHeaderValue_string_int_System_Net_Http_Headers_ElementTryParser_1_System_Net_Http_Headers_WarningHeaderValue_System_Collections_Generic_List_1_System_Net_Http_Headers_WarningHeaderValue_:
 _p_547:
@@ -84173,7 +84173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 29332
+.word 29336
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer_TryGetDateValue_System_Net_Http_Headers_Token_System_DateTimeOffset_
 plt_System_Net_Http_Headers_Lexer_TryGetDateValue_System_Net_Http_Headers_Token_System_DateTimeOffset_:
 _p_548:
@@ -84181,7 +84181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 29344
+.word 29348
 	.no_dead_strip plt_int_ToString_string
 plt_int_ToString_string:
 _p_549:
@@ -84189,7 +84189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 29347
+.word 29351
 	.no_dead_strip plt_string_Concat_string_string_string_string
 plt_string_Concat_string_string_string_string:
 _p_550:
@@ -84197,7 +84197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 29352
+.word 29356
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_551:
@@ -84205,7 +84205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 29374
+.word 29378
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_552:
@@ -84213,7 +84213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 29410
+.word 29414
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_553:
@@ -84221,7 +84221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 29422
+.word 29426
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_554:
@@ -84229,7 +84229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 29454
+.word 29458
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_555:
@@ -84237,7 +84237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 29479
+.word 29483
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_556:
@@ -84245,7 +84245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 29545
+.word 29549
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_557:
@@ -84253,7 +84253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 29601
+.word 29605
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_558:
@@ -84261,7 +84261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 29613
+.word 29617
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_559:
@@ -84269,7 +84269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 29645
+.word 29649
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_560:
@@ -84277,7 +84277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 29681
+.word 29685
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_561:
@@ -84285,7 +84285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 29691
+.word 29695
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_562:
@@ -84293,7 +84293,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 29699
+.word 29703
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_563:
@@ -84301,7 +84301,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 29726
+.word 29730
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_564:
@@ -84309,7 +84309,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 29782
+.word 29786
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_565:
@@ -84317,7 +84317,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 29794
+.word 29798
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_566:
@@ -84325,7 +84325,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 29826
+.word 29830
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_567:
@@ -84333,7 +84333,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 29862
+.word 29866
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_568:
@@ -84341,7 +84341,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 29872
+.word 29876
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_569:
@@ -84349,7 +84349,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 29899
+.word 29903
 	.no_dead_strip plt_System_Net_Http_Headers_Lexer__ctor_string
 plt_System_Net_Http_Headers_Lexer__ctor_string:
 _p_570:
@@ -84357,7 +84357,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 29958
+.word 29962
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_571:
@@ -84365,7 +84365,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 29970
+.word 29974
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_572:
@@ -84373,7 +84373,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 29982
+.word 29986
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_573:
@@ -84381,7 +84381,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 30016
+.word 30020
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_574:
@@ -84389,7 +84389,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 30060
+.word 30064
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_575:
@@ -84397,7 +84397,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 30070
+.word 30074
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_576:
@@ -84405,7 +84405,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 30080
+.word 30084
 	.no_dead_strip plt_System_Net_Http_Headers_Token_op_Implicit_System_Net_Http_Headers_Token
 plt_System_Net_Http_Headers_Token_op_Implicit_System_Net_Http_Headers_Token:
 _p_577:
@@ -84413,7 +84413,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 30116
+.word 30120
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_578:
@@ -84421,7 +84421,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 30119
+.word 30123
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_579:
@@ -84429,7 +84429,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 30168
+.word 30172
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_580:
@@ -84437,7 +84437,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 30216
+.word 30220
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_581:
@@ -84445,7 +84445,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 30243
+.word 30247
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_582:
@@ -84453,7 +84453,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 30292
+.word 30296
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_583:
@@ -84461,7 +84461,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 30319
+.word 30323
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_584:
@@ -84469,7 +84469,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 30354
+.word 30358
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_585:
@@ -84477,7 +84477,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 30364
+.word 30368
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_586:
@@ -84485,7 +84485,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 30415
+.word 30419
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_587:
@@ -84493,7 +84493,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 30453
+.word 30457
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_588:
@@ -84501,7 +84501,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 30465
+.word 30469
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_set_CustomToString_System_Func_2_object_string
 plt_System_Net_Http_Headers_HeaderInfo_set_CustomToString_System_Func_2_object_string:
 _p_589:
@@ -84509,7 +84509,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 30512
+.word 30516
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_590:
@@ -84517,7 +84517,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 30532
+.word 30536
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_591:
@@ -84525,7 +84525,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 30569
+.word 30573
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_592:
@@ -84533,7 +84533,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 30581
+.word 30585
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_593:
@@ -84541,7 +84541,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 30650
+.word 30654
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_594:
@@ -84549,7 +84549,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 30708
+.word 30712
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_595:
@@ -84557,7 +84557,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 30778
+.word 30782
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_596:
@@ -84565,7 +84565,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 30799
+.word 30803
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_597:
@@ -84573,7 +84573,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 30811
+.word 30815
 	.no_dead_strip plt__jit_icall_mono_object_castclass_unbox
 plt__jit_icall_mono_object_castclass_unbox:
 _p_598:
@@ -84581,7 +84581,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 30852
+.word 30856
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_599:
@@ -84589,7 +84589,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 30882
+.word 30886
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_600:
@@ -84597,7 +84597,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 30939
+.word 30943
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_601:
@@ -84605,7 +84605,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 30970
+.word 30974
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_602:
@@ -84613,7 +84613,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 30982
+.word 30986
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_603:
@@ -84621,7 +84621,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 31030
+.word 31034
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_604:
@@ -84629,7 +84629,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 31089
+.word 31093
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_605:
@@ -84637,7 +84637,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 31101
+.word 31105
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_606:
@@ -84645,7 +84645,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 31133
+.word 31137
 	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor
 plt_System_Collections_Generic_List_1_string__ctor:
 _p_607:
@@ -84653,7 +84653,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 31173
+.word 31177
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_608:
@@ -84661,7 +84661,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 31184
+.word 31188
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_609:
@@ -84669,7 +84669,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 31233
+.word 31237
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_610:
@@ -84677,7 +84677,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 31260
+.word 31264
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_611:
@@ -84685,7 +84685,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 31295
+.word 31299
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_612:
@@ -84693,7 +84693,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 31305
+.word 31309
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_613:
@@ -84701,7 +84701,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 31315
+.word 31319
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_614:
@@ -84709,7 +84709,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 31338
+.word 31342
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_615:
@@ -84717,7 +84717,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 31390
+.word 31394
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_616:
@@ -84725,7 +84725,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 31462
+.word 31466
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_617:
@@ -84733,7 +84733,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 31500
+.word 31504
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_618:
@@ -84741,7 +84741,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 31510
+.word 31514
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_619:
@@ -84749,7 +84749,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 31541
+.word 31545
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_620:
@@ -84757,7 +84757,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 31600
+.word 31604
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_621:
@@ -84765,7 +84765,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 31667
+.word 31671
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_622:
@@ -84773,7 +84773,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 31725
+.word 31729
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_623:
@@ -84781,7 +84781,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 31775
+.word 31779
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_624:
@@ -84789,7 +84789,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 31837
+.word 31841
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_625:
@@ -84797,7 +84797,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 31892
+.word 31896
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_626:
@@ -84805,7 +84805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 31904
+.word 31908
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_627:
@@ -84813,7 +84813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 31949
+.word 31953
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_628:
@@ -84821,7 +84821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 31983
+.word 31987
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_629:
@@ -84829,7 +84829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 31995
+.word 31999
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_630:
@@ -84837,7 +84837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 32045
+.word 32049
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_631:
@@ -84845,7 +84845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 32097
+.word 32101
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_632:
@@ -84853,7 +84853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 32143
+.word 32147
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_633:
@@ -84861,7 +84861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 32177
+.word 32181
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_634:
@@ -84869,7 +84869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 32189
+.word 32193
 	.no_dead_strip plt__rgctx_fetch_110
 plt__rgctx_fetch_110:
 _p_635:
@@ -84877,7 +84877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 32243
+.word 32247
 	.no_dead_strip plt__rgctx_fetch_111
 plt__rgctx_fetch_111:
 _p_636:
@@ -84885,7 +84885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 32277
+.word 32281
 	.no_dead_strip plt__rgctx_fetch_112
 plt__rgctx_fetch_112:
 _p_637:
@@ -84893,7 +84893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 32289
+.word 32293
 	.no_dead_strip plt__rgctx_fetch_113
 plt__rgctx_fetch_113:
 _p_638:
@@ -84901,7 +84901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 32348
+.word 32352
 	.no_dead_strip plt__rgctx_fetch_114
 plt__rgctx_fetch_114:
 _p_639:
@@ -84909,7 +84909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 32382
+.word 32386
 	.no_dead_strip plt__rgctx_fetch_115
 plt__rgctx_fetch_115:
 _p_640:
@@ -84917,7 +84917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 32423
+.word 32427
 	.no_dead_strip plt__rgctx_fetch_116
 plt__rgctx_fetch_116:
 _p_641:
@@ -84925,7 +84925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 32463
+.word 32467
 	.no_dead_strip plt__rgctx_fetch_117
 plt__rgctx_fetch_117:
 _p_642:
@@ -84933,7 +84933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 32475
+.word 32479
 	.no_dead_strip plt__rgctx_fetch_118
 plt__rgctx_fetch_118:
 _p_643:
@@ -84941,7 +84941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 32525
+.word 32529
 	.no_dead_strip plt__rgctx_fetch_119
 plt__rgctx_fetch_119:
 _p_644:
@@ -84949,7 +84949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 32559
+.word 32563
 	.no_dead_strip plt__rgctx_fetch_120
 plt__rgctx_fetch_120:
 _p_645:
@@ -84957,7 +84957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 32571
+.word 32575
 	.no_dead_strip plt__rgctx_fetch_121
 plt__rgctx_fetch_121:
 _p_646:
@@ -84965,7 +84965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 32625
+.word 32629
 	.no_dead_strip plt__rgctx_fetch_122
 plt__rgctx_fetch_122:
 _p_647:
@@ -84973,7 +84973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 32659
+.word 32663
 	.no_dead_strip plt__rgctx_fetch_123
 plt__rgctx_fetch_123:
 _p_648:
@@ -84981,7 +84981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 32671
+.word 32675
 	.no_dead_strip plt__rgctx_fetch_124
 plt__rgctx_fetch_124:
 _p_649:
@@ -84989,7 +84989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 32726
+.word 32730
 	.no_dead_strip plt__rgctx_fetch_125
 plt__rgctx_fetch_125:
 _p_650:
@@ -84997,7 +84997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 32760
+.word 32764
 	.no_dead_strip plt__rgctx_fetch_126
 plt__rgctx_fetch_126:
 _p_651:
@@ -85005,7 +85005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 32772
+.word 32776
 	.no_dead_strip plt__rgctx_fetch_127
 plt__rgctx_fetch_127:
 _p_652:
@@ -85013,7 +85013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 32826
+.word 32830
 	.no_dead_strip plt__rgctx_fetch_128
 plt__rgctx_fetch_128:
 _p_653:
@@ -85021,7 +85021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 32872
+.word 32876
 	.no_dead_strip plt__rgctx_fetch_129
 plt__rgctx_fetch_129:
 _p_654:
@@ -85029,7 +85029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 32897
+.word 32901
 	.no_dead_strip plt__rgctx_fetch_130
 plt__rgctx_fetch_130:
 _p_655:
@@ -85037,7 +85037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 32965
+.word 32969
 	.no_dead_strip plt__rgctx_fetch_131
 plt__rgctx_fetch_131:
 _p_656:
@@ -85045,7 +85045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 33029
+.word 33033
 	.no_dead_strip plt__rgctx_fetch_132
 plt__rgctx_fetch_132:
 _p_657:
@@ -85053,7 +85053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 33041
+.word 33045
 	.no_dead_strip plt__rgctx_fetch_133
 plt__rgctx_fetch_133:
 _p_658:
@@ -85061,7 +85061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 33081
+.word 33085
 	.no_dead_strip plt__rgctx_fetch_134
 plt__rgctx_fetch_134:
 _p_659:
@@ -85069,7 +85069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 33093
+.word 33097
 	.no_dead_strip plt__rgctx_fetch_135
 plt__rgctx_fetch_135:
 _p_660:
@@ -85077,7 +85077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 33123
+.word 33127
 	.no_dead_strip plt__rgctx_fetch_136
 plt__rgctx_fetch_136:
 _p_661:
@@ -85085,7 +85085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 33151
+.word 33155
 	.no_dead_strip plt__rgctx_fetch_137
 plt__rgctx_fetch_137:
 _p_662:
@@ -85093,7 +85093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 33207
+.word 33211
 	.no_dead_strip plt__rgctx_fetch_138
 plt__rgctx_fetch_138:
 _p_663:
@@ -85101,7 +85101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 33253
+.word 33257
 	.no_dead_strip plt__rgctx_fetch_139
 plt__rgctx_fetch_139:
 _p_664:
@@ -85109,7 +85109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 33265
+.word 33269
 	.no_dead_strip plt__rgctx_fetch_140
 plt__rgctx_fetch_140:
 _p_665:
@@ -85117,7 +85117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 33309
+.word 33313
 	.no_dead_strip plt__rgctx_fetch_141
 plt__rgctx_fetch_141:
 _p_666:
@@ -85125,7 +85125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 33336
+.word 33340
 	.no_dead_strip plt__rgctx_fetch_142
 plt__rgctx_fetch_142:
 _p_667:
@@ -85133,7 +85133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 33383
+.word 33387
 	.no_dead_strip plt__rgctx_fetch_143
 plt__rgctx_fetch_143:
 _p_668:
@@ -85141,7 +85141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 33393
+.word 33397
 	.no_dead_strip plt__rgctx_fetch_144
 plt__rgctx_fetch_144:
 _p_669:
@@ -85149,7 +85149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 33403
+.word 33407
 	.no_dead_strip plt__rgctx_fetch_145
 plt__rgctx_fetch_145:
 _p_670:
@@ -85157,7 +85157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 33427
+.word 33431
 	.no_dead_strip plt__rgctx_fetch_146
 plt__rgctx_fetch_146:
 _p_671:
@@ -85165,7 +85165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 33492
+.word 33496
 	.no_dead_strip plt__rgctx_fetch_147
 plt__rgctx_fetch_147:
 _p_672:
@@ -85173,7 +85173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 33579
+.word 33583
 	.no_dead_strip plt__rgctx_fetch_148
 plt__rgctx_fetch_148:
 _p_673:
@@ -85181,7 +85181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 33606
+.word 33610
 	.no_dead_strip plt__rgctx_fetch_149
 plt__rgctx_fetch_149:
 _p_674:
@@ -85189,7 +85189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 33616
+.word 33620
 	.no_dead_strip plt__rgctx_fetch_150
 plt__rgctx_fetch_150:
 _p_675:
@@ -85197,7 +85197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 33653
+.word 33657
 	.no_dead_strip plt__rgctx_fetch_151
 plt__rgctx_fetch_151:
 _p_676:
@@ -85205,7 +85205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 33686
+.word 33690
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_set_Values_System_Collections_Generic_List_1_string
 plt_System_Net_Http_Headers_HttpHeaders_HeaderBucket_set_Values_System_Collections_Generic_List_1_string:
 _p_677:
@@ -85213,7 +85213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 33696
+.word 33700
 	.no_dead_strip plt__rgctx_fetch_152
 plt__rgctx_fetch_152:
 _p_678:
@@ -85221,7 +85221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 33716
+.word 33720
 	.no_dead_strip plt__rgctx_fetch_153
 plt__rgctx_fetch_153:
 _p_679:
@@ -85229,7 +85229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 33743
+.word 33747
 	.no_dead_strip plt__rgctx_fetch_154
 plt__rgctx_fetch_154:
 _p_680:
@@ -85237,7 +85237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 33770
+.word 33774
 	.no_dead_strip plt__rgctx_fetch_155
 plt__rgctx_fetch_155:
 _p_681:
@@ -85245,7 +85245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 33814
+.word 33818
 	.no_dead_strip plt__rgctx_fetch_156
 plt__rgctx_fetch_156:
 _p_682:
@@ -85253,7 +85253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 33826
+.word 33830
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_get_CustomToString
 plt_System_Net_Http_Headers_HeaderInfo_get_CustomToString:
 _p_683:
@@ -85261,7 +85261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 33853
+.word 33857
 	.no_dead_strip plt__rgctx_fetch_157
 plt__rgctx_fetch_157:
 _p_684:
@@ -85269,7 +85269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 33856
+.word 33860
 	.no_dead_strip plt__rgctx_fetch_158
 plt__rgctx_fetch_158:
 _p_685:
@@ -85277,7 +85277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 33882
+.word 33886
 	.no_dead_strip plt__rgctx_fetch_159
 plt__rgctx_fetch_159:
 _p_686:
@@ -85285,7 +85285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 33894
+.word 33898
 	.no_dead_strip plt__rgctx_fetch_160
 plt__rgctx_fetch_160:
 _p_687:
@@ -85293,7 +85293,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 33927
+.word 33931
 	.no_dead_strip plt__rgctx_fetch_161
 plt__rgctx_fetch_161:
 _p_688:
@@ -85301,7 +85301,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 33960
+.word 33964
 	.no_dead_strip plt__rgctx_fetch_162
 plt__rgctx_fetch_162:
 _p_689:
@@ -85309,7 +85309,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 33982
+.word 33986
 	.no_dead_strip plt__rgctx_fetch_163
 plt__rgctx_fetch_163:
 _p_690:
@@ -85317,7 +85317,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 34031
+.word 34035
 	.no_dead_strip plt__rgctx_fetch_164
 plt__rgctx_fetch_164:
 _p_691:
@@ -85325,7 +85325,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 34078
+.word 34082
 	.no_dead_strip plt__rgctx_fetch_165
 plt__rgctx_fetch_165:
 _p_692:
@@ -85333,7 +85333,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 34088
+.word 34092
 	.no_dead_strip plt__rgctx_fetch_166
 plt__rgctx_fetch_166:
 _p_693:
@@ -85341,7 +85341,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 34098
+.word 34102
 	.no_dead_strip plt_System_Nullable_1_long_Unbox_object
 plt_System_Nullable_1_long_Unbox_object:
 _p_694:
@@ -85349,7 +85349,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 34136
+.word 34140
 	.no_dead_strip plt__rgctx_fetch_167
 plt__rgctx_fetch_167:
 _p_695:
@@ -85357,7 +85357,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 34175
+.word 34179
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_System_TimeSpan_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_System_TimeSpan_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_System_TimeSpan_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_System_TimeSpan_System_Net_Http_Headers_HttpHeaderKind:
 _p_696:
@@ -85365,7 +85365,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 34185
+.word 34189
 	.no_dead_strip plt__rgctx_fetch_168
 plt__rgctx_fetch_168:
 _p_697:
@@ -85373,7 +85373,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 34237
+.word 34241
 	.no_dead_strip plt__rgctx_fetch_169
 plt__rgctx_fetch_169:
 _p_698:
@@ -85381,7 +85381,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 34249
+.word 34253
 	.no_dead_strip plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_System_DateTimeOffset_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_System_DateTimeOffset_System_Net_Http_Headers_HttpHeaderKind
 plt_System_Net_Http_Headers_HeaderInfo_HeaderTypeInfo_2_System_DateTimeOffset_object__ctor_string_System_Net_Http_Headers_TryParseDelegate_1_System_DateTimeOffset_System_Net_Http_Headers_HttpHeaderKind:
 _p_699:
@@ -85389,7 +85389,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 34280
+.word 34284
 	.no_dead_strip plt__rgctx_fetch_170
 plt__rgctx_fetch_170:
 _p_700:
@@ -85397,7 +85397,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 34332
+.word 34336
 	.no_dead_strip plt__rgctx_fetch_171
 plt__rgctx_fetch_171:
 _p_701:
@@ -85405,7 +85405,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 34344
+.word 34348
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_702:
@@ -85413,7 +85413,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 34375
+.word 34379
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_703:
@@ -85421,7 +85421,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 34431
+.word 34435
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_704:
@@ -85429,7 +85429,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 34456
+.word 34460
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_705:
@@ -85437,7 +85437,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 34499
+.word 34503
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_706:
@@ -85445,7 +85445,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 34509
+.word 34513
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_707:
@@ -85453,7 +85453,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 34534
+.word 34538
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_708:
@@ -85461,7 +85461,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 34570
+.word 34575
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_709:
@@ -85469,7 +85469,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+8192
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 34582
+.word 34587
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_710:
@@ -85477,7 +85477,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 34602
+.word 34608
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_711:
@@ -85485,7 +85485,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 34614
+.word 34620
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_712:
@@ -85493,7 +85493,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 34667
+.word 34674
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_713:
@@ -85501,7 +85501,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 34679
+.word 34686
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_714:
@@ -85509,7 +85509,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 34699
+.word 34707
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_715:
@@ -85517,7 +85517,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 34711
+.word 34719
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_716:
@@ -85525,7 +85525,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 34732
+.word 34740
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_717:
@@ -85533,7 +85533,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 34737
+.word 34745
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_718:
@@ -85541,7 +85541,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 34742
+.word 34750
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_719:
@@ -85549,7 +85549,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 34765
+.word 34773
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext:
 _p_720:
@@ -85557,7 +85557,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 34790
+.word 34798
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_721:
@@ -85565,7 +85565,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 34795
+.word 34803
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_722:
@@ -85573,7 +85573,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 34818
+.word 34826
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_723:
@@ -85581,7 +85581,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 34828
+.word 34836
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_724:
@@ -85589,7 +85589,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 34853
+.word 34861
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_725:
@@ -85597,7 +85597,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 34876
+.word 34884
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_726:
@@ -85605,7 +85605,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 34886
+.word 34894
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_727:
@@ -85613,7 +85613,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 34911
+.word 34919
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_728:
@@ -85621,7 +85621,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 34916
+.word 34924
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_729:
@@ -85629,7 +85629,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 34921
+.word 34929
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_730:
@@ -85637,7 +85637,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 34944
+.word 34952
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_731:
@@ -85645,7 +85645,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 34987
+.word 34995
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_732:
@@ -85653,7 +85653,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 35012
+.word 35020
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_733:
@@ -85661,7 +85661,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 35017
+.word 35025
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully
 plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully:
 _p_734:
@@ -85669,7 +85669,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 35022
+.word 35030
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_735:
@@ -85677,7 +85677,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 35027
+.word 35035
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_736:
@@ -85685,7 +85685,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 35050
+.word 35058
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_737:
@@ -85693,7 +85693,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 35069
+.word 35077
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_738:
@@ -85701,7 +85701,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 35081
+.word 35089
 	.no_dead_strip plt__rgctx_fetch_194
 plt__rgctx_fetch_194:
 _p_739:
@@ -85709,7 +85709,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 35108
+.word 35116
 	.no_dead_strip plt__rgctx_fetch_195
 plt__rgctx_fetch_195:
 _p_740:
@@ -85717,7 +85717,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 35163
+.word 35171
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_741:
@@ -85725,7 +85725,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 35175
+.word 35183
 	.no_dead_strip plt__rgctx_fetch_196
 plt__rgctx_fetch_196:
 _p_742:
@@ -85733,7 +85733,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 35196
+.word 35204
 	.no_dead_strip plt__rgctx_fetch_197
 plt__rgctx_fetch_197:
 _p_743:
@@ -85741,7 +85741,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 35235
+.word 35243
 	.no_dead_strip plt__rgctx_fetch_198
 plt__rgctx_fetch_198:
 _p_744:
@@ -85749,7 +85749,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 35247
+.word 35255
 	.no_dead_strip plt__rgctx_fetch_199
 plt__rgctx_fetch_199:
 _p_745:
@@ -85757,7 +85757,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 35301
+.word 35309
 	.no_dead_strip plt__rgctx_fetch_200
 plt__rgctx_fetch_200:
 _p_746:
@@ -85765,7 +85765,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 35313
+.word 35321
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_747:
@@ -85773,7 +85773,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 35340
+.word 35348
 	.no_dead_strip plt__rgctx_fetch_201
 plt__rgctx_fetch_201:
 _p_748:
@@ -85781,7 +85781,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 35363
+.word 35371
 	.no_dead_strip plt__rgctx_fetch_202
 plt__rgctx_fetch_202:
 _p_749:
@@ -85789,7 +85789,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 35406
+.word 35414
 	.no_dead_strip plt__rgctx_fetch_203
 plt__rgctx_fetch_203:
 _p_750:
@@ -85797,7 +85797,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 35449
+.word 35457
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_751:
@@ -85805,7 +85805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 35474
+.word 35482
 	.no_dead_strip plt__rgctx_fetch_204
 plt__rgctx_fetch_204:
 _p_752:
@@ -85813,7 +85813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 35506
+.word 35514
 	.no_dead_strip plt__rgctx_fetch_205
 plt__rgctx_fetch_205:
 _p_753:
@@ -85821,7 +85821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 35518
+.word 35526
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_754:
@@ -85829,7 +85829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 35545
+.word 35553
 	.no_dead_strip plt__rgctx_fetch_206
 plt__rgctx_fetch_206:
 _p_755:
@@ -85837,7 +85837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 35568
+.word 35576
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_756:
@@ -85845,7 +85845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 35593
+.word 35601
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_757:
@@ -85853,7 +85853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 35598
+.word 35606
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetException_object
 plt_System_Threading_Tasks_Task_TrySetException_object:
 _p_758:
@@ -85861,7 +85861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 35603
+.word 35611
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasksNonInlined_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasksNonInlined_System_Threading_Tasks_Task:
 _p_759:
@@ -85869,7 +85869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 35608
+.word 35616
 	.no_dead_strip plt__rgctx_fetch_207
 plt__rgctx_fetch_207:
 _p_760:
@@ -85877,7 +85877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 35640
+.word 35648
 	.no_dead_strip plt__rgctx_fetch_208
 plt__rgctx_fetch_208:
 _p_761:
@@ -85885,7 +85885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 35667
+.word 35675
 	.no_dead_strip plt__rgctx_fetch_209
 plt__rgctx_fetch_209:
 _p_762:
@@ -85893,7 +85893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 35712
+.word 35720
 	.no_dead_strip plt__rgctx_fetch_210
 plt__rgctx_fetch_210:
 _p_763:
@@ -85901,7 +85901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 35722
+.word 35730
 	.no_dead_strip plt__rgctx_fetch_211
 plt__rgctx_fetch_211:
 _p_764:
@@ -85909,7 +85909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 35774
+.word 35782
 	.no_dead_strip plt__rgctx_fetch_212
 plt__rgctx_fetch_212:
 _p_765:
@@ -85917,7 +85917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 35786
+.word 35794
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_766:
@@ -85925,7 +85925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 35813
+.word 35821
 	.no_dead_strip plt__rgctx_fetch_213
 plt__rgctx_fetch_213:
 _p_767:
@@ -85933,7 +85933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 35818
+.word 35826
 	.no_dead_strip plt__rgctx_fetch_214
 plt__rgctx_fetch_214:
 _p_768:
@@ -85941,7 +85941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 35830
+.word 35838
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasksNonInlined_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasksNonInlined_System_Threading_Tasks_Task:
 _p_769:
@@ -85949,7 +85949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 35857
+.word 35865
 	.no_dead_strip plt__rgctx_fetch_215
 plt__rgctx_fetch_215:
 _p_770:
@@ -85957,7 +85957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 35862
+.word 35870
 	.no_dead_strip plt__rgctx_fetch_216
 plt__rgctx_fetch_216:
 _p_771:
@@ -85965,7 +85965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 35889
+.word 35897
 	.no_dead_strip plt__rgctx_fetch_217
 plt__rgctx_fetch_217:
 _p_772:
@@ -85973,7 +85973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 35916
+.word 35924
 	.no_dead_strip plt__rgctx_fetch_218
 plt__rgctx_fetch_218:
 _p_773:
@@ -85981,7 +85981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 35926
+.word 35934
 	.no_dead_strip plt__rgctx_fetch_219
 plt__rgctx_fetch_219:
 _p_774:
@@ -85989,7 +85989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 35951
+.word 35959
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_775:
@@ -85997,7 +85997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 35978
+.word 35986
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_776:
@@ -86005,7 +86005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 36008
+.word 36016
 	.no_dead_strip plt__rgctx_fetch_220
 plt__rgctx_fetch_220:
 _p_777:
@@ -86013,7 +86013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 36040
+.word 36048
 	.no_dead_strip plt__rgctx_fetch_221
 plt__rgctx_fetch_221:
 _p_778:
@@ -86021,7 +86021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 36052
+.word 36060
 	.no_dead_strip plt__rgctx_fetch_222
 plt__rgctx_fetch_222:
 _p_779:
@@ -86029,7 +86029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 36097
+.word 36105
 	.no_dead_strip plt__rgctx_fetch_223
 plt__rgctx_fetch_223:
 _p_780:
@@ -86037,7 +86037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 36107
+.word 36115
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_781:
@@ -86045,7 +86045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 36132
+.word 36140
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_782:
@@ -86053,7 +86053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 36137
+.word 36145
 	.no_dead_strip plt__rgctx_fetch_224
 plt__rgctx_fetch_224:
 _p_783:
@@ -86061,7 +86061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 36142
+.word 36150
 	.no_dead_strip plt__rgctx_fetch_225
 plt__rgctx_fetch_225:
 _p_784:
@@ -86069,7 +86069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 36187
+.word 36195
 	.no_dead_strip plt__rgctx_fetch_226
 plt__rgctx_fetch_226:
 _p_785:
@@ -86077,7 +86077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 36197
+.word 36205
 	.no_dead_strip plt__rgctx_fetch_227
 plt__rgctx_fetch_227:
 _p_786:
@@ -86085,7 +86085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 36240
+.word 36248
 	.no_dead_strip plt__rgctx_fetch_228
 plt__rgctx_fetch_228:
 _p_787:
@@ -86093,7 +86093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 36250
+.word 36258
 	.no_dead_strip plt__rgctx_fetch_229
 plt__rgctx_fetch_229:
 _p_788:
@@ -86101,7 +86101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 36293
+.word 36301
 	.no_dead_strip plt__rgctx_fetch_230
 plt__rgctx_fetch_230:
 _p_789:
@@ -86109,7 +86109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 36303
+.word 36311
 	.no_dead_strip plt_System_Threading_Tasks_Task_SetNotificationForWaitCompletion_bool
 plt_System_Threading_Tasks_Task_SetNotificationForWaitCompletion_bool:
 _p_790:
@@ -86117,7 +86117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 36328
+.word 36336
 	.no_dead_strip plt__rgctx_fetch_231
 plt__rgctx_fetch_231:
 _p_791:
@@ -86125,7 +86125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 36351
+.word 36359
 	.no_dead_strip plt__rgctx_fetch_232
 plt__rgctx_fetch_232:
 _p_792:
@@ -86133,7 +86133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 36361
+.word 36369
 	.no_dead_strip plt__rgctx_fetch_233
 plt__rgctx_fetch_233:
 _p_793:
@@ -86141,7 +86141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 36404
+.word 36412
 	.no_dead_strip plt__rgctx_fetch_234
 plt__rgctx_fetch_234:
 _p_794:
@@ -86149,7 +86149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 36414
+.word 36422
 	.no_dead_strip plt__rgctx_fetch_235
 plt__rgctx_fetch_235:
 _p_795:
@@ -86157,7 +86157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 36424
+.word 36432
 	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
 plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
 _p_796:
@@ -86165,7 +86165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 36452
+.word 36460
 	.no_dead_strip plt__rgctx_fetch_236
 plt__rgctx_fetch_236:
 _p_797:
@@ -86173,7 +86173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 36457
+.word 36465
 	.no_dead_strip plt__rgctx_fetch_237
 plt__rgctx_fetch_237:
 _p_798:
@@ -86181,7 +86181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 36467
+.word 36475
 	.no_dead_strip plt__rgctx_fetch_238
 plt__rgctx_fetch_238:
 _p_799:
@@ -86189,7 +86189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 36477
+.word 36485
 	.no_dead_strip plt__rgctx_fetch_239
 plt__rgctx_fetch_239:
 _p_800:
@@ -86197,7 +86197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 36489
+.word 36497
 	.no_dead_strip plt__rgctx_fetch_240
 plt__rgctx_fetch_240:
 _p_801:
@@ -86205,7 +86205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 36534
+.word 36542
 	.no_dead_strip plt__rgctx_fetch_241
 plt__rgctx_fetch_241:
 _p_802:
@@ -86213,7 +86213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 36560
+.word 36568
 	.no_dead_strip plt__rgctx_fetch_242
 plt__rgctx_fetch_242:
 _p_803:
@@ -86221,7 +86221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 36586
+.word 36594
 	.no_dead_strip plt__rgctx_fetch_243
 plt__rgctx_fetch_243:
 _p_804:
@@ -86229,7 +86229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 36623
+.word 36631
 	.no_dead_strip plt__rgctx_fetch_244
 plt__rgctx_fetch_244:
 _p_805:
@@ -86237,7 +86237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 36635
+.word 36643
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
 plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_806:
@@ -86245,7 +86245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 36662
+.word 36670
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_807:
@@ -86253,7 +86253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 36667
+.word 36675
 	.no_dead_strip plt_System_Nullable_1_long_Equals_System_Nullable_1_long
 plt_System_Nullable_1_long_Equals_System_Nullable_1_long:
 _p_808:
@@ -86261,7 +86261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 36672
+.word 36680
 	.no_dead_strip plt_long_Equals_object
 plt_long_Equals_object:
 _p_809:
@@ -86269,7 +86269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 36694
+.word 36702
 	.no_dead_strip plt_long_ToString
 plt_long_ToString:
 _p_810:
@@ -86277,7 +86277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 36699
+.word 36707
 	.no_dead_strip plt__rgctx_fetch_245
 plt__rgctx_fetch_245:
 _p_811:
@@ -86285,7 +86285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 36722
+.word 36730
 	.no_dead_strip plt__rgctx_fetch_246
 plt__rgctx_fetch_246:
 _p_812:
@@ -86293,7 +86293,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 36732
+.word 36740
 	.no_dead_strip plt__rgctx_fetch_247
 plt__rgctx_fetch_247:
 _p_813:
@@ -86301,7 +86301,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 36760
+.word 36768
 	.no_dead_strip plt__rgctx_fetch_248
 plt__rgctx_fetch_248:
 _p_814:
@@ -86309,7 +86309,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 36770
+.word 36778
 	.no_dead_strip plt__rgctx_fetch_249
 plt__rgctx_fetch_249:
 _p_815:
@@ -86317,7 +86317,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 36780
+.word 36788
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
 _p_816:
@@ -86325,7 +86325,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 36792
+.word 36800
 	.no_dead_strip plt__rgctx_fetch_250
 plt__rgctx_fetch_250:
 _p_817:
@@ -86333,7 +86333,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 36824
+.word 36832
 	.no_dead_strip plt__rgctx_fetch_251
 plt__rgctx_fetch_251:
 _p_818:
@@ -86341,7 +86341,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 36836
+.word 36844
 	.no_dead_strip plt__rgctx_fetch_252
 plt__rgctx_fetch_252:
 _p_819:
@@ -86349,7 +86349,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 36863
+.word 36871
 	.no_dead_strip plt__rgctx_fetch_253
 plt__rgctx_fetch_253:
 _p_820:
@@ -86357,7 +86357,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 36873
+.word 36881
 	.no_dead_strip plt__rgctx_fetch_254
 plt__rgctx_fetch_254:
 _p_821:
@@ -86365,7 +86365,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 36883
+.word 36891
 	.no_dead_strip plt__rgctx_fetch_255
 plt__rgctx_fetch_255:
 _p_822:
@@ -86373,7 +86373,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 36895
+.word 36903
 	.no_dead_strip plt__rgctx_fetch_256
 plt__rgctx_fetch_256:
 _p_823:
@@ -86381,7 +86381,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 36922
+.word 36930
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_824:
@@ -86389,7 +86389,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 36947
+.word 36955
 	.no_dead_strip plt__rgctx_fetch_257
 plt__rgctx_fetch_257:
 _p_825:
@@ -86397,7 +86397,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 36970
+.word 36978
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_826:
@@ -86405,7 +86405,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 36982
+.word 36990
 	.no_dead_strip plt__rgctx_fetch_258
 plt__rgctx_fetch_258:
 _p_827:
@@ -86413,7 +86413,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 36987
+.word 36995
 	.no_dead_strip plt__rgctx_fetch_259
 plt__rgctx_fetch_259:
 _p_828:
@@ -86421,7 +86421,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 36997
+.word 37005
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRange_IndexException
 plt_System_ThrowHelper_ThrowArgumentOutOfRange_IndexException:
 _p_829:
@@ -86429,7 +86429,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 37007
+.word 37015
 	.no_dead_strip plt__rgctx_fetch_260
 plt__rgctx_fetch_260:
 _p_830:
@@ -86437,7 +86437,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 37030
+.word 37038
 	.no_dead_strip plt__rgctx_fetch_261
 plt__rgctx_fetch_261:
 _p_831:
@@ -86445,7 +86445,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 37040
+.word 37048
 	.no_dead_strip plt__rgctx_fetch_262
 plt__rgctx_fetch_262:
 _p_832:
@@ -86453,7 +86453,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 37068
+.word 37076
 	.no_dead_strip plt__rgctx_fetch_263
 plt__rgctx_fetch_263:
 _p_833:
@@ -86461,7 +86461,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 37093
+.word 37101
 	.no_dead_strip plt__rgctx_fetch_264
 plt__rgctx_fetch_264:
 _p_834:
@@ -86469,7 +86469,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 37121
+.word 37129
 	.no_dead_strip plt__rgctx_fetch_265
 plt__rgctx_fetch_265:
 _p_835:
@@ -86477,7 +86477,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 37146
+.word 37154
 	.no_dead_strip plt__rgctx_fetch_266
 plt__rgctx_fetch_266:
 _p_836:
@@ -86485,7 +86485,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 37171
+.word 37179
 	.no_dead_strip plt__rgctx_fetch_267
 plt__rgctx_fetch_267:
 _p_837:
@@ -86493,7 +86493,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 37181
+.word 37189
 	.no_dead_strip plt__rgctx_fetch_268
 plt__rgctx_fetch_268:
 _p_838:
@@ -86501,7 +86501,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 37206
+.word 37214
 	.no_dead_strip plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type
 plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type:
 _p_839:
@@ -86509,7 +86509,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 37216
+.word 37224
 	.no_dead_strip plt__rgctx_fetch_269
 plt__rgctx_fetch_269:
 _p_840:
@@ -86517,7 +86517,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 37239
+.word 37247
 	.no_dead_strip plt__rgctx_fetch_270
 plt__rgctx_fetch_270:
 _p_841:
@@ -86525,7 +86525,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 37282
+.word 37290
 	.no_dead_strip plt__rgctx_fetch_271
 plt__rgctx_fetch_271:
 _p_842:
@@ -86533,7 +86533,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 37325
+.word 37333
 	.no_dead_strip plt__rgctx_fetch_272
 plt__rgctx_fetch_272:
 _p_843:
@@ -86541,7 +86541,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 37350
+.word 37358
 	.no_dead_strip plt__rgctx_fetch_273
 plt__rgctx_fetch_273:
 _p_844:
@@ -86549,7 +86549,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 37375
+.word 37383
 	.no_dead_strip plt__rgctx_fetch_274
 plt__rgctx_fetch_274:
 _p_845:
@@ -86557,7 +86557,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 37385
+.word 37393
 	.no_dead_strip plt__rgctx_fetch_275
 plt__rgctx_fetch_275:
 _p_846:
@@ -86565,7 +86565,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 37410
+.word 37418
 	.no_dead_strip plt__rgctx_fetch_276
 plt__rgctx_fetch_276:
 _p_847:
@@ -86573,7 +86573,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 37420
+.word 37428
 	.no_dead_strip plt__rgctx_fetch_277
 plt__rgctx_fetch_277:
 _p_848:
@@ -86581,7 +86581,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 37463
+.word 37471
 	.no_dead_strip plt__rgctx_fetch_278
 plt__rgctx_fetch_278:
 _p_849:
@@ -86589,7 +86589,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 37515
+.word 37523
 	.no_dead_strip plt__rgctx_fetch_279
 plt__rgctx_fetch_279:
 _p_850:
@@ -86597,7 +86597,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 37527
+.word 37535
 	.no_dead_strip plt__rgctx_fetch_280
 plt__rgctx_fetch_280:
 _p_851:
@@ -86605,7 +86605,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 37572
+.word 37580
 	.no_dead_strip plt__rgctx_fetch_281
 plt__rgctx_fetch_281:
 _p_852:
@@ -86613,7 +86613,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 37616
+.word 37624
 	.no_dead_strip plt__rgctx_fetch_282
 plt__rgctx_fetch_282:
 _p_853:
@@ -86621,7 +86621,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 37659
+.word 37667
 	.no_dead_strip plt__rgctx_fetch_283
 plt__rgctx_fetch_283:
 _p_854:
@@ -86629,7 +86629,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 37669
+.word 37677
 	.no_dead_strip plt__rgctx_fetch_284
 plt__rgctx_fetch_284:
 _p_855:
@@ -86637,7 +86637,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 37694
+.word 37702
 	.no_dead_strip plt__rgctx_fetch_285
 plt__rgctx_fetch_285:
 _p_856:
@@ -86645,7 +86645,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 37704
+.word 37712
 	.no_dead_strip plt__rgctx_fetch_286
 plt__rgctx_fetch_286:
 _p_857:
@@ -86653,7 +86653,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 37747
+.word 37755
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_858:
@@ -86661,7 +86661,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 37772
+.word 37780
 	.no_dead_strip plt__rgctx_fetch_287
 plt__rgctx_fetch_287:
 _p_859:
@@ -86669,7 +86669,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 37795
+.word 37803
 	.no_dead_strip plt__rgctx_fetch_288
 plt__rgctx_fetch_288:
 _p_860:
@@ -86677,7 +86677,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 37847
+.word 37855
 	.no_dead_strip plt__rgctx_fetch_289
 plt__rgctx_fetch_289:
 _p_861:
@@ -86685,7 +86685,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 37859
+.word 37867
 	.no_dead_strip plt__rgctx_fetch_290
 plt__rgctx_fetch_290:
 _p_862:
@@ -86693,7 +86693,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 37904
+.word 37912
 	.no_dead_strip plt__rgctx_fetch_291
 plt__rgctx_fetch_291:
 _p_863:
@@ -86701,7 +86701,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 37916
+.word 37924
 	.no_dead_strip plt__rgctx_fetch_292
 plt__rgctx_fetch_292:
 _p_864:
@@ -86709,7 +86709,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 37961
+.word 37969
 	.no_dead_strip plt__rgctx_fetch_293
 plt__rgctx_fetch_293:
 _p_865:
@@ -86717,7 +86717,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 37973
+.word 37981
 	.no_dead_strip plt__rgctx_fetch_294
 plt__rgctx_fetch_294:
 _p_866:
@@ -86725,7 +86725,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 38018
+.word 38026
 	.no_dead_strip plt__rgctx_fetch_295
 plt__rgctx_fetch_295:
 _p_867:
@@ -86733,7 +86733,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 38028
+.word 38036
 	.no_dead_strip plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException
 plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException:
 _p_868:
@@ -86741,7 +86741,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 38053
+.word 38061
 	.no_dead_strip plt__rgctx_fetch_296
 plt__rgctx_fetch_296:
 _p_869:
@@ -86749,7 +86749,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 38076
+.word 38084
 	.no_dead_strip plt__rgctx_fetch_297
 plt__rgctx_fetch_297:
 _p_870:
@@ -86757,7 +86757,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 38101
+.word 38109
 	.no_dead_strip plt__rgctx_fetch_298
 plt__rgctx_fetch_298:
 _p_871:
@@ -86765,7 +86765,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 38144
+.word 38152
 	.no_dead_strip plt__rgctx_fetch_299
 plt__rgctx_fetch_299:
 _p_872:
@@ -86773,7 +86773,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 38154
+.word 38162
 	.no_dead_strip plt__rgctx_fetch_300
 plt__rgctx_fetch_300:
 _p_873:
@@ -86781,7 +86781,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 38179
+.word 38187
 	.no_dead_strip plt__rgctx_fetch_301
 plt__rgctx_fetch_301:
 _p_874:
@@ -86789,7 +86789,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 38189
+.word 38197
 	.no_dead_strip plt__rgctx_fetch_302
 plt__rgctx_fetch_302:
 _p_875:
@@ -86797,7 +86797,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 38232
+.word 38240
 	.no_dead_strip plt__rgctx_fetch_303
 plt__rgctx_fetch_303:
 _p_876:
@@ -86805,7 +86805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 38257
+.word 38265
 	.no_dead_strip plt__rgctx_fetch_304
 plt__rgctx_fetch_304:
 _p_877:
@@ -86813,7 +86813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 38300
+.word 38308
 	.no_dead_strip plt__rgctx_fetch_305
 plt__rgctx_fetch_305:
 _p_878:
@@ -86821,7 +86821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 38325
+.word 38333
 	.no_dead_strip plt_System_ThrowHelper_ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count
 plt_System_ThrowHelper_ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count:
 _p_879:
@@ -86829,7 +86829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 38350
+.word 38358
 	.no_dead_strip plt__rgctx_fetch_306
 plt__rgctx_fetch_306:
 _p_880:
@@ -86837,7 +86837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 38373
+.word 38381
 	.no_dead_strip plt__rgctx_fetch_307
 plt__rgctx_fetch_307:
 _p_881:
@@ -86845,7 +86845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 38416
+.word 38424
 	.no_dead_strip plt__rgctx_fetch_308
 plt__rgctx_fetch_308:
 _p_882:
@@ -86853,7 +86853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 38441
+.word 38449
 	.no_dead_strip plt__rgctx_fetch_309
 plt__rgctx_fetch_309:
 _p_883:
@@ -86861,7 +86861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 38466
+.word 38474
 	.no_dead_strip plt__rgctx_fetch_310
 plt__rgctx_fetch_310:
 _p_884:
@@ -86869,7 +86869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 38476
+.word 38484
 	.no_dead_strip plt__rgctx_fetch_311
 plt__rgctx_fetch_311:
 _p_885:
@@ -86877,7 +86877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 38501
+.word 38509
 	.no_dead_strip plt__rgctx_fetch_312
 plt__rgctx_fetch_312:
 _p_886:
@@ -86885,7 +86885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 38529
+.word 38537
 	.no_dead_strip plt__rgctx_fetch_313
 plt__rgctx_fetch_313:
 _p_887:
@@ -86893,7 +86893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 38541
+.word 38549
 	.no_dead_strip plt__rgctx_fetch_314
 plt__rgctx_fetch_314:
 _p_888:
@@ -86901,7 +86901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 38568
+.word 38576
 	.no_dead_strip plt__rgctx_fetch_315
 plt__rgctx_fetch_315:
 _p_889:
@@ -86909,7 +86909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 38593
+.word 38601
 	.no_dead_strip plt__rgctx_fetch_316
 plt__rgctx_fetch_316:
 _p_890:
@@ -86917,7 +86917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 38629
+.word 38637
 	.no_dead_strip plt__rgctx_fetch_317
 plt__rgctx_fetch_317:
 _p_891:
@@ -86925,7 +86925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 38665
+.word 38673
 	.no_dead_strip plt__rgctx_fetch_318
 plt__rgctx_fetch_318:
 _p_892:
@@ -86933,7 +86933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 38692
+.word 38700
 	.no_dead_strip plt__rgctx_fetch_319
 plt__rgctx_fetch_319:
 _p_893:
@@ -86941,7 +86941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 38717
+.word 38725
 	.no_dead_strip plt__rgctx_fetch_320
 plt__rgctx_fetch_320:
 _p_894:
@@ -86949,7 +86949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 38760
+.word 38768
 	.no_dead_strip plt__rgctx_fetch_321
 plt__rgctx_fetch_321:
 _p_895:
@@ -86957,7 +86957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 38785
+.word 38793
 	.no_dead_strip plt__rgctx_fetch_322
 plt__rgctx_fetch_322:
 _p_896:
@@ -86965,7 +86965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 38828
+.word 38836
 	.no_dead_strip plt__rgctx_fetch_323
 plt__rgctx_fetch_323:
 _p_897:
@@ -86973,7 +86973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 38838
+.word 38846
 	.no_dead_strip plt__rgctx_fetch_324
 plt__rgctx_fetch_324:
 _p_898:
@@ -86981,7 +86981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 38863
+.word 38871
 	.no_dead_strip plt__rgctx_fetch_325
 plt__rgctx_fetch_325:
 _p_899:
@@ -86989,7 +86989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 38873
+.word 38881
 	.no_dead_strip plt__rgctx_fetch_326
 plt__rgctx_fetch_326:
 _p_900:
@@ -86997,7 +86997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 38916
+.word 38924
 	.no_dead_strip plt__rgctx_fetch_327
 plt__rgctx_fetch_327:
 _p_901:
@@ -87005,7 +87005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 38960
+.word 38968
 	.no_dead_strip plt__rgctx_fetch_328
 plt__rgctx_fetch_328:
 _p_902:
@@ -87013,7 +87013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 39004
+.word 39012
 	.no_dead_strip plt__rgctx_fetch_329
 plt__rgctx_fetch_329:
 _p_903:
@@ -87021,7 +87021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 39048
+.word 39056
 	.no_dead_strip plt__rgctx_fetch_330
 plt__rgctx_fetch_330:
 _p_904:
@@ -87029,7 +87029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 39073
+.word 39081
 	.no_dead_strip plt__rgctx_fetch_331
 plt__rgctx_fetch_331:
 _p_905:
@@ -87037,7 +87037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 39116
+.word 39124
 	.no_dead_strip plt__rgctx_fetch_332
 plt__rgctx_fetch_332:
 _p_906:
@@ -87045,7 +87045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 39141
+.word 39149
 	.no_dead_strip plt__rgctx_fetch_333
 plt__rgctx_fetch_333:
 _p_907:
@@ -87053,7 +87053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 39184
+.word 39192
 	.no_dead_strip plt__rgctx_fetch_334
 plt__rgctx_fetch_334:
 _p_908:
@@ -87061,7 +87061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 39209
+.word 39217
 	.no_dead_strip plt__rgctx_fetch_335
 plt__rgctx_fetch_335:
 _p_909:
@@ -87069,7 +87069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 39252
+.word 39260
 	.no_dead_strip plt__rgctx_fetch_336
 plt__rgctx_fetch_336:
 _p_910:
@@ -87077,7 +87077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 39277
+.word 39285
 	.no_dead_strip plt__rgctx_fetch_337
 plt__rgctx_fetch_337:
 _p_911:
@@ -87085,7 +87085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 39329
+.word 39337
 	.no_dead_strip plt__rgctx_fetch_338
 plt__rgctx_fetch_338:
 _p_912:
@@ -87093,7 +87093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 39341
+.word 39349
 	.no_dead_strip plt__rgctx_fetch_339
 plt__rgctx_fetch_339:
 _p_913:
@@ -87101,7 +87101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 39386
+.word 39394
 	.no_dead_strip plt__rgctx_fetch_340
 plt__rgctx_fetch_340:
 _p_914:
@@ -87109,7 +87109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 39396
+.word 39404
 	.no_dead_strip plt__rgctx_fetch_341
 plt__rgctx_fetch_341:
 _p_915:
@@ -87117,7 +87117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 39406
+.word 39414
 	.no_dead_strip plt__rgctx_fetch_342
 plt__rgctx_fetch_342:
 _p_916:
@@ -87125,7 +87125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 39436
+.word 39444
 	.no_dead_strip plt__rgctx_fetch_343
 plt__rgctx_fetch_343:
 _p_917:
@@ -87133,7 +87133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 39479
+.word 39487
 	.no_dead_strip plt__rgctx_fetch_344
 plt__rgctx_fetch_344:
 _p_918:
@@ -87141,7 +87141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 39506
+.word 39514
 	.no_dead_strip plt__rgctx_fetch_345
 plt__rgctx_fetch_345:
 _p_919:
@@ -87149,7 +87149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 39533
+.word 39541
 	.no_dead_strip plt__rgctx_fetch_346
 plt__rgctx_fetch_346:
 _p_920:
@@ -87157,7 +87157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 39576
+.word 39584
 	.no_dead_strip plt__rgctx_fetch_347
 plt__rgctx_fetch_347:
 _p_921:
@@ -87165,7 +87165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 39588
+.word 39596
 	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
 plt_System_Nullable_1_bool_Unbox_object:
 _p_922:
@@ -87173,7 +87173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 39598
+.word 39606
 	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
 plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_923:
@@ -87181,7 +87181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 39620
+.word 39628
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_924:
@@ -87189,7 +87189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 39642
+.word 39650
 	.no_dead_strip plt__rgctx_fetch_348
 plt__rgctx_fetch_348:
 _p_925:
@@ -87197,7 +87197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 39665
+.word 39673
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Unbox_object
 plt_System_Nullable_1_System_TimeSpan_Unbox_object:
 _p_926:
@@ -87205,7 +87205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 39690
+.word 39698
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan:
 _p_927:
@@ -87213,7 +87213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 39712
+.word 39720
 	.no_dead_strip plt_System_TimeSpan_Equals_object
 plt_System_TimeSpan_Equals_object:
 _p_928:
@@ -87221,7 +87221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 39734
+.word 39742
 	.no_dead_strip plt_System_TimeSpan_ToString
 plt_System_TimeSpan_ToString:
 _p_929:
@@ -87229,7 +87229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 39739
+.word 39747
 	.no_dead_strip plt_System_Nullable_1_System_Net_Http_Headers_Token_Unbox_object
 plt_System_Nullable_1_System_Net_Http_Headers_Token_Unbox_object:
 _p_930:
@@ -87237,7 +87237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 39744
+.word 39752
 	.no_dead_strip plt_System_Nullable_1_System_Net_Http_Headers_Token_Equals_System_Nullable_1_System_Net_Http_Headers_Token
 plt_System_Nullable_1_System_Net_Http_Headers_Token_Equals_System_Nullable_1_System_Net_Http_Headers_Token:
 _p_931:
@@ -87245,7 +87245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 39764
+.word 39772
 	.no_dead_strip plt_System_Net_Http_Headers_Token_ToString
 plt_System_Net_Http_Headers_Token_ToString:
 _p_932:
@@ -87253,7 +87253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 39784
+.word 39792
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset_Unbox_object
 plt_System_Nullable_1_System_DateTimeOffset_Unbox_object:
 _p_933:
@@ -87261,7 +87261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 39787
+.word 39795
 	.no_dead_strip plt_System_Nullable_1_System_DateTimeOffset_Equals_System_Nullable_1_System_DateTimeOffset
 plt_System_Nullable_1_System_DateTimeOffset_Equals_System_Nullable_1_System_DateTimeOffset:
 _p_934:
@@ -87269,7 +87269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 39809
+.word 39817
 	.no_dead_strip plt_System_DateTimeOffset_Equals_object
 plt_System_DateTimeOffset_Equals_object:
 _p_935:
@@ -87277,7 +87277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 39831
+.word 39839
 	.no_dead_strip plt_System_DateTimeOffset_GetHashCode
 plt_System_DateTimeOffset_GetHashCode:
 _p_936:
@@ -87285,7 +87285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 39836
+.word 39844
 	.no_dead_strip plt_System_DateTimeOffset_ToString
 plt_System_DateTimeOffset_ToString:
 _p_937:
@@ -87293,7 +87293,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 39841
+.word 39849
 	.no_dead_strip plt_System_Nullable_1_double_Unbox_object
 plt_System_Nullable_1_double_Unbox_object:
 _p_938:
@@ -87301,7 +87301,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 39846
+.word 39854
 	.no_dead_strip plt_System_Nullable_1_double_Equals_System_Nullable_1_double
 plt_System_Nullable_1_double_Equals_System_Nullable_1_double:
 _p_939:
@@ -87309,7 +87309,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 39868
+.word 39876
 	.no_dead_strip plt_double_Equals_object
 plt_double_Equals_object:
 _p_940:
@@ -87317,7 +87317,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 39890
+.word 39898
 	.no_dead_strip plt_double_GetHashCode
 plt_double_GetHashCode:
 _p_941:
@@ -87325,7 +87325,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 39895
+.word 39903
 	.no_dead_strip plt_double_ToString
 plt_double_ToString:
 _p_942:
@@ -87333,7 +87333,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 39900
+.word 39908
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
 plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_943:
@@ -87341,7 +87341,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 39905
+.word 39913
 	.no_dead_strip plt__rgctx_fetch_349
 plt__rgctx_fetch_349:
 _p_944:
@@ -87349,7 +87349,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 39967
+.word 39975
 	.no_dead_strip plt__rgctx_fetch_350
 plt__rgctx_fetch_350:
 _p_945:
@@ -87357,7 +87357,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 39987
+.word 39995
 	.no_dead_strip plt__rgctx_fetch_351
 plt__rgctx_fetch_351:
 _p_946:
@@ -87365,7 +87365,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 40039
+.word 40047
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_947:
@@ -87373,7 +87373,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 40059
+.word 40067
 	.no_dead_strip plt__rgctx_fetch_352
 plt__rgctx_fetch_352:
 _p_948:
@@ -87381,7 +87381,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 40098
+.word 40106
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_949:
@@ -87389,7 +87389,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 40118
+.word 40126
 	.no_dead_strip plt__rgctx_fetch_353
 plt__rgctx_fetch_353:
 _p_950:
@@ -87397,7 +87397,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 40155
+.word 40163
 	.no_dead_strip plt__rgctx_fetch_354
 plt__rgctx_fetch_354:
 _p_951:
@@ -87405,7 +87405,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 40175
+.word 40183
 	.no_dead_strip plt__rgctx_fetch_355
 plt__rgctx_fetch_355:
 _p_952:
@@ -87413,7 +87413,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 40221
+.word 40229
 	.no_dead_strip plt__rgctx_fetch_356
 plt__rgctx_fetch_356:
 _p_953:
@@ -87421,7 +87421,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 40251
+.word 40259
 	.no_dead_strip plt__rgctx_fetch_357
 plt__rgctx_fetch_357:
 _p_954:
@@ -87429,7 +87429,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 40281
+.word 40289
 	.no_dead_strip plt__rgctx_fetch_358
 plt__rgctx_fetch_358:
 _p_955:
@@ -87437,7 +87437,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 40301
+.word 40309
 	.no_dead_strip plt__rgctx_fetch_359
 plt__rgctx_fetch_359:
 _p_956:
@@ -87445,7 +87445,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 40353
+.word 40361
 	.no_dead_strip plt__rgctx_fetch_360
 plt__rgctx_fetch_360:
 _p_957:
@@ -87453,7 +87453,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 40383
+.word 40391
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_958:
@@ -87461,7 +87461,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 40403
+.word 40411
 	.no_dead_strip plt_System_Net_Http_HttpClient__SendAsyncWorkerd__48_MoveNext
 plt_System_Net_Http_HttpClient__SendAsyncWorkerd__48_MoveNext:
 _p_959:
@@ -87469,7 +87469,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 40408
+.word 40416
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_960:
@@ -87477,7 +87477,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 40410
+.word 40418
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_961:
@@ -87485,7 +87485,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 40415
+.word 40423
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_962:
@@ -87493,7 +87493,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 40420
+.word 40428
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_UnsafeOnCompleted_System_Action:
 _p_963:
@@ -87501,7 +87501,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 40425
+.word 40433
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_964:
@@ -87509,7 +87509,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 40430
+.word 40438
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_Http_HttpResponseMessage_UnsafeOnCompleted_System_Action:
 _p_965:
@@ -87517,7 +87517,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 40435
+.word 40443
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_MoveNext
 plt_System_Net_Http_NSUrlSessionHandler__CreateRequestd__28_MoveNext:
 _p_966:
@@ -87525,7 +87525,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 40455
+.word 40463
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_MoveNext
 plt_System_Net_Http_NSUrlSessionHandler__SendAsyncd__29_MoveNext:
 _p_967:
@@ -87533,7 +87533,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 40457
+.word 40465
 	.no_dead_strip plt__rgctx_fetch_361
 plt__rgctx_fetch_361:
 _p_968:
@@ -87541,7 +87541,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 40487
+.word 40495
 	.no_dead_strip plt__rgctx_fetch_362
 plt__rgctx_fetch_362:
 _p_969:
@@ -87549,7 +87549,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 40499
+.word 40507
 	.no_dead_strip plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_MoveNext
 plt_System_Net_Http_NSUrlSessionHandler_NSUrlSessionDataTaskStream__ReadAsyncd__14_MoveNext:
 _p_970:
@@ -87557,7 +87557,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 40526
+.word 40534
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_int_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_int_UnsafeOnCompleted_System_Action:
 _p_971:
@@ -87565,7 +87565,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 40528
+.word 40536
 	.no_dead_strip plt__rgctx_fetch_363
 plt__rgctx_fetch_363:
 _p_972:
@@ -87573,7 +87573,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 40580
+.word 40588
 	.no_dead_strip plt__rgctx_fetch_364
 plt__rgctx_fetch_364:
 _p_973:
@@ -87581,7 +87581,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 40616
+.word 40624
 	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
 plt_System_Linq_Error_ArgumentNull_string:
 _p_974:
@@ -87589,7 +87589,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 40643
+.word 40651
 	.no_dead_strip plt__rgctx_fetch_365
 plt__rgctx_fetch_365:
 _p_975:
@@ -87597,7 +87597,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 40674
+.word 40682
 	.no_dead_strip plt__rgctx_fetch_366
 plt__rgctx_fetch_366:
 _p_976:
@@ -87605,7 +87605,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 40686
+.word 40694
 	.no_dead_strip plt__rgctx_fetch_367
 plt__rgctx_fetch_367:
 _p_977:
@@ -87613,7 +87613,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 40712
+.word 40720
 	.no_dead_strip plt__rgctx_fetch_368
 plt__rgctx_fetch_368:
 _p_978:
@@ -87621,7 +87621,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 40738
+.word 40746
 	.no_dead_strip plt__rgctx_fetch_369
 plt__rgctx_fetch_369:
 _p_979:
@@ -87629,7 +87629,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 40783
+.word 40791
 	.no_dead_strip plt__rgctx_fetch_370
 plt__rgctx_fetch_370:
 _p_980:
@@ -87637,7 +87637,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 40808
+.word 40816
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_IO_Stream_UnsafeOnCompleted_System_Action:
 _p_981:
@@ -87645,7 +87645,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 40833
+.word 40841
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Foundation_NSUrlRequest_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_Foundation_NSUrlRequest_UnsafeOnCompleted_System_Action:
 _p_982:
@@ -87653,7 +87653,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 40855
+.word 40863
 	.no_dead_strip plt__rgctx_fetch_371
 plt__rgctx_fetch_371:
 _p_983:
@@ -87661,7 +87661,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 40895
+.word 40903
 	.no_dead_strip plt__rgctx_fetch_372
 plt__rgctx_fetch_372:
 _p_984:
@@ -87669,7 +87669,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 40920
+.word 40928
 	.no_dead_strip plt__rgctx_fetch_373
 plt__rgctx_fetch_373:
 _p_985:
@@ -87677,7 +87677,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 40963
+.word 40971
 	.no_dead_strip plt__rgctx_fetch_374
 plt__rgctx_fetch_374:
 _p_986:
@@ -87685,7 +87685,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 40973
+.word 40981
 	.no_dead_strip plt__rgctx_fetch_375
 plt__rgctx_fetch_375:
 _p_987:
@@ -87693,7 +87693,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 40998
+.word 41006
 	.no_dead_strip plt__rgctx_fetch_376
 plt__rgctx_fetch_376:
 _p_988:
@@ -87701,7 +87701,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 41034
+.word 41043
 	.no_dead_strip plt__rgctx_fetch_377
 plt__rgctx_fetch_377:
 _p_989:
@@ -87709,7 +87709,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 41046
+.word 41055
 	.no_dead_strip plt__rgctx_fetch_378
 plt__rgctx_fetch_378:
 _p_990:
@@ -87717,7 +87717,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 41066
+.word 41076
 	.no_dead_strip plt__rgctx_fetch_379
 plt__rgctx_fetch_379:
 _p_991:
@@ -87725,7 +87725,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 41078
+.word 41088
 	.no_dead_strip plt_System_Net_Http_HttpClientHandler__SendAsyncd__64_MoveNext
 plt_System_Net_Http_HttpClientHandler__SendAsyncd__64_MoveNext:
 _p_992:
@@ -87733,7 +87733,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 41105
+.word 41115
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_UnsafeOnCompleted_System_Action:
 _p_993:
@@ -87741,7 +87741,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 41108
+.word 41118
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Net_WebResponse_UnsafeOnCompleted_System_Action:
 _p_994:
@@ -87749,7 +87749,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 41128
+.word 41138
 	.no_dead_strip plt_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_MoveNext
 plt_System_Net_Http_HttpContent__CreateContentReadStreamAsyncd__12_MoveNext:
 _p_995:
@@ -87757,7 +87757,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 41150
+.word 41160
 	.no_dead_strip plt_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_MoveNext
 plt_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_MoveNext:
 _p_996:
@@ -87765,7 +87765,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 41153
+.word 41163
 	.no_dead_strip plt_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_MoveNext
 plt_System_Net_Http_HttpContent__ReadAsStreamAsyncd__18_MoveNext:
 _p_997:
@@ -87773,7 +87773,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 41156
+.word 41166
 	.no_dead_strip plt_System_Net_Http_HttpContent__ReadAsStringAsyncd__20_MoveNext
 plt_System_Net_Http_HttpContent__ReadAsStringAsyncd__20_MoveNext:
 _p_998:
@@ -87781,7 +87781,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 41159
+.word 41169
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__System_Net_Http_HttpContent__LoadIntoBufferAsyncd__17_:
 _p_999:
@@ -87789,7 +87789,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 41162
+.word 41172
 	.no_dead_strip plt__rgctx_fetch_380
 plt__rgctx_fetch_380:
 _p_1000:
@@ -87797,7 +87797,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 41206
+.word 41216
 	.no_dead_strip plt_System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF
 plt_System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEqualityComparer_1_TSource_REF:
 _p_1001:
@@ -87805,7 +87805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 41231
+.word 41241
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF
 plt_System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF:
 _p_1002:
@@ -87813,7 +87813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 41250
+.word 41260
 	.no_dead_strip plt__rgctx_fetch_381
 plt__rgctx_fetch_381:
 _p_1003:
@@ -87821,7 +87821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 41287
+.word 41297
 	.no_dead_strip plt__rgctx_fetch_382
 plt__rgctx_fetch_382:
 _p_1004:
@@ -87829,7 +87829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 41297
+.word 41307
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF
 plt_System_Collections_Generic_List_1_T_REF_InsertRange_int_System_Collections_Generic_IEnumerable_1_T_REF:
 _p_1005:
@@ -87837,7 +87837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 41307
+.word 41317
 	.no_dead_strip plt__rgctx_fetch_383
 plt__rgctx_fetch_383:
 _p_1006:
@@ -87845,7 +87845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 41344
+.word 41354
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_IndexOf_T_REF
 plt_System_Collections_Generic_List_1_T_REF_IndexOf_T_REF:
 _p_1007:
@@ -87853,7 +87853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 41370
+.word 41380
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_RemoveAt_int
 plt_System_Collections_Generic_List_1_T_REF_RemoveAt_int:
 _p_1008:
@@ -87861,7 +87861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 41389
+.word 41399
 	.no_dead_strip plt__rgctx_fetch_384
 plt__rgctx_fetch_384:
 _p_1009:
@@ -87869,7 +87869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 41426
+.word 41436
 	.no_dead_strip plt_string_JoinCore_T_REF_char__int_System_Collections_Generic_IEnumerable_1_T_REF
 plt_string_JoinCore_T_REF_char__int_System_Collections_Generic_IEnumerable_1_T_REF:
 _p_1010:
@@ -87877,7 +87877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 41451
+.word 41461
 	.no_dead_strip plt__rgctx_fetch_385
 plt__rgctx_fetch_385:
 _p_1011:
@@ -87885,7 +87885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 41497
+.word 41507
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF
 plt_System_Collections_Generic_List_1_Enumerator_T_REF__ctor_System_Collections_Generic_List_1_T_REF:
 _p_1012:
@@ -87893,7 +87893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 41509
+.word 41519
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_AddRange_System_Collections_Generic_List_1_object
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_AddRange_System_Collections_Generic_List_1_object:
 _p_1013:
@@ -87901,7 +87901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 41530
+.word 41540
 	.no_dead_strip plt_System_Collections_Generic_List_1_object_AddWithResize_object
 plt_System_Collections_Generic_List_1_object_AddWithResize_object:
 _p_1014:
@@ -87909,7 +87909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 41552
+.word 41562
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object__ctor_System_Net_Http_Headers_HttpHeaders_System_Net_Http_Headers_HeaderInfo:
 _p_1015:
@@ -87917,7 +87917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 41574
+.word 41584
 	.no_dead_strip plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_GetEnumerator
 plt_System_Net_Http_Headers_HttpHeaderValueCollection_1_object_GetEnumerator:
 _p_1016:
@@ -87925,7 +87925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 41596
+.word 41606
 	.no_dead_strip plt__rgctx_fetch_386
 plt__rgctx_fetch_386:
 _p_1017:
@@ -87933,7 +87933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 41636
+.word 41646
 	.no_dead_strip plt__rgctx_fetch_387
 plt__rgctx_fetch_387:
 _p_1018:
@@ -87941,7 +87941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 41689
+.word 41699
 	.no_dead_strip plt__rgctx_fetch_388
 plt__rgctx_fetch_388:
 _p_1019:
@@ -87949,7 +87949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 41701
+.word 41711
 	.no_dead_strip plt__rgctx_fetch_389
 plt__rgctx_fetch_389:
 _p_1020:
@@ -87957,7 +87957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 41746
+.word 41756
 	.no_dead_strip plt__rgctx_fetch_390
 plt__rgctx_fetch_390:
 _p_1021:
@@ -87965,7 +87965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 41771
+.word 41781
 	.no_dead_strip plt__rgctx_fetch_391
 plt__rgctx_fetch_391:
 _p_1022:
@@ -87973,7 +87973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 41823
+.word 41833
 	.no_dead_strip plt__rgctx_fetch_392
 plt__rgctx_fetch_392:
 _p_1023:
@@ -87981,7 +87981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 41835
+.word 41845
 	.no_dead_strip plt__rgctx_fetch_393
 plt__rgctx_fetch_393:
 _p_1024:
@@ -87989,7 +87989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 41880
+.word 41890
 	.no_dead_strip plt__rgctx_fetch_394
 plt__rgctx_fetch_394:
 _p_1025:
@@ -87997,7 +87997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 41890
+.word 41900
 	.no_dead_strip plt_System_Collections_Generic_IntrospectiveSortUtilities_ThrowOrIgnoreBadComparer_object
 plt_System_Collections_Generic_IntrospectiveSortUtilities_ThrowOrIgnoreBadComparer_object:
 _p_1026:
@@ -88005,7 +88005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 41915
+.word 41925
 	.no_dead_strip plt_System_InvalidOperationException__ctor_string_System_Exception
 plt_System_InvalidOperationException__ctor_string_System_Exception:
 _p_1027:
@@ -88013,7 +88013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 41920
+.word 41930
 	.no_dead_strip plt__rgctx_fetch_395
 plt__rgctx_fetch_395:
 _p_1028:
@@ -88021,7 +88021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 41943
+.word 41953
 	.no_dead_strip plt__rgctx_fetch_396
 plt__rgctx_fetch_396:
 _p_1029:
@@ -88029,7 +88029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 41953
+.word 41963
 	.no_dead_strip plt__rgctx_fetch_397
 plt__rgctx_fetch_397:
 _p_1030:
@@ -88037,7 +88037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 42006
+.word 42016
 	.no_dead_strip plt__rgctx_fetch_398
 plt__rgctx_fetch_398:
 _p_1031:
@@ -88045,7 +88045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 42018
+.word 42028
 	.no_dead_strip plt__rgctx_fetch_399
 plt__rgctx_fetch_399:
 _p_1032:
@@ -88053,7 +88053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 42045
+.word 42055
 	.no_dead_strip plt__rgctx_fetch_400
 plt__rgctx_fetch_400:
 _p_1033:
@@ -88061,7 +88061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 42079
+.word 42089
 	.no_dead_strip plt__rgctx_fetch_401
 plt__rgctx_fetch_401:
 _p_1034:
@@ -88069,7 +88069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 42091
+.word 42101
 	.no_dead_strip plt__rgctx_fetch_402
 plt__rgctx_fetch_402:
 _p_1035:
@@ -88077,7 +88077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 42103
+.word 42113
 	.no_dead_strip plt__rgctx_fetch_403
 plt__rgctx_fetch_403:
 _p_1036:
@@ -88085,7 +88085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 42115
+.word 42125
 	.no_dead_strip plt__rgctx_fetch_404
 plt__rgctx_fetch_404:
 _p_1037:
@@ -88093,7 +88093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 42151
+.word 42161
 	.no_dead_strip plt__rgctx_fetch_405
 plt__rgctx_fetch_405:
 _p_1038:
@@ -88101,7 +88101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 42163
+.word 42173
 	.no_dead_strip plt__rgctx_fetch_406
 plt__rgctx_fetch_406:
 _p_1039:
@@ -88109,7 +88109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 42190
+.word 42200
 	.no_dead_strip plt__rgctx_fetch_407
 plt__rgctx_fetch_407:
 _p_1040:
@@ -88117,7 +88117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 42217
+.word 42227
 	.no_dead_strip plt__rgctx_fetch_408
 plt__rgctx_fetch_408:
 _p_1041:
@@ -88125,7 +88125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 42270
+.word 42280
 	.no_dead_strip plt__rgctx_fetch_409
 plt__rgctx_fetch_409:
 _p_1042:
@@ -88133,7 +88133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 42282
+.word 42292
 	.no_dead_strip plt__rgctx_fetch_410
 plt__rgctx_fetch_410:
 _p_1043:
@@ -88141,7 +88141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 42307
+.word 42317
 	.no_dead_strip plt__rgctx_fetch_411
 plt__rgctx_fetch_411:
 _p_1044:
@@ -88149,7 +88149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 42340
+.word 42350
 	.no_dead_strip plt__rgctx_fetch_412
 plt__rgctx_fetch_412:
 _p_1045:
@@ -88157,7 +88157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 42352
+.word 42362
 	.no_dead_strip plt__rgctx_fetch_413
 plt__rgctx_fetch_413:
 _p_1046:
@@ -88165,7 +88165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 42397
+.word 42407
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_1047:
@@ -88173,7 +88173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 42422
+.word 42432
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_1048:
@@ -88181,7 +88181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 42433
+.word 42443
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_1049:
@@ -88189,7 +88189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 42453
+.word 42463
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_1050:
@@ -88197,7 +88197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 42473
+.word 42483
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_1051:
@@ -88205,7 +88205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 42493
+.word 42503
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_1052:
@@ -88213,7 +88213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 42513
+.word 42523
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_1053:
@@ -88221,7 +88221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 42533
+.word 42543
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_1054:
@@ -88229,7 +88229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 42555
+.word 42565
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_1055:
@@ -88237,7 +88237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 42577
+.word 42587
 	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
 _p_1056:
@@ -88245,7 +88245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 42597
+.word 42607
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_1057:
@@ -88253,7 +88253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 42619
+.word 42629
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_1058:
@@ -88261,7 +88261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 42639
+.word 42649
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_1059:
@@ -88269,7 +88269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 42659
+.word 42669
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_1060:
@@ -88277,7 +88277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 42679
+.word 42689
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_1061:
@@ -88285,7 +88285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 42699
+.word 42709
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_1062:
@@ -88293,7 +88293,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 42719
+.word 42729
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
 _p_1063:
@@ -88301,7 +88301,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 42739
+.word 42749
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
 _p_1064:
@@ -88309,7 +88309,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 42759
+.word 42769
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
 _p_1065:
@@ -88317,7 +88317,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 42779
+.word 42789
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
 _p_1066:
@@ -88325,7 +88325,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 42799
+.word 42809
 	.no_dead_strip plt__rgctx_fetch_414
 plt__rgctx_fetch_414:
 _p_1067:
@@ -88333,7 +88333,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 42847
+.word 42857
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TSource_REF_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_TSource_REF_get_Default:
 _p_1068:
@@ -88341,7 +88341,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 42859
+.word 42869
 	.no_dead_strip plt__rgctx_fetch_415
 plt__rgctx_fetch_415:
 _p_1069:
@@ -88349,7 +88349,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 42889
+.word 42899
 	.no_dead_strip plt__rgctx_fetch_416
 plt__rgctx_fetch_416:
 _p_1070:
@@ -88357,7 +88357,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 42901
+.word 42911
 	.no_dead_strip plt__rgctx_fetch_417
 plt__rgctx_fetch_417:
 _p_1071:
@@ -88365,7 +88365,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 42937
+.word 42947
 	.no_dead_strip plt__rgctx_fetch_418
 plt__rgctx_fetch_418:
 _p_1072:
@@ -88373,7 +88373,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 42949
+.word 42959
 	.no_dead_strip plt__rgctx_fetch_419
 plt__rgctx_fetch_419:
 _p_1073:
@@ -88381,7 +88381,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 42985
+.word 42995
 	.no_dead_strip plt__rgctx_fetch_420
 plt__rgctx_fetch_420:
 _p_1074:
@@ -88389,7 +88389,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 43021
+.word 43031
 	.no_dead_strip plt__rgctx_fetch_421
 plt__rgctx_fetch_421:
 _p_1075:
@@ -88397,7 +88397,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 43057
+.word 43067
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
 plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
 _p_1076:
@@ -88405,7 +88405,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 43084
+.word 43094
 	.no_dead_strip plt__rgctx_fetch_422
 plt__rgctx_fetch_422:
 _p_1077:
@@ -88413,7 +88413,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 43130
+.word 43140
 	.no_dead_strip plt__rgctx_fetch_423
 plt__rgctx_fetch_423:
 _p_1078:
@@ -88421,7 +88421,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 43142
+.word 43152
 	.no_dead_strip plt__rgctx_fetch_424
 plt__rgctx_fetch_424:
 _p_1079:
@@ -88429,7 +88429,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 43169
+.word 43179
 	.no_dead_strip plt__rgctx_fetch_425
 plt__rgctx_fetch_425:
 _p_1080:
@@ -88437,7 +88437,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 43205
+.word 43215
 	.no_dead_strip plt__rgctx_fetch_426
 plt__rgctx_fetch_426:
 _p_1081:
@@ -88445,7 +88445,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 43241
+.word 43251
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_Insert_int_T_REF
 plt_System_Collections_Generic_List_1_T_REF_Insert_int_T_REF:
 _p_1082:
@@ -88453,7 +88453,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 43268
+.word 43278
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_AddEnumerable_System_Collections_Generic_IEnumerable_1_T_REF
 plt_System_Collections_Generic_List_1_T_REF_AddEnumerable_System_Collections_Generic_IEnumerable_1_T_REF:
 _p_1083:
@@ -88461,7 +88461,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 43287
+.word 43297
 	.no_dead_strip plt__rgctx_fetch_427
 plt__rgctx_fetch_427:
 _p_1084:
@@ -88469,7 +88469,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 43324
+.word 43334
 	.no_dead_strip plt_System_Array_IndexOf_T_REF_T_REF___T_REF_int_int
 plt_System_Array_IndexOf_T_REF_T_REF___T_REF_int_int:
 _p_1085:
@@ -88477,7 +88477,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 43349
+.word 43359
 	.no_dead_strip plt__rgctx_fetch_428
 plt__rgctx_fetch_428:
 _p_1086:
@@ -88485,7 +88485,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 43386
+.word 43396
 	.no_dead_strip plt__rgctx_fetch_429
 plt__rgctx_fetch_429:
 _p_1087:
@@ -88493,7 +88493,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 43439
+.word 43449
 	.no_dead_strip plt__rgctx_fetch_430
 plt__rgctx_fetch_430:
 _p_1088:
@@ -88501,7 +88501,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 43475
+.word 43485
 	.no_dead_strip plt_System_Text_StringBuilderCache_Acquire_int
 plt_System_Text_StringBuilderCache_Acquire_int:
 _p_1089:
@@ -88509,7 +88509,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 43502
+.word 43512
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char__int
 plt_System_Text_StringBuilder_Append_char__int:
 _p_1090:
@@ -88517,7 +88517,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 43507
+.word 43517
 	.no_dead_strip plt_System_Text_StringBuilderCache_GetStringAndRelease_System_Text_StringBuilder
 plt_System_Text_StringBuilderCache_GetStringAndRelease_System_Text_StringBuilder:
 _p_1091:
@@ -88525,7 +88525,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 43512
+.word 43522
 	.no_dead_strip plt__rgctx_fetch_431
 plt__rgctx_fetch_431:
 _p_1092:
@@ -88533,7 +88533,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 43544
+.word 43554
 	.no_dead_strip plt__rgctx_fetch_432
 plt__rgctx_fetch_432:
 _p_1093:
@@ -88541,7 +88541,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 43556
+.word 43566
 	.no_dead_strip plt__rgctx_fetch_433
 plt__rgctx_fetch_433:
 _p_1094:
@@ -88549,7 +88549,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 43610
+.word 43620
 	.no_dead_strip plt__rgctx_fetch_434
 plt__rgctx_fetch_434:
 _p_1095:
@@ -88557,7 +88557,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 43622
+.word 43632
 	.no_dead_strip plt__rgctx_fetch_435
 plt__rgctx_fetch_435:
 _p_1096:
@@ -88565,7 +88565,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 43658
+.word 43668
 	.no_dead_strip plt__jit_icall_mono_ldvirtfn_gshared
 plt__jit_icall_mono_ldvirtfn_gshared:
 _p_1097:
@@ -88573,7 +88573,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 43685
+.word 43695
 	.no_dead_strip plt__rgctx_fetch_436
 plt__rgctx_fetch_436:
 _p_1098:
@@ -88581,7 +88581,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 43718
+.word 43728
 	.no_dead_strip plt__rgctx_fetch_437
 plt__rgctx_fetch_437:
 _p_1099:
@@ -88589,7 +88589,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 43730
+.word 43740
 	.no_dead_strip plt__rgctx_fetch_438
 plt__rgctx_fetch_438:
 _p_1100:
@@ -88597,7 +88597,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 43757
+.word 43767
 	.no_dead_strip plt__rgctx_fetch_439
 plt__rgctx_fetch_439:
 _p_1101:
@@ -88605,7 +88605,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 43767
+.word 43777
 	.no_dead_strip plt__rgctx_fetch_440
 plt__rgctx_fetch_440:
 _p_1102:
@@ -88613,7 +88613,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 43810
+.word 43820
 	.no_dead_strip plt__rgctx_fetch_441
 plt__rgctx_fetch_441:
 _p_1103:
@@ -88621,7 +88621,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 43820
+.word 43830
 	.no_dead_strip plt__rgctx_fetch_442
 plt__rgctx_fetch_442:
 _p_1104:
@@ -88629,7 +88629,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 43863
+.word 43873
 	.no_dead_strip plt__rgctx_fetch_443
 plt__rgctx_fetch_443:
 _p_1105:
@@ -88637,7 +88637,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 43873
+.word 43883
 	.no_dead_strip plt__rgctx_fetch_444
 plt__rgctx_fetch_444:
 _p_1106:
@@ -88645,7 +88645,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 43898
+.word 43908
 	.no_dead_strip plt__rgctx_fetch_445
 plt__rgctx_fetch_445:
 _p_1107:
@@ -88653,7 +88653,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 43910
+.word 43920
 	.no_dead_strip plt__rgctx_fetch_446
 plt__rgctx_fetch_446:
 _p_1108:
@@ -88661,7 +88661,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 43962
+.word 43972
 	.no_dead_strip plt__rgctx_fetch_447
 plt__rgctx_fetch_447:
 _p_1109:
@@ -88669,7 +88669,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 43989
+.word 43999
 	.no_dead_strip plt__rgctx_fetch_448
 plt__rgctx_fetch_448:
 _p_1110:
@@ -88677,7 +88677,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 43999
+.word 44009
 	.no_dead_strip plt__rgctx_fetch_449
 plt__rgctx_fetch_449:
 _p_1111:
@@ -88685,7 +88685,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 44033
+.word 44043
 	.no_dead_strip plt__rgctx_fetch_450
 plt__rgctx_fetch_450:
 _p_1112:
@@ -88693,7 +88693,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 44078
+.word 44088
 	.no_dead_strip plt__rgctx_fetch_451
 plt__rgctx_fetch_451:
 _p_1113:
@@ -88701,7 +88701,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 44088
+.word 44098
 	.no_dead_strip plt__rgctx_fetch_452
 plt__rgctx_fetch_452:
 _p_1114:
@@ -88709,7 +88709,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 44139
+.word 44149
 	.no_dead_strip plt__rgctx_fetch_453
 plt__rgctx_fetch_453:
 _p_1115:
@@ -88717,7 +88717,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 44193
+.word 44203
 	.no_dead_strip plt__rgctx_fetch_454
 plt__rgctx_fetch_454:
 _p_1116:
@@ -88725,7 +88725,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 44205
+.word 44215
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_1117:
@@ -88733,7 +88733,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 44232
+.word 44242
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_1118:
@@ -88741,7 +88741,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 44254
+.word 44264
 	.no_dead_strip plt__rgctx_fetch_455
 plt__rgctx_fetch_455:
 _p_1119:
@@ -88749,7 +88749,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 44296
+.word 44306
 	.no_dead_strip plt__rgctx_fetch_456
 plt__rgctx_fetch_456:
 _p_1120:
@@ -88757,7 +88757,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 44308
+.word 44318
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 _p_1121:
@@ -88765,7 +88765,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 44320
+.word 44330
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int
 plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int:
 _p_1122:
@@ -88773,7 +88773,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 44343
+.word 44353
 	.no_dead_strip plt__rgctx_fetch_457
 plt__rgctx_fetch_457:
 _p_1123:
@@ -88781,7 +88781,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 44380
+.word 44390
 	.no_dead_strip plt__rgctx_fetch_458
 plt__rgctx_fetch_458:
 _p_1124:
@@ -88789,7 +88789,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 44407
+.word 44417
 	.no_dead_strip plt__rgctx_fetch_459
 plt__rgctx_fetch_459:
 _p_1125:
@@ -88797,7 +88797,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 44454
+.word 44464
 	.no_dead_strip plt_System_Array_IndexOfImpl_T_REF_T_REF___T_REF_int_int
 plt_System_Array_IndexOfImpl_T_REF_T_REF___T_REF_int_int:
 _p_1126:
@@ -88805,7 +88805,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 44481
+.word 44491
 	.no_dead_strip plt__rgctx_fetch_460
 plt__rgctx_fetch_460:
 _p_1127:
@@ -88813,7 +88813,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 44524
+.word 44534
 	.no_dead_strip plt__rgctx_fetch_461
 plt__rgctx_fetch_461:
 _p_1128:
@@ -88821,7 +88821,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 44536
+.word 44546
 	.no_dead_strip plt__rgctx_fetch_462
 plt__rgctx_fetch_462:
 _p_1129:
@@ -88829,7 +88829,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 44548
+.word 44558
 	.no_dead_strip plt__rgctx_fetch_463
 plt__rgctx_fetch_463:
 _p_1130:
@@ -88837,7 +88837,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 44599
+.word 44609
 	.no_dead_strip plt__rgctx_fetch_464
 plt__rgctx_fetch_464:
 _p_1131:
@@ -88845,7 +88845,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 44611
+.word 44621
 	.no_dead_strip plt__rgctx_fetch_465
 plt__rgctx_fetch_465:
 _p_1132:
@@ -88853,7 +88853,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 44623
+.word 44633
 	.no_dead_strip plt__rgctx_fetch_466
 plt__rgctx_fetch_466:
 _p_1133:
@@ -88861,7 +88861,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 44670
+.word 44680
 	.no_dead_strip plt__rgctx_fetch_467
 plt__rgctx_fetch_467:
 _p_1134:
@@ -88869,7 +88869,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 44680
+.word 44690
 	.no_dead_strip plt__rgctx_fetch_468
 plt__rgctx_fetch_468:
 _p_1135:
@@ -88877,7 +88877,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 44705
+.word 44715
 	.no_dead_strip plt__rgctx_fetch_469
 plt__rgctx_fetch_469:
 _p_1136:
@@ -88885,7 +88885,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 44730
+.word 44740
 	.no_dead_strip plt__rgctx_fetch_470
 plt__rgctx_fetch_470:
 _p_1137:
@@ -88893,7 +88893,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 44755
+.word 44765
 	.no_dead_strip plt__rgctx_fetch_471
 plt__rgctx_fetch_471:
 _p_1138:
@@ -88901,7 +88901,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 44780
+.word 44790
 	.no_dead_strip plt__rgctx_fetch_472
 plt__rgctx_fetch_472:
 _p_1139:
@@ -88909,7 +88909,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 44823
+.word 44833
 	.no_dead_strip plt__rgctx_fetch_473
 plt__rgctx_fetch_473:
 _p_1140:
@@ -88917,7 +88917,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 44833
+.word 44843
 	.no_dead_strip plt__rgctx_fetch_474
 plt__rgctx_fetch_474:
 _p_1141:
@@ -88925,7 +88925,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 44876
+.word 44886
 	.no_dead_strip plt__rgctx_fetch_475
 plt__rgctx_fetch_475:
 _p_1142:
@@ -88933,7 +88933,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 44899
+.word 44909
 	.no_dead_strip plt_System_Collections_Generic_ArrayBuilder_1_T_INST___Add_T_INST__
 plt_System_Collections_Generic_ArrayBuilder_1_T_INST___Add_T_INST__:
 _p_1143:
@@ -88941,7 +88941,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 44911
+.word 44921
 	.no_dead_strip plt__rgctx_fetch_476
 plt__rgctx_fetch_476:
 _p_1144:
@@ -88949,7 +88949,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 44952
+.word 44962
 	.no_dead_strip plt__rgctx_fetch_477
 plt__rgctx_fetch_477:
 _p_1145:
@@ -88957,7 +88957,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 44986
+.word 44996
 	.no_dead_strip plt__rgctx_fetch_478
 plt__rgctx_fetch_478:
 _p_1146:
@@ -88965,7 +88965,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 44998
+.word 45008
 	.no_dead_strip plt__rgctx_fetch_479
 plt__rgctx_fetch_479:
 _p_1147:
@@ -88973,7 +88973,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 45042
+.word 45052
 	.no_dead_strip plt__rgctx_fetch_480
 plt__rgctx_fetch_480:
 _p_1148:
@@ -88981,7 +88981,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 45093
+.word 45103
 	.no_dead_strip plt__rgctx_fetch_481
 plt__rgctx_fetch_481:
 _p_1149:
@@ -88989,7 +88989,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 45105
+.word 45115
 	.no_dead_strip plt__rgctx_fetch_482
 plt__rgctx_fetch_482:
 _p_1150:
@@ -88997,7 +88997,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 45117
+.word 45127
 	.no_dead_strip plt__rgctx_fetch_483
 plt__rgctx_fetch_483:
 _p_1151:
@@ -89005,7 +89005,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 45168
+.word 45178
 	.no_dead_strip plt__rgctx_fetch_484
 plt__rgctx_fetch_484:
 _p_1152:
@@ -89013,7 +89013,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 45180
+.word 45190
 	.no_dead_strip plt__rgctx_fetch_485
 plt__rgctx_fetch_485:
 _p_1153:
@@ -89021,7 +89021,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 45203
+.word 45213
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_1154:
@@ -89029,7 +89029,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 45215
+.word 45225
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_1155:
@@ -89037,7 +89037,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 45220
+.word 45230
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_1156:
@@ -89045,7 +89045,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 45225
+.word 45235
 	.no_dead_strip plt__rgctx_fetch_486
 plt__rgctx_fetch_486:
 _p_1157:
@@ -89053,7 +89053,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 45241
+.word 45251
 	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 _p_1158:
@@ -89061,7 +89061,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 45253
+.word 45263
 	.no_dead_strip plt__rgctx_fetch_487
 plt__rgctx_fetch_487:
 _p_1159:
@@ -89069,7 +89069,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 45294
+.word 45304
 	.no_dead_strip plt__rgctx_fetch_488
 plt__rgctx_fetch_488:
 _p_1160:
@@ -89077,7 +89077,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 45306
+.word 45316
 	.no_dead_strip plt__rgctx_fetch_489
 plt__rgctx_fetch_489:
 _p_1161:
@@ -89085,7 +89085,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 45316
+.word 45326
 	.no_dead_strip plt__rgctx_fetch_490
 plt__rgctx_fetch_490:
 _p_1162:
@@ -89093,7 +89093,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 45357
+.word 45367
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_T_REF_get_Default:
 _p_1163:
@@ -89101,7 +89101,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 45369
+.word 45379
 	.no_dead_strip plt__rgctx_fetch_491
 plt__rgctx_fetch_491:
 _p_1164:
@@ -89109,7 +89109,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 45414
+.word 45424
 	.no_dead_strip plt__rgctx_fetch_492
 plt__rgctx_fetch_492:
 _p_1165:
@@ -89117,7 +89117,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 45426
+.word 45436
 	.no_dead_strip plt__rgctx_fetch_493
 plt__rgctx_fetch_493:
 _p_1166:
@@ -89125,7 +89125,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 45449
+.word 45459
 	.no_dead_strip plt__rgctx_fetch_494
 plt__rgctx_fetch_494:
 _p_1167:
@@ -89133,7 +89133,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 45472
+.word 45482
 	.no_dead_strip plt__rgctx_fetch_495
 plt__rgctx_fetch_495:
 _p_1168:
@@ -89141,7 +89141,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 45484
+.word 45494
 	.no_dead_strip plt__rgctx_fetch_496
 plt__rgctx_fetch_496:
 _p_1169:
@@ -89149,7 +89149,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 45535
+.word 45545
 	.no_dead_strip plt__rgctx_fetch_497
 plt__rgctx_fetch_497:
 _p_1170:
@@ -89157,7 +89157,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 45558
+.word 45568
 	.no_dead_strip plt__rgctx_fetch_498
 plt__rgctx_fetch_498:
 _p_1171:
@@ -89165,7 +89165,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 45570
+.word 45580
 	.no_dead_strip plt__rgctx_fetch_499
 plt__rgctx_fetch_499:
 _p_1172:
@@ -89173,7 +89173,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 45593
+.word 45603
 	.no_dead_strip plt__rgctx_fetch_500
 plt__rgctx_fetch_500:
 _p_1173:
@@ -89181,7 +89181,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 45605
+.word 45615
 	.no_dead_strip plt__rgctx_fetch_501
 plt__rgctx_fetch_501:
 _p_1174:
@@ -89189,7 +89189,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 45652
+.word 45662
 	.no_dead_strip plt__rgctx_fetch_502
 plt__rgctx_fetch_502:
 _p_1175:
@@ -89197,7 +89197,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 45662
+.word 45672
 	.no_dead_strip plt__rgctx_fetch_503
 plt__rgctx_fetch_503:
 _p_1176:
@@ -89205,7 +89205,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 45687
+.word 45697
 	.no_dead_strip plt__rgctx_fetch_504
 plt__rgctx_fetch_504:
 _p_1177:
@@ -89213,7 +89213,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 45730
+.word 45740
 	.no_dead_strip plt__rgctx_fetch_505
 plt__rgctx_fetch_505:
 _p_1178:
@@ -89221,7 +89221,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 45740
+.word 45750
 	.no_dead_strip plt__rgctx_fetch_506
 plt__rgctx_fetch_506:
 _p_1179:
@@ -89229,7 +89229,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 45765
+.word 45775
 	.no_dead_strip plt__rgctx_fetch_507
 plt__rgctx_fetch_507:
 _p_1180:
@@ -89237,7 +89237,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 45808
+.word 45818
 	.no_dead_strip plt_System_Environment_get_CurrentManagedThreadId
 plt_System_Environment_get_CurrentManagedThreadId:
 _p_1181:
@@ -89245,7 +89245,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 45820
+.word 45830
 	.no_dead_strip plt__rgctx_fetch_508
 plt__rgctx_fetch_508:
 _p_1182:
@@ -89253,7 +89253,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 45847
+.word 45857
 	.no_dead_strip plt__rgctx_fetch_509
 plt__rgctx_fetch_509:
 _p_1183:
@@ -89261,7 +89261,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 45859
+.word 45869
 	.no_dead_strip plt__rgctx_fetch_510
 plt__rgctx_fetch_510:
 _p_1184:
@@ -89269,7 +89269,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 45882
+.word 45892
 	.no_dead_strip plt__rgctx_fetch_511
 plt__rgctx_fetch_511:
 _p_1185:
@@ -89277,7 +89277,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 45905
+.word 45915
 	.no_dead_strip plt__rgctx_fetch_512
 plt__rgctx_fetch_512:
 _p_1186:
@@ -89285,7 +89285,7 @@ adrp x16, mono_aot_System_Net_Http_got@PAGE+12288
 add x16, x16, mono_aot_System_Net_Http_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 45917
+.word 45927
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -89399,13 +89399,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 826,16104,1187,1215,66,391195135,0,182426
-	.long 128,8,8,8,0,25,205696,23264
+	.long 826,16104,1187,1215,66,391195135,0,182444
+	.long 128,8,8,8,0,25,205720,23264
 	.long 22800,18344,0,20368,22632,19104,0,13512
 	.long 1696,23256,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 231,144,79,16,100,171,169,153,182,48,240,143,139,132,135,193
+	.byte 25,214,191,172,17,100,11,71,235,22,214,11,8,19,61,146
 	.globl _mono_aot_module_System_Net_Http_info
 	.align 3
 _mono_aot_module_System_Net_Http_info:

@@ -77,14 +77,18 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="23662" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="48" y="157" width="225" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue id="23949" destination="22824" kind="show"/>
-                                </connections>
                                 <fontDescription key="fontDescription" type="system" pointSize="7"/>
                                 <state key="normal" title="Go"/>
+                                <connections>
+                                    <action selector="StartMaps:" destination="1204" id="25084" eventType="touchDown"/>
+                                </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="27778" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" showsUserLocation="YES" hidden="YES">
+                                <rect key="frame" x="0.0" y="101" width="320" height="467"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                             <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" id="22119" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" clipsSubviews="YES" canCancelContentTouches="NO" hidden="YES">
-                                <rect key="frame" x="0.0" y="78" width="320" height="427"/>
+                                <rect key="frame" x="0.0" y="101" width="320" height="427"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="22120" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Success.png" hidden="YES">
@@ -134,14 +138,26 @@
                                     </label>
                                 </subviews>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="27779" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="25" y="70" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Закрыть"/>
+                                <connections>
+                                    <action selector="CloseMaps:" destination="1204" id="27780" eventType="touchDown"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <navigationItem title="Главная" id="1339" key="navigationItem">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="16029"/>
+                        <rightBarButtonItems>
+                            <barButtonItem style="plain" id="16029"/>
+                            <barButtonItem style="plain" id="27777"/>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="BalanceLabel" destination="5168" id="name-outlet-5168"/>
                         <outlet property="MapsViewusr" destination="22116" id="name-outlet-22116"/>
+                        <outlet property="MapShow" destination="27778" id="name-outlet-27778"/>
                         <outlet property="ResultView" destination="22119" id="name-outlet-22119"/>
                         <outlet property="ErorrPayment" destination="22124" id="name-outlet-22124"/>
                         <outlet property="SuccessPayment" destination="22120" id="name-outlet-22120"/>
@@ -149,11 +165,12 @@
                         <outlet property="TkName" destination="22127" id="name-outlet-22127"/>
                         <outlet property="SummPayment" destination="22128" id="name-outlet-22128"/>
                         <outlet property="InfoPaymentLabel" destination="22125" id="name-outlet-22125"/>
+                        <outlet property="MapCloseButton" destination="27779" id="name-outlet-27779"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1206" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="457" y="-121"/>
+            <point key="canvasLocation" x="450" y="-142"/>
         </scene>
         <scene sceneID="16039">
             <objects>
@@ -271,30 +288,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="20029" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907" y="-111"/>
-        </scene>
-        <scene sceneID="22823">
-            <objects>
-                <viewController id="22824" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="22821"/>
-                        <viewControllerLayoutGuide type="bottom" id="22822"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="22825">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="23159" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="126" width="320" height="442"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                        </subviews>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="22826" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1190" y="664"/>
+            <point key="canvasLocation" x="1061" y="-265"/>
         </scene>
     </scenes>
     <resources>

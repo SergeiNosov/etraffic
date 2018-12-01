@@ -23,11 +23,9 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/zxing.pdb
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/zxing.xml
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Core.pdb
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Core.xml
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.pdb
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Xaml.pdb
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Xaml.xml
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
@@ -74,3 +72,7 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/optimized/Erorr.png
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/optimized/Success.png
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/optimized/maps.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Maps.dll
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Maps.iOS.dll
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Xamarin.Forms.Maps.xml
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/XamlC.stamp

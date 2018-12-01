@@ -2,6 +2,7 @@
 using System.Net.Http;
 using UIKit;
 using System.Collections.Generic;
+using MapKit;
 namespace ETraffic
 {
     public partial class ViewController : UIViewController
@@ -136,6 +137,17 @@ namespace ETraffic
 
         }
 
+        partial void CloseMaps(UIButton sender)
+        {
+            MapShow.Hidden = true;
+            MapCloseButton.Hidden = true;
+        }
+
+        partial void StartMaps(UIButton sender)
+        {
+            MapShow.Hidden = false;
+            MapCloseButton.Hidden = false;
+        }
       
         public void SetNewBalanceClient(string balance)
         {
