@@ -8,11 +8,38 @@ namespace ETraffic
     {
         partial void Generate(UIButton sender)
         {
-            QrViewName.drawQR();
+            try
+            {
+                int cost = Convert.ToInt32(CostInput.Text);
+                if(cost > 0)
+                {
+                    QrViewName.DrawQR(CostInput.Text);
+                    sender.Hidden = true;
+                    CostInput.Hidden = true;
+                    DownloadQRBtn.Hidden = false;
+                }
+            }
+            catch {}
         }
 
         public CabinetController (IntPtr handle) : base (handle)
         {
         }
+
+        partial void DownloadQR(UIButton sender)
+        {
+            if (QrViewName.qrImage != null)
+            {
+                QrViewName.qrImage.SaveToPhotosAlbum((uiImage, nsError) =>
+                { 
+                    if (nsError != null)
+                    {
+                        // do something about the error..
+                    }
+                });
+            }
+        }
+
+
     }
 }
