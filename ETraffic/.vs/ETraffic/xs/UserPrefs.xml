@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{47A750FD-1A1A-4282-AE98-E632A6FAD3A1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ETraffic/CabinetController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ETraffic/Main.storyboard">
     <Files>
       <File FileName="ETraffic/Main.storyboard" />
-      <File FileName="ETraffic/ViewController.cs" Line="72" Column="130" />
-      <File FileName="ETraffic/ViewControllerPay.cs" Line="17" Column="21" />
-      <File FileName="ETraffic/Main.cs" Line="12" Column="1" />
-      <File FileName="ETraffic/CabinetController.cs" Line="11" Column="19" />
+      <File FileName="ETraffic/ViewController.cs" Line="9" Column="27" />
+      <File FileName="ETraffic/ViewControllerPay.cs" Line="34" Column="37" />
+      <File FileName="ETraffic/CabinetController.cs" Line="18" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

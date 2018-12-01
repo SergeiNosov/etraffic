@@ -70,6 +70,6 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/_BundleResourceWithLogicalName.items
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/coremlc/_PartialAppManifest.items
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/coremlc/_BundleResourceWithLogicalName.items
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Erorr.png
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Success.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/

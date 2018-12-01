@@ -38,6 +38,7 @@
 @class AVCaptureVideoDataOutputSampleBufferDelegate;
 @class AppDelegate;
 @class ViewControllerPay;
+@class CabinetController;
 @class ViewController;
 @class GLKit_GLKView__GLKViewDelegate;
 @class UIKit_UIBarButtonItem_Callback;
@@ -221,14 +222,31 @@
 
 @interface ViewControllerPay : UIViewController {
 }
+	@property (nonatomic, assign) UITextField * InputMoney;
+	@property (nonatomic, assign) UIScrollView * ViewSetMoney;
 	@property (nonatomic, assign) WKWebView * WebView1;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UITextField *) InputMoney;
+	-(void) setInputMoney:(UITextField *)p0;
+	-(UIScrollView *) ViewSetMoney;
+	-(void) setViewSetMoney:(UIScrollView *)p0;
 	-(WKWebView *) WebView1;
 	-(void) setWebView1:(WKWebView *)p0;
 	-(void) viewDidLoad;
+	-(void) StartPayment:(UIButton *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface CabinetController : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) Generate:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 

@@ -6,7 +6,7 @@ namespace ETraffic
 {
     public partial class ViewController : UIViewController
     {
-        int id = 1;
+        public int id = 1;
         protected ViewController(IntPtr handle) : base(handle)
         {
 
@@ -70,7 +70,8 @@ namespace ETraffic
 
             client.DefaultRequestHeaders.Add("User-Agent",
                     "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11");
-
+            var s = Convert.ToInt32(id_tk);
+            id_tk = s.ToString();
             var parameters = new Dictionary<string, string> { { "type", "1" }, { "id", id }, { "id_tk", id_tk }, { "summ", summ } };
             var encodedContent = new FormUrlEncodedContent(parameters);
             var result = await client.PostAsync("http://z98950oc.beget.tech/ETApi/event.php", encodedContent);

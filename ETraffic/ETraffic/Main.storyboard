@@ -116,8 +116,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" id="16119" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="0.0" y="101" width="817" height="455"/>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" id="16119" translatesAutoresizingMaskIntoConstraints="NO" hidden="YES">
+                                <rect key="frame" x="0.0" y="101" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -125,10 +125,33 @@
                                     <wkPreferences key="preferences" minimumFontSize="10"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="21004" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="40" y="101" width="240" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" id="21005" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" textAlignment="center">
+                                        <rect key="frame" x="40" y="63" width="160" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="21007" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="56" y="169" width="129" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Перейти к оплате"/>
+                                        <connections>
+                                            <action selector="StartPayment:" destination="16040" id="21008" eventType="touchDown"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="WebView1" destination="16119" id="name-outlet-16119"/>
+                        <outlet property="InputMoney" destination="21005" id="name-outlet-21005"/>
+                        <outlet property="ViewSetMoney" destination="21004" id="name-outlet-21004"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="16042" userLabel="First Responder" sceneMemberID="firstResponder"/>
