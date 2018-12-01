@@ -38,6 +38,7 @@ namespace ETraffic
             {
                 initialPoint = touch.LocationInView(this);
             }
+            Console.WriteLine("Start");
         }
 
         public override void TouchesMoved(NSSet touches, UIEvent evt)

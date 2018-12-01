@@ -5305,7 +5305,7 @@ Lme_3e:
 	.no_dead_strip ETraffic_CabinetController_ReleaseDesignerOutlets
 ETraffic_CabinetController_ReleaseDesignerOutlets:
 .file 8 "/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/CabinetController.designer.cs"
-.loc 8 22 0 prologue_end
+.loc 8 26 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -5328,7 +5328,7 @@ ldr x16, [x16, #856]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 8 23 0
+.loc 8 27 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -20553,7 +20553,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "E5FFC7DF-AC70-4955-A6B0-E416B5BBBD05"
+	.asciz "3110D676-6D44-4E50-9F61-DE5CA6BF555D"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -20638,7 +20638,7 @@ _mono_aot_file_info:
 	.long 208,3352,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 96,230,95,161,51,22,31,28,2,43,141,223,229,38,232,235
+	.byte 97,67,77,189,184,61,54,187,183,36,24,178,119,28,131,213
 	.globl _mono_aot_module_ETraffic_info
 	.align 3
 _mono_aot_module_ETraffic_info:
@@ -28945,7 +28945,7 @@ Lfde62_end:
 	.asciz "ETraffic.CabinetController:ReleaseDesignerOutlets"
 	.asciz "ETraffic_CabinetController_ReleaseDesignerOutlets"
 
-	.byte 8,22
+	.byte 8,26
 	.quad ETraffic_CabinetController_ReleaseDesignerOutlets
 	.quad Lme_3f
 
