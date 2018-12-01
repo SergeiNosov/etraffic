@@ -8,6 +8,7 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import <GLKit/GLKit.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <QuartzCore/QuartzCore.h>
@@ -285,6 +286,8 @@
 	@property (nonatomic, assign) UILabel * DatePayment;
 	@property (nonatomic, assign) UIImageView * ErorrPayment;
 	@property (nonatomic, assign) UILabel * InfoPaymentLabel;
+	@property (nonatomic, assign) UIButton * MapCloseButton;
+	@property (nonatomic, assign) MKMapView * MapShow;
 	@property (nonatomic, assign) UIImageView * MapsViewusr;
 	@property (nonatomic, assign) UIScrollView * ResultView;
 	@property (nonatomic, assign) UIImageView * SuccessPayment;
@@ -302,6 +305,10 @@
 	-(void) setErorrPayment:(UIImageView *)p0;
 	-(UILabel *) InfoPaymentLabel;
 	-(void) setInfoPaymentLabel:(UILabel *)p0;
+	-(UIButton *) MapCloseButton;
+	-(void) setMapCloseButton:(UIButton *)p0;
+	-(MKMapView *) MapShow;
+	-(void) setMapShow:(MKMapView *)p0;
 	-(UIImageView *) MapsViewusr;
 	-(void) setMapsViewusr:(UIImageView *)p0;
 	-(UIScrollView *) ResultView;
@@ -314,6 +321,7 @@
 	-(void) setTkName:(UILabel *)p0;
 	-(void) viewDidLoad;
 	-(void) didReceiveMemoryWarning;
+	-(void) CloseMaps:(UIButton *)p0;
 	-(void) Off:(UIButton *)p0;
 	-(void) StartMaps:(UIButton *)p0;
 	-(void) StartScan:(UIButton *)p0;

@@ -24,6 +24,22 @@
 				<integer>9</integer>
 			</dict>
 		</array>
+		<key>27777</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>1339</string>
+					<string>27777</string>
+				</array>
+				<key>message</key>
+				<string>Plain Style unsupported in a Navigation Item</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
 	</dict>
 </dict>
 </plist>
