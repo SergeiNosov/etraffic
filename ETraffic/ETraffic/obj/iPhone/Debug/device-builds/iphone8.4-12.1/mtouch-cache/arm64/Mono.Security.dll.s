@@ -239,7 +239,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -316,7 +316,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -550,7 +550,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -601,7 +601,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -663,7 +663,7 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801580
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -741,13 +741,13 @@ ldr x0, [x16, #0]
 .word 0xd28001a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015a0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
 .word 0x14000001
 .loc 2 375 0
-.word 0xd2801ae0
+.word 0xd2801b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -763,7 +763,7 @@ ldr x0, [x16, #0]
 .word 0xd28001a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015a0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -807,7 +807,7 @@ bl _p_15
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -833,7 +833,7 @@ bl _p_15
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -924,7 +924,7 @@ ldr x0, [x16, #0]
 .word 0xd2800ba1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -936,7 +936,7 @@ ldr x0, [x16, #0]
 .word 0xd2800fe1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -1143,7 +1143,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -1218,7 +1218,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -1286,11 +1286,11 @@ ldr x0, [x16, #0]
 .word 0xd2801421
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -1379,7 +1379,7 @@ Mono_Math_BigInteger_SetBit_uint_bool:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -1529,7 +1529,7 @@ bl _p_1
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -1572,7 +1572,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -1618,7 +1618,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -1934,7 +1934,7 @@ ldr x0, [x16, #0]
 bl _p_7
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_8
@@ -1954,11 +1954,11 @@ ldr x0, [x16, #0]
 bl _p_7
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -2006,7 +2006,7 @@ Mono_Math_BigInteger_Normalize:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -2045,7 +2045,7 @@ Mono_Math_BigInteger_Clear:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -2088,7 +2088,7 @@ Mono_Math_BigInteger_GetHashCode:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -2218,7 +2218,7 @@ bl _p_11
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -2358,7 +2358,7 @@ Mono_Math_BigInteger_Incr2:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -2487,7 +2487,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -2678,11 +2678,11 @@ ldr x0, [x16, #0]
 .word 0xd2803b61
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -2804,7 +2804,7 @@ bl _p_46
 .word 0xaa0003fa
 .word 0x14000005
 .loc 2 1080 0
-.word 0xd2801ae0
+.word 0xd2801b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -3142,7 +3142,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -3285,7 +3285,7 @@ Mono_Math_BigInteger_Kernel_MinusEq_Mono_Math_BigInteger_Mono_Math_BigInteger:
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -3500,7 +3500,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -3658,7 +3658,7 @@ Mono_Math_BigInteger_Kernel_Compare_Mono_Math_BigInteger_Mono_Math_BigInteger:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -3741,10 +3741,10 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -3804,10 +3804,10 @@ Mono_Math_BigInteger_Kernel_DwordMod_Mono_Math_BigInteger_uint:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -3935,10 +3935,10 @@ bl _p_1
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -4459,10 +4459,10 @@ bl _p_52
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -4624,7 +4624,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -4773,7 +4773,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -4924,7 +4924,7 @@ Mono_Math_BigInteger_Kernel_Multiply_uint___uint_uint_uint___uint_uint_uint___ui
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -5099,7 +5099,7 @@ Mono_Math_BigInteger_Kernel_MultiplyMod2p32pmod_uint___int_int_uint___int_int_ui
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -5189,7 +5189,7 @@ bl _p_54
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -5482,11 +5482,11 @@ ldr x0, [x16, #0]
 .word 0xd2803f21
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015a0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -5628,7 +5628,7 @@ ldr x0, [x16, #0]
 .word 0xd2804221
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801ae0
+.word 0xd2801b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -5641,7 +5641,7 @@ ldr x0, [x16, #0]
 .word 0xd28057c1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801580
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6157,10 +6157,10 @@ bl _p_64
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -6370,11 +6370,11 @@ ldr x0, [x16, #0]
 .word 0xd2805a81
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd28022a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -6493,7 +6493,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -6555,7 +6555,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -6617,7 +6617,7 @@ Mono_Security_ASN1_CompareArray_byte___byte__:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -7226,10 +7226,10 @@ bl _p_1
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -7436,7 +7436,7 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -7507,7 +7507,7 @@ bl _p_8
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -7587,7 +7587,7 @@ bl _p_8
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -7755,10 +7755,10 @@ bl _p_78
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -7868,7 +7868,7 @@ bl _p_85
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -7908,7 +7908,7 @@ ldr x0, [x16, #0]
 .word 0xd2806c81
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -7980,11 +7980,11 @@ ldr x0, [x16, #0]
 .word 0xd2806d81
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -8051,7 +8051,7 @@ ldr x0, [x16, #0]
 .word 0xd2806fc1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801b80
+.word 0xd2801be0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -8063,11 +8063,11 @@ ldr x0, [x16, #0]
 .word 0xd2806e81
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -8304,17 +8304,17 @@ ldr x0, [x16, #0]
 .word 0xd2806e81
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2802340
+.word 0xd28023a0
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -8688,11 +8688,11 @@ ldr x0, [x16, #0]
 .word 0xd28077c1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -8792,7 +8792,7 @@ bl _p_1
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -8947,7 +8947,7 @@ bl _p_1
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -9052,7 +9052,7 @@ ldr x0, [x16, #648]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -9175,7 +9175,7 @@ ldr x0, [x16, #648]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -9429,7 +9429,7 @@ ldr x0, [x16, #0]
 .word 0xd2808bc1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -9441,7 +9441,7 @@ ldr x0, [x16, #0]
 .word 0xd2808f01
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -9453,7 +9453,7 @@ ldr x0, [x16, #0]
 .word 0xd2809401
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -9850,7 +9850,7 @@ ldr x0, [x16, #0]
 .word 0xd2809801
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -9862,7 +9862,7 @@ ldr x0, [x16, #0]
 .word 0xd2809d81
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -9874,7 +9874,7 @@ ldr x0, [x16, #0]
 .word 0xd280a181
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -9886,7 +9886,7 @@ ldr x0, [x16, #0]
 .word 0xd280a8c1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -9898,7 +9898,7 @@ ldr x0, [x16, #0]
 .word 0xd280b301
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -9910,11 +9910,11 @@ ldr x0, [x16, #0]
 .word 0xd280c3a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -9981,7 +9981,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -10818,7 +10818,7 @@ ldr x0, [x16, #0]
 .word 0xd280d261
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10830,7 +10830,7 @@ ldr x0, [x16, #0]
 .word 0xd280dca1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10842,7 +10842,7 @@ ldr x0, [x16, #0]
 .word 0xd280e361
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10854,7 +10854,7 @@ ldr x0, [x16, #0]
 .word 0xd280e361
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10866,7 +10866,7 @@ ldr x0, [x16, #0]
 .word 0xd280e9e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10878,7 +10878,7 @@ ldr x0, [x16, #0]
 .word 0xd280ee21
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10890,7 +10890,7 @@ ldr x0, [x16, #0]
 .word 0xd280f261
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10902,7 +10902,7 @@ ldr x0, [x16, #0]
 .word 0xd280f7e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10914,7 +10914,7 @@ ldr x0, [x16, #0]
 .word 0xd280cf21
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10926,7 +10926,7 @@ ldr x0, [x16, #0]
 .word 0xd28113a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -10938,7 +10938,7 @@ ldr x0, [x16, #0]
 .word 0xd2810e61
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2802220
+.word 0xd2802280
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -11121,7 +11121,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -11586,10 +11586,10 @@ bl _p_128
 .word 0x910003bf
 .word 0xa8dc7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -11795,7 +11795,7 @@ ldr x15, [x16, #472]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -11897,7 +11897,7 @@ Mono_Security_X509_PKCS12_Compare_byte___byte__:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -12512,7 +12512,7 @@ bl _p_7
 .word 0xaa1603e1
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd28022a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13026,11 +13026,11 @@ ldr x0, [x16, #0]
 .word 0xd2817e61
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -13436,7 +13436,7 @@ ldr x0, [x16, #0]
 .word 0xd2818921
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13448,7 +13448,7 @@ ldr x0, [x16, #0]
 .word 0xd2818521
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13460,7 +13460,7 @@ ldr x0, [x16, #0]
 .word 0xd281aee1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13472,7 +13472,7 @@ ldr x0, [x16, #0]
 .word 0xd281a821
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd28022a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13484,7 +13484,7 @@ ldr x0, [x16, #0]
 .word 0xd281b3e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13496,7 +13496,7 @@ ldr x0, [x16, #0]
 .word 0xd281bb61
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13508,7 +13508,7 @@ ldr x0, [x16, #0]
 .word 0xd281c2a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13520,7 +13520,7 @@ ldr x0, [x16, #0]
 .word 0xd281d2e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13532,7 +13532,7 @@ ldr x0, [x16, #0]
 .word 0xd281d2e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13687,7 +13687,7 @@ bl _p_7
 .word 0xd63f0200
 .word 0xaa0003e2
 .word 0xf94063a1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_8
@@ -14359,7 +14359,7 @@ bl _p_72
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -15035,7 +15035,7 @@ bl _p_72
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -15133,7 +15133,7 @@ bl _p_162
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -17004,10 +17004,10 @@ bl _p_72
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -17467,7 +17467,7 @@ bl _p_149
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -17841,7 +17841,7 @@ bl _p_69
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -18166,14 +18166,14 @@ ldr x0, [x16, #0]
 .word 0xd2817e61
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -18412,7 +18412,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -18478,7 +18478,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -18590,7 +18590,7 @@ Mono_Security_X509_PKCS12_DeriveBytes_Adjust_byte___int_byte__:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -19158,13 +19158,13 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2802340
+.word 0xd28023a0
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -20032,7 +20032,7 @@ bl _p_69
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -20415,7 +20415,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x0, [x16, #1560]
 .word 0xf9400001
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -20437,7 +20437,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x0, [x16, #1560]
 .word 0xf9400001
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -20528,7 +20528,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x0, [x16, #1560]
 .word 0xf9400001
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -21088,7 +21088,7 @@ ldr x0, [x16, #1560]
 .word 0xf9004fa0
 .word 0xf9402fa0
 .word 0xf90053a0
-.word 0xd2809aa0
+.word 0xd2809e20
 bl _p_195
 .word 0xf9404fa1
 .word 0xf94053a2
@@ -21104,10 +21104,10 @@ bl _p_8
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -21159,7 +21159,7 @@ ldr x0, [x16, #1560]
 .word 0xf9002fa0
 .word 0xf94013a0
 .word 0xf90033a0
-.word 0xd2809aa0
+.word 0xd2809e20
 bl _p_195
 .word 0xf9402fa1
 .word 0xf94033a2
@@ -21176,7 +21176,7 @@ bl _p_198
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -21227,7 +21227,7 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -21550,7 +21550,7 @@ ldr x0, [x16, #0]
 .word 0xd281fe21
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -21668,7 +21668,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -21720,7 +21720,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -22013,7 +22013,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -22065,7 +22065,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -22400,7 +22400,7 @@ ldr x1, [x16, #1080]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -22436,7 +22436,7 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -22582,7 +22582,7 @@ ldr x1, [x16, #1080]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -22900,7 +22900,7 @@ ldr x0, [x16, #0]
 .word 0xd2822261
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -22912,11 +22912,11 @@ ldr x0, [x16, #0]
 .word 0xd2822261
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -23225,7 +23225,7 @@ bl _p_79
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -23499,7 +23499,7 @@ ldr x0, [x16, #0]
 .word 0xd2822a61
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801ae0
+.word 0xd2801b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -23849,7 +23849,7 @@ ldr x0, [x16, #0]
 .word 0xd28230e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28022c0
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -23924,7 +23924,7 @@ ldr x0, [x16, #0]
 .word 0xd2823321
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -23936,11 +23936,11 @@ ldr x0, [x16, #0]
 .word 0xd28230e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28022c0
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -23971,7 +23971,7 @@ ldr x0, [x16, #0]
 .word 0xd28230e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28022c0
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -24003,7 +24003,7 @@ ldr x0, [x16, #0]
 .word 0xd28230e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28022c0
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -24455,7 +24455,7 @@ bl _p_1
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -25339,7 +25339,7 @@ bl _p_117
 .word 0x910003bf
 .word 0xa8d97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -25496,7 +25496,7 @@ ldr x2, [x16, #16]
 .loc 17 229 0
 .word 0x14000005
 .loc 17 232 0
-.word 0xd2802080
+.word 0xd28020e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -25885,7 +25885,7 @@ bl _p_1
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -26144,7 +26144,7 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -26194,12 +26194,12 @@ bl _p_7
 .word 0xf90027a0
 .word 0xb9801b40
 .word 0xf9002fa0
-.word 0xd2802020
+.word 0xd2802080
 bl _p_195
 .word 0xf9402fa1
 .word 0xb9001001
 .word 0xf9002ba0
-.word 0xd2801580
+.word 0xd28015e0
 bl _p_195
 .word 0xf94027a1
 .word 0xf9402ba2
@@ -26216,7 +26216,7 @@ ldr x0, [x16, #0]
 .word 0xd28235a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -26230,7 +26230,7 @@ bl _p_7
 .word 0xf90027a0
 .word 0xb9801320
 .word 0xf9002ba0
-.word 0xd2802020
+.word 0xd2802080
 bl _p_195
 .word 0xaa0003e1
 .word 0xf94027a0
@@ -26247,7 +26247,7 @@ ldr x0, [x16, #0]
 bl _p_7
 .word 0xaa0003e2
 .word 0xf94023a1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_8
@@ -26318,7 +26318,7 @@ bl _p_245
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -26906,7 +26906,7 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -27034,7 +27034,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -27095,7 +27095,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -27331,7 +27331,7 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -27507,7 +27507,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -28511,11 +28511,11 @@ ldr x0, [x16, #0]
 .word 0xd28246e1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd28020e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -28831,7 +28831,7 @@ ldr x1, [x16, #1888]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -29029,7 +29029,7 @@ ldr x1, [x16, #1920]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -30173,7 +30173,7 @@ bl _p_275
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 30 59 0
-.word 0xd2809aa0
+.word 0xd2809e20
 bl _p_195
 .word 0xf90013a0
 .word 0xaa1a03e1
@@ -30248,14 +30248,14 @@ bl _p_277
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 30 74 0
-.word 0xd2809aa0
+.word 0xd2809e20
 bl _p_195
 .word 0xf90023a0
 .word 0xaa1a03e1
 bl _p_276
 .word 0xf94023a0
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -30318,7 +30318,7 @@ bl _p_278
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 30 87 0
-.word 0xd2809aa0
+.word 0xd2809e20
 bl _p_195
 .word 0xf90013a0
 .word 0xaa1a03e1
@@ -30464,7 +30464,7 @@ bl _p_279
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 31 59 0
-.word 0xd2809aa0
+.word 0xd2809e20
 bl _p_195
 .word 0xf90013a0
 .word 0xaa1a03e1
@@ -30539,14 +30539,14 @@ bl _p_280
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 31 74 0
-.word 0xd2809aa0
+.word 0xd2809e20
 bl _p_195
 .word 0xf90023a0
 .word 0xaa1a03e1
 bl _p_276
 .word 0xf94023a0
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -30609,7 +30609,7 @@ bl _p_281
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 31 87 0
-.word 0xd2809aa0
+.word 0xd2809e20
 bl _p_195
 .word 0xf90013a0
 .word 0xaa1a03e1
@@ -30976,7 +30976,7 @@ bl _p_7
 .word 0xf9400fa1
 bl _p_31
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -30986,7 +30986,7 @@ bl _p_8
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -31252,7 +31252,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -31322,11 +31322,11 @@ ldr x0, [x16, #0]
 .word 0xd2827cc1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -31505,7 +31505,7 @@ ldr x0, [x16, #0]
 .word 0xd2828541
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -31517,7 +31517,7 @@ ldr x0, [x16, #0]
 .word 0xd2828941
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -31529,7 +31529,7 @@ ldr x0, [x16, #0]
 .word 0xd2828dc1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -31541,11 +31541,11 @@ ldr x0, [x16, #0]
 .word 0xd2827f81
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -31814,10 +31814,10 @@ bl _p_72
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -31869,7 +31869,7 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -32274,7 +32274,7 @@ ldr x0, [x16, #0]
 .word 0xd2829a01
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -32286,7 +32286,7 @@ ldr x0, [x16, #0]
 .word 0xd2829e01
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -32298,7 +32298,7 @@ ldr x0, [x16, #0]
 .word 0xd2829341
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -32556,7 +32556,7 @@ ldr x0, [x16, #0]
 .word 0xd2829341
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -32710,7 +32710,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -32774,7 +32774,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -32857,7 +32857,7 @@ ldr x1, [x16, #400]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -32914,7 +32914,7 @@ ldr x0, [x16, #0]
 bl _p_7
 .word 0xaa0003e2
 .word 0xf94013a1
-.word 0xd2801580
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_8
@@ -33109,7 +33109,7 @@ ldr x0, [x16, #0]
 .word 0xd282b281
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -33121,7 +33121,7 @@ ldr x0, [x16, #0]
 .word 0xd2828941
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -33133,7 +33133,7 @@ ldr x0, [x16, #0]
 .word 0xd282b981
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -33145,7 +33145,7 @@ ldr x0, [x16, #0]
 .word 0xd282be41
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -33157,7 +33157,7 @@ ldr x0, [x16, #0]
 .word 0xd282c181
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -33169,7 +33169,7 @@ ldr x0, [x16, #0]
 .word 0xd282c741
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -33181,7 +33181,7 @@ ldr x0, [x16, #0]
 .word 0xd282aa81
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -33335,7 +33335,7 @@ ldr x0, [x16, #0]
 .word 0xd282ccc1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -33692,7 +33692,7 @@ ldr x0, [x16, #0]
 .word 0xd282d381
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28022c0
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -34050,7 +34050,7 @@ ldr x0, [x16, #0]
 .word 0xd282d8c1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -34062,7 +34062,7 @@ ldr x0, [x16, #0]
 .word 0xd282d381
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28022c0
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -34560,7 +34560,7 @@ ldr x0, [x16, #0]
 .word 0xd282ddc1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -34572,7 +34572,7 @@ ldr x0, [x16, #0]
 .word 0xd282e201
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -34584,7 +34584,7 @@ ldr x0, [x16, #0]
 .word 0xd282d381
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28022c0
+.word 0xd2802320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -34596,7 +34596,7 @@ ldr x0, [x16, #0]
 .word 0xd282e601
 bl _p_7
 .word 0xaa0003e1
-.word 0xd2809aa0
+.word 0xd2809e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -35148,7 +35148,7 @@ _PrivateImplementationDetails_ComputeStringHash_string:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
@@ -35227,10 +35227,10 @@ System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_get_Value:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 37 105 0
-.word 0xd2876580
+.word 0xd287e300
 bl _p_302
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd28020e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -35416,6 +35416,31 @@ Lme_1b1:
 .text
 ut_434:
 add x0, x0, 16
+b System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetValueOrDefault_Mono_Security_Interface_MonoSslPolicyErrors
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetValueOrDefault_Mono_Security_Interface_MonoSslPolicyErrors
+System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetValueOrDefault_Mono_Security_Interface_MonoSslPolicyErrors:
+.loc 37 147 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400ba0
+.word 0x39401000
+.word 0x35000060
+.word 0xb9801ba0
+.word 0x14000003
+.word 0xf9400ba0
+.word 0xb9800000
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1b2:
+.text
+ut_435:
+add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ToString
 .text
 	.align 4
@@ -35456,9 +35481,9 @@ ldr x0, [x16, #2296]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1b2:
+Lme_1b3:
 .text
-ut_435:
+ut_436:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
 .text
@@ -35489,9 +35514,9 @@ bl _p_5
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1b3:
+Lme_1b4:
 .text
-ut_436:
+ut_437:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object
 .text
@@ -35547,13 +35572,13 @@ bl _p_305
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1b4:
+Lme_1b5:
 .text
-ut_437:
+ut_438:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object
 .text
@@ -35623,17 +35648,17 @@ bl _p_305
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 37 195 0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1b5:
+Lme_1b6:
 .text
-ut_438:
+ut_439:
 add x0, x0, 16
 b System_Nullable_1_bool__ctor_bool
 .text
@@ -35656,9 +35681,9 @@ System_Nullable_1_bool__ctor_bool:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1b6:
+Lme_1b7:
 .text
-ut_439:
+ut_440:
 add x0, x0, 16
 b System_Nullable_1_bool_get_HasValue
 .text
@@ -35675,9 +35700,9 @@ System_Nullable_1_bool_get_HasValue:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1b7:
+Lme_1b8:
 .text
-ut_440:
+ut_441:
 add x0, x0, 16
 b System_Nullable_1_bool_get_Value
 .text
@@ -35698,17 +35723,17 @@ System_Nullable_1_bool_get_Value:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 37 105 0
-.word 0xd2876580
+.word 0xd287e300
 bl _p_302
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd28020e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
 
-Lme_1b8:
+Lme_1b9:
 .text
-ut_441:
+ut_442:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_object
 .text
@@ -35774,9 +35799,9 @@ bl _p_307
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1b9:
+Lme_1ba:
 .text
-ut_442:
+ut_443:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_System_Nullable_1_bool
 .text
@@ -35825,9 +35850,9 @@ bl _p_308
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1ba:
+Lme_1bb:
 .text
-ut_443:
+ut_444:
 add x0, x0, 16
 b System_Nullable_1_bool_GetHashCode
 .text
@@ -35857,9 +35882,9 @@ System_Nullable_1_bool_GetHashCode:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1bb:
+Lme_1bc:
 .text
-ut_444:
+ut_445:
 add x0, x0, 16
 b System_Nullable_1_bool_GetValueOrDefault
 .text
@@ -35876,9 +35901,34 @@ System_Nullable_1_bool_GetValueOrDefault:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1bc:
+Lme_1bd:
 .text
-ut_445:
+ut_446:
+add x0, x0, 16
+b System_Nullable_1_bool_GetValueOrDefault_bool
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_bool_GetValueOrDefault_bool
+System_Nullable_1_bool_GetValueOrDefault_bool:
+.loc 37 147 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400ba0
+.word 0x39400400
+.word 0x35000060
+.word 0x394063a0
+.word 0x14000003
+.word 0xf9400ba0
+.word 0x39400000
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1be:
+.text
+ut_447:
 add x0, x0, 16
 b System_Nullable_1_bool_ToString
 .text
@@ -35918,9 +35968,9 @@ ldr x0, [x16, #2296]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1bd:
+Lme_1bf:
 .text
-ut_446:
+ut_448:
 add x0, x0, 16
 b System_Nullable_1_bool_Box_System_Nullable_1_bool
 .text
@@ -35951,9 +36001,9 @@ bl _p_5
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1be:
+Lme_1c0:
 .text
-ut_447:
+ut_449:
 add x0, x0, 16
 b System_Nullable_1_bool_Unbox_object
 .text
@@ -36009,13 +36059,13 @@ bl _p_309
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1bf:
+Lme_1c1:
 .text
-ut_448:
+ut_450:
 add x0, x0, 16
 b System_Nullable_1_bool_UnboxExact_object
 .text
@@ -36085,17 +36135,17 @@ bl _p_309
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 37 195 0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1c0:
+Lme_1c2:
 .text
-ut_449:
+ut_451:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime__ctor_System_DateTime
 .text
@@ -36118,9 +36168,9 @@ System_Nullable_1_System_DateTime__ctor_System_DateTime:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1c1:
+Lme_1c3:
 .text
-ut_450:
+ut_452:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_get_HasValue
 .text
@@ -36137,9 +36187,9 @@ System_Nullable_1_System_DateTime_get_HasValue:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1c2:
+Lme_1c4:
 .text
-ut_451:
+ut_453:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_get_Value
 .text
@@ -36162,17 +36212,17 @@ System_Nullable_1_System_DateTime_get_Value:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 37 105 0
-.word 0xd2876580
+.word 0xd287e300
 bl _p_302
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd28020e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
 
-Lme_1c3:
+Lme_1c5:
 .text
-ut_452:
+ut_454:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_Equals_object
 .text
@@ -36240,9 +36290,9 @@ bl _p_311
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1c4:
+Lme_1c6:
 .text
-ut_453:
+ut_455:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime
 .text
@@ -36293,9 +36343,9 @@ bl _p_312
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1c5:
+Lme_1c7:
 .text
-ut_454:
+ut_456:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_GetHashCode
 .text
@@ -36330,9 +36380,9 @@ System_Nullable_1_System_DateTime_GetHashCode:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1c6:
+Lme_1c8:
 .text
-ut_455:
+ut_457:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_GetValueOrDefault
 .text
@@ -36351,9 +36401,37 @@ System_Nullable_1_System_DateTime_GetValueOrDefault:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1c7:
+Lme_1c9:
 .text
-ut_456:
+ut_458:
+add x0, x0, 16
+b System_Nullable_1_System_DateTime_GetValueOrDefault_System_DateTime
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_System_DateTime_GetValueOrDefault_System_DateTime
+System_Nullable_1_System_DateTime_GetValueOrDefault_System_DateTime:
+.loc 37 147 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf90013a0
+.word 0xf90017a1
+.word 0xf94013a0
+.word 0x39402000
+.word 0x35000080
+.word 0xf94017a0
+.word 0xf9000ba0
+.word 0x14000004
+.word 0xf94013a0
+.word 0xf9400000
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_1ca:
+.text
+ut_459:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_ToString
 .text
@@ -36381,9 +36459,9 @@ ldr x0, [x16, #2296]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1c8:
+Lme_1cb:
 .text
-ut_457:
+ut_460:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_Box_System_Nullable_1_System_DateTime
 .text
@@ -36417,9 +36495,9 @@ bl _p_5
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1c9:
+Lme_1cc:
 .text
-ut_458:
+ut_461:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_Unbox_object
 .text
@@ -36482,13 +36560,13 @@ bl _p_314
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1ca:
+Lme_1cd:
 .text
-ut_459:
+ut_462:
 add x0, x0, 16
 b System_Nullable_1_System_DateTime_UnboxExact_object
 .text
@@ -36565,17 +36643,17 @@ bl _p_314
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 37 195 0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1cb:
+Lme_1ce:
 .text
-ut_460:
+ut_463:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols__ctor_Mono_Security_Interface_TlsProtocols
 .text
@@ -36598,9 +36676,9 @@ System_Nullable_1_Mono_Security_Interface_TlsProtocols__ctor_Mono_Security_Inter
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1cc:
+Lme_1cf:
 .text
-ut_461:
+ut_464:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_HasValue
 .text
@@ -36617,9 +36695,9 @@ System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_HasValue:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1cd:
+Lme_1d0:
 .text
-ut_462:
+ut_465:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_Value
 .text
@@ -36640,17 +36718,17 @@ System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_Value:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 37 105 0
-.word 0xd2876580
+.word 0xd287e300
 bl _p_302
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd28020e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
 
-Lme_1ce:
+Lme_1d1:
 .text
-ut_463:
+ut_466:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_object
 .text
@@ -36716,9 +36794,9 @@ bl _p_316
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1cf:
+Lme_1d2:
 .text
-ut_464:
+ut_467:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_System_Nullable_1_Mono_Security_Interface_TlsProtocols
 .text
@@ -36779,9 +36857,9 @@ bl _p_5
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_1d0:
+Lme_1d3:
 .text
-ut_465:
+ut_468:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetHashCode
 .text
@@ -36806,9 +36884,9 @@ System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetHashCode:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1d1:
+Lme_1d4:
 .text
-ut_466:
+ut_469:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault
 .text
@@ -36825,9 +36903,34 @@ System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1d2:
+Lme_1d5:
 .text
-ut_467:
+ut_470:
+add x0, x0, 16
+b System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault_Mono_Security_Interface_TlsProtocols
+.text
+	.align 4
+	.no_dead_strip System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault_Mono_Security_Interface_TlsProtocols
+System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault_Mono_Security_Interface_TlsProtocols:
+.loc 37 147 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400ba0
+.word 0x39401000
+.word 0x35000060
+.word 0xb9801ba0
+.word 0x14000003
+.word 0xf9400ba0
+.word 0xb9800000
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1d6:
+.text
+ut_471:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_ToString
 .text
@@ -36869,9 +36972,9 @@ ldr x0, [x16, #2296]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1d3:
+Lme_1d7:
 .text
-ut_468:
+ut_472:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_Box_System_Nullable_1_Mono_Security_Interface_TlsProtocols
 .text
@@ -36902,9 +37005,9 @@ bl _p_5
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1d4:
+Lme_1d8:
 .text
-ut_469:
+ut_473:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_Unbox_object
 .text
@@ -36960,13 +37063,13 @@ bl _p_317
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1d5:
+Lme_1d9:
 .text
-ut_470:
+ut_474:
 add x0, x0, 16
 b System_Nullable_1_Mono_Security_Interface_TlsProtocols_UnboxExact_object
 .text
@@ -37036,15 +37139,15 @@ bl _p_317
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 37 195 0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1d6:
+Lme_1da:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___byte_byte_int_Nullable_1_MonoSslPolicyErrors_object_intptr_intptr_intptr
@@ -37164,7 +37267,7 @@ bl _p_318
 .word 0xaa1703e0
 bl _p_8
 
-Lme_1d7:
+Lme_1db:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
@@ -37260,7 +37363,7 @@ bl _p_318
 .word 0xaa1703e0
 bl _p_8
 
-Lme_1d8:
+Lme_1dc:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
@@ -37360,7 +37463,7 @@ bl _p_318
 .word 0xaa1703e0
 bl _p_8
 
-Lme_1d9:
+Lme_1dd:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TlsProtocols_object_intptr_intptr_intptr
@@ -37456,7 +37559,7 @@ bl _p_318
 .word 0xaa1703e0
 bl _p_8
 
-Lme_1da:
+Lme_1de:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_bool_BigInteger_ConfidenceFactor_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor
@@ -37535,11 +37638,11 @@ bl _p_319
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1db:
+Lme_1df:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___BigInteger_ConfidenceFactor_AsyncCallback_object_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor_System_AsyncCallback_object
@@ -37590,7 +37693,7 @@ bl _p_320
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_1dc:
+Lme_1e0:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_bool__this___IAsyncResult_System_IAsyncResult
@@ -37644,11 +37747,11 @@ ldr x2, [x16, #2312]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1dd:
+Lme_1e1:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_bool_string_X509Certificate_X509Chain_MonoSslPolicyErrors_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors
@@ -37737,11 +37840,11 @@ bl _p_319
 .word 0xaa0003f5
 .word 0xb5ffff80
 .word 0x17ffffbf
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1de:
+Lme_1e2:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509Certificate_X509Chain_MonoSslPolicyErrors_AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors_System_AsyncCallback_object
@@ -37800,7 +37903,7 @@ bl _p_320
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_1df:
+Lme_1e3:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_X509Certificate_string_X509CertificateCollection_X509Certificate_string___string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string__
@@ -37886,11 +37989,11 @@ bl _p_319
 .word 0xaa0003f5
 .word 0xb5ffff80
 .word 0x17ffffc2
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1e0:
+Lme_1e4:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509CertificateCollection_X509Certificate_string___AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string___System_AsyncCallback_object
@@ -37949,7 +38052,7 @@ bl _p_320
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_1e1:
+Lme_1e5:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_X509Certificate__this___IAsyncResult_System_IAsyncResult
@@ -37989,7 +38092,7 @@ bl _p_321
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1e2:
+Lme_1e6:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
@@ -38063,11 +38166,11 @@ bl _p_319
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1e3:
+Lme_1e7:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object_object_System_EventArgs_System_AsyncCallback_object
@@ -38118,7 +38221,7 @@ bl _p_320
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_1e4:
+Lme_1e8:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
@@ -38158,7 +38261,7 @@ bl _p_321
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1e5:
+Lme_1e9:
 .text
 	.align 4
 	.no_dead_strip wrapper_unknown_uint___Get_int
@@ -38181,11 +38284,11 @@ wrapper_unknown_uint___Get_int:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1e6:
+Lme_1ea:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_uint__this___int_object_intptr_intptr_intptr
@@ -38283,7 +38386,7 @@ bl _p_318
 .word 0xaa1703e0
 bl _p_8
 
-Lme_1e7:
+Lme_1eb:
 .text
 	.align 4
 	.no_dead_strip wrapper_unknown_uint___Set_int_uint
@@ -38308,11 +38411,11 @@ wrapper_unknown_uint___Set_int_uint:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1e8:
+Lme_1ec:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_uint_object_intptr_intptr_intptr
@@ -38394,7 +38497,7 @@ bl _p_318
 .word 0xaa1703e0
 bl _p_8
 
-Lme_1e9:
+Lme_1ed:
 .text
 	.align 4
 	.no_dead_strip wrapper_unknown_byte___Get_int
@@ -38416,11 +38519,11 @@ wrapper_unknown_byte___Get_int:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1ea:
+Lme_1ee:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
@@ -38518,7 +38621,7 @@ bl _p_318
 .word 0xaa1703e0
 bl _p_8
 
-Lme_1eb:
+Lme_1ef:
 .text
 	.align 4
 	.no_dead_strip wrapper_unknown_byte___Set_int_byte
@@ -38542,11 +38645,11 @@ wrapper_unknown_byte___Set_int_byte:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1ec:
+Lme_1f0:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
@@ -38628,7 +38731,7 @@ bl _p_318
 .word 0xaa1703e0
 bl _p_8
 
-Lme_1ed:
+Lme_1f1:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Init_intptr
@@ -38682,7 +38785,7 @@ bl _p_319
 .word 0xb5ffff80
 .word 0x17fffff3
 
-Lme_1ee:
+Lme_1f2:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Update_intptr_intptr_uint
@@ -38740,7 +38843,7 @@ bl _p_319
 .word 0xb5ffff80
 .word 0x17fffff3
 
-Lme_1ef:
+Lme_1f3:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr
@@ -38803,7 +38906,7 @@ bl _p_319
 .word 0xb5ffff80
 .word 0x17ffffef
 
-Lme_1f0:
+Lme_1f4:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Init_intptr
@@ -38857,7 +38960,7 @@ bl _p_319
 .word 0xb5ffff80
 .word 0x17fffff3
 
-Lme_1f1:
+Lme_1f5:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint
@@ -38915,7 +39018,7 @@ bl _p_319
 .word 0xb5ffff80
 .word 0x17fffff3
 
-Lme_1f2:
+Lme_1f6:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr
@@ -38978,7 +39081,7 @@ bl _p_319
 .word 0xb5ffff80
 .word 0x17ffffef
 
-Lme_1f3:
+Lme_1f7:
 .text
 	.align 4
 	.no_dead_strip System_Array_Reverse_T_BYTE_T_BYTE__
@@ -39011,15 +39114,15 @@ bl _p_325
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 38 899 0
-.word 0xd285d460
+.word 0xd2865360
 bl _p_302
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
 
-Lme_1f4:
+Lme_1f8:
 .text
 	.align 4
 	.no_dead_strip System_Array_Reverse_T_BYTE_T_BYTE___int_int
@@ -39055,10 +39158,10 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x26, [x16, #2448]
 .word 0x14000001
-.word 0xd2848fc0
+.word 0xd2850ec0
 bl _p_302
 .word 0xaa0003e2
-.word 0xd2801580
+.word 0xd28015e0
 .word 0xf2a04000
 .word 0xaa1a03e1
 bl _mono_create_corlib_exception_2
@@ -39124,26 +39227,26 @@ bl _p_8
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 38 911 0
-.word 0xd2867d00
+.word 0xd286fa80
 bl _p_302
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd285d460
+.word 0xd2865360
 .loc 38 907 0
 bl _p_302
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd28015c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
 
-Lme_1f5:
+Lme_1f9:
 .text
 	.align 3
 jit_code_end:
@@ -39587,6 +39690,7 @@ bl System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Equals_object
 bl System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Equals_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
 bl System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetHashCode
 bl System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetValueOrDefault
+bl System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetValueOrDefault_Mono_Security_Interface_MonoSslPolicyErrors
 bl System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ToString
 bl System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
 bl System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object
@@ -39598,6 +39702,7 @@ bl System_Nullable_1_bool_Equals_object
 bl System_Nullable_1_bool_Equals_System_Nullable_1_bool
 bl System_Nullable_1_bool_GetHashCode
 bl System_Nullable_1_bool_GetValueOrDefault
+bl System_Nullable_1_bool_GetValueOrDefault_bool
 bl System_Nullable_1_bool_ToString
 bl System_Nullable_1_bool_Box_System_Nullable_1_bool
 bl System_Nullable_1_bool_Unbox_object
@@ -39609,6 +39714,7 @@ bl System_Nullable_1_System_DateTime_Equals_object
 bl System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime
 bl System_Nullable_1_System_DateTime_GetHashCode
 bl System_Nullable_1_System_DateTime_GetValueOrDefault
+bl System_Nullable_1_System_DateTime_GetValueOrDefault_System_DateTime
 bl System_Nullable_1_System_DateTime_ToString
 bl System_Nullable_1_System_DateTime_Box_System_Nullable_1_System_DateTime
 bl System_Nullable_1_System_DateTime_Unbox_object
@@ -39620,6 +39726,7 @@ bl System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_object
 bl System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_System_Nullable_1_Mono_Security_Interface_TlsProtocols
 bl System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetHashCode
 bl System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault
+bl System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault_Mono_Security_Interface_TlsProtocols
 bl System_Nullable_1_Mono_Security_Interface_TlsProtocols_ToString
 bl System_Nullable_1_Mono_Security_Interface_TlsProtocols_Box_System_Nullable_1_Mono_Security_Interface_TlsProtocols
 bl System_Nullable_1_Mono_Security_Interface_TlsProtocols_Unbox_object
@@ -39666,7 +39773,7 @@ unbox_trampolines:
 	.long 443,444,445,446,447,448,449,450
 	.long 451,452,453,454,455,456,457,458
 	.long 459,460,461,462,463,464,465,466
-	.long 467,468,469,470
+	.long 467,468,469,470,471,472,473,474
 unbox_trampolines_end:
 
 	.long 0
@@ -39717,6 +39824,10 @@ bl ut_467
 bl ut_468
 bl ut_469
 bl ut_470
+bl ut_471
+bl ut_472
+bl ut_473
+bl ut_474
 
 	.long 0
 .section __TEXT, __const
@@ -39808,7 +39919,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 5639
+.word 5721
 	.no_dead_strip plt_System_Array_Clone
 plt_System_Array_Clone:
 _p_2:
@@ -39816,7 +39927,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 5647
+.word 5729
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_3:
@@ -39824,7 +39935,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 5652
+.word 5734
 	.no_dead_strip plt_Mono_Math_BigInteger_Normalize
 plt_Mono_Math_BigInteger_Normalize:
 _p_4:
@@ -39832,7 +39943,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 5687
+.word 5769
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_5:
@@ -39840,7 +39951,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 5689
+.word 5771
 	.no_dead_strip plt_Mono_Math_BigInteger__ctor_uint
 plt_Mono_Math_BigInteger__ctor_uint:
 _p_6:
@@ -39848,7 +39959,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 5697
+.word 5779
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_7:
@@ -39856,7 +39967,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 5699
+.word 5781
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_8:
@@ -39864,7 +39975,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 5719
+.word 5801
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Equality_Mono_Math_BigInteger_uint
 plt_Mono_Math_BigInteger_op_Equality_Mono_Math_BigInteger_uint:
 _p_9:
@@ -39872,7 +39983,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 5747
+.word 5829
 	.no_dead_strip plt_Mono_Math_BigInteger__ctor_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger__ctor_Mono_Math_BigInteger:
 _p_10:
@@ -39880,7 +39991,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 5749
+.word 5831
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_Compare_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_Kernel_Compare_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_11:
@@ -39888,7 +39999,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 5751
+.word 5833
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Implicit_int
 plt_Mono_Math_BigInteger_op_Implicit_int:
 _p_12:
@@ -39896,7 +40007,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 5753
+.word 5835
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_Subtract_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_Kernel_Subtract_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_13:
@@ -39904,7 +40015,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 5755
+.word 5837
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_DwordMod_Mono_Math_BigInteger_uint
 plt_Mono_Math_BigInteger_Kernel_DwordMod_Mono_Math_BigInteger_uint:
 _p_14:
@@ -39912,7 +40023,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 5757
+.word 5839
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_multiByteDivide_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_Kernel_multiByteDivide_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_15:
@@ -39920,7 +40031,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 5759
+.word 5841
 	.no_dead_strip plt_Mono_Math_BigInteger__ctor_Mono_Math_BigInteger_Sign_uint
 plt_Mono_Math_BigInteger__ctor_Mono_Math_BigInteger_Sign_uint:
 _p_16:
@@ -39928,7 +40039,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 5761
+.word 5843
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_Multiply_uint___uint_uint_uint___uint_uint_uint___uint
 plt_Mono_Math_BigInteger_Kernel_Multiply_uint___uint_uint_uint___uint_uint_uint___uint:
 _p_17:
@@ -39936,7 +40047,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 5763
+.word 5845
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_LeftShift_Mono_Math_BigInteger_int
 plt_Mono_Math_BigInteger_Kernel_LeftShift_Mono_Math_BigInteger_int:
 _p_18:
@@ -39944,7 +40055,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 5765
+.word 5847
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_RightShift_Mono_Math_BigInteger_int
 plt_Mono_Math_BigInteger_Kernel_RightShift_Mono_Math_BigInteger_int:
 _p_19:
@@ -39952,7 +40063,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 5767
+.word 5849
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_20:
@@ -39960,7 +40071,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 5769
+.word 5851
 	.no_dead_strip plt_System_Buffer_BlockCopy_System_Array_int_System_Array_int_int
 plt_System_Buffer_BlockCopy_System_Array_int_System_Array_int_int:
 _p_21:
@@ -39968,7 +40079,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 5801
+.word 5883
 	.no_dead_strip plt_Mono_Math_BigInteger_get_Rng
 plt_Mono_Math_BigInteger_get_Rng:
 _p_22:
@@ -39976,7 +40087,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 5806
+.word 5888
 	.no_dead_strip plt_Mono_Math_BigInteger_GenerateRandom_int_System_Security_Cryptography_RandomNumberGenerator
 plt_Mono_Math_BigInteger_GenerateRandom_int_System_Security_Cryptography_RandomNumberGenerator:
 _p_23:
@@ -39984,7 +40095,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 5808
+.word 5890
 	.no_dead_strip plt_Mono_Math_BigInteger_SetBit_uint_bool
 plt_Mono_Math_BigInteger_SetBit_uint_bool:
 _p_24:
@@ -39992,7 +40103,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 5810
+.word 5892
 	.no_dead_strip plt_Mono_Math_BigInteger_TestBit_int
 plt_Mono_Math_BigInteger_TestBit_int:
 _p_25:
@@ -40000,7 +40111,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 5812
+.word 5894
 	.no_dead_strip plt_Mono_Math_BigInteger_BitCount
 plt_Mono_Math_BigInteger_BitCount:
 _p_26:
@@ -40008,7 +40119,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 5814
+.word 5896
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Equality_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_Equality_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_27:
@@ -40016,7 +40127,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 5816
+.word 5898
 	.no_dead_strip plt_Mono_Math_BigInteger_ToString_uint_string
 plt_Mono_Math_BigInteger_ToString_uint_string:
 _p_28:
@@ -40024,7 +40135,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 5818
+.word 5900
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_SingleByteDivideInPlace_Mono_Math_BigInteger_uint
 plt_Mono_Math_BigInteger_Kernel_SingleByteDivideInPlace_Mono_Math_BigInteger_uint:
 _p_29:
@@ -40032,7 +40143,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 5820
+.word 5902
 	.no_dead_strip plt_string__ctor_char_int
 plt_string__ctor_char_int:
 _p_30:
@@ -40040,7 +40151,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 5822
+.word 5904
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_31:
@@ -40048,7 +40159,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 5827
+.word 5909
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Inequality_Mono_Math_BigInteger_uint
 plt_Mono_Math_BigInteger_op_Inequality_Mono_Math_BigInteger_uint:
 _p_32:
@@ -40056,7 +40167,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 5832
+.word 5914
 	.no_dead_strip plt_Mono_Math_BigInteger_ToString_uint
 plt_Mono_Math_BigInteger_ToString_uint:
 _p_33:
@@ -40064,7 +40175,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 5834
+.word 5916
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_modInverse_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_Kernel_modInverse_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_34:
@@ -40072,7 +40183,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 5836
+.word 5918
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_35:
@@ -40080,7 +40191,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 5838
+.word 5920
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Division_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_Division_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_36:
@@ -40088,7 +40199,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 5843
+.word 5925
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_MultiplyMod2p32pmod_uint___int_int_uint___int_int_uint___int_int
 plt_Mono_Math_BigInteger_Kernel_MultiplyMod2p32pmod_uint___int_int_uint___int_int_uint___int_int:
 _p_37:
@@ -40096,7 +40207,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 5845
+.word 5927
 	.no_dead_strip plt_Mono_Math_BigInteger_op_LessThanOrEqual_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_LessThanOrEqual_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_38:
@@ -40104,7 +40215,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 5847
+.word 5929
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_MinusEq_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_Kernel_MinusEq_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_39:
@@ -40112,7 +40223,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 5849
+.word 5931
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_PlusEq_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_Kernel_PlusEq_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_40:
@@ -40120,7 +40231,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 5851
+.word 5933
 	.no_dead_strip plt_Mono_Math_BigInteger_op_GreaterThanOrEqual_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_GreaterThanOrEqual_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_41:
@@ -40128,7 +40239,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 5853
+.word 5935
 	.no_dead_strip plt_Mono_Math_BigInteger_op_GreaterThan_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_GreaterThan_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_42:
@@ -40136,7 +40247,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 5855
+.word 5937
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Modulus_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_Modulus_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_43:
@@ -40144,7 +40255,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 5857
+.word 5939
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Multiply_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_Multiply_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_44:
@@ -40152,7 +40263,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 5859
+.word 5941
 	.no_dead_strip plt_Mono_Math_BigInteger_ModulusRing_BarrettReduction_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_ModulusRing_BarrettReduction_Mono_Math_BigInteger:
 _p_45:
@@ -40160,7 +40271,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 5861
+.word 5943
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Subtraction_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_Subtraction_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_46:
@@ -40168,7 +40279,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 5863
+.word 5945
 	.no_dead_strip plt_Mono_Math_BigInteger_ModulusRing_Multiply_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_ModulusRing_Multiply_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_47:
@@ -40176,7 +40287,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 5865
+.word 5947
 	.no_dead_strip plt_Mono_Math_BigInteger_ModulusRing_Pow_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_ModulusRing_Pow_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_48:
@@ -40184,7 +40295,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 5867
+.word 5949
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Implicit_uint
 plt_Mono_Math_BigInteger_op_Implicit_uint:
 _p_49:
@@ -40192,7 +40303,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 5869
+.word 5951
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_DwordDivMod_Mono_Math_BigInteger_uint
 plt_Mono_Math_BigInteger_Kernel_DwordDivMod_Mono_Math_BigInteger_uint:
 _p_50:
@@ -40200,7 +40311,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 5871
+.word 5953
 	.no_dead_strip plt_Mono_Math_BigInteger_op_LeftShift_Mono_Math_BigInteger_int
 plt_Mono_Math_BigInteger_op_LeftShift_Mono_Math_BigInteger_int:
 _p_51:
@@ -40208,7 +40319,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 5873
+.word 5955
 	.no_dead_strip plt_Mono_Math_BigInteger_op_RightShift_Mono_Math_BigInteger_int
 plt_Mono_Math_BigInteger_op_RightShift_Mono_Math_BigInteger_int:
 _p_52:
@@ -40216,7 +40327,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 5875
+.word 5957
 	.no_dead_strip plt_Mono_Math_BigInteger__ctor_Mono_Math_BigInteger_uint
 plt_Mono_Math_BigInteger__ctor_Mono_Math_BigInteger_uint:
 _p_53:
@@ -40224,7 +40335,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 5877
+.word 5959
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Modulus_Mono_Math_BigInteger_uint
 plt_Mono_Math_BigInteger_op_Modulus_Mono_Math_BigInteger_uint:
 _p_54:
@@ -40232,7 +40343,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 5879
+.word 5961
 	.no_dead_strip plt_Mono_Math_BigInteger_Kernel_modInverse_Mono_Math_BigInteger_uint
 plt_Mono_Math_BigInteger_Kernel_modInverse_Mono_Math_BigInteger_uint:
 _p_55:
@@ -40240,7 +40351,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 5881
+.word 5963
 	.no_dead_strip plt_Mono_Math_BigInteger_ModulusRing__ctor_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_ModulusRing__ctor_Mono_Math_BigInteger:
 _p_56:
@@ -40248,7 +40359,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 5883
+.word 5965
 	.no_dead_strip plt_Mono_Math_BigInteger_ModulusRing_Difference_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_ModulusRing_Difference_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_57:
@@ -40256,7 +40367,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 5885
+.word 5967
 	.no_dead_strip plt_Mono_Math_Prime_PrimalityTests_GetSPPRounds_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor
 plt_Mono_Math_Prime_PrimalityTests_GetSPPRounds_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor:
 _p_58:
@@ -40264,7 +40375,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 5887
+.word 5969
 	.no_dead_strip plt_Mono_Math_BigInteger_LowestSetBit
 plt_Mono_Math_BigInteger_LowestSetBit:
 _p_59:
@@ -40272,7 +40383,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 5889
+.word 5971
 	.no_dead_strip plt_Mono_Math_BigInteger_ModulusRing_Pow_uint_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_ModulusRing_Pow_uint_Mono_Math_BigInteger:
 _p_60:
@@ -40280,7 +40391,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 5891
+.word 5973
 	.no_dead_strip plt_Mono_Math_BigInteger_GenerateRandom_int
 plt_Mono_Math_BigInteger_GenerateRandom_int:
 _p_61:
@@ -40288,7 +40399,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 5893
+.word 5975
 	.no_dead_strip plt_Mono_Math_BigInteger_op_Inequality_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_Inequality_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_62:
@@ -40296,7 +40407,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 5895
+.word 5977
 	.no_dead_strip plt_Mono_Math_BigInteger_SetBit_uint
 plt_Mono_Math_BigInteger_SetBit_uint:
 _p_63:
@@ -40304,7 +40415,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 5897
+.word 5979
 	.no_dead_strip plt_Mono_Math_BigInteger_Incr2
 plt_Mono_Math_BigInteger_Incr2:
 _p_64:
@@ -40312,7 +40423,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 5899
+.word 5981
 	.no_dead_strip plt_Mono_Security_ASN1__ctor_byte_byte__
 plt_Mono_Security_ASN1__ctor_byte_byte__:
 _p_65:
@@ -40320,7 +40431,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 5901
+.word 5983
 	.no_dead_strip plt_Mono_Security_ASN1_Decode_byte___int__int
 plt_Mono_Security_ASN1_Decode_byte___int__int:
 _p_66:
@@ -40328,7 +40439,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 5903
+.word 5985
 	.no_dead_strip plt_Mono_Security_ASN1_CompareArray_byte___byte__
 plt_Mono_Security_ASN1_CompareArray_byte___byte__:
 _p_67:
@@ -40336,7 +40447,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 5905
+.word 5987
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_68:
@@ -40344,7 +40455,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 5907
+.word 5989
 	.no_dead_strip plt_Mono_Security_ASN1_get_Count
 plt_Mono_Security_ASN1_get_Count:
 _p_69:
@@ -40352,7 +40463,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 5933
+.word 6015
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_70:
@@ -40360,7 +40471,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 5935
+.word 6017
 	.no_dead_strip plt_Mono_Security_ASN1_DecodeTLV_byte___int__byte__int__byte___
 plt_Mono_Security_ASN1_DecodeTLV_byte___int__byte__int__byte___:
 _p_71:
@@ -40368,7 +40479,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 5973
+.word 6055
 	.no_dead_strip plt_Mono_Security_ASN1_Add_Mono_Security_ASN1
 plt_Mono_Security_ASN1_Add_Mono_Security_ASN1:
 _p_72:
@@ -40376,7 +40487,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 5975
+.word 6057
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_73:
@@ -40384,7 +40495,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 5977
+.word 6059
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_74:
@@ -40392,7 +40503,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 6016
+.word 6098
 	.no_dead_strip plt_byte_ToString_string
 plt_byte_ToString_string:
 _p_75:
@@ -40400,7 +40511,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 6021
+.word 6103
 	.no_dead_strip plt_System_Environment_get_NewLine
 plt_System_Environment_get_NewLine:
 _p_76:
@@ -40408,7 +40519,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 6026
+.word 6108
 	.no_dead_strip plt_System_Text_StringBuilder_AppendFormat_string_object_object
 plt_System_Text_StringBuilder_AppendFormat_string_object_object:
 _p_77:
@@ -40416,7 +40527,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 6031
+.word 6113
 	.no_dead_strip plt_Mono_Security_ASN1_get_Value
 plt_Mono_Security_ASN1_get_Value:
 _p_78:
@@ -40424,7 +40535,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 6036
+.word 6118
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_79:
@@ -40432,7 +40543,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 6038
+.word 6120
 	.no_dead_strip plt_System_Text_StringBuilder_AppendFormat_string_object
 plt_System_Text_StringBuilder_AppendFormat_string_object:
 _p_80:
@@ -40440,7 +40551,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 6043
+.word 6125
 	.no_dead_strip plt_System_Text_StringBuilder_AppendFormat_string_object__
 plt_System_Text_StringBuilder_AppendFormat_string_object__:
 _p_81:
@@ -40448,7 +40559,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 6048
+.word 6130
 	.no_dead_strip plt_Mono_Security_BitConverterLE_GetBytes_int
 plt_Mono_Security_BitConverterLE_GetBytes_int:
 _p_82:
@@ -40456,7 +40567,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 6053
+.word 6135
 	.no_dead_strip plt_System_Array_Reverse_byte_byte__
 plt_System_Array_Reverse_byte_byte__:
 _p_83:
@@ -40464,7 +40575,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 6055
+.word 6137
 	.no_dead_strip plt_Mono_Security_ASN1__ctor_byte
 plt_Mono_Security_ASN1__ctor_byte:
 _p_84:
@@ -40472,7 +40583,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 6067
+.word 6149
 	.no_dead_strip plt_Mono_Security_ASN1_set_Value_byte__
 plt_Mono_Security_ASN1_set_Value_byte__:
 _p_85:
@@ -40480,7 +40591,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 6069
+.word 6151
 	.no_dead_strip plt_System_Security_Cryptography_CryptoConfig_EncodeOID_string
 plt_System_Security_Cryptography_CryptoConfig_EncodeOID_string:
 _p_86:
@@ -40488,7 +40599,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 6071
+.word 6153
 	.no_dead_strip plt_Mono_Security_ASN1__ctor_byte__
 plt_Mono_Security_ASN1__ctor_byte__:
 _p_87:
@@ -40496,7 +40607,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 6076
+.word 6158
 	.no_dead_strip plt_byte_ToString_System_IFormatProvider
 plt_byte_ToString_System_IFormatProvider:
 _p_88:
@@ -40504,7 +40615,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 6078
+.word 6160
 	.no_dead_strip plt_ulong_ToString_System_IFormatProvider
 plt_ulong_ToString_System_IFormatProvider:
 _p_89:
@@ -40512,7 +40623,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 6083
+.word 6165
 	.no_dead_strip plt_System_Text_Encoding_get_ASCII
 plt_System_Text_Encoding_get_ASCII:
 _p_90:
@@ -40520,7 +40631,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 6088
+.word 6170
 	.no_dead_strip plt_string_Substring_int_int
 plt_string_Substring_int_int:
 _p_91:
@@ -40528,7 +40639,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 6093
+.word 6175
 	.no_dead_strip plt_System_Convert_ToInt16_string_System_IFormatProvider
 plt_System_Convert_ToInt16_string_System_IFormatProvider:
 _p_92:
@@ -40536,7 +40647,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 6098
+.word 6180
 	.no_dead_strip plt_string_Format_string_object__
 plt_string_Format_string_object__:
 _p_93:
@@ -40544,7 +40655,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 6103
+.word 6185
 	.no_dead_strip plt_System_DateTime_ParseExact_string_string_System_IFormatProvider_System_Globalization_DateTimeStyles
 plt_System_DateTime_ParseExact_string_string_System_IFormatProvider_System_Globalization_DateTimeStyles:
 _p_94:
@@ -40552,7 +40663,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 6108
+.word 6190
 	.no_dead_strip plt_Mono_Security_BitConverterLE_GetUIntBytes_byte_
 plt_Mono_Security_BitConverterLE_GetUIntBytes_byte_:
 _p_95:
@@ -40560,7 +40671,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 6113
+.word 6195
 	.no_dead_strip plt_Mono_Security_BitConverterLE_GetULongBytes_byte_
 plt_Mono_Security_BitConverterLE_GetULongBytes_byte_:
 _p_96:
@@ -40568,7 +40679,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 6115
+.word 6197
 	.no_dead_strip plt_Mono_Security_BitConverterLE_UShortFromBytes_byte__byte___int
 plt_Mono_Security_BitConverterLE_UShortFromBytes_byte__byte___int:
 _p_97:
@@ -40576,7 +40687,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 6117
+.word 6199
 	.no_dead_strip plt_Mono_Security_BitConverterLE_UIntFromBytes_byte__byte___int
 plt_Mono_Security_BitConverterLE_UIntFromBytes_byte__byte___int:
 _p_98:
@@ -40584,7 +40695,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 6119
+.word 6201
 	.no_dead_strip plt_Mono_Security_PKCS7_ContentInfo__ctor
 plt_Mono_Security_PKCS7_ContentInfo__ctor:
 _p_99:
@@ -40592,7 +40703,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 6121
+.word 6203
 	.no_dead_strip plt_Mono_Security_PKCS7_ContentInfo__ctor_Mono_Security_ASN1
 plt_Mono_Security_PKCS7_ContentInfo__ctor_Mono_Security_ASN1:
 _p_100:
@@ -40600,7 +40711,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 6123
+.word 6205
 	.no_dead_strip plt_Mono_Security_ASN1_get_Item_int
 plt_Mono_Security_ASN1_get_Item_int:
 _p_101:
@@ -40608,7 +40719,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 6125
+.word 6207
 	.no_dead_strip plt_Mono_Security_ASN1Convert_ToOid_Mono_Security_ASN1
 plt_Mono_Security_ASN1Convert_ToOid_Mono_Security_ASN1:
 _p_102:
@@ -40616,7 +40727,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 6127
+.word 6209
 	.no_dead_strip plt_Mono_Security_PKCS7_ContentInfo_GetASN1
 plt_Mono_Security_PKCS7_ContentInfo_GetASN1:
 _p_103:
@@ -40624,7 +40735,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 6129
+.word 6211
 	.no_dead_strip plt_Mono_Security_ASN1Convert_FromOid_string
 plt_Mono_Security_ASN1Convert_FromOid_string:
 _p_104:
@@ -40632,7 +40743,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 6131
+.word 6213
 	.no_dead_strip plt_Mono_Security_PKCS7_ContentInfo__ctor_string
 plt_Mono_Security_PKCS7_ContentInfo__ctor_string:
 _p_105:
@@ -40640,7 +40751,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 6133
+.word 6215
 	.no_dead_strip plt_Mono_Security_X509_PKCS12__ctor
 plt_Mono_Security_X509_PKCS12__ctor:
 _p_106:
@@ -40648,7 +40759,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 6135
+.word 6217
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_set_Password_string
 plt_Mono_Security_X509_PKCS12_set_Password_string:
 _p_107:
@@ -40656,7 +40767,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 6138
+.word 6220
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_Decode_byte__
 plt_Mono_Security_X509_PKCS12_Decode_byte__:
 _p_108:
@@ -40664,7 +40775,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 6141
+.word 6223
 	.no_dead_strip plt_string_op_Inequality_string_string
 plt_string_op_Inequality_string_string:
 _p_109:
@@ -40672,7 +40783,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 6144
+.word 6226
 	.no_dead_strip plt_Mono_Security_ASN1Convert_ToInt32_Mono_Security_ASN1
 plt_Mono_Security_ASN1Convert_ToInt32_Mono_Security_ASN1:
 _p_110:
@@ -40680,7 +40791,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 6149
+.word 6231
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_MAC_byte___byte___int_byte__
 plt_Mono_Security_X509_PKCS12_MAC_byte___byte___int_byte__:
 _p_111:
@@ -40688,7 +40799,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 6151
+.word 6233
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_Compare_byte___byte__
 plt_Mono_Security_X509_PKCS12_Compare_byte___byte__:
 _p_112:
@@ -40696,7 +40807,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 6154
+.word 6236
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_113:
@@ -40704,7 +40815,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 6157
+.word 6239
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_ReadSafeBag_Mono_Security_ASN1
 plt_Mono_Security_X509_PKCS12_ReadSafeBag_Mono_Security_ASN1:
 _p_114:
@@ -40712,7 +40823,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 6162
+.word 6244
 	.no_dead_strip plt_Mono_Security_PKCS7_EncryptedData__ctor_Mono_Security_ASN1
 plt_Mono_Security_PKCS7_EncryptedData__ctor_Mono_Security_ASN1:
 _p_115:
@@ -40720,7 +40831,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 6165
+.word 6247
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_Decrypt_Mono_Security_PKCS7_EncryptedData
 plt_Mono_Security_X509_PKCS12_Decrypt_Mono_Security_PKCS7_EncryptedData:
 _p_116:
@@ -40728,7 +40839,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 6167
+.word 6249
 	.no_dead_strip plt_System_Array_Clear_System_Array_int_int
 plt_System_Array_Clear_System_Array_int_int:
 _p_117:
@@ -40736,7 +40847,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 6170
+.word 6252
 	.no_dead_strip plt_System_Text_Encoding_get_BigEndianUnicode
 plt_System_Text_Encoding_get_BigEndianUnicode:
 _p_118:
@@ -40744,7 +40855,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 6175
+.word 6257
 	.no_dead_strip plt_string_Equals_string
 plt_string_Equals_string:
 _p_119:
@@ -40752,7 +40863,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 6180
+.word 6262
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__ctor_byte__
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__ctor_byte__:
 _p_120:
@@ -40760,7 +40871,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 6185
+.word 6267
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_get_PrivateKey
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_get_PrivateKey:
 _p_121:
@@ -40768,7 +40879,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 6188
+.word 6270
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_DecodeDSA_byte___System_Security_Cryptography_DSAParameters
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_DecodeDSA_byte___System_Security_Cryptography_DSAParameters:
 _p_122:
@@ -40776,7 +40887,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 6191
+.word 6273
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_DecodeRSA_byte__
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_DecodeRSA_byte__:
 _p_123:
@@ -40784,7 +40895,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 6194
+.word 6276
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo__ctor_byte__
 plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo__ctor_byte__:
 _p_124:
@@ -40792,7 +40903,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 6197
+.word 6279
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_get_Salt
 plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_get_Salt:
 _p_125:
@@ -40800,7 +40911,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 6200
+.word 6282
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_get_EncryptedData
 plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_get_EncryptedData:
 _p_126:
@@ -40808,7 +40919,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 6203
+.word 6285
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_Decrypt_string_byte___int_byte__
 plt_Mono_Security_X509_PKCS12_Decrypt_string_byte___int_byte__:
 _p_127:
@@ -40816,7 +40927,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 6206
+.word 6288
 	.no_dead_strip plt_System_Collections_ArrayList_ReadOnly_System_Collections_ArrayList
 plt_System_Collections_ArrayList_ReadOnly_System_Collections_ArrayList:
 _p_128:
@@ -40824,7 +40935,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 6209
+.word 6291
 	.no_dead_strip plt_System_Collections_CollectionBase_Clear
 plt_System_Collections_CollectionBase_Clear:
 _p_129:
@@ -40832,7 +40943,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 6214
+.word 6296
 	.no_dead_strip plt_Mono_Security_PKCS7_ContentInfo__ctor_byte__
 plt_Mono_Security_PKCS7_ContentInfo__ctor_byte__:
 _p_130:
@@ -40840,7 +40951,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 6219
+.word 6301
 	.no_dead_strip plt_Mono_Security_X509_X509Certificate__ctor_byte__
 plt_Mono_Security_X509_X509Certificate__ctor_byte__:
 _p_131:
@@ -40848,7 +40959,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 6221
+.word 6303
 	.no_dead_strip plt_Mono_Security_X509_X509CertificateCollection_Add_Mono_Security_X509_X509Certificate
 plt_Mono_Security_X509_X509CertificateCollection_Add_Mono_Security_X509_X509Certificate:
 _p_132:
@@ -40856,7 +40967,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 6224
+.word 6306
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_DeriveBytes_set_Password_byte__
 plt_Mono_Security_X509_PKCS12_DeriveBytes_set_Password_byte__:
 _p_133:
@@ -40864,7 +40975,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 6227
+.word 6309
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_DeriveBytes_set_Salt_byte__
 plt_Mono_Security_X509_PKCS12_DeriveBytes_set_Salt_byte__:
 _p_134:
@@ -40872,7 +40983,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 6230
+.word 6312
 	.no_dead_strip plt__PrivateImplementationDetails_ComputeStringHash_string
 plt__PrivateImplementationDetails_ComputeStringHash_string:
 _p_135:
@@ -40880,7 +40991,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 6233
+.word 6315
 	.no_dead_strip plt_System_Security_Cryptography_SymmetricAlgorithm_Create_string
 plt_System_Security_Cryptography_SymmetricAlgorithm_Create_string:
 _p_136:
@@ -40888,7 +40999,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 6236
+.word 6318
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_DeriveBytes_DeriveKey_int
 plt_Mono_Security_X509_PKCS12_DeriveBytes_DeriveKey_int:
 _p_137:
@@ -40896,7 +41007,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 6241
+.word 6323
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_DeriveBytes_DeriveIV_int
 plt_Mono_Security_X509_PKCS12_DeriveBytes_DeriveIV_int:
 _p_138:
@@ -40904,7 +41015,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 6244
+.word 6326
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_GetSymmetricAlgorithm_string_byte___int
 plt_Mono_Security_X509_PKCS12_GetSymmetricAlgorithm_string_byte___int:
 _p_139:
@@ -40912,7 +41023,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 6247
+.word 6329
 	.no_dead_strip plt_System_Security_Cryptography_SymmetricAlgorithm_Clear
 plt_System_Security_Cryptography_SymmetricAlgorithm_Clear:
 _p_140:
@@ -40920,7 +41031,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 6250
+.word 6332
 	.no_dead_strip plt_Mono_Security_PKCS7_EncryptedData_get_EncryptedContent
 plt_Mono_Security_PKCS7_EncryptedData_get_EncryptedContent:
 _p_141:
@@ -40928,7 +41039,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 6255
+.word 6337
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_get_Certificates
 plt_Mono_Security_X509_PKCS12_get_Certificates:
 _p_142:
@@ -40936,7 +41047,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 6257
+.word 6339
 	.no_dead_strip plt_Mono_Security_X509_X509CertificateCollection_GetEnumerator
 plt_Mono_Security_X509_X509CertificateCollection_GetEnumerator:
 _p_143:
@@ -40944,7 +41055,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 6260
+.word 6342
 	.no_dead_strip plt_Mono_Security_X509_X509CertificateCollection_X509CertificateEnumerator_get_Current
 plt_Mono_Security_X509_X509CertificateCollection_X509CertificateEnumerator_get_Current:
 _p_144:
@@ -40952,7 +41063,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 6263
+.word 6345
 	.no_dead_strip plt_Mono_Security_X509_X509Certificate_get_DSA
 plt_Mono_Security_X509_X509Certificate_get_DSA:
 _p_145:
@@ -40960,7 +41071,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 6266
+.word 6348
 	.no_dead_strip plt_Mono_Security_X509_X509CertificateCollection_X509CertificateEnumerator_MoveNext
 plt_Mono_Security_X509_X509CertificateCollection_X509CertificateEnumerator_MoveNext:
 _p_146:
@@ -40968,7 +41079,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 6269
+.word 6351
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_GetExistingParameters_bool_
 plt_Mono_Security_X509_PKCS12_GetExistingParameters_bool_:
 _p_147:
@@ -40976,7 +41087,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 6272
+.word 6354
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_AddPrivateKey_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo
 plt_Mono_Security_X509_PKCS12_AddPrivateKey_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo:
 _p_148:
@@ -40984,7 +41095,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 6275
+.word 6357
 	.no_dead_strip plt_Mono_Security_X509_SafeBag__ctor_string_Mono_Security_ASN1
 plt_Mono_Security_X509_SafeBag__ctor_string_Mono_Security_ASN1:
 _p_149:
@@ -40992,7 +41103,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 6278
+.word 6360
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__ctor
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__ctor:
 _p_150:
@@ -41000,7 +41111,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 6280
+.word 6362
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_Encode_System_Security_Cryptography_RSA
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_Encode_System_Security_Cryptography_RSA:
 _p_151:
@@ -41008,7 +41119,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 6283
+.word 6365
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_set_PrivateKey_byte__
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_set_PrivateKey_byte__:
 _p_152:
@@ -41016,7 +41127,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 6286
+.word 6368
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_Encode_System_Security_Cryptography_DSA
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_Encode_System_Security_Cryptography_DSA:
 _p_153:
@@ -41024,7 +41135,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 6289
+.word 6371
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_set_IterationCount_int
 plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_set_IterationCount_int:
 _p_154:
@@ -41032,7 +41143,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 6292
+.word 6374
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_GetBytes
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_GetBytes:
 _p_155:
@@ -41040,7 +41151,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 6295
+.word 6377
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_Encrypt_string_byte___int_byte__
 plt_Mono_Security_X509_PKCS12_Encrypt_string_byte___int_byte__:
 _p_156:
@@ -41048,7 +41159,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 6298
+.word 6380
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_set_EncryptedData_byte__
 plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_set_EncryptedData_byte__:
 _p_157:
@@ -41056,7 +41167,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 6301
+.word 6383
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_GetBytes
 plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_GetBytes:
 _p_158:
@@ -41064,7 +41175,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 6304
+.word 6386
 	.no_dead_strip plt_Mono_Security_PKCS7_ContentInfo_get_ASN1
 plt_Mono_Security_PKCS7_ContentInfo_get_ASN1:
 _p_159:
@@ -41072,7 +41183,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 6307
+.word 6389
 	.no_dead_strip plt_System_Security_Cryptography_HMAC_Create
 plt_System_Security_Cryptography_HMAC_Create:
 _p_160:
@@ -41080,7 +41191,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 6309
+.word 6391
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_DeriveBytes_DeriveMAC_int
 plt_Mono_Security_X509_PKCS12_DeriveBytes_DeriveMAC_int:
 _p_161:
@@ -41088,7 +41199,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 6314
+.word 6396
 	.no_dead_strip plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_byte___int_int
 plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_byte___int_int:
 _p_162:
@@ -41096,7 +41207,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 6317
+.word 6399
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_RemoveCertificate_Mono_Security_X509_X509Certificate
 plt_Mono_Security_X509_PKCS12_RemoveCertificate_Mono_Security_X509_X509Certificate:
 _p_163:
@@ -41104,7 +41215,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 6322
+.word 6404
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_AddCertificate_Mono_Security_X509_X509Certificate
 plt_Mono_Security_X509_PKCS12_AddCertificate_Mono_Security_X509_X509Certificate:
 _p_164:
@@ -41112,7 +41223,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 6325
+.word 6407
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_EncryptedContentInfo_Mono_Security_ASN1_string
 plt_Mono_Security_X509_PKCS12_EncryptedContentInfo_Mono_Security_ASN1_string:
 _p_165:
@@ -41120,7 +41231,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 6328
+.word 6410
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_get_RNG
 plt_Mono_Security_X509_PKCS12_get_RNG:
 _p_166:
@@ -41128,7 +41239,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 6331
+.word 6413
 	.no_dead_strip plt_Mono_Security_ASN1Convert_FromInt32_int
 plt_Mono_Security_ASN1Convert_FromInt32_int:
 _p_167:
@@ -41136,7 +41247,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 6334
+.word 6416
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_AddCertificate_Mono_Security_X509_X509Certificate_System_Collections_IDictionary
 plt_Mono_Security_X509_PKCS12_AddCertificate_Mono_Security_X509_X509Certificate_System_Collections_IDictionary:
 _p_168:
@@ -41144,7 +41255,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 6336
+.word 6418
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_CertificateSafeBag_Mono_Security_X509_X509Certificate_System_Collections_IDictionary
 plt_Mono_Security_X509_PKCS12_CertificateSafeBag_Mono_Security_X509_X509Certificate_System_Collections_IDictionary:
 _p_169:
@@ -41152,7 +41263,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 6339
+.word 6421
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_RemoveCertificate_Mono_Security_X509_X509Certificate_System_Collections_IDictionary
 plt_Mono_Security_X509_PKCS12_RemoveCertificate_Mono_Security_X509_X509Certificate_System_Collections_IDictionary:
 _p_170:
@@ -41160,7 +41271,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 6342
+.word 6424
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_CompareAsymmetricAlgorithm_System_Security_Cryptography_AsymmetricAlgorithm_System_Security_Cryptography_AsymmetricAlgorithm
 plt_Mono_Security_X509_PKCS12_CompareAsymmetricAlgorithm_System_Security_Cryptography_AsymmetricAlgorithm_System_Security_Cryptography_AsymmetricAlgorithm:
 _p_171:
@@ -41168,7 +41279,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 6345
+.word 6427
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_Pkcs8ShroudedKeyBagSafeBag_System_Security_Cryptography_AsymmetricAlgorithm_System_Collections_IDictionary
 plt_Mono_Security_X509_PKCS12_Pkcs8ShroudedKeyBagSafeBag_System_Security_Cryptography_AsymmetricAlgorithm_System_Collections_IDictionary:
 _p_172:
@@ -41176,7 +41287,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 6348
+.word 6430
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_GetBytes
 plt_Mono_Security_X509_PKCS12_GetBytes:
 _p_173:
@@ -41184,7 +41295,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 6351
+.word 6433
 	.no_dead_strip plt_Mono_Security_X509_PKCS12__ctor_byte___string
 plt_Mono_Security_X509_PKCS12__ctor_byte___string:
 _p_174:
@@ -41192,7 +41303,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 6354
+.word 6436
 	.no_dead_strip plt_Mono_Security_X509_PKCS12__ctor_byte__
 plt_Mono_Security_X509_PKCS12__ctor_byte__:
 _p_175:
@@ -41200,7 +41311,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 6357
+.word 6439
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS1_CreateFromName_string
 plt_Mono_Security_Cryptography_PKCS1_CreateFromName_string:
 _p_176:
@@ -41208,7 +41319,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 6360
+.word 6442
 	.no_dead_strip plt_System_Security_Cryptography_HashAlgorithm_TransformBlock_byte___int_int_byte___int
 plt_System_Security_Cryptography_HashAlgorithm_TransformBlock_byte___int_int_byte___int:
 _p_177:
@@ -41216,7 +41327,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 6363
+.word 6445
 	.no_dead_strip plt_System_Security_Cryptography_HashAlgorithm_TransformFinalBlock_byte___int_int
 plt_System_Security_Cryptography_HashAlgorithm_TransformFinalBlock_byte___int_int:
 _p_178:
@@ -41224,7 +41335,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 6368
+.word 6450
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_DeriveBytes_Adjust_byte___int_byte__
 plt_Mono_Security_X509_PKCS12_DeriveBytes_Adjust_byte___int_byte__:
 _p_179:
@@ -41232,7 +41343,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 6373
+.word 6455
 	.no_dead_strip plt_Mono_Security_X509_PKCS12_DeriveBytes_Derive_byte___int
 plt_Mono_Security_X509_PKCS12_DeriveBytes_Derive_byte___int:
 _p_180:
@@ -41240,7 +41351,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 6376
+.word 6458
 	.no_dead_strip plt_Mono_Security_X509_X501_AppendEntry_System_Text_StringBuilder_Mono_Security_ASN1_bool
 plt_Mono_Security_X509_X501_AppendEntry_System_Text_StringBuilder_Mono_Security_ASN1_bool:
 _p_181:
@@ -41248,7 +41359,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 6379
+.word 6461
 	.no_dead_strip plt_Mono_Security_ASN1_CompareValue_byte__
 plt_Mono_Security_ASN1_CompareValue_byte__:
 _p_182:
@@ -41256,7 +41367,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 6382
+.word 6464
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char
 plt_System_Text_StringBuilder_Append_char:
 _p_183:
@@ -41264,7 +41375,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 6384
+.word 6466
 	.no_dead_strip plt_System_Text_Encoding_get_UTF7
 plt_System_Text_Encoding_get_UTF7:
 _p_184:
@@ -41272,7 +41383,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 6389
+.word 6471
 	.no_dead_strip plt_System_Text_Encoding_get_UTF8
 plt_System_Text_Encoding_get_UTF8:
 _p_185:
@@ -41280,7 +41391,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 6394
+.word 6476
 	.no_dead_strip plt_string_IndexOfAny_char___int_int
 plt_string_IndexOfAny_char___int_int:
 _p_186:
@@ -41288,7 +41399,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 6399
+.word 6481
 	.no_dead_strip plt_string_StartsWith_string
 plt_string_StartsWith_string:
 _p_187:
@@ -41296,7 +41407,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 6404
+.word 6486
 	.no_dead_strip plt_string_EndsWith_string
 plt_string_EndsWith_string:
 _p_188:
@@ -41304,7 +41415,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 6409
+.word 6491
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_189:
@@ -41312,7 +41423,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 6414
+.word 6496
 	.no_dead_strip plt_System_Array_Reverse_byte_byte___int_int
 plt_System_Array_Reverse_byte_byte___int_int:
 _p_190:
@@ -41320,7 +41431,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 6419
+.word 6501
 	.no_dead_strip plt_Mono_Security_ASN1_Element_int_byte
 plt_Mono_Security_ASN1_Element_int_byte:
 _p_191:
@@ -41328,7 +41439,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 6431
+.word 6513
 	.no_dead_strip plt_Mono_Security_X509_X501_ToString_Mono_Security_ASN1
 plt_Mono_Security_X509_X501_ToString_Mono_Security_ASN1:
 _p_192:
@@ -41336,7 +41447,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 6433
+.word 6515
 	.no_dead_strip plt_Mono_Security_ASN1Convert_ToDateTime_Mono_Security_ASN1
 plt_Mono_Security_ASN1Convert_ToDateTime_Mono_Security_ASN1:
 _p_193:
@@ -41344,7 +41455,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 6436
+.word 6518
 	.no_dead_strip plt_Mono_Security_X509_X509ExtensionCollection__ctor_Mono_Security_ASN1
 plt_Mono_Security_X509_X509ExtensionCollection__ctor_Mono_Security_ASN1:
 _p_194:
@@ -41352,7 +41463,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 6438
+.word 6520
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_195:
@@ -41360,7 +41471,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 6441
+.word 6523
 	.no_dead_strip plt_System_Security_Cryptography_CryptographicException__ctor_string_System_Exception
 plt_System_Security_Cryptography_CryptographicException__ctor_string_System_Exception:
 _p_196:
@@ -41368,7 +41479,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 6471
+.word 6553
 	.no_dead_strip plt_Mono_Security_X509_X509Certificate_PEM_string_byte__
 plt_Mono_Security_X509_X509Certificate_PEM_string_byte__:
 _p_197:
@@ -41376,7 +41487,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 6476
+.word 6558
 	.no_dead_strip plt_Mono_Security_X509_X509Certificate_Parse_byte__
 plt_Mono_Security_X509_X509Certificate_Parse_byte__:
 _p_198:
@@ -41384,7 +41495,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 6479
+.word 6561
 	.no_dead_strip plt_Mono_Security_X509_X509Certificate_GetUnsignedBigInteger_byte__
 plt_Mono_Security_X509_X509Certificate_GetUnsignedBigInteger_byte__:
 _p_199:
@@ -41392,7 +41503,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 6482
+.word 6564
 	.no_dead_strip plt_System_Security_Cryptography_DSACryptoServiceProvider__ctor_int
 plt_System_Security_Cryptography_DSACryptoServiceProvider__ctor_int:
 _p_200:
@@ -41400,7 +41511,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 6485
+.word 6567
 	.no_dead_strip plt_System_Security_Cryptography_RSACryptoServiceProvider__ctor_int
 plt_System_Security_Cryptography_RSACryptoServiceProvider__ctor_int:
 _p_201:
@@ -41408,7 +41519,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 6490
+.word 6572
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_object
 plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_object:
 _p_202:
@@ -41416,7 +41527,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 6495
+.word 6577
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_203:
@@ -41424,7 +41535,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 6500
+.word 6582
 	.no_dead_strip plt_string_IndexOf_string
 plt_string_IndexOf_string:
 _p_204:
@@ -41432,7 +41543,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+0
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 6505
+.word 6587
 	.no_dead_strip plt_string_IndexOf_string_int
 plt_string_IndexOf_string_int:
 _p_205:
@@ -41440,7 +41551,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 6510
+.word 6592
 	.no_dead_strip plt_System_Convert_FromBase64String_string
 plt_System_Convert_FromBase64String_string:
 _p_206:
@@ -41448,7 +41559,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 6515
+.word 6597
 	.no_dead_strip plt_Mono_Security_X509_X509CertificateCollection_X509CertificateEnumerator__ctor_Mono_Security_X509_X509CertificateCollection
 plt_Mono_Security_X509_X509CertificateCollection_X509CertificateEnumerator__ctor_Mono_Security_X509_X509CertificateCollection:
 _p_207:
@@ -41456,7 +41567,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 6520
+.word 6602
 	.no_dead_strip plt_byte_ToString_string_System_IFormatProvider
 plt_byte_ToString_string_System_IFormatProvider:
 _p_208:
@@ -41464,7 +41575,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 6523
+.word 6605
 	.no_dead_strip plt_Mono_Security_X509_X509Extension_WriteLine_System_Text_StringBuilder_int_int
 plt_Mono_Security_X509_X509Extension_WriteLine_System_Text_StringBuilder_int_int:
 _p_209:
@@ -41472,7 +41583,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 6528
+.word 6610
 	.no_dead_strip plt_Mono_Security_X509_X509Extension__ctor_Mono_Security_ASN1
 plt_Mono_Security_X509_X509Extension__ctor_Mono_Security_ASN1:
 _p_210:
@@ -41480,7 +41591,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 6531
+.word 6613
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse__ctor
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse__ctor:
 _p_211:
@@ -41488,7 +41599,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 6534
+.word 6616
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_set_Password_string
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_set_Password_string:
 _p_212:
@@ -41496,7 +41607,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 6537
+.word 6619
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_set_Challenge_byte__
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_set_Challenge_byte__:
 _p_213:
@@ -41504,7 +41615,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 6540
+.word 6622
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_Dispose
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_Dispose:
 _p_214:
@@ -41512,7 +41623,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 6543
+.word 6625
 	.no_dead_strip plt_System_Security_Cryptography_DES_Create
 plt_System_Security_Cryptography_DES_Create:
 _p_215:
@@ -41520,7 +41631,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 6546
+.word 6628
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_PasswordToKey_string_int
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_PasswordToKey_string_int:
 _p_216:
@@ -41528,7 +41639,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 6551
+.word 6633
 	.no_dead_strip plt_System_Text_Encoding_get_Unicode
 plt_System_Text_Encoding_get_Unicode:
 _p_217:
@@ -41536,7 +41647,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 6554
+.word 6636
 	.no_dead_strip plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_byte__
 plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_byte__:
 _p_218:
@@ -41544,7 +41655,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 6559
+.word 6641
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_GetResponse_byte__
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_GetResponse_byte__:
 _p_219:
@@ -41552,7 +41663,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 6564
+.word 6646
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_Dispose_bool
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_Dispose_bool:
 _p_220:
@@ -41560,7 +41671,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 6567
+.word 6649
 	.no_dead_strip plt_System_GC_SuppressFinalize_object
 plt_System_GC_SuppressFinalize_object:
 _p_221:
@@ -41568,7 +41679,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 6570
+.word 6652
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_PrepareDESKey_byte___int
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_PrepareDESKey_byte___int:
 _p_222:
@@ -41576,7 +41687,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 6575
+.word 6657
 	.no_dead_strip plt_System_Globalization_CultureInfo_get_CurrentCulture
 plt_System_Globalization_CultureInfo_get_CurrentCulture:
 _p_223:
@@ -41584,7 +41695,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 6578
+.word 6660
 	.no_dead_strip plt_string_ToUpper_System_Globalization_CultureInfo
 plt_string_ToUpper_System_Globalization_CultureInfo:
 _p_224:
@@ -41592,7 +41703,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 6583
+.word 6665
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_PasswordToKey_string_int
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_PasswordToKey_string_int:
 _p_225:
@@ -41600,7 +41711,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 6588
+.word 6670
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_GetResponse_byte___byte__
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_GetResponse_byte___byte__:
 _p_226:
@@ -41608,7 +41719,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 6591
+.word 6673
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_NTLM_Password_string
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_NTLM_Password_string:
 _p_227:
@@ -41616,7 +41727,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 6594
+.word 6676
 	.no_dead_strip plt_System_Array_CopyTo_System_Array_int
 plt_System_Array_CopyTo_System_Array_int:
 _p_228:
@@ -41624,7 +41735,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 6597
+.word 6679
 	.no_dead_strip plt_System_Array_Copy_System_Array_System_Array_int
 plt_System_Array_Copy_System_Array_System_Array_int:
 _p_229:
@@ -41632,7 +41743,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 6602
+.word 6684
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_NTLM_string_byte__
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_NTLM_string_byte__:
 _p_230:
@@ -41640,7 +41751,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 6607
+.word 6689
 	.no_dead_strip plt_string_ToUpperInvariant
 plt_string_ToUpperInvariant:
 _p_231:
@@ -41648,7 +41759,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 6610
+.word 6692
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_232:
@@ -41656,7 +41767,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 6615
+.word 6697
 	.no_dead_strip plt_System_Security_Cryptography_HMACMD5__ctor_byte__
 plt_System_Security_Cryptography_HMACMD5__ctor_byte__:
 _p_233:
@@ -41664,7 +41775,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 6620
+.word 6702
 	.no_dead_strip plt_System_Security_Cryptography_HashAlgorithm_Clear
 plt_System_Security_Cryptography_HashAlgorithm_Clear:
 _p_234:
@@ -41672,7 +41783,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 6625
+.word 6707
 	.no_dead_strip plt_System_DateTime_get_Now
 plt_System_DateTime_get_Now:
 _p_235:
@@ -41680,7 +41791,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 6630
+.word 6712
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_Type2Message_get_TargetInfo
 plt_Mono_Security_Protocol_Ntlm_Type2Message_get_TargetInfo:
 _p_236:
@@ -41688,7 +41799,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 6635
+.word 6717
 	.no_dead_strip plt_Mono_Security_BitConverterLE_GetBytes_long
 plt_Mono_Security_BitConverterLE_GetBytes_long:
 _p_237:
@@ -41696,7 +41807,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 6638
+.word 6720
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_Type2Message_get_Nonce
 plt_Mono_Security_Protocol_Ntlm_Type2Message_get_Nonce:
 _p_238:
@@ -41704,7 +41815,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 6640
+.word 6722
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_LM_string_byte__
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_LM_string_byte__:
 _p_239:
@@ -41712,7 +41823,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 6643
+.word 6725
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_NTLMv2_Session_string_byte___byte____byte___
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_NTLMv2_Session_string_byte___byte____byte___:
 _p_240:
@@ -41720,7 +41831,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 6646
+.word 6728
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_NTLMv2_Mono_Security_Protocol_Ntlm_Type2Message_string_string_string
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_NTLMv2_Mono_Security_Protocol_Ntlm_Type2Message_string_string_string:
 _p_241:
@@ -41728,7 +41839,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 6649
+.word 6731
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_PrepareDESKey_byte___int
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_PrepareDESKey_byte___int:
 _p_242:
@@ -41736,7 +41847,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 6652
+.word 6734
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_MessageBase_CheckHeader_byte__
 plt_Mono_Security_Protocol_Ntlm_MessageBase_CheckHeader_byte__:
 _p_243:
@@ -41744,7 +41855,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 6655
+.word 6737
 	.no_dead_strip plt_System_ArgumentOutOfRangeException__ctor_string_object_string
 plt_System_ArgumentOutOfRangeException__ctor_string_object_string:
 _p_244:
@@ -41752,7 +41863,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 6658
+.word 6740
 	.no_dead_strip plt_Mono_Security_BitConverterLE_ToUInt32_byte___int
 plt_Mono_Security_BitConverterLE_ToUInt32_byte___int:
 _p_245:
@@ -41760,7 +41871,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 6663
+.word 6745
 	.no_dead_strip plt_System_Environment_get_UserDomainName
 plt_System_Environment_get_UserDomainName:
 _p_246:
@@ -41768,7 +41879,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 6665
+.word 6747
 	.no_dead_strip plt_System_Environment_get_MachineName
 plt_System_Environment_get_MachineName:
 _p_247:
@@ -41776,7 +41887,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 6670
+.word 6752
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_MessageBase_Decode_byte__
 plt_Mono_Security_Protocol_Ntlm_MessageBase_Decode_byte__:
 _p_248:
@@ -41784,7 +41895,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 6675
+.word 6757
 	.no_dead_strip plt_Mono_Security_BitConverterLE_ToUInt16_byte___int
 plt_Mono_Security_BitConverterLE_ToUInt16_byte___int:
 _p_249:
@@ -41792,7 +41903,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 6678
+.word 6760
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_MessageBase_PrepareMessage_int
 plt_Mono_Security_Protocol_Ntlm_MessageBase_PrepareMessage_int:
 _p_250:
@@ -41800,7 +41911,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 6680
+.word 6762
 	.no_dead_strip plt_System_Environment_get_UserName
 plt_System_Environment_get_UserName:
 _p_251:
@@ -41808,7 +41919,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 6683
+.word 6765
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_Type3Message_DecodeString_byte___int_int
 plt_Mono_Security_Protocol_Ntlm_Type3Message_DecodeString_byte___int_int:
 _p_252:
@@ -41816,7 +41927,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 6688
+.word 6770
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_Type3Message_EncodeString_string
 plt_Mono_Security_Protocol_Ntlm_Type3Message_EncodeString_string:
 _p_253:
@@ -41824,7 +41935,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 6691
+.word 6773
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse__ctor_string_byte__
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse__ctor_string_byte__:
 _p_254:
@@ -41832,7 +41943,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 6694
+.word 6776
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_get_LM
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_get_LM:
 _p_255:
@@ -41840,7 +41951,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 6697
+.word 6779
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_get_NT
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse_get_NT:
 _p_256:
@@ -41848,7 +41959,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 6700
+.word 6782
 	.no_dead_strip plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_Mono_Security_Protocol_Ntlm_Type2Message_Mono_Security_Protocol_Ntlm_NtlmAuthLevel_string_string_string_byte____byte___
 plt_Mono_Security_Protocol_Ntlm_ChallengeResponse2_Compute_Mono_Security_Protocol_Ntlm_Type2Message_Mono_Security_Protocol_Ntlm_NtlmAuthLevel_string_string_string_byte____byte___:
 _p_257:
@@ -41856,7 +41967,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 6703
+.word 6785
 	.no_dead_strip plt_Mono_Security_Interface_Alert_inferAlertLevel
 plt_Mono_Security_Interface_Alert_inferAlertLevel:
 _p_258:
@@ -41864,7 +41975,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 6706
+.word 6788
 	.no_dead_strip plt_string_Format_string_object_object
 plt_string_Format_string_object_object:
 _p_259:
@@ -41872,7 +41983,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 6709
+.word 6791
 	.no_dead_strip plt_Mono_Net_Security_NoReflectionHelper_GetInternalValidator_object_object
 plt_Mono_Net_Security_NoReflectionHelper_GetInternalValidator_object_object:
 _p_260:
@@ -41880,7 +41991,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 6714
+.word 6796
 	.no_dead_strip plt_Mono_Net_Security_NoReflectionHelper_GetProvider
 plt_Mono_Net_Security_NoReflectionHelper_GetProvider:
 _p_261:
@@ -41888,7 +41999,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 6719
+.word 6801
 	.no_dead_strip plt_Mono_Security_Interface_MonoTlsSettings__ctor
 plt_Mono_Security_Interface_MonoTlsSettings__ctor:
 _p_262:
@@ -41896,7 +42007,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 6724
+.word 6806
 	.no_dead_strip plt_Mono_Security_Interface_MonoTlsSettings_get_DefaultSettings
 plt_Mono_Security_Interface_MonoTlsSettings_get_DefaultSettings:
 _p_263:
@@ -41904,7 +42015,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 6727
+.word 6809
 	.no_dead_strip plt_Mono_Security_Interface_MonoTlsSettings_Clone
 plt_Mono_Security_Interface_MonoTlsSettings_Clone:
 _p_264:
@@ -41912,7 +42023,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 6730
+.word 6812
 	.no_dead_strip plt_Mono_Security_Interface_MonoTlsSettings__ctor_Mono_Security_Interface_MonoTlsSettings
 plt_Mono_Security_Interface_MonoTlsSettings__ctor_Mono_Security_Interface_MonoTlsSettings:
 _p_265:
@@ -41920,7 +42031,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 6733
+.word 6815
 	.no_dead_strip plt_System_Security_Cryptography_X509Certificates_X509CertificateCollection__ctor_System_Security_Cryptography_X509Certificates_X509CertificateCollection
 plt_System_Security_Cryptography_X509Certificates_X509CertificateCollection__ctor_System_Security_Cryptography_X509Certificates_X509CertificateCollection:
 _p_266:
@@ -41928,7 +42039,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 6736
+.word 6818
 	.no_dead_strip plt_Mono_Security_Interface_TlsException__ctor_Mono_Security_Interface_Alert_string
 plt_Mono_Security_Interface_TlsException__ctor_Mono_Security_Interface_Alert_string:
 _p_267:
@@ -41936,7 +42047,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 6741
+.word 6823
 	.no_dead_strip plt_System_Exception__ctor_string
 plt_System_Exception__ctor_string:
 _p_268:
@@ -41944,7 +42055,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 6744
+.word 6826
 	.no_dead_strip plt_Mono_Security_Interface_Alert__ctor_Mono_Security_Interface_AlertDescription
 plt_Mono_Security_Interface_Alert__ctor_Mono_Security_Interface_AlertDescription:
 _p_269:
@@ -41952,7 +42063,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 6749
+.word 6831
 	.no_dead_strip plt_Mono_Security_Interface_TlsException__ctor_Mono_Security_Interface_Alert
 plt_Mono_Security_Interface_TlsException__ctor_Mono_Security_Interface_Alert:
 _p_270:
@@ -41960,7 +42071,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 6752
+.word 6834
 	.no_dead_strip plt_intptr_op_Inequality_intptr_intptr
 plt_intptr_op_Inequality_intptr_intptr:
 _p_271:
@@ -41968,7 +42079,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 6755
+.word 6837
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr
 plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr:
 _p_272:
@@ -41976,7 +42087,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 6760
+.word 6842
 	.no_dead_strip plt_System_Security_Cryptography_HashAlgorithm_Dispose_bool
 plt_System_Security_Cryptography_HashAlgorithm_Dispose_bool:
 _p_273:
@@ -41984,7 +42095,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 6765
+.word 6847
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int
 plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int:
 _p_274:
@@ -41992,7 +42103,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 6770
+.word 6852
 	.no_dead_strip plt_Mono_Security_Cryptography_MD2Managed_Init_intptr
 plt_Mono_Security_Cryptography_MD2Managed_Init_intptr:
 _p_275:
@@ -42000,7 +42111,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 6775
+.word 6857
 	.no_dead_strip plt_System_Security_Cryptography_CryptographicException__ctor_int
 plt_System_Security_Cryptography_CryptographicException__ctor_int:
 _p_276:
@@ -42008,7 +42119,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 6778
+.word 6860
 	.no_dead_strip plt_Mono_Security_Cryptography_MD2Managed_Update_intptr_intptr_uint
 plt_Mono_Security_Cryptography_MD2Managed_Update_intptr_intptr_uint:
 _p_277:
@@ -42016,7 +42127,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 6783
+.word 6865
 	.no_dead_strip plt_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr
 plt_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr:
 _p_278:
@@ -42024,7 +42135,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 6786
+.word 6868
 	.no_dead_strip plt_Mono_Security_Cryptography_MD4Managed_Init_intptr
 plt_Mono_Security_Cryptography_MD4Managed_Init_intptr:
 _p_279:
@@ -42032,7 +42143,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 6789
+.word 6871
 	.no_dead_strip plt_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint
 plt_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint:
 _p_280:
@@ -42040,7 +42151,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 6792
+.word 6874
 	.no_dead_strip plt_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr
 plt_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr:
 _p_281:
@@ -42048,7 +42159,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 6795
+.word 6877
 	.no_dead_strip plt_System_Security_Cryptography_RIPEMD160_Create
 plt_System_Security_Cryptography_RIPEMD160_Create:
 _p_282:
@@ -42056,7 +42167,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 6798
+.word 6880
 	.no_dead_strip plt_System_Type_GetType_string
 plt_System_Type_GetType_string:
 _p_283:
@@ -42064,7 +42175,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 6803
+.word 6885
 	.no_dead_strip plt_System_Activator_CreateInstance_System_Type
 plt_System_Activator_CreateInstance_System_Type:
 _p_284:
@@ -42072,7 +42183,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 6808
+.word 6890
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_Decode_byte__
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_Decode_byte__:
 _p_285:
@@ -42080,7 +42191,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 6813
+.word 6895
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_RemoveLeadingZero_byte__
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_RemoveLeadingZero_byte__:
 _p_286:
@@ -42088,7 +42199,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 6816
+.word 6898
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_Normalize_byte___int
 plt_Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_Normalize_byte___int:
 _p_287:
@@ -42096,7 +42207,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 6819
+.word 6901
 	.no_dead_strip plt_System_Security_Cryptography_RSA_Create
 plt_System_Security_Cryptography_RSA_Create:
 _p_288:
@@ -42104,7 +42215,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 6822
+.word 6904
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_289:
@@ -42112,7 +42223,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 6827
+.word 6909
 	.no_dead_strip plt_Mono_Security_ASN1Convert_FromUnsignedBigInteger_byte__
 plt_Mono_Security_ASN1Convert_FromUnsignedBigInteger_byte__:
 _p_290:
@@ -42120,7 +42231,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 6857
+.word 6939
 	.no_dead_strip plt_System_Security_Cryptography_DSA_Create
 plt_System_Security_Cryptography_DSA_Create:
 _p_291:
@@ -42128,7 +42239,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 6859
+.word 6941
 	.no_dead_strip plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_Decode_byte__
 plt_Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_Decode_byte__:
 _p_292:
@@ -42136,7 +42247,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 6864
+.word 6946
 	.no_dead_strip plt_Mono_Math_BigInteger_GeneratePseudoPrime_int
 plt_Mono_Math_BigInteger_GeneratePseudoPrime_int:
 _p_293:
@@ -42144,7 +42255,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 6867
+.word 6949
 	.no_dead_strip plt_Mono_Math_BigInteger_op_LessThan_Mono_Math_BigInteger_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_op_LessThan_Mono_Math_BigInteger_Mono_Math_BigInteger:
 _p_294:
@@ -42152,7 +42263,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 6869
+.word 6951
 	.no_dead_strip plt_Mono_Math_BigInteger_ModInverse_Mono_Math_BigInteger
 plt_Mono_Math_BigInteger_ModInverse_Mono_Math_BigInteger:
 _p_295:
@@ -42160,7 +42271,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 6871
+.word 6953
 	.no_dead_strip plt_Mono_Security_Cryptography_RSAManaged_GenerateKeyPair
 plt_Mono_Security_Cryptography_RSAManaged_GenerateKeyPair:
 _p_296:
@@ -42168,7 +42279,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 6873
+.word 6955
 	.no_dead_strip plt_Mono_Math_BigInteger_GetBytes
 plt_Mono_Math_BigInteger_GetBytes:
 _p_297:
@@ -42176,7 +42287,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 6876
+.word 6958
 	.no_dead_strip plt_Mono_Security_Cryptography_RSAManaged_GetPaddedValue_Mono_Math_BigInteger_int
 plt_Mono_Security_Cryptography_RSAManaged_GetPaddedValue_Mono_Math_BigInteger_int:
 _p_298:
@@ -42184,7 +42295,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 6878
+.word 6960
 	.no_dead_strip plt_Mono_Math_BigInteger__ctor_byte__
 plt_Mono_Math_BigInteger__ctor_byte__:
 _p_299:
@@ -42192,7 +42303,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 6881
+.word 6963
 	.no_dead_strip plt_Mono_Math_BigInteger_Clear
 plt_Mono_Math_BigInteger_Clear:
 _p_300:
@@ -42200,7 +42311,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 6883
+.word 6965
 	.no_dead_strip plt_System_Convert_ToBase64String_byte__
 plt_System_Convert_ToBase64String_byte__:
 _p_301:
@@ -42208,7 +42319,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 6885
+.word 6967
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_302:
@@ -42216,7 +42327,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 6890
+.word 6972
 	.no_dead_strip plt_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object
 plt_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object:
 _p_303:
@@ -42224,7 +42335,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 6919
+.word 7001
 	.no_dead_strip plt_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Equals_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
 plt_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Equals_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors:
 _p_304:
@@ -42232,7 +42343,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 6937
+.word 7019
 	.no_dead_strip plt_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors__ctor_Mono_Security_Interface_MonoSslPolicyErrors
 plt_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors__ctor_Mono_Security_Interface_MonoSslPolicyErrors:
 _p_305:
@@ -42240,7 +42351,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 6955
+.word 7037
 	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
 plt_System_Nullable_1_bool_Unbox_object:
 _p_306:
@@ -42248,7 +42359,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 6973
+.word 7055
 	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
 plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_307:
@@ -42256,7 +42367,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 6993
+.word 7075
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_308:
@@ -42264,7 +42375,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 7013
+.word 7095
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_309:
@@ -42272,7 +42383,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 7018
+.word 7100
 	.no_dead_strip plt_System_Nullable_1_System_DateTime_Unbox_object
 plt_System_Nullable_1_System_DateTime_Unbox_object:
 _p_310:
@@ -42280,7 +42391,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 7038
+.word 7120
 	.no_dead_strip plt_System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime
 plt_System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime:
 _p_311:
@@ -42288,7 +42399,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 7058
+.word 7140
 	.no_dead_strip plt_System_DateTime_Equals_object
 plt_System_DateTime_Equals_object:
 _p_312:
@@ -42296,7 +42407,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 7078
+.word 7160
 	.no_dead_strip plt_System_DateTime_ToString
 plt_System_DateTime_ToString:
 _p_313:
@@ -42304,7 +42415,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 7083
+.word 7165
 	.no_dead_strip plt_System_Nullable_1_System_DateTime__ctor_System_DateTime
 plt_System_Nullable_1_System_DateTime__ctor_System_DateTime:
 _p_314:
@@ -42312,7 +42423,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 7088
+.word 7170
 	.no_dead_strip plt_System_Nullable_1_Mono_Security_Interface_TlsProtocols_UnboxExact_object
 plt_System_Nullable_1_Mono_Security_Interface_TlsProtocols_UnboxExact_object:
 _p_315:
@@ -42320,7 +42431,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 7108
+.word 7190
 	.no_dead_strip plt_System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_System_Nullable_1_Mono_Security_Interface_TlsProtocols
 plt_System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_System_Nullable_1_Mono_Security_Interface_TlsProtocols:
 _p_316:
@@ -42328,7 +42439,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 7126
+.word 7208
 	.no_dead_strip plt_System_Nullable_1_Mono_Security_Interface_TlsProtocols__ctor_Mono_Security_Interface_TlsProtocols
 plt_System_Nullable_1_Mono_Security_Interface_TlsProtocols__ctor_Mono_Security_Interface_TlsProtocols:
 _p_317:
@@ -42336,7 +42447,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 7144
+.word 7226
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
 plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_318:
@@ -42344,7 +42455,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 7162
+.word 7244
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_319:
@@ -42352,7 +42463,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 7214
+.word 7296
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_320:
@@ -42360,7 +42471,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 7252
+.word 7334
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_321:
@@ -42368,7 +42479,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 7281
+.word 7363
 	.no_dead_strip plt__jit_icall_mono_array_to_lparray
 plt__jit_icall_mono_array_to_lparray:
 _p_322:
@@ -42376,7 +42487,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 7308
+.word 7390
 	.no_dead_strip plt__jit_icall_mono_free_lparray
 plt__jit_icall_mono_free_lparray:
 _p_323:
@@ -42384,7 +42495,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 7332
+.word 7414
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_324:
@@ -42392,7 +42503,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 7370
+.word 7453
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_325:
@@ -42400,7 +42511,7 @@ adrp x16, mono_aot_Mono_Security_got@PAGE+4096
 add x16, x16, mono_aot_Mono_Security_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 7393
+.word 7477
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -42514,13 +42625,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 307,5064,326,502,66,391195135,0,77827
-	.long 128,8,8,8,0,25,83688,5848
-	.long 5560,3536,0,4488,5424,4064,0,2928
-	.long 720,5840,0,0,0,0,0,0
+	.long 307,5064,326,506,66,391195135,0,78081
+	.long 128,8,8,8,0,25,83992,5904
+	.long 5616,3584,0,4536,5480,4112,0,2944
+	.long 728,5896,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 66,24,133,48,193,103,97,63,248,22,57,130,34,15,254,134
+	.byte 163,252,205,33,127,28,109,109,87,154,152,241,159,225,119,196
 	.globl _mono_aot_module_Mono_Security_info
 	.align 3
 _mono_aot_module_Mono_Security_info:
@@ -64371,11 +64482,11 @@ Lfde378_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>:ToString"
-	.asciz "System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ToString"
+	.asciz "System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>:GetValueOrDefault"
+	.asciz "System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetValueOrDefault_Mono_Security_Interface_MonoSslPolicyErrors"
 
-	.byte 37,152,1
-	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ToString
+	.byte 37,147,1
+	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetValueOrDefault_Mono_Security_Interface_MonoSslPolicyErrors
 	.quad Lme_1b2
 
 	.byte 2,118,16,3
@@ -64383,24 +64494,63 @@ Lfde378_end:
 
 LDIFF_SYM2671=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2671
+	.byte 2,141,16,3
+	.asciz "defaultValue"
+
+LDIFF_SYM2672=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM2672
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2673=Lfde379_end - Lfde379_start
+	.long LDIFF_SYM2673
+Lfde379_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetValueOrDefault_Mono_Security_Interface_MonoSslPolicyErrors
+
+LDIFF_SYM2674=Lme_1b2 - System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_GetValueOrDefault_Mono_Security_Interface_MonoSslPolicyErrors
+	.long LDIFF_SYM2674
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde379_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>:ToString"
+	.asciz "System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ToString"
+
+	.byte 37,152,1
+	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ToString
+	.quad Lme_1b3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2675=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2675
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2672=Lfde379_end - Lfde379_start
-	.long LDIFF_SYM2672
-Lfde379_start:
+LDIFF_SYM2676=Lfde380_end - Lfde380_start
+	.long LDIFF_SYM2676
+Lfde380_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ToString
 
-LDIFF_SYM2673=Lme_1b2 - System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ToString
-	.long LDIFF_SYM2673
+LDIFF_SYM2677=Lme_1b3 - System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ToString
+	.long LDIFF_SYM2677
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde379_end:
+Lfde380_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64410,53 +64560,14 @@ Lfde379_end:
 
 	.byte 37,177,1
 	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
-	.quad Lme_1b3
-
-	.byte 2,118,16,3
-	.asciz "o"
-
-LDIFF_SYM2674=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2674
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2675=Lfde380_end - Lfde380_start
-	.long LDIFF_SYM2675
-Lfde380_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
-
-LDIFF_SYM2676=Lme_1b3 - System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
-	.long LDIFF_SYM2676
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde380_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>:Unbox"
-	.asciz "System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object"
-
-	.byte 37,185,1
-	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object
 	.quad Lme_1b4
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2677=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2677
-	.byte 2,141,32,11
-	.asciz "V_0"
-
 LDIFF_SYM2678=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2678
-	.byte 2,141,48,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -64466,23 +64577,23 @@ Lfde381_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object
+	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
 
-LDIFF_SYM2680=Lme_1b4 - System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object
+LDIFF_SYM2680=Lme_1b4 - System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Box_System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors
 	.long LDIFF_SYM2680
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde381_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>:UnboxExact"
-	.asciz "System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object"
+	.asciz "System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>:Unbox"
+	.asciz "System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object"
 
-	.byte 37,192,1
-	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object
+	.byte 37,185,1
+	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object
 	.quad Lme_1b5
 
 	.byte 2,118,16,3
@@ -64490,7 +64601,7 @@ Lfde381_end:
 
 LDIFF_SYM2681=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM2681
-	.byte 1,106,11
+	.byte 2,141,32,11
 	.asciz "V_0"
 
 LDIFF_SYM2682=LDIE_I4 - Ldebug_info_start
@@ -64505,14 +64616,53 @@ Lfde382_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object
+
+LDIFF_SYM2684=Lme_1b5 - System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_Unbox_object
+	.long LDIFF_SYM2684
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde382_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>:UnboxExact"
+	.asciz "System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object"
+
+	.byte 37,192,1
+	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object
+	.quad Lme_1b6
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM2685=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2685
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2686=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2686
+	.byte 2,141,48,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2687=Lfde383_end - Lfde383_start
+	.long LDIFF_SYM2687
+Lfde383_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object
 
-LDIFF_SYM2684=Lme_1b5 - System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object
-	.long LDIFF_SYM2684
+LDIFF_SYM2688=Lme_1b6 - System_Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_UnboxExact_object
+	.long LDIFF_SYM2688
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde382_end:
+Lfde383_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_98:
@@ -64521,69 +64671,69 @@ LTDIE_98:
 	.asciz "System_Nullable`1"
 
 	.byte 18,16
-LDIFF_SYM2685=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2685
+LDIFF_SYM2689=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2689
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM2686=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2686
+LDIFF_SYM2690=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2690
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM2687=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2687
+LDIFF_SYM2691=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2691
 	.byte 2,35,17,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM2688=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM2688
+LDIFF_SYM2692=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM2692
 LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM2689=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM2689
+LDIFF_SYM2693=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM2693
 LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2690=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM2690
+LDIFF_SYM2694=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM2694
 	.byte 2
 	.asciz "System.Nullable`1<bool>:.ctor"
 	.asciz "System_Nullable_1_bool__ctor_bool"
 
 	.byte 37,94
 	.quad System_Nullable_1_bool__ctor_bool
-	.quad Lme_1b6
+	.quad Lme_1b7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2691=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2691
+LDIFF_SYM2695=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2695
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM2692=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2692
+LDIFF_SYM2696=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2696
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2693=Lfde383_end - Lfde383_start
-	.long LDIFF_SYM2693
-Lfde383_start:
+LDIFF_SYM2697=Lfde384_end - Lfde384_start
+	.long LDIFF_SYM2697
+Lfde384_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool__ctor_bool
 
-LDIFF_SYM2694=Lme_1b6 - System_Nullable_1_bool__ctor_bool
-	.long LDIFF_SYM2694
+LDIFF_SYM2698=Lme_1b7 - System_Nullable_1_bool__ctor_bool
+	.long LDIFF_SYM2698
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde383_end:
+Lfde384_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64593,31 +64743,31 @@ Lfde383_end:
 
 	.byte 37,99
 	.quad System_Nullable_1_bool_get_HasValue
-	.quad Lme_1b7
+	.quad Lme_1b8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2695=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2695
+LDIFF_SYM2699=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2699
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2696=Lfde384_end - Lfde384_start
-	.long LDIFF_SYM2696
-Lfde384_start:
+LDIFF_SYM2700=Lfde385_end - Lfde385_start
+	.long LDIFF_SYM2700
+Lfde385_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_get_HasValue
 
-LDIFF_SYM2697=Lme_1b7 - System_Nullable_1_bool_get_HasValue
-	.long LDIFF_SYM2697
+LDIFF_SYM2701=Lme_1b8 - System_Nullable_1_bool_get_HasValue
+	.long LDIFF_SYM2701
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde384_end:
+Lfde385_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64627,53 +64777,14 @@ Lfde384_end:
 
 	.byte 37,104
 	.quad System_Nullable_1_bool_get_Value
-	.quad Lme_1b8
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2698=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2698
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2699=Lfde385_end - Lfde385_start
-	.long LDIFF_SYM2699
-Lfde385_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_bool_get_Value
-
-LDIFF_SYM2700=Lme_1b8 - System_Nullable_1_bool_get_Value
-	.long LDIFF_SYM2700
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde385_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<bool>:Equals"
-	.asciz "System_Nullable_1_bool_Equals_object"
-
-	.byte 37,113
-	.quad System_Nullable_1_bool_Equals_object
 	.quad Lme_1b9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2701=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2701
-	.byte 2,141,32,3
-	.asciz "other"
-
-LDIFF_SYM2702=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM2702=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2702
-	.byte 1,106,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -64683,12 +64794,12 @@ Lfde386_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_bool_Equals_object
+	.quad System_Nullable_1_bool_get_Value
 
-LDIFF_SYM2704=Lme_1b9 - System_Nullable_1_bool_Equals_object
+LDIFF_SYM2704=Lme_1b9 - System_Nullable_1_bool_get_Value
 	.long LDIFF_SYM2704
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde386_end:
 
@@ -64696,10 +64807,10 @@ Lfde386_end:
 
 	.byte 2
 	.asciz "System.Nullable`1<bool>:Equals"
-	.asciz "System_Nullable_1_bool_Equals_System_Nullable_1_bool"
+	.asciz "System_Nullable_1_bool_Equals_object"
 
-	.byte 37,123
-	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
+	.byte 37,113
+	.quad System_Nullable_1_bool_Equals_object
 	.quad Lme_1ba
 
 	.byte 2,118,16,3
@@ -64707,12 +64818,12 @@ Lfde386_end:
 
 LDIFF_SYM2705=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2705
-	.byte 2,141,16,3
+	.byte 2,141,32,3
 	.asciz "other"
 
-LDIFF_SYM2706=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2706=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM2706
-	.byte 2,141,24,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -64722,14 +64833,53 @@ Lfde387_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_bool_Equals_object
+
+LDIFF_SYM2708=Lme_1ba - System_Nullable_1_bool_Equals_object
+	.long LDIFF_SYM2708
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
+	.align 3
+Lfde387_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:Equals"
+	.asciz "System_Nullable_1_bool_Equals_System_Nullable_1_bool"
+
+	.byte 37,123
+	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
+	.quad Lme_1bb
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2709=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2709
+	.byte 2,141,16,3
+	.asciz "other"
+
+LDIFF_SYM2710=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2710
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2711=Lfde388_end - Lfde388_start
+	.long LDIFF_SYM2711
+Lfde388_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
 
-LDIFF_SYM2708=Lme_1ba - System_Nullable_1_bool_Equals_System_Nullable_1_bool
-	.long LDIFF_SYM2708
+LDIFF_SYM2712=Lme_1bb - System_Nullable_1_bool_Equals_System_Nullable_1_bool
+	.long LDIFF_SYM2712
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde387_end:
+Lfde388_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64739,31 +64889,31 @@ Lfde387_end:
 
 	.byte 37,134,1
 	.quad System_Nullable_1_bool_GetHashCode
-	.quad Lme_1bb
+	.quad Lme_1bc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2709=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2709
+LDIFF_SYM2713=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2713
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2710=Lfde388_end - Lfde388_start
-	.long LDIFF_SYM2710
-Lfde388_start:
+LDIFF_SYM2714=Lfde389_end - Lfde389_start
+	.long LDIFF_SYM2714
+Lfde389_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetHashCode
 
-LDIFF_SYM2711=Lme_1bb - System_Nullable_1_bool_GetHashCode
-	.long LDIFF_SYM2711
+LDIFF_SYM2715=Lme_1bc - System_Nullable_1_bool_GetHashCode
+	.long LDIFF_SYM2715
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde388_end:
+Lfde389_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64773,31 +64923,70 @@ Lfde388_end:
 
 	.byte 37,142,1
 	.quad System_Nullable_1_bool_GetValueOrDefault
-	.quad Lme_1bc
+	.quad Lme_1bd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2712=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2712
+LDIFF_SYM2716=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2716
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2713=Lfde389_end - Lfde389_start
-	.long LDIFF_SYM2713
-Lfde389_start:
+LDIFF_SYM2717=Lfde390_end - Lfde390_start
+	.long LDIFF_SYM2717
+Lfde390_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetValueOrDefault
 
-LDIFF_SYM2714=Lme_1bc - System_Nullable_1_bool_GetValueOrDefault
-	.long LDIFF_SYM2714
+LDIFF_SYM2718=Lme_1bd - System_Nullable_1_bool_GetValueOrDefault
+	.long LDIFF_SYM2718
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde389_end:
+Lfde390_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:GetValueOrDefault"
+	.asciz "System_Nullable_1_bool_GetValueOrDefault_bool"
+
+	.byte 37,147,1
+	.quad System_Nullable_1_bool_GetValueOrDefault_bool
+	.quad Lme_1be
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2719=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2719
+	.byte 2,141,16,3
+	.asciz "defaultValue"
+
+LDIFF_SYM2720=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2720
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2721=Lfde391_end - Lfde391_start
+	.long LDIFF_SYM2721
+Lfde391_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_bool_GetValueOrDefault_bool
+
+LDIFF_SYM2722=Lme_1be - System_Nullable_1_bool_GetValueOrDefault_bool
+	.long LDIFF_SYM2722
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde391_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64807,31 +64996,31 @@ Lfde389_end:
 
 	.byte 37,152,1
 	.quad System_Nullable_1_bool_ToString
-	.quad Lme_1bd
+	.quad Lme_1bf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2715=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2715
+LDIFF_SYM2723=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2723
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2716=Lfde390_end - Lfde390_start
-	.long LDIFF_SYM2716
-Lfde390_start:
+LDIFF_SYM2724=Lfde392_end - Lfde392_start
+	.long LDIFF_SYM2724
+Lfde392_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_ToString
 
-LDIFF_SYM2717=Lme_1bd - System_Nullable_1_bool_ToString
-	.long LDIFF_SYM2717
+LDIFF_SYM2725=Lme_1bf - System_Nullable_1_bool_ToString
+	.long LDIFF_SYM2725
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde390_end:
+Lfde392_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64841,92 +65030,14 @@ Lfde390_end:
 
 	.byte 37,177,1
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.quad Lme_1be
-
-	.byte 2,118,16,3
-	.asciz "o"
-
-LDIFF_SYM2718=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2718
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2719=Lfde391_end - Lfde391_start
-	.long LDIFF_SYM2719
-Lfde391_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
-
-LDIFF_SYM2720=Lme_1be - System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.long LDIFF_SYM2720
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde391_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<bool>:Unbox"
-	.asciz "System_Nullable_1_bool_Unbox_object"
-
-	.byte 37,185,1
-	.quad System_Nullable_1_bool_Unbox_object
-	.quad Lme_1bf
-
-	.byte 2,118,16,3
-	.asciz "o"
-
-LDIFF_SYM2721=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2721
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM2722=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2722
-	.byte 2,141,48,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2723=Lfde392_end - Lfde392_start
-	.long LDIFF_SYM2723
-Lfde392_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_bool_Unbox_object
-
-LDIFF_SYM2724=Lme_1bf - System_Nullable_1_bool_Unbox_object
-	.long LDIFF_SYM2724
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde392_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<bool>:UnboxExact"
-	.asciz "System_Nullable_1_bool_UnboxExact_object"
-
-	.byte 37,192,1
-	.quad System_Nullable_1_bool_UnboxExact_object
 	.quad Lme_1c0
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2725=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2725
-	.byte 1,106,11
-	.asciz "V_0"
-
 LDIFF_SYM2726=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2726
-	.byte 2,141,48,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -64936,14 +65047,92 @@ Lfde393_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
+
+LDIFF_SYM2728=Lme_1c0 - System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.long LDIFF_SYM2728
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde393_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:Unbox"
+	.asciz "System_Nullable_1_bool_Unbox_object"
+
+	.byte 37,185,1
+	.quad System_Nullable_1_bool_Unbox_object
+	.quad Lme_1c1
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM2729=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2729
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM2730=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2730
+	.byte 2,141,48,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2731=Lfde394_end - Lfde394_start
+	.long LDIFF_SYM2731
+Lfde394_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_bool_Unbox_object
+
+LDIFF_SYM2732=Lme_1c1 - System_Nullable_1_bool_Unbox_object
+	.long LDIFF_SYM2732
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde394_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:UnboxExact"
+	.asciz "System_Nullable_1_bool_UnboxExact_object"
+
+	.byte 37,192,1
+	.quad System_Nullable_1_bool_UnboxExact_object
+	.quad Lme_1c2
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM2733=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2733
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2734=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2734
+	.byte 2,141,48,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2735=Lfde395_end - Lfde395_start
+	.long LDIFF_SYM2735
+Lfde395_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_bool_UnboxExact_object
 
-LDIFF_SYM2728=Lme_1c0 - System_Nullable_1_bool_UnboxExact_object
-	.long LDIFF_SYM2728
+LDIFF_SYM2736=Lme_1c2 - System_Nullable_1_bool_UnboxExact_object
+	.long LDIFF_SYM2736
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde393_end:
+Lfde395_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_99:
@@ -64952,69 +65141,69 @@ LTDIE_99:
 	.asciz "System_Nullable`1"
 
 	.byte 32,16
-LDIFF_SYM2729=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2729
+LDIFF_SYM2737=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2737
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM2730=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2730
+LDIFF_SYM2738=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2738
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM2731=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2731
+LDIFF_SYM2739=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2739
 	.byte 2,35,24,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM2732=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM2732
+LDIFF_SYM2740=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM2740
 LTDIE_99_POINTER:
 
 	.byte 13
-LDIFF_SYM2733=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM2733
+LDIFF_SYM2741=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM2741
 LTDIE_99_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2734=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM2734
+LDIFF_SYM2742=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM2742
 	.byte 2
 	.asciz "System.Nullable`1<System.DateTime>:.ctor"
 	.asciz "System_Nullable_1_System_DateTime__ctor_System_DateTime"
 
 	.byte 37,94
 	.quad System_Nullable_1_System_DateTime__ctor_System_DateTime
-	.quad Lme_1c1
+	.quad Lme_1c3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2735=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2735
+LDIFF_SYM2743=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2743
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM2736=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2736
+LDIFF_SYM2744=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2744
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2737=Lfde394_end - Lfde394_start
-	.long LDIFF_SYM2737
-Lfde394_start:
+LDIFF_SYM2745=Lfde396_end - Lfde396_start
+	.long LDIFF_SYM2745
+Lfde396_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_System_DateTime__ctor_System_DateTime
 
-LDIFF_SYM2738=Lme_1c1 - System_Nullable_1_System_DateTime__ctor_System_DateTime
-	.long LDIFF_SYM2738
+LDIFF_SYM2746=Lme_1c3 - System_Nullable_1_System_DateTime__ctor_System_DateTime
+	.long LDIFF_SYM2746
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde394_end:
+Lfde396_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65024,31 +65213,31 @@ Lfde394_end:
 
 	.byte 37,99
 	.quad System_Nullable_1_System_DateTime_get_HasValue
-	.quad Lme_1c2
+	.quad Lme_1c4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2739=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2739
+LDIFF_SYM2747=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2747
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2740=Lfde395_end - Lfde395_start
-	.long LDIFF_SYM2740
-Lfde395_start:
+LDIFF_SYM2748=Lfde397_end - Lfde397_start
+	.long LDIFF_SYM2748
+Lfde397_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_System_DateTime_get_HasValue
 
-LDIFF_SYM2741=Lme_1c2 - System_Nullable_1_System_DateTime_get_HasValue
-	.long LDIFF_SYM2741
+LDIFF_SYM2749=Lme_1c4 - System_Nullable_1_System_DateTime_get_HasValue
+	.long LDIFF_SYM2749
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde395_end:
+Lfde397_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65058,92 +65247,14 @@ Lfde395_end:
 
 	.byte 37,104
 	.quad System_Nullable_1_System_DateTime_get_Value
-	.quad Lme_1c3
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2742=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2742
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2743=Lfde396_end - Lfde396_start
-	.long LDIFF_SYM2743
-Lfde396_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_System_DateTime_get_Value
-
-LDIFF_SYM2744=Lme_1c3 - System_Nullable_1_System_DateTime_get_Value
-	.long LDIFF_SYM2744
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde396_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<System.DateTime>:Equals"
-	.asciz "System_Nullable_1_System_DateTime_Equals_object"
-
-	.byte 37,113
-	.quad System_Nullable_1_System_DateTime_Equals_object
-	.quad Lme_1c4
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2745=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2745
-	.byte 2,141,32,3
-	.asciz "other"
-
-LDIFF_SYM2746=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2746
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2747=Lfde397_end - Lfde397_start
-	.long LDIFF_SYM2747
-Lfde397_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_System_DateTime_Equals_object
-
-LDIFF_SYM2748=Lme_1c4 - System_Nullable_1_System_DateTime_Equals_object
-	.long LDIFF_SYM2748
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
-	.align 3
-Lfde397_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<System.DateTime>:Equals"
-	.asciz "System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime"
-
-	.byte 37,123
-	.quad System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime
 	.quad Lme_1c5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2749=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2749
-	.byte 2,141,16,3
-	.asciz "other"
-
-LDIFF_SYM2750=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2750=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2750
-	.byte 2,141,24,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -65153,14 +65264,92 @@ Lfde398_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_System_DateTime_get_Value
+
+LDIFF_SYM2752=Lme_1c5 - System_Nullable_1_System_DateTime_get_Value
+	.long LDIFF_SYM2752
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde398_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<System.DateTime>:Equals"
+	.asciz "System_Nullable_1_System_DateTime_Equals_object"
+
+	.byte 37,113
+	.quad System_Nullable_1_System_DateTime_Equals_object
+	.quad Lme_1c6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2753=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2753
+	.byte 2,141,32,3
+	.asciz "other"
+
+LDIFF_SYM2754=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2754
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2755=Lfde399_end - Lfde399_start
+	.long LDIFF_SYM2755
+Lfde399_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_System_DateTime_Equals_object
+
+LDIFF_SYM2756=Lme_1c6 - System_Nullable_1_System_DateTime_Equals_object
+	.long LDIFF_SYM2756
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
+	.align 3
+Lfde399_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<System.DateTime>:Equals"
+	.asciz "System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime"
+
+	.byte 37,123
+	.quad System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime
+	.quad Lme_1c7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2757=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2757
+	.byte 2,141,16,3
+	.asciz "other"
+
+LDIFF_SYM2758=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2758
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2759=Lfde400_end - Lfde400_start
+	.long LDIFF_SYM2759
+Lfde400_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime
 
-LDIFF_SYM2752=Lme_1c5 - System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime
-	.long LDIFF_SYM2752
+LDIFF_SYM2760=Lme_1c7 - System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime
+	.long LDIFF_SYM2760
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde398_end:
+Lfde400_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65170,31 +65359,31 @@ Lfde398_end:
 
 	.byte 37,134,1
 	.quad System_Nullable_1_System_DateTime_GetHashCode
-	.quad Lme_1c6
+	.quad Lme_1c8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2753=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2753
+LDIFF_SYM2761=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2761
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2754=Lfde399_end - Lfde399_start
-	.long LDIFF_SYM2754
-Lfde399_start:
+LDIFF_SYM2762=Lfde401_end - Lfde401_start
+	.long LDIFF_SYM2762
+Lfde401_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_System_DateTime_GetHashCode
 
-LDIFF_SYM2755=Lme_1c6 - System_Nullable_1_System_DateTime_GetHashCode
-	.long LDIFF_SYM2755
+LDIFF_SYM2763=Lme_1c8 - System_Nullable_1_System_DateTime_GetHashCode
+	.long LDIFF_SYM2763
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde399_end:
+Lfde401_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65204,31 +65393,70 @@ Lfde399_end:
 
 	.byte 37,142,1
 	.quad System_Nullable_1_System_DateTime_GetValueOrDefault
-	.quad Lme_1c7
+	.quad Lme_1c9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2756=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2756
+LDIFF_SYM2764=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2764
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2757=Lfde400_end - Lfde400_start
-	.long LDIFF_SYM2757
-Lfde400_start:
+LDIFF_SYM2765=Lfde402_end - Lfde402_start
+	.long LDIFF_SYM2765
+Lfde402_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_System_DateTime_GetValueOrDefault
 
-LDIFF_SYM2758=Lme_1c7 - System_Nullable_1_System_DateTime_GetValueOrDefault
-	.long LDIFF_SYM2758
+LDIFF_SYM2766=Lme_1c9 - System_Nullable_1_System_DateTime_GetValueOrDefault
+	.long LDIFF_SYM2766
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde400_end:
+Lfde402_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<System.DateTime>:GetValueOrDefault"
+	.asciz "System_Nullable_1_System_DateTime_GetValueOrDefault_System_DateTime"
+
+	.byte 37,147,1
+	.quad System_Nullable_1_System_DateTime_GetValueOrDefault_System_DateTime
+	.quad Lme_1ca
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2767=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2767
+	.byte 2,141,32,3
+	.asciz "defaultValue"
+
+LDIFF_SYM2768=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2768
+	.byte 2,141,40,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2769=Lfde403_end - Lfde403_start
+	.long LDIFF_SYM2769
+Lfde403_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_System_DateTime_GetValueOrDefault_System_DateTime
+
+LDIFF_SYM2770=Lme_1ca - System_Nullable_1_System_DateTime_GetValueOrDefault_System_DateTime
+	.long LDIFF_SYM2770
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde403_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65238,31 +65466,31 @@ Lfde400_end:
 
 	.byte 37,152,1
 	.quad System_Nullable_1_System_DateTime_ToString
-	.quad Lme_1c8
+	.quad Lme_1cb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2759=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2759
+LDIFF_SYM2771=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2771
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2760=Lfde401_end - Lfde401_start
-	.long LDIFF_SYM2760
-Lfde401_start:
+LDIFF_SYM2772=Lfde404_end - Lfde404_start
+	.long LDIFF_SYM2772
+Lfde404_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_System_DateTime_ToString
 
-LDIFF_SYM2761=Lme_1c8 - System_Nullable_1_System_DateTime_ToString
-	.long LDIFF_SYM2761
+LDIFF_SYM2773=Lme_1cb - System_Nullable_1_System_DateTime_ToString
+	.long LDIFF_SYM2773
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde401_end:
+Lfde404_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65272,31 +65500,31 @@ Lfde401_end:
 
 	.byte 37,177,1
 	.quad System_Nullable_1_System_DateTime_Box_System_Nullable_1_System_DateTime
-	.quad Lme_1c9
+	.quad Lme_1cc
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2762=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2762
+LDIFF_SYM2774=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2774
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2763=Lfde402_end - Lfde402_start
-	.long LDIFF_SYM2763
-Lfde402_start:
+LDIFF_SYM2775=Lfde405_end - Lfde405_start
+	.long LDIFF_SYM2775
+Lfde405_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_System_DateTime_Box_System_Nullable_1_System_DateTime
 
-LDIFF_SYM2764=Lme_1c9 - System_Nullable_1_System_DateTime_Box_System_Nullable_1_System_DateTime
-	.long LDIFF_SYM2764
+LDIFF_SYM2776=Lme_1cc - System_Nullable_1_System_DateTime_Box_System_Nullable_1_System_DateTime
+	.long LDIFF_SYM2776
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde402_end:
+Lfde405_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65306,36 +65534,36 @@ Lfde402_end:
 
 	.byte 37,185,1
 	.quad System_Nullable_1_System_DateTime_Unbox_object
-	.quad Lme_1ca
+	.quad Lme_1cd
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2765=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2765
+LDIFF_SYM2777=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2777
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2766=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2766
+LDIFF_SYM2778=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2778
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2767=Lfde403_end - Lfde403_start
-	.long LDIFF_SYM2767
-Lfde403_start:
+LDIFF_SYM2779=Lfde406_end - Lfde406_start
+	.long LDIFF_SYM2779
+Lfde406_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_System_DateTime_Unbox_object
 
-LDIFF_SYM2768=Lme_1ca - System_Nullable_1_System_DateTime_Unbox_object
-	.long LDIFF_SYM2768
+LDIFF_SYM2780=Lme_1cd - System_Nullable_1_System_DateTime_Unbox_object
+	.long LDIFF_SYM2780
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde403_end:
+Lfde406_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65345,36 +65573,36 @@ Lfde403_end:
 
 	.byte 37,192,1
 	.quad System_Nullable_1_System_DateTime_UnboxExact_object
-	.quad Lme_1cb
+	.quad Lme_1ce
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2769=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2769
+LDIFF_SYM2781=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2781
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2770=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2770
+LDIFF_SYM2782=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2782
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2771=Lfde404_end - Lfde404_start
-	.long LDIFF_SYM2771
-Lfde404_start:
+LDIFF_SYM2783=Lfde407_end - Lfde407_start
+	.long LDIFF_SYM2783
+Lfde407_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_System_DateTime_UnboxExact_object
 
-LDIFF_SYM2772=Lme_1cb - System_Nullable_1_System_DateTime_UnboxExact_object
-	.long LDIFF_SYM2772
+LDIFF_SYM2784=Lme_1ce - System_Nullable_1_System_DateTime_UnboxExact_object
+	.long LDIFF_SYM2784
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde404_end:
+Lfde407_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_100:
@@ -65383,69 +65611,69 @@ LTDIE_100:
 	.asciz "System_Nullable`1"
 
 	.byte 24,16
-LDIFF_SYM2773=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2773
+LDIFF_SYM2785=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2785
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM2774=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM2774
+LDIFF_SYM2786=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM2786
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM2775=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2775
+LDIFF_SYM2787=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2787
 	.byte 2,35,20,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM2776=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM2776
+LDIFF_SYM2788=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM2788
 LTDIE_100_POINTER:
 
 	.byte 13
-LDIFF_SYM2777=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM2777
+LDIFF_SYM2789=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM2789
 LTDIE_100_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2778=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM2778
+LDIFF_SYM2790=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM2790
 	.byte 2
 	.asciz "System.Nullable`1<Mono.Security.Interface.TlsProtocols>:.ctor"
 	.asciz "System_Nullable_1_Mono_Security_Interface_TlsProtocols__ctor_Mono_Security_Interface_TlsProtocols"
 
 	.byte 37,94
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols__ctor_Mono_Security_Interface_TlsProtocols
-	.quad Lme_1cc
+	.quad Lme_1cf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2779=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2779
+LDIFF_SYM2791=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2791
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM2780=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM2780
+LDIFF_SYM2792=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM2792
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2781=Lfde405_end - Lfde405_start
-	.long LDIFF_SYM2781
-Lfde405_start:
+LDIFF_SYM2793=Lfde408_end - Lfde408_start
+	.long LDIFF_SYM2793
+Lfde408_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols__ctor_Mono_Security_Interface_TlsProtocols
 
-LDIFF_SYM2782=Lme_1cc - System_Nullable_1_Mono_Security_Interface_TlsProtocols__ctor_Mono_Security_Interface_TlsProtocols
-	.long LDIFF_SYM2782
+LDIFF_SYM2794=Lme_1cf - System_Nullable_1_Mono_Security_Interface_TlsProtocols__ctor_Mono_Security_Interface_TlsProtocols
+	.long LDIFF_SYM2794
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde405_end:
+Lfde408_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65455,31 +65683,31 @@ Lfde405_end:
 
 	.byte 37,99
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_HasValue
-	.quad Lme_1cd
+	.quad Lme_1d0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2783=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2783
+LDIFF_SYM2795=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2795
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2784=Lfde406_end - Lfde406_start
-	.long LDIFF_SYM2784
-Lfde406_start:
+LDIFF_SYM2796=Lfde409_end - Lfde409_start
+	.long LDIFF_SYM2796
+Lfde409_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_HasValue
 
-LDIFF_SYM2785=Lme_1cd - System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_HasValue
-	.long LDIFF_SYM2785
+LDIFF_SYM2797=Lme_1d0 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_HasValue
+	.long LDIFF_SYM2797
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde406_end:
+Lfde409_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65489,31 +65717,31 @@ Lfde406_end:
 
 	.byte 37,104
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_Value
-	.quad Lme_1ce
+	.quad Lme_1d1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2786=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2786
+LDIFF_SYM2798=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2798
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2787=Lfde407_end - Lfde407_start
-	.long LDIFF_SYM2787
-Lfde407_start:
+LDIFF_SYM2799=Lfde410_end - Lfde410_start
+	.long LDIFF_SYM2799
+Lfde410_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_Value
 
-LDIFF_SYM2788=Lme_1ce - System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_Value
-	.long LDIFF_SYM2788
+LDIFF_SYM2800=Lme_1d1 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_get_Value
+	.long LDIFF_SYM2800
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde407_end:
+Lfde410_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65523,36 +65751,36 @@ Lfde407_end:
 
 	.byte 37,113
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_object
-	.quad Lme_1cf
+	.quad Lme_1d2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2789=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2789
+LDIFF_SYM2801=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2801
 	.byte 2,141,32,3
 	.asciz "other"
 
-LDIFF_SYM2790=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2790
+LDIFF_SYM2802=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2802
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2791=Lfde408_end - Lfde408_start
-	.long LDIFF_SYM2791
-Lfde408_start:
+LDIFF_SYM2803=Lfde411_end - Lfde411_start
+	.long LDIFF_SYM2803
+Lfde411_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_object
 
-LDIFF_SYM2792=Lme_1cf - System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_object
-	.long LDIFF_SYM2792
+LDIFF_SYM2804=Lme_1d2 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_object
+	.long LDIFF_SYM2804
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
 	.align 3
-Lfde408_end:
+Lfde411_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65562,36 +65790,36 @@ Lfde408_end:
 
 	.byte 37,123
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_System_Nullable_1_Mono_Security_Interface_TlsProtocols
-	.quad Lme_1d0
+	.quad Lme_1d3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2793=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2793
+LDIFF_SYM2805=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2805
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM2794=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2794
+LDIFF_SYM2806=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2806
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2795=Lfde409_end - Lfde409_start
-	.long LDIFF_SYM2795
-Lfde409_start:
+LDIFF_SYM2807=Lfde412_end - Lfde412_start
+	.long LDIFF_SYM2807
+Lfde412_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_System_Nullable_1_Mono_Security_Interface_TlsProtocols
 
-LDIFF_SYM2796=Lme_1d0 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_System_Nullable_1_Mono_Security_Interface_TlsProtocols
-	.long LDIFF_SYM2796
+LDIFF_SYM2808=Lme_1d3 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_Equals_System_Nullable_1_Mono_Security_Interface_TlsProtocols
+	.long LDIFF_SYM2808
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde409_end:
+Lfde412_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65601,31 +65829,31 @@ Lfde409_end:
 
 	.byte 37,134,1
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetHashCode
-	.quad Lme_1d1
+	.quad Lme_1d4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2797=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2797
+LDIFF_SYM2809=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2809
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2798=Lfde410_end - Lfde410_start
-	.long LDIFF_SYM2798
-Lfde410_start:
+LDIFF_SYM2810=Lfde413_end - Lfde413_start
+	.long LDIFF_SYM2810
+Lfde413_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetHashCode
 
-LDIFF_SYM2799=Lme_1d1 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetHashCode
-	.long LDIFF_SYM2799
+LDIFF_SYM2811=Lme_1d4 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetHashCode
+	.long LDIFF_SYM2811
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde410_end:
+Lfde413_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65635,31 +65863,70 @@ Lfde410_end:
 
 	.byte 37,142,1
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault
-	.quad Lme_1d2
+	.quad Lme_1d5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2800=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2800
+LDIFF_SYM2812=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2812
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2801=Lfde411_end - Lfde411_start
-	.long LDIFF_SYM2801
-Lfde411_start:
+LDIFF_SYM2813=Lfde414_end - Lfde414_start
+	.long LDIFF_SYM2813
+Lfde414_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault
 
-LDIFF_SYM2802=Lme_1d2 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault
-	.long LDIFF_SYM2802
+LDIFF_SYM2814=Lme_1d5 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault
+	.long LDIFF_SYM2814
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde411_end:
+Lfde414_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<Mono.Security.Interface.TlsProtocols>:GetValueOrDefault"
+	.asciz "System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault_Mono_Security_Interface_TlsProtocols"
+
+	.byte 37,147,1
+	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault_Mono_Security_Interface_TlsProtocols
+	.quad Lme_1d6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2815=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2815
+	.byte 2,141,16,3
+	.asciz "defaultValue"
+
+LDIFF_SYM2816=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM2816
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2817=Lfde415_end - Lfde415_start
+	.long LDIFF_SYM2817
+Lfde415_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault_Mono_Security_Interface_TlsProtocols
+
+LDIFF_SYM2818=Lme_1d6 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_GetValueOrDefault_Mono_Security_Interface_TlsProtocols
+	.long LDIFF_SYM2818
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde415_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65669,31 +65936,31 @@ Lfde411_end:
 
 	.byte 37,152,1
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_ToString
-	.quad Lme_1d3
+	.quad Lme_1d7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2803=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2803
+LDIFF_SYM2819=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2819
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2804=Lfde412_end - Lfde412_start
-	.long LDIFF_SYM2804
-Lfde412_start:
+LDIFF_SYM2820=Lfde416_end - Lfde416_start
+	.long LDIFF_SYM2820
+Lfde416_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_ToString
 
-LDIFF_SYM2805=Lme_1d3 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_ToString
-	.long LDIFF_SYM2805
+LDIFF_SYM2821=Lme_1d7 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_ToString
+	.long LDIFF_SYM2821
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde412_end:
+Lfde416_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65703,31 +65970,31 @@ Lfde412_end:
 
 	.byte 37,177,1
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_Box_System_Nullable_1_Mono_Security_Interface_TlsProtocols
-	.quad Lme_1d4
+	.quad Lme_1d8
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2806=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2806
+LDIFF_SYM2822=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2822
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2807=Lfde413_end - Lfde413_start
-	.long LDIFF_SYM2807
-Lfde413_start:
+LDIFF_SYM2823=Lfde417_end - Lfde417_start
+	.long LDIFF_SYM2823
+Lfde417_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_Box_System_Nullable_1_Mono_Security_Interface_TlsProtocols
 
-LDIFF_SYM2808=Lme_1d4 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_Box_System_Nullable_1_Mono_Security_Interface_TlsProtocols
-	.long LDIFF_SYM2808
+LDIFF_SYM2824=Lme_1d8 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_Box_System_Nullable_1_Mono_Security_Interface_TlsProtocols
+	.long LDIFF_SYM2824
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde413_end:
+Lfde417_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65737,36 +66004,36 @@ Lfde413_end:
 
 	.byte 37,185,1
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_Unbox_object
-	.quad Lme_1d5
+	.quad Lme_1d9
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2809=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2809
+LDIFF_SYM2825=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2825
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2810=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2810
+LDIFF_SYM2826=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2826
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2811=Lfde414_end - Lfde414_start
-	.long LDIFF_SYM2811
-Lfde414_start:
+LDIFF_SYM2827=Lfde418_end - Lfde418_start
+	.long LDIFF_SYM2827
+Lfde418_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_Unbox_object
 
-LDIFF_SYM2812=Lme_1d5 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_Unbox_object
-	.long LDIFF_SYM2812
+LDIFF_SYM2828=Lme_1d9 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_Unbox_object
+	.long LDIFF_SYM2828
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde414_end:
+Lfde418_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65776,36 +66043,36 @@ Lfde414_end:
 
 	.byte 37,192,1
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_UnboxExact_object
-	.quad Lme_1d6
+	.quad Lme_1da
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2813=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2813
+LDIFF_SYM2829=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2829
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2814=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2814
+LDIFF_SYM2830=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2830
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2815=Lfde415_end - Lfde415_start
-	.long LDIFF_SYM2815
-Lfde415_start:
+LDIFF_SYM2831=Lfde419_end - Lfde419_start
+	.long LDIFF_SYM2831
+Lfde419_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Mono_Security_Interface_TlsProtocols_UnboxExact_object
 
-LDIFF_SYM2816=Lme_1d6 - System_Nullable_1_Mono_Security_Interface_TlsProtocols_UnboxExact_object
-	.long LDIFF_SYM2816
+LDIFF_SYM2832=Lme_1da - System_Nullable_1_Mono_Security_Interface_TlsProtocols_UnboxExact_object
+	.long LDIFF_SYM2832
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde415_end:
+Lfde419_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65815,137 +66082,19 @@ Lfde415_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___byte_byte_int_Nullable_1_MonoSslPolicyErrors_object_intptr_intptr_intptr
-	.quad Lme_1d7
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2817=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2817
-	.byte 2,141,32,3
-	.asciz "params"
-
-LDIFF_SYM2818=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2818
-	.byte 1,105,3
-	.asciz "exc"
-
-LDIFF_SYM2819=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2819
-	.byte 2,141,40,3
-	.asciz "method"
-
-LDIFF_SYM2820=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2820
-	.byte 2,141,48,11
-	.asciz "V_0"
-
-LDIFF_SYM2821=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2821
-	.byte 3,141,200,0,11
-	.asciz "V_1"
-
-LDIFF_SYM2822=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2822
-	.byte 3,141,208,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2823=Lfde416_end - Lfde416_start
-	.long LDIFF_SYM2823
-Lfde416_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___byte_byte_int_Nullable_1_MonoSslPolicyErrors_object_intptr_intptr_intptr
-
-LDIFF_SYM2824=Lme_1d7 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___byte_byte_int_Nullable_1_MonoSslPolicyErrors_object_intptr_intptr_intptr
-	.long LDIFF_SYM2824
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,68,153,17
-	.align 3
-Lfde416_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_runtime-invoke)_<Module>:runtime_invoke_void__this___Nullable`1<bool>"
-	.asciz "wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr"
-
-	.byte 0,0
-	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
-	.quad Lme_1d8
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2825=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2825
-	.byte 2,141,24,3
-	.asciz "params"
-
-LDIFF_SYM2826=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2826
-	.byte 2,141,32,3
-	.asciz "exc"
-
-LDIFF_SYM2827=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2827
-	.byte 2,141,40,3
-	.asciz "method"
-
-LDIFF_SYM2828=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2828
-	.byte 2,141,48,11
-	.asciz "V_0"
-
-LDIFF_SYM2829=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2829
-	.byte 3,141,200,0,11
-	.asciz "V_1"
-
-LDIFF_SYM2830=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2830
-	.byte 3,141,208,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2831=Lfde417_end - Lfde417_start
-	.long LDIFF_SYM2831
-Lfde417_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
-
-LDIFF_SYM2832=Lme_1d8 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
-	.long LDIFF_SYM2832
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14
-	.align 3
-Lfde417_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_runtime-invoke)_<Module>:runtime_invoke_void__this___Nullable`1<DateTime>"
-	.asciz "wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr"
-
-	.byte 0,0
-	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
-	.quad Lme_1d9
+	.quad Lme_1db
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM2833=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM2833
-	.byte 2,141,24,3
+	.byte 2,141,32,3
 	.asciz "params"
 
 LDIFF_SYM2834=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2834
-	.byte 2,141,32,3
+	.byte 1,105,3
 	.asciz "exc"
 
 LDIFF_SYM2835=LDIE_I - Ldebug_info_start
@@ -65960,39 +66109,39 @@ LDIFF_SYM2836=LDIE_I - Ldebug_info_start
 
 LDIFF_SYM2837=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM2837
-	.byte 3,141,216,0,11
+	.byte 3,141,200,0,11
 	.asciz "V_1"
 
 LDIFF_SYM2838=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM2838
-	.byte 3,141,224,0,0
+	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2839=Lfde418_end - Lfde418_start
+LDIFF_SYM2839=Lfde420_end - Lfde420_start
 	.long LDIFF_SYM2839
-Lfde418_start:
+Lfde420_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
+	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___byte_byte_int_Nullable_1_MonoSslPolicyErrors_object_intptr_intptr_intptr
 
-LDIFF_SYM2840=Lme_1d9 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
+LDIFF_SYM2840=Lme_1db - wrapper_runtime_invoke__Module_runtime_invoke_void__this___byte_byte_int_Nullable_1_MonoSslPolicyErrors_object_intptr_intptr_intptr
 	.long LDIFF_SYM2840
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,68,153,17
 	.align 3
-Lfde418_end:
+Lfde420_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "(wrapper_runtime-invoke)_<Module>:runtime_invoke_void__this___Nullable`1<TlsProtocols>"
-	.asciz "wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TlsProtocols_object_intptr_intptr_intptr"
+	.asciz "(wrapper_runtime-invoke)_<Module>:runtime_invoke_void__this___Nullable`1<bool>"
+	.asciz "wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr"
 
 	.byte 0,0
-	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TlsProtocols_object_intptr_intptr_intptr
-	.quad Lme_1da
+	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
+	.quad Lme_1dc
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -66028,20 +66177,138 @@ LDIFF_SYM2846=LDIE_OBJECT - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2847=Lfde419_end - Lfde419_start
+LDIFF_SYM2847=Lfde421_end - Lfde421_start
 	.long LDIFF_SYM2847
-Lfde419_start:
+Lfde421_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
+
+LDIFF_SYM2848=Lme_1dc - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
+	.long LDIFF_SYM2848
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14
+	.align 3
+Lfde421_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_runtime-invoke)_<Module>:runtime_invoke_void__this___Nullable`1<DateTime>"
+	.asciz "wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr"
+
+	.byte 0,0
+	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
+	.quad Lme_1dd
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2849=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2849
+	.byte 2,141,24,3
+	.asciz "params"
+
+LDIFF_SYM2850=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2850
+	.byte 2,141,32,3
+	.asciz "exc"
+
+LDIFF_SYM2851=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2851
+	.byte 2,141,40,3
+	.asciz "method"
+
+LDIFF_SYM2852=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2852
+	.byte 2,141,48,11
+	.asciz "V_0"
+
+LDIFF_SYM2853=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2853
+	.byte 3,141,216,0,11
+	.asciz "V_1"
+
+LDIFF_SYM2854=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2854
+	.byte 3,141,224,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2855=Lfde422_end - Lfde422_start
+	.long LDIFF_SYM2855
+Lfde422_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
+
+LDIFF_SYM2856=Lme_1dd - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
+	.long LDIFF_SYM2856
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
+	.align 3
+Lfde422_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_runtime-invoke)_<Module>:runtime_invoke_void__this___Nullable`1<TlsProtocols>"
+	.asciz "wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TlsProtocols_object_intptr_intptr_intptr"
+
+	.byte 0,0
+	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TlsProtocols_object_intptr_intptr_intptr
+	.quad Lme_1de
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2857=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2857
+	.byte 2,141,24,3
+	.asciz "params"
+
+LDIFF_SYM2858=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2858
+	.byte 2,141,32,3
+	.asciz "exc"
+
+LDIFF_SYM2859=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2859
+	.byte 2,141,40,3
+	.asciz "method"
+
+LDIFF_SYM2860=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2860
+	.byte 2,141,48,11
+	.asciz "V_0"
+
+LDIFF_SYM2861=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2861
+	.byte 3,141,200,0,11
+	.asciz "V_1"
+
+LDIFF_SYM2862=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2862
+	.byte 3,141,208,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2863=Lfde423_end - Lfde423_start
+	.long LDIFF_SYM2863
+Lfde423_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TlsProtocols_object_intptr_intptr_intptr
 
-LDIFF_SYM2848=Lme_1da - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TlsProtocols_object_intptr_intptr_intptr
-	.long LDIFF_SYM2848
+LDIFF_SYM2864=Lme_1de - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TlsProtocols_object_intptr_intptr_intptr
+	.long LDIFF_SYM2864
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14
 	.align 3
-Lfde419_end:
+Lfde423_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_101:
@@ -66052,112 +66319,112 @@ LTDIE_101:
 	.byte 16,7
 	.asciz "_<Module>"
 
-LDIFF_SYM2849=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM2849
+LDIFF_SYM2865=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM2865
 LTDIE_101_POINTER:
 
 	.byte 13
-LDIFF_SYM2850=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM2850
+LDIFF_SYM2866=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM2866
 LTDIE_101_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2851=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM2851
+LDIFF_SYM2867=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM2867
 LTDIE_102:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM2852=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2852
+LDIFF_SYM2868=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2868
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM2853=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM2853
+LDIFF_SYM2869=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM2869
 LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM2854=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM2854
+LDIFF_SYM2870=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM2870
 LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2855=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM2855
+LDIFF_SYM2871=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM2871
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_bool_BigInteger_ConfidenceFactor"
 	.asciz "wrapper_delegate_invoke__Module_invoke_bool_BigInteger_ConfidenceFactor_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_bool_BigInteger_ConfidenceFactor_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor
-	.quad Lme_1db
+	.quad Lme_1df
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2856=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2856
+LDIFF_SYM2872=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2872
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2857=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2857
+LDIFF_SYM2873=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2873
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2858=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM2858
+LDIFF_SYM2874=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM2874
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2859=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2859
+LDIFF_SYM2875=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2875
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2860=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2860
+LDIFF_SYM2876=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2876
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2861=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2861
+LDIFF_SYM2877=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2877
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2862=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2862
+LDIFF_SYM2878=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2878
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2863=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2863
+LDIFF_SYM2879=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2879
 	.byte 1,103,11
 	.asciz "V_5"
 
-LDIFF_SYM2864=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2864
+LDIFF_SYM2880=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2880
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2865=Lfde420_end - Lfde420_start
-	.long LDIFF_SYM2865
-Lfde420_start:
+LDIFF_SYM2881=Lfde424_end - Lfde424_start
+	.long LDIFF_SYM2881
+Lfde424_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_bool_BigInteger_ConfidenceFactor_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor
 
-LDIFF_SYM2866=Lme_1db - wrapper_delegate_invoke__Module_invoke_bool_BigInteger_ConfidenceFactor_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor
-	.long LDIFF_SYM2866
+LDIFF_SYM2882=Lme_1df - wrapper_delegate_invoke__Module_invoke_bool_BigInteger_ConfidenceFactor_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor
+	.long LDIFF_SYM2882
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde420_end:
+Lfde424_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_103:
@@ -66166,84 +66433,84 @@ LTDIE_103:
 	.asciz "System_AsyncCallback"
 
 	.byte 112,16
-LDIFF_SYM2867=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM2867
+LDIFF_SYM2883=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM2883
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM2868=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM2868
+LDIFF_SYM2884=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM2884
 LTDIE_103_POINTER:
 
 	.byte 13
-LDIFF_SYM2869=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM2869
+LDIFF_SYM2885=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM2885
 LTDIE_103_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2870=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM2870
+LDIFF_SYM2886=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM2886
 	.byte 2
 	.asciz "(wrapper_delegate-begin-invoke)_<Module>:begin_invoke_IAsyncResult__this___BigInteger_ConfidenceFactor_AsyncCallback_object"
 	.asciz "wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___BigInteger_ConfidenceFactor_AsyncCallback_object_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor_System_AsyncCallback_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___BigInteger_ConfidenceFactor_AsyncCallback_object_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor_System_AsyncCallback_object
-	.quad Lme_1dc
+	.quad Lme_1e0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2871=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2871
+LDIFF_SYM2887=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2887
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2872=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2872
+LDIFF_SYM2888=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2888
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2873=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM2873
+LDIFF_SYM2889=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM2889
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2874=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2874
+LDIFF_SYM2890=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2890
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2875=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2875
+LDIFF_SYM2891=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2891
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2876=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2876
+LDIFF_SYM2892=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2892
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2877=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2877
+LDIFF_SYM2893=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2893
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2878=Lfde421_end - Lfde421_start
-	.long LDIFF_SYM2878
-Lfde421_start:
+LDIFF_SYM2894=Lfde425_end - Lfde425_start
+	.long LDIFF_SYM2894
+Lfde425_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___BigInteger_ConfidenceFactor_AsyncCallback_object_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor_System_AsyncCallback_object
 
-LDIFF_SYM2879=Lme_1dc - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___BigInteger_ConfidenceFactor_AsyncCallback_object_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor_System_AsyncCallback_object
-	.long LDIFF_SYM2879
+LDIFF_SYM2895=Lme_1e0 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___BigInteger_ConfidenceFactor_AsyncCallback_object_Mono_Math_BigInteger_Mono_Math_Prime_ConfidenceFactor_System_AsyncCallback_object
+	.long LDIFF_SYM2895
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde421_end:
+Lfde425_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_104:
@@ -66254,64 +66521,64 @@ LTDIE_104:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM2880=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM2880
+LDIFF_SYM2896=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM2896
 LTDIE_104_POINTER:
 
 	.byte 13
-LDIFF_SYM2881=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM2881
+LDIFF_SYM2897=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM2897
 LTDIE_104_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2882=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM2882
+LDIFF_SYM2898=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM2898
 	.byte 2
 	.asciz "(wrapper_delegate-end-invoke)_<Module>:end_invoke_bool__this___IAsyncResult"
 	.asciz "wrapper_delegate_end_invoke__Module_end_invoke_bool__this___IAsyncResult_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_bool__this___IAsyncResult_System_IAsyncResult
-	.quad Lme_1dd
+	.quad Lme_1e1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2883=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2883
+LDIFF_SYM2899=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2899
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2884=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2884
+LDIFF_SYM2900=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2900
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2885=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2885
+LDIFF_SYM2901=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2901
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2886=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2886
+LDIFF_SYM2902=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2902
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2887=Lfde422_end - Lfde422_start
-	.long LDIFF_SYM2887
-Lfde422_start:
+LDIFF_SYM2903=Lfde426_end - Lfde426_start
+	.long LDIFF_SYM2903
+Lfde426_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_bool__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM2888=Lme_1dd - wrapper_delegate_end_invoke__Module_end_invoke_bool__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM2888
+LDIFF_SYM2904=Lme_1e1 - wrapper_delegate_end_invoke__Module_end_invoke_bool__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM2904
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
-Lfde422_end:
+Lfde426_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_106:
@@ -66320,204 +66587,204 @@ LTDIE_106:
 	.asciz "System_Security_Cryptography_X509Certificates_X509CertificateImpl"
 
 	.byte 24,16
-LDIFF_SYM2889=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2889
+LDIFF_SYM2905=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2905
 	.byte 2,35,0,6
 	.asciz "cachedCertificateHash"
 
-LDIFF_SYM2890=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2890
+LDIFF_SYM2906=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2906
 	.byte 2,35,16,0,7
 	.asciz "System_Security_Cryptography_X509Certificates_X509CertificateImpl"
 
-LDIFF_SYM2891=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM2891
+LDIFF_SYM2907=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM2907
 LTDIE_106_POINTER:
 
 	.byte 13
-LDIFF_SYM2892=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM2892
+LDIFF_SYM2908=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM2908
 LTDIE_106_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2893=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM2893
+LDIFF_SYM2909=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM2909
 LTDIE_105:
 
 	.byte 5
 	.asciz "System_Security_Cryptography_X509Certificates_X509Certificate"
 
 	.byte 48,16
-LDIFF_SYM2894=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2894
+LDIFF_SYM2910=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2910
 	.byte 2,35,0,6
 	.asciz "impl"
 
-LDIFF_SYM2895=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2895
+LDIFF_SYM2911=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2911
 	.byte 2,35,16,6
 	.asciz "hideDates"
 
-LDIFF_SYM2896=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2896
+LDIFF_SYM2912=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2912
 	.byte 2,35,40,6
 	.asciz "issuer_name"
 
-LDIFF_SYM2897=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2897
+LDIFF_SYM2913=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2913
 	.byte 2,35,24,6
 	.asciz "subject_name"
 
-LDIFF_SYM2898=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2898
+LDIFF_SYM2914=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2914
 	.byte 2,35,32,0,7
 	.asciz "System_Security_Cryptography_X509Certificates_X509Certificate"
 
-LDIFF_SYM2899=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM2899
+LDIFF_SYM2915=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM2915
 LTDIE_105_POINTER:
 
 	.byte 13
-LDIFF_SYM2900=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM2900
+LDIFF_SYM2916=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM2916
 LTDIE_105_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2901=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM2901
+LDIFF_SYM2917=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM2917
 LTDIE_108:
 
 	.byte 5
 	.asciz "System_Security_Cryptography_X509Certificates_X509ChainImpl"
 
 	.byte 16,16
-LDIFF_SYM2902=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2902
+LDIFF_SYM2918=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2918
 	.byte 2,35,0,0,7
 	.asciz "System_Security_Cryptography_X509Certificates_X509ChainImpl"
 
-LDIFF_SYM2903=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM2903
+LDIFF_SYM2919=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM2919
 LTDIE_108_POINTER:
 
 	.byte 13
-LDIFF_SYM2904=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM2904
+LDIFF_SYM2920=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM2920
 LTDIE_108_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2905=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM2905
+LDIFF_SYM2921=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM2921
 LTDIE_107:
 
 	.byte 5
 	.asciz "System_Security_Cryptography_X509Certificates_X509Chain"
 
 	.byte 24,16
-LDIFF_SYM2906=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2906
+LDIFF_SYM2922=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2922
 	.byte 2,35,0,6
 	.asciz "impl"
 
-LDIFF_SYM2907=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2907
+LDIFF_SYM2923=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2923
 	.byte 2,35,16,0,7
 	.asciz "System_Security_Cryptography_X509Certificates_X509Chain"
 
-LDIFF_SYM2908=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM2908
+LDIFF_SYM2924=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM2924
 LTDIE_107_POINTER:
 
 	.byte 13
-LDIFF_SYM2909=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM2909
+LDIFF_SYM2925=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM2925
 LTDIE_107_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2910=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM2910
+LDIFF_SYM2926=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM2926
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_bool_string_X509Certificate_X509Chain_MonoSslPolicyErrors"
 	.asciz "wrapper_delegate_invoke__Module_invoke_bool_string_X509Certificate_X509Chain_MonoSslPolicyErrors_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_bool_string_X509Certificate_X509Chain_MonoSslPolicyErrors_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors
-	.quad Lme_1de
+	.quad Lme_1e2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2911=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2911
+LDIFF_SYM2927=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2927
 	.byte 1,102,3
 	.asciz "param0"
 
-LDIFF_SYM2912=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2912
+LDIFF_SYM2928=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2928
 	.byte 1,103,3
 	.asciz "param1"
 
-LDIFF_SYM2913=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2913
+LDIFF_SYM2929=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2929
 	.byte 1,104,3
 	.asciz "param2"
 
-LDIFF_SYM2914=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2914
+LDIFF_SYM2930=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2930
 	.byte 1,105,3
 	.asciz "param3"
 
-LDIFF_SYM2915=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM2915
+LDIFF_SYM2931=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM2931
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2916=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2916
+LDIFF_SYM2932=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2932
 	.byte 1,100,11
 	.asciz "V_1"
 
-LDIFF_SYM2917=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2917
+LDIFF_SYM2933=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2933
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2918=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2918
+LDIFF_SYM2934=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2934
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2919=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2919
+LDIFF_SYM2935=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2935
 	.byte 1,99,11
 	.asciz "V_4"
 
-LDIFF_SYM2920=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2920
+LDIFF_SYM2936=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2936
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM2921=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2921
+LDIFF_SYM2937=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2937
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2922=Lfde423_end - Lfde423_start
-	.long LDIFF_SYM2922
-Lfde423_start:
+LDIFF_SYM2938=Lfde427_end - Lfde427_start
+	.long LDIFF_SYM2938
+Lfde427_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_bool_string_X509Certificate_X509Chain_MonoSslPolicyErrors_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors
 
-LDIFF_SYM2923=Lme_1de - wrapper_delegate_invoke__Module_invoke_bool_string_X509Certificate_X509Chain_MonoSslPolicyErrors_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors
-	.long LDIFF_SYM2923
+LDIFF_SYM2939=Lme_1e2 - wrapper_delegate_invoke__Module_invoke_bool_string_X509Certificate_X509Chain_MonoSslPolicyErrors_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors
+	.long LDIFF_SYM2939
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,147,10,148,9,68,149,8,150,7,68,151,6,152,5,68,153,4,154
 	.byte 3
 	.align 3
-Lfde423_end:
+Lfde427_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66527,71 +66794,71 @@ Lfde423_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509Certificate_X509Chain_MonoSslPolicyErrors_AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors_System_AsyncCallback_object
-	.quad Lme_1df
+	.quad Lme_1e3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2924=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2924
+LDIFF_SYM2940=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2940
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2925=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2925
+LDIFF_SYM2941=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2941
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2926=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2926
+LDIFF_SYM2942=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2942
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2927=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2927
+LDIFF_SYM2943=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2943
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2928=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM2928
+LDIFF_SYM2944=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM2944
 	.byte 3,141,192,0,3
 	.asciz "param4"
 
-LDIFF_SYM2929=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2929
+LDIFF_SYM2945=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2945
 	.byte 3,141,200,0,3
 	.asciz "param5"
 
-LDIFF_SYM2930=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2930
+LDIFF_SYM2946=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2946
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2931=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2931
+LDIFF_SYM2947=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2947
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2932=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2932
+LDIFF_SYM2948=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2948
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2933=Lfde424_end - Lfde424_start
-	.long LDIFF_SYM2933
-Lfde424_start:
+LDIFF_SYM2949=Lfde428_end - Lfde428_start
+	.long LDIFF_SYM2949
+Lfde428_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509Certificate_X509Chain_MonoSslPolicyErrors_AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors_System_AsyncCallback_object
 
-LDIFF_SYM2934=Lme_1df - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509Certificate_X509Chain_MonoSslPolicyErrors_AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors_System_AsyncCallback_object
-	.long LDIFF_SYM2934
+LDIFF_SYM2950=Lme_1e3 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509Certificate_X509Chain_MonoSslPolicyErrors_AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509Certificate_System_Security_Cryptography_X509Certificates_X509Chain_Mono_Security_Interface_MonoSslPolicyErrors_System_AsyncCallback_object
+	.long LDIFF_SYM2950
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9
 	.align 3
-Lfde424_end:
+Lfde428_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66601,82 +66868,82 @@ Lfde424_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_X509Certificate_string_X509CertificateCollection_X509Certificate_string___string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string__
-	.quad Lme_1e0
+	.quad Lme_1e4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2935=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2935
+LDIFF_SYM2951=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2951
 	.byte 1,102,3
 	.asciz "param0"
 
-LDIFF_SYM2936=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2936
+LDIFF_SYM2952=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2952
 	.byte 1,103,3
 	.asciz "param1"
 
-LDIFF_SYM2937=LTDIE_83_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2937
+LDIFF_SYM2953=LTDIE_83_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2953
 	.byte 1,104,3
 	.asciz "param2"
 
-LDIFF_SYM2938=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2938
+LDIFF_SYM2954=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2954
 	.byte 1,105,3
 	.asciz "param3"
 
-LDIFF_SYM2939=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2939
+LDIFF_SYM2955=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2955
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2940=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2940
+LDIFF_SYM2956=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2956
 	.byte 1,100,11
 	.asciz "V_1"
 
-LDIFF_SYM2941=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2941
+LDIFF_SYM2957=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2957
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2942=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2942
+LDIFF_SYM2958=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2958
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2943=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2943
+LDIFF_SYM2959=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2959
 	.byte 1,99,11
 	.asciz "V_4"
 
-LDIFF_SYM2944=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2944
+LDIFF_SYM2960=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2960
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM2945=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2945
+LDIFF_SYM2961=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2961
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2946=Lfde425_end - Lfde425_start
-	.long LDIFF_SYM2946
-Lfde425_start:
+LDIFF_SYM2962=Lfde429_end - Lfde429_start
+	.long LDIFF_SYM2962
+Lfde429_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_X509Certificate_string_X509CertificateCollection_X509Certificate_string___string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string__
 
-LDIFF_SYM2947=Lme_1e0 - wrapper_delegate_invoke__Module_invoke_X509Certificate_string_X509CertificateCollection_X509Certificate_string___string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string__
-	.long LDIFF_SYM2947
+LDIFF_SYM2963=Lme_1e4 - wrapper_delegate_invoke__Module_invoke_X509Certificate_string_X509CertificateCollection_X509Certificate_string___string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string__
+	.long LDIFF_SYM2963
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,147,10,148,9,68,149,8,150,7,68,151,6,152,5,68,153,4,154
 	.byte 3
 	.align 3
-Lfde425_end:
+Lfde429_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66686,71 +66953,71 @@ Lfde425_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509CertificateCollection_X509Certificate_string___AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string___System_AsyncCallback_object
-	.quad Lme_1e1
+	.quad Lme_1e5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2948=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2948
+LDIFF_SYM2964=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2964
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2949=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2949
+LDIFF_SYM2965=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2965
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2950=LTDIE_83_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2950
+LDIFF_SYM2966=LTDIE_83_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2966
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2951=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2951
+LDIFF_SYM2967=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2967
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2952=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2952
+LDIFF_SYM2968=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2968
 	.byte 3,141,192,0,3
 	.asciz "param4"
 
-LDIFF_SYM2953=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2953
+LDIFF_SYM2969=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2969
 	.byte 3,141,200,0,3
 	.asciz "param5"
 
-LDIFF_SYM2954=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2954
+LDIFF_SYM2970=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2970
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2955=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2955
+LDIFF_SYM2971=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2971
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2956=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2956
+LDIFF_SYM2972=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2972
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2957=Lfde426_end - Lfde426_start
-	.long LDIFF_SYM2957
-Lfde426_start:
+LDIFF_SYM2973=Lfde430_end - Lfde430_start
+	.long LDIFF_SYM2973
+Lfde430_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509CertificateCollection_X509Certificate_string___AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string___System_AsyncCallback_object
 
-LDIFF_SYM2958=Lme_1e1 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509CertificateCollection_X509Certificate_string___AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string___System_AsyncCallback_object
-	.long LDIFF_SYM2958
+LDIFF_SYM2974=Lme_1e5 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___string_X509CertificateCollection_X509Certificate_string___AsyncCallback_object_string_System_Security_Cryptography_X509Certificates_X509CertificateCollection_System_Security_Cryptography_X509Certificates_X509Certificate_string___System_AsyncCallback_object
+	.long LDIFF_SYM2974
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9
 	.align 3
-Lfde426_end:
+Lfde430_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66760,46 +67027,46 @@ Lfde426_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_X509Certificate__this___IAsyncResult_System_IAsyncResult
-	.quad Lme_1e2
+	.quad Lme_1e6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2959=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2959
+LDIFF_SYM2975=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2975
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2960=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2960
+LDIFF_SYM2976=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2976
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2961=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2961
+LDIFF_SYM2977=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2977
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2962=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2962
+LDIFF_SYM2978=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2978
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2963=Lfde427_end - Lfde427_start
-	.long LDIFF_SYM2963
-Lfde427_start:
+LDIFF_SYM2979=Lfde431_end - Lfde431_start
+	.long LDIFF_SYM2979
+Lfde431_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_X509Certificate__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM2964=Lme_1e2 - wrapper_delegate_end_invoke__Module_end_invoke_X509Certificate__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM2964
+LDIFF_SYM2980=Lme_1e6 - wrapper_delegate_end_invoke__Module_end_invoke_X509Certificate__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM2980
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
-Lfde427_end:
+Lfde431_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_109:
@@ -66808,89 +67075,89 @@ LTDIE_109:
 	.asciz "System_EventArgs"
 
 	.byte 16,16
-LDIFF_SYM2965=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2965
+LDIFF_SYM2981=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2981
 	.byte 2,35,0,0,7
 	.asciz "System_EventArgs"
 
-LDIFF_SYM2966=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM2966
+LDIFF_SYM2982=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM2982
 LTDIE_109_POINTER:
 
 	.byte 13
-LDIFF_SYM2967=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM2967
+LDIFF_SYM2983=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM2983
 LTDIE_109_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2968=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM2968
+LDIFF_SYM2984=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM2984
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_void_object_EventArgs"
 	.asciz "wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
-	.quad Lme_1e3
+	.quad Lme_1e7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2969=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2969
+LDIFF_SYM2985=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2985
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2970=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2970
+LDIFF_SYM2986=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2986
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2971=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2971
+LDIFF_SYM2987=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2987
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2972=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2972
+LDIFF_SYM2988=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2988
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2973=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2973
+LDIFF_SYM2989=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2989
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2974=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2974
+LDIFF_SYM2990=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2990
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2975=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2975
+LDIFF_SYM2991=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2991
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2976=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2976
+LDIFF_SYM2992=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2992
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2977=Lfde428_end - Lfde428_start
-	.long LDIFF_SYM2977
-Lfde428_start:
+LDIFF_SYM2993=Lfde432_end - Lfde432_start
+	.long LDIFF_SYM2993
+Lfde432_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
 
-LDIFF_SYM2978=Lme_1e3 - wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
-	.long LDIFF_SYM2978
+LDIFF_SYM2994=Lme_1e7 - wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
+	.long LDIFF_SYM2994
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde428_end:
+Lfde432_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66900,61 +67167,61 @@ Lfde428_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object_object_System_EventArgs_System_AsyncCallback_object
-	.quad Lme_1e4
+	.quad Lme_1e8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2979=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2979
+LDIFF_SYM2995=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2995
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2980=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2980
+LDIFF_SYM2996=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2996
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2981=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2981
+LDIFF_SYM2997=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2997
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2982=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2982
+LDIFF_SYM2998=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2998
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2983=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2983
+LDIFF_SYM2999=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2999
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2984=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2984
+LDIFF_SYM3000=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3000
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2985=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2985
+LDIFF_SYM3001=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3001
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2986=Lfde429_end - Lfde429_start
-	.long LDIFF_SYM2986
-Lfde429_start:
+LDIFF_SYM3002=Lfde433_end - Lfde433_start
+	.long LDIFF_SYM3002
+Lfde433_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object_object_System_EventArgs_System_AsyncCallback_object
 
-LDIFF_SYM2987=Lme_1e4 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object_object_System_EventArgs_System_AsyncCallback_object
-	.long LDIFF_SYM2987
+LDIFF_SYM3003=Lme_1e8 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object_object_System_EventArgs_System_AsyncCallback_object
+	.long LDIFF_SYM3003
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde429_end:
+Lfde433_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66964,46 +67231,46 @@ Lfde429_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.quad Lme_1e5
+	.quad Lme_1e9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2988=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2988
+LDIFF_SYM3004=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3004
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2989=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2989
+LDIFF_SYM3005=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3005
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2990=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2990
+LDIFF_SYM3006=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3006
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2991=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2991
+LDIFF_SYM3007=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3007
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2992=Lfde430_end - Lfde430_start
-	.long LDIFF_SYM2992
-Lfde430_start:
+LDIFF_SYM3008=Lfde434_end - Lfde434_start
+	.long LDIFF_SYM3008
+Lfde434_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM2993=Lme_1e5 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM2993
+LDIFF_SYM3009=Lme_1e9 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM3009
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
-Lfde430_end:
+Lfde434_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67013,36 +67280,36 @@ Lfde430_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_uint___Get_int
-	.quad Lme_1e6
+	.quad Lme_1ea
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2994=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2994
+LDIFF_SYM3010=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3010
 	.byte 2,141,16,3
 	.asciz "param0"
 
-LDIFF_SYM2995=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2995
+LDIFF_SYM3011=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3011
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2996=Lfde431_end - Lfde431_start
-	.long LDIFF_SYM2996
-Lfde431_start:
+LDIFF_SYM3012=Lfde435_end - Lfde435_start
+	.long LDIFF_SYM3012
+Lfde435_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_uint___Get_int
 
-LDIFF_SYM2997=Lme_1e6 - wrapper_unknown_uint___Get_int
-	.long LDIFF_SYM2997
+LDIFF_SYM3013=Lme_1ea - wrapper_unknown_uint___Get_int
+	.long LDIFF_SYM3013
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde431_end:
+Lfde435_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67052,56 +67319,56 @@ Lfde431_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_uint__this___int_object_intptr_intptr_intptr
-	.quad Lme_1e7
+	.quad Lme_1eb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2998=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2998
+LDIFF_SYM3014=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3014
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM2999=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2999
+LDIFF_SYM3015=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3015
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM3000=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3000
+LDIFF_SYM3016=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3016
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM3001=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3001
+LDIFF_SYM3017=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3017
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM3002=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3002
+LDIFF_SYM3018=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3018
 	.byte 2,141,56,11
 	.asciz "V_1"
 
-LDIFF_SYM3003=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3003
+LDIFF_SYM3019=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3019
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3004=Lfde432_end - Lfde432_start
-	.long LDIFF_SYM3004
-Lfde432_start:
+LDIFF_SYM3020=Lfde436_end - Lfde436_start
+	.long LDIFF_SYM3020
+Lfde436_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_uint__this___int_object_intptr_intptr_intptr
 
-LDIFF_SYM3005=Lme_1e7 - wrapper_runtime_invoke__Module_runtime_invoke_uint__this___int_object_intptr_intptr_intptr
-	.long LDIFF_SYM3005
+LDIFF_SYM3021=Lme_1eb - wrapper_runtime_invoke__Module_runtime_invoke_uint__this___int_object_intptr_intptr_intptr
+	.long LDIFF_SYM3021
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14
 	.align 3
-Lfde432_end:
+Lfde436_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67111,41 +67378,41 @@ Lfde432_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_uint___Set_int_uint
-	.quad Lme_1e8
+	.quad Lme_1ec
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3006=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3006
+LDIFF_SYM3022=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3022
 	.byte 2,141,16,3
 	.asciz "param0"
 
-LDIFF_SYM3007=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3007
+LDIFF_SYM3023=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3023
 	.byte 2,141,24,3
 	.asciz "param1"
 
-LDIFF_SYM3008=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3008
+LDIFF_SYM3024=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3024
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3009=Lfde433_end - Lfde433_start
-	.long LDIFF_SYM3009
-Lfde433_start:
+LDIFF_SYM3025=Lfde437_end - Lfde437_start
+	.long LDIFF_SYM3025
+Lfde437_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_uint___Set_int_uint
 
-LDIFF_SYM3010=Lme_1e8 - wrapper_unknown_uint___Set_int_uint
-	.long LDIFF_SYM3010
+LDIFF_SYM3026=Lme_1ec - wrapper_unknown_uint___Set_int_uint
+	.long LDIFF_SYM3026
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde433_end:
+Lfde437_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67155,56 +67422,56 @@ Lfde433_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_uint_object_intptr_intptr_intptr
-	.quad Lme_1e9
+	.quad Lme_1ed
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3011=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3011
+LDIFF_SYM3027=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3027
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM3012=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3012
+LDIFF_SYM3028=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3028
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM3013=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3013
+LDIFF_SYM3029=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3029
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM3014=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3014
+LDIFF_SYM3030=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3030
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM3015=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3015
+LDIFF_SYM3031=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3031
 	.byte 2,141,56,11
 	.asciz "V_1"
 
-LDIFF_SYM3016=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3016
+LDIFF_SYM3032=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3032
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3017=Lfde434_end - Lfde434_start
-	.long LDIFF_SYM3017
-Lfde434_start:
+LDIFF_SYM3033=Lfde438_end - Lfde438_start
+	.long LDIFF_SYM3033
+Lfde438_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_uint_object_intptr_intptr_intptr
 
-LDIFF_SYM3018=Lme_1e9 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_uint_object_intptr_intptr_intptr
-	.long LDIFF_SYM3018
+LDIFF_SYM3034=Lme_1ed - wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_uint_object_intptr_intptr_intptr
+	.long LDIFF_SYM3034
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,68,153,11
 	.align 3
-Lfde434_end:
+Lfde438_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67214,36 +67481,36 @@ Lfde434_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_byte___Get_int
-	.quad Lme_1ea
+	.quad Lme_1ee
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3019=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3019
+LDIFF_SYM3035=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3035
 	.byte 2,141,16,3
 	.asciz "param0"
 
-LDIFF_SYM3020=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3020
+LDIFF_SYM3036=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3036
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3021=Lfde435_end - Lfde435_start
-	.long LDIFF_SYM3021
-Lfde435_start:
+LDIFF_SYM3037=Lfde439_end - Lfde439_start
+	.long LDIFF_SYM3037
+Lfde439_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_byte___Get_int
 
-LDIFF_SYM3022=Lme_1ea - wrapper_unknown_byte___Get_int
-	.long LDIFF_SYM3022
+LDIFF_SYM3038=Lme_1ee - wrapper_unknown_byte___Get_int
+	.long LDIFF_SYM3038
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde435_end:
+Lfde439_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67253,56 +67520,56 @@ Lfde435_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
-	.quad Lme_1eb
+	.quad Lme_1ef
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3023=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3023
+LDIFF_SYM3039=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3039
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM3024=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3024
+LDIFF_SYM3040=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3040
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM3025=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3025
+LDIFF_SYM3041=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3041
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM3026=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3026
+LDIFF_SYM3042=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3042
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM3027=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3027
+LDIFF_SYM3043=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3043
 	.byte 2,141,56,11
 	.asciz "V_1"
 
-LDIFF_SYM3028=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3028
+LDIFF_SYM3044=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3044
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3029=Lfde436_end - Lfde436_start
-	.long LDIFF_SYM3029
-Lfde436_start:
+LDIFF_SYM3045=Lfde440_end - Lfde440_start
+	.long LDIFF_SYM3045
+Lfde440_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
 
-LDIFF_SYM3030=Lme_1eb - wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
-	.long LDIFF_SYM3030
+LDIFF_SYM3046=Lme_1ef - wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
+	.long LDIFF_SYM3046
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14
 	.align 3
-Lfde436_end:
+Lfde440_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67312,41 +67579,41 @@ Lfde436_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_byte___Set_int_byte
-	.quad Lme_1ec
+	.quad Lme_1f0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3031=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3031
+LDIFF_SYM3047=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3047
 	.byte 2,141,16,3
 	.asciz "param0"
 
-LDIFF_SYM3032=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3032
+LDIFF_SYM3048=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3048
 	.byte 2,141,24,3
 	.asciz "param1"
 
-LDIFF_SYM3033=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM3033
+LDIFF_SYM3049=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM3049
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3034=Lfde437_end - Lfde437_start
-	.long LDIFF_SYM3034
-Lfde437_start:
+LDIFF_SYM3050=Lfde441_end - Lfde441_start
+	.long LDIFF_SYM3050
+Lfde441_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_byte___Set_int_byte
 
-LDIFF_SYM3035=Lme_1ec - wrapper_unknown_byte___Set_int_byte
-	.long LDIFF_SYM3035
+LDIFF_SYM3051=Lme_1f0 - wrapper_unknown_byte___Set_int_byte
+	.long LDIFF_SYM3051
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde437_end:
+Lfde441_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67356,56 +67623,56 @@ Lfde437_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
-	.quad Lme_1ed
+	.quad Lme_1f1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3036=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3036
+LDIFF_SYM3052=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3052
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM3037=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3037
+LDIFF_SYM3053=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3053
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM3038=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3038
+LDIFF_SYM3054=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3054
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM3039=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3039
+LDIFF_SYM3055=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3055
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM3040=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3040
+LDIFF_SYM3056=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3056
 	.byte 2,141,56,11
 	.asciz "V_1"
 
-LDIFF_SYM3041=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3041
+LDIFF_SYM3057=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3057
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3042=Lfde438_end - Lfde438_start
-	.long LDIFF_SYM3042
-Lfde438_start:
+LDIFF_SYM3058=Lfde442_end - Lfde442_start
+	.long LDIFF_SYM3058
+Lfde442_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
 
-LDIFF_SYM3043=Lme_1ed - wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
-	.long LDIFF_SYM3043
+LDIFF_SYM3059=Lme_1f1 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
+	.long LDIFF_SYM3059
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,68,153,11
 	.align 3
-Lfde438_end:
+Lfde442_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67415,52 +67682,52 @@ Lfde438_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Init_intptr
-	.quad Lme_1ee
+	.quad Lme_1f2
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3044=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3044
+LDIFF_SYM3060=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3060
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3045=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3045
+LDIFF_SYM3061=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3061
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3046=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3046
+LDIFF_SYM3062=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3062
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3047=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3047
+LDIFF_SYM3063=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3063
 	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM3048=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3048
+LDIFF_SYM3064=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3064
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3049=Lfde439_end - Lfde439_start
-	.long LDIFF_SYM3049
-Lfde439_start:
+LDIFF_SYM3065=Lfde443_end - Lfde443_start
+	.long LDIFF_SYM3065
+Lfde443_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Init_intptr
 
-LDIFF_SYM3050=Lme_1ee - wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Init_intptr
-	.long LDIFF_SYM3050
+LDIFF_SYM3066=Lme_1f2 - wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Init_intptr
+	.long LDIFF_SYM3066
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde439_end:
+Lfde443_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67470,142 +67737,22 @@ Lfde439_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Update_intptr_intptr_uint
-	.quad Lme_1ef
+	.quad Lme_1f3
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3051=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3051
+LDIFF_SYM3067=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3067
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3052=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3052
+LDIFF_SYM3068=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3068
 	.byte 1,105,3
 	.asciz "param2"
 
-LDIFF_SYM3053=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3053
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM3054=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3054
-	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM3055=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3055
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM3056=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3056
-	.byte 0,11
-	.asciz "V_3"
-
-LDIFF_SYM3057=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3057
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3058=Lfde440_end - Lfde440_start
-	.long LDIFF_SYM3058
-Lfde440_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Update_intptr_intptr_uint
-
-LDIFF_SYM3059=Lme_1ef - wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Update_intptr_intptr_uint
-	.long LDIFF_SYM3059
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
-	.byte 154,5,68,155,4,156,3
-	.align 3
-Lfde440_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_managed-to-native)_Mono.Security.Cryptography.MD2Managed:Final"
-	.asciz "wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr"
-
-	.byte 0,0
-	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr
-	.quad Lme_1f0
-
-	.byte 2,118,16,3
-	.asciz "param0"
-
-LDIFF_SYM3060=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3060
-	.byte 2,141,16,3
-	.asciz "param1"
-
-LDIFF_SYM3061=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3061
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM3062=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3062
-	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM3063=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3063
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM3064=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3064
-	.byte 0,11
-	.asciz "V_3"
-
-LDIFF_SYM3065=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3065
-	.byte 1,106,11
-	.asciz "V_4"
-
-LDIFF_SYM3066=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3066
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3067=Lfde441_end - Lfde441_start
-	.long LDIFF_SYM3067
-Lfde441_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr
-
-LDIFF_SYM3068=Lme_1f0 - wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr
-	.long LDIFF_SYM3068
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
-	.byte 154,5,68,155,4,156,3
-	.align 3
-Lfde441_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_managed-to-native)_Mono.Security.Cryptography.MD4Managed:Init"
-	.asciz "wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Init_intptr"
-
-	.byte 0,0
-	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Init_intptr
-	.quad Lme_1f1
-
-	.byte 2,118,16,3
-	.asciz "param0"
-
-LDIFF_SYM3069=LDIE_I - Ldebug_info_start
+LDIFF_SYM3069=LDIE_U4 - Ldebug_info_start
 	.long LDIFF_SYM3069
 	.byte 1,106,11
 	.asciz "V_0"
@@ -67631,146 +67778,16 @@ LDIFF_SYM3073=LDIE_I4 - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3074=Lfde442_end - Lfde442_start
+LDIFF_SYM3074=Lfde444_end - Lfde444_start
 	.long LDIFF_SYM3074
-Lfde442_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Init_intptr
-
-LDIFF_SYM3075=Lme_1f1 - wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Init_intptr
-	.long LDIFF_SYM3075
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
-	.byte 154,6,68,155,5,156,4
-	.align 3
-Lfde442_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_managed-to-native)_Mono.Security.Cryptography.MD4Managed:Update"
-	.asciz "wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint"
-
-	.byte 0,0
-	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint
-	.quad Lme_1f2
-
-	.byte 2,118,16,3
-	.asciz "param0"
-
-LDIFF_SYM3076=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3076
-	.byte 2,141,16,3
-	.asciz "param1"
-
-LDIFF_SYM3077=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3077
-	.byte 1,105,3
-	.asciz "param2"
-
-LDIFF_SYM3078=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3078
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM3079=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3079
-	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM3080=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3080
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM3081=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3081
-	.byte 0,11
-	.asciz "V_3"
-
-LDIFF_SYM3082=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3082
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3083=Lfde443_end - Lfde443_start
-	.long LDIFF_SYM3083
-Lfde443_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint
-
-LDIFF_SYM3084=Lme_1f2 - wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint
-	.long LDIFF_SYM3084
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
-	.byte 154,5,68,155,4,156,3
-	.align 3
-Lfde443_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_managed-to-native)_Mono.Security.Cryptography.MD4Managed:Final"
-	.asciz "wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr"
-
-	.byte 0,0
-	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr
-	.quad Lme_1f3
-
-	.byte 2,118,16,3
-	.asciz "param0"
-
-LDIFF_SYM3085=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3085
-	.byte 2,141,16,3
-	.asciz "param1"
-
-LDIFF_SYM3086=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3086
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM3087=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3087
-	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM3088=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3088
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM3089=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3089
-	.byte 0,11
-	.asciz "V_3"
-
-LDIFF_SYM3090=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3090
-	.byte 1,106,11
-	.asciz "V_4"
-
-LDIFF_SYM3091=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3091
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3092=Lfde444_end - Lfde444_start
-	.long LDIFF_SYM3092
 Lfde444_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr
+	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Update_intptr_intptr_uint
 
-LDIFF_SYM3093=Lme_1f3 - wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr
-	.long LDIFF_SYM3093
+LDIFF_SYM3075=Lme_1f3 - wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Update_intptr_intptr_uint
+	.long LDIFF_SYM3075
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
@@ -67780,36 +67797,286 @@ Lfde444_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
+	.asciz "(wrapper_managed-to-native)_Mono.Security.Cryptography.MD2Managed:Final"
+	.asciz "wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr"
+
+	.byte 0,0
+	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr
+	.quad Lme_1f4
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM3076=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3076
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM3077=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3077
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3078=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3078
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM3079=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3079
+	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM3080=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3080
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM3081=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3081
+	.byte 1,106,11
+	.asciz "V_4"
+
+LDIFF_SYM3082=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3082
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3083=Lfde445_end - Lfde445_start
+	.long LDIFF_SYM3083
+Lfde445_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr
+
+LDIFF_SYM3084=Lme_1f4 - wrapper_managed_to_native_Mono_Security_Cryptography_MD2Managed_Final_byte___intptr
+	.long LDIFF_SYM3084
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
+	.byte 154,5,68,155,4,156,3
+	.align 3
+Lfde445_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_managed-to-native)_Mono.Security.Cryptography.MD4Managed:Init"
+	.asciz "wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Init_intptr"
+
+	.byte 0,0
+	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Init_intptr
+	.quad Lme_1f5
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM3085=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3085
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3086=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3086
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM3087=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3087
+	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM3088=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3088
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM3089=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3089
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3090=Lfde446_end - Lfde446_start
+	.long LDIFF_SYM3090
+Lfde446_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Init_intptr
+
+LDIFF_SYM3091=Lme_1f5 - wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Init_intptr
+	.long LDIFF_SYM3091
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
+	.byte 154,6,68,155,5,156,4
+	.align 3
+Lfde446_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_managed-to-native)_Mono.Security.Cryptography.MD4Managed:Update"
+	.asciz "wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint"
+
+	.byte 0,0
+	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint
+	.quad Lme_1f6
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM3092=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3092
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM3093=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3093
+	.byte 1,105,3
+	.asciz "param2"
+
+LDIFF_SYM3094=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3094
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3095=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3095
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM3096=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3096
+	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM3097=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3097
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM3098=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3098
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3099=Lfde447_end - Lfde447_start
+	.long LDIFF_SYM3099
+Lfde447_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint
+
+LDIFF_SYM3100=Lme_1f6 - wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Update_intptr_intptr_uint
+	.long LDIFF_SYM3100
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
+	.byte 154,5,68,155,4,156,3
+	.align 3
+Lfde447_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_managed-to-native)_Mono.Security.Cryptography.MD4Managed:Final"
+	.asciz "wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr"
+
+	.byte 0,0
+	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr
+	.quad Lme_1f7
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM3101=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3101
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM3102=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3102
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3103=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3103
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM3104=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3104
+	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM3105=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3105
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM3106=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3106
+	.byte 1,106,11
+	.asciz "V_4"
+
+LDIFF_SYM3107=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3107
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3108=Lfde448_end - Lfde448_start
+	.long LDIFF_SYM3108
+Lfde448_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr
+
+LDIFF_SYM3109=Lme_1f7 - wrapper_managed_to_native_Mono_Security_Cryptography_MD4Managed_Final_byte___intptr
+	.long LDIFF_SYM3109
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
+	.byte 154,5,68,155,4,156,3
+	.align 3
+Lfde448_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
 	.asciz "System.Array:Reverse<T_BYTE>"
 	.asciz "System_Array_Reverse_T_BYTE_T_BYTE__"
 
 	.byte 38,130,7
 	.quad System_Array_Reverse_T_BYTE_T_BYTE__
-	.quad Lme_1f4
+	.quad Lme_1f8
 
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM3094=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3094
+LDIFF_SYM3110=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3110
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3095=Lfde445_end - Lfde445_start
-	.long LDIFF_SYM3095
-Lfde445_start:
+LDIFF_SYM3111=Lfde449_end - Lfde449_start
+	.long LDIFF_SYM3111
+Lfde449_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_Reverse_T_BYTE_T_BYTE__
 
-LDIFF_SYM3096=Lme_1f4 - System_Array_Reverse_T_BYTE_T_BYTE__
-	.long LDIFF_SYM3096
+LDIFF_SYM3112=Lme_1f8 - System_Array_Reverse_T_BYTE_T_BYTE__
+	.long LDIFF_SYM3112
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde445_end:
+Lfde449_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -67819,56 +68086,56 @@ Lfde445_end:
 
 	.byte 38,138,7
 	.quad System_Array_Reverse_T_BYTE_T_BYTE___int_int
-	.quad Lme_1f5
+	.quad Lme_1f9
 
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM3097=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3097
+LDIFF_SYM3113=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3113
 	.byte 1,104,3
 	.asciz "index"
 
-LDIFF_SYM3098=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3098
+LDIFF_SYM3114=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3114
 	.byte 1,105,3
 	.asciz "length"
 
-LDIFF_SYM3099=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3099
+LDIFF_SYM3115=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3115
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM3100=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3100
+LDIFF_SYM3116=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3116
 	.byte 1,103,11
 	.asciz "j"
 
-LDIFF_SYM3101=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3101
+LDIFF_SYM3117=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3117
 	.byte 1,106,11
 	.asciz "temp"
 
-LDIFF_SYM3102=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3102
+LDIFF_SYM3118=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3118
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3103=Lfde446_end - Lfde446_start
-	.long LDIFF_SYM3103
-Lfde446_start:
+LDIFF_SYM3119=Lfde450_end - Lfde450_start
+	.long LDIFF_SYM3119
+Lfde450_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_Reverse_T_BYTE_T_BYTE___int_int
 
-LDIFF_SYM3104=Lme_1f5 - System_Array_Reverse_T_BYTE_T_BYTE___int_int
-	.long LDIFF_SYM3104
+LDIFF_SYM3120=Lme_1f9 - System_Array_Reverse_T_BYTE_T_BYTE___int_int
+	.long LDIFF_SYM3120
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde446_end:
+Lfde450_end:
 
 .section __DWARF, __debug_info,regular,debug
 

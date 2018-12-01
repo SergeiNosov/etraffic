@@ -3,11 +3,19 @@ using System.Net.Http;
 using UIKit;
 using System.Collections.Generic;
 using MapKit;
+using CoreLocation;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System.Globalization;
+using System.Text.RegularExpressions;
+
 namespace ETraffic
 {
     public partial class ViewController : UIViewController
     {
         public int id = 1;
+        MKMapView mapView;
+        List<BusAnnotation> BusDataAnno = new List<BusAnnotation>();
         protected ViewController(IntPtr handle) : base(handle)
         {
 
@@ -147,13 +155,121 @@ namespace ETraffic
         {
             MapShow.Hidden = false;
             MapCloseButton.Hidden = false;
+
+            
+                   
+            mapView = MapShow;
+            
+            CLLocationManager location = new CLLocationManager();
+            mapView.ShowsUserLocation = true;
+            CLLocationManager locationManager = new CLLocationManager();
+            locationManager.RequestWhenInUseAuthorization();
+             
+
+          
+
+            UpdateBus();
         }
       
         public void SetNewBalanceClient(string balance)
         {
             BalanceLabel.Text = balance + " руб";
         }
-        
+      
+        public async void UpdateBus()
+        {
+            HttpClient client = new HttpClient();
+
+            client.DefaultRequestHeaders.Add("User-Agent",
+              "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11");
+
+           
+            while (true)
+            {
+
+                var parameters = new Dictionary<string, string> { { "type", "2" } };
+
+                var encodedContent = new FormUrlEncodedContent(parameters);
+                var result = await client.PostAsync("http://z98950oc.beget.tech/ETApi/TransportInfo.php", encodedContent);
+                String Response = await result.Content.ReadAsStringAsync();
+             
+
+
+                Console.WriteLine(Response);
+                Bus[] BussCollection = JsonConvert.DeserializeObject<Bus[]>(Response);
+
+               if (BusDataAnno.Count > 0)
+                {
+               foreach (BusAnnotation busAnno in BusDataAnno)
+               {
+                        mapView.RemoveAnnotation(busAnno.point);
+               }
+                 BusDataAnno.Clear();
+                }
+            
+                var Bus = new BusAnnotation();
+                for (int i = 0; i < BussCollection.Length;i++)
+                {
+                    //выводим данные по транспорту
+                    Console.WriteLine(BussCollection[i].id_bus);
+                    var separator = CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
+
+                   
+                
+
+                    double latitude = Double.Parse(Regex.Replace(BussCollection[i].lati, "[.,]", separator));
+                    double longitude = Double.Parse(Regex.Replace(BussCollection[i].longi, "[.,]", separator));
+                    if (latitude != 0 && longitude != 0)
+                    {
+                        var CoordinateB = new CLLocationCoordinate2D(latitude, longitude);
+
+                        MKPointAnnotation SavePoint = new MKPointAnnotation()
+                        {
+                            Title = BussCollection[i].numberBus,
+                            Coordinate = new CLLocationCoordinate2D(latitude, longitude)
+                        };
+                        MapShow.AddAnnotations(SavePoint);
+
+
+                        Bus.Title = BussCollection[i].numberBus;
+                        Bus.point = SavePoint;
+                        BusDataAnno.Add(Bus);
+                    }
+
+                }
+
+
+                await Task.Delay(10000);
+            }
+        }
+
+
+       
+
 
     }
+
+
+    [Serializable]
+    public class Bus{
+
+        [JsonProperty("id")]
+        public string id;
+        [JsonProperty("id_bus")]
+        public string id_bus;
+        [JsonProperty("numberBus")]
+        public string numberBus;
+        [JsonProperty("longi")]
+        public string longi;
+        [JsonProperty("lati")]
+        public string lati;
+    }
+
+    public class BusAnnotation{
+
+       public String Title;
+        public MKPointAnnotation point;
+
+    }
+  
 }

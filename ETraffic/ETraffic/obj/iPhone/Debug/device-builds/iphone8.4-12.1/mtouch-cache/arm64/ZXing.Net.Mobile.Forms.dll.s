@@ -257,10 +257,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -404,10 +404,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -551,10 +551,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -698,10 +698,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -1204,7 +1204,7 @@ ldr x1, [x16, #336]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -1335,7 +1335,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -1481,7 +1481,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -1627,7 +1627,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -1705,7 +1705,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -1848,7 +1848,7 @@ ldr x1, [x16, #472]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -1990,7 +1990,7 @@ ldr x1, [x16, #504]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -2588,10 +2588,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -2735,10 +2735,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -4370,10 +4370,10 @@ ldr x15, [x16, #704]
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xaa1103e1
 bl _p_2
 
@@ -4448,7 +4448,7 @@ ldr x1, [x16, #896]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -4576,7 +4576,7 @@ ldr x1, [x16, #896]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -4707,7 +4707,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -4864,7 +4864,7 @@ ldr x1, [x16, #504]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -6289,7 +6289,7 @@ bl _p_28
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x15, [x16, #1240]
-.word 0x928005f0
+.word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -6326,7 +6326,7 @@ bl _p_54
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x15, [x16, #1240]
-.word 0x928005f0
+.word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -6361,10 +6361,10 @@ bl _p_55
 .word 0x910003bf
 .word 0xa8d77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2801540
+.word 0xd28015a0
 .word 0xaa1103e1
 bl _p_2
 
@@ -6439,7 +6439,7 @@ ldr x1, [x16, #896]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -6567,7 +6567,7 @@ ldr x1, [x16, #896]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -6698,7 +6698,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -6910,10 +6910,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -7057,10 +7057,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd28022c0
 .word 0xaa1103e1
 bl _p_2
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -7688,7 +7688,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -7834,7 +7834,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -7980,7 +7980,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -8126,7 +8126,7 @@ ldr x2, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -8269,7 +8269,7 @@ ldr x1, [x16, #472]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -9032,7 +9032,7 @@ ldr x2, [x16, #1600]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -9175,7 +9175,7 @@ ldr x1, [x16, #896]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -9303,7 +9303,7 @@ ldr x1, [x16, #1664]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd28020c0
 .word 0xaa1103e1
 bl _p_2
 
@@ -9698,7 +9698,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_2
 
@@ -9927,13 +9927,13 @@ ldr x16, [x16, #1784]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2888320
-.word 0xd2888320
+.word 0xd28900a0
+.word 0xd28900a0
 bl _p_72
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd28022a0
 .word 0xf2a04000
-.word 0xd2802240
+.word 0xd28022a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_66
@@ -9975,13 +9975,13 @@ ldr x16, [x16, #1792]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2888920
-.word 0xd2888920
+.word 0xd28906a0
+.word 0xd28906a0
 bl _p_72
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd28022a0
 .word 0xf2a04000
-.word 0xd2802240
+.word 0xd28022a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_66
@@ -10023,13 +10023,13 @@ ldr x16, [x16, #1800]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2888920
-.word 0xd2888920
+.word 0xd28906a0
+.word 0xd28906a0
 bl _p_72
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd28022a0
 .word 0xf2a04000
-.word 0xd2802240
+.word 0xd28022a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_66
@@ -10093,8 +10093,8 @@ ldr x16, [x16, #1808]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28890a0
-.word 0xd28890a0
+.word 0xd2890e20
+.word 0xd2890e20
 bl _p_72
 bl _p_73
 .word 0xf90033a0
@@ -10103,9 +10103,9 @@ bl _p_73
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd28023e0
+.word 0xd2802440
 .word 0xf2a04000
-.word 0xd28023e0
+.word 0xd2802440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_66
@@ -10455,7 +10455,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_2
 
@@ -10589,7 +10589,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_2
 
@@ -10739,7 +10739,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_2
 
@@ -10883,7 +10883,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_2
 
@@ -11017,7 +11017,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_2
 
@@ -11167,7 +11167,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_2
 
@@ -11386,7 +11386,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_2
 
@@ -11828,7 +11828,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_2
 
@@ -12233,7 +12233,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 2355
+.word 2360
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_2:
@@ -12241,7 +12241,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 2360
+.word 2365
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_3:
@@ -12249,7 +12249,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 2395
+.word 2400
 	.no_dead_strip plt_Xamarin_Forms_View__ctor
 plt_Xamarin_Forms_View__ctor:
 _p_4:
@@ -12257,7 +12257,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 2400
+.word 2405
 	.no_dead_strip plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions:
 _p_5:
@@ -12265,7 +12265,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 2405
+.word 2410
 	.no_dead_strip plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions:
 _p_6:
@@ -12273,7 +12273,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 2410
+.word 2415
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_Result_ZXing_Result
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_Result_ZXing_Result:
 _p_7:
@@ -12281,7 +12281,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 2415
+.word 2420
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_get_Result
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_get_Result:
 _p_8:
@@ -12289,7 +12289,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 2417
+.word 2422
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_get_ScanResultCommand
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_get_ScanResultCommand:
 _p_9:
@@ -12297,7 +12297,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 2419
+.word 2424
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_get_IsTorchOn
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_get_IsTorchOn:
 _p_10:
@@ -12305,7 +12305,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 2421
+.word 2426
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_IsTorchOn_bool
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_IsTorchOn_bool:
 _p_11:
@@ -12313,7 +12313,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 2423
+.word 2428
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty
 plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty:
 _p_12:
@@ -12321,7 +12321,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 2425
+.word 2430
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object
 plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object:
 _p_13:
@@ -12329,7 +12329,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 2430
+.word 2435
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_14:
@@ -12337,7 +12337,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 2435
+.word 2440
 	.no_dead_strip plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default
 plt_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default:
 _p_15:
@@ -12345,7 +12345,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 2443
+.word 2448
 	.no_dead_strip plt_Xamarin_Forms_BindableProperty_Create_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate
 plt_Xamarin_Forms_BindableProperty_Create_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate:
 _p_16:
@@ -12353,7 +12353,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 2448
+.word 2453
 	.no_dead_strip plt_Xamarin_Forms_Grid__ctor
 plt_Xamarin_Forms_Grid__ctor:
 _p_17:
@@ -12361,7 +12361,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 2453
+.word 2458
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_set_BindingContext_object
 plt_Xamarin_Forms_BindableObject_set_BindingContext_object:
 _p_18:
@@ -12369,7 +12369,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 2458
+.word 2463
 	.no_dead_strip plt_Xamarin_Forms_Grid_get_RowDefinitions
 plt_Xamarin_Forms_Grid_get_RowDefinitions:
 _p_19:
@@ -12377,7 +12377,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 2463
+.word 2468
 	.no_dead_strip plt_Xamarin_Forms_RowDefinition__ctor
 plt_Xamarin_Forms_RowDefinition__ctor:
 _p_20:
@@ -12385,7 +12385,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 2468
+.word 2473
 	.no_dead_strip plt_Xamarin_Forms_GridLength__ctor_double_Xamarin_Forms_GridUnitType
 plt_Xamarin_Forms_GridLength__ctor_double_Xamarin_Forms_GridUnitType:
 _p_21:
@@ -12393,7 +12393,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 2473
+.word 2478
 	.no_dead_strip plt_Xamarin_Forms_RowDefinition_set_Height_Xamarin_Forms_GridLength
 plt_Xamarin_Forms_RowDefinition_set_Height_Xamarin_Forms_GridLength:
 _p_22:
@@ -12401,7 +12401,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 2478
+.word 2483
 	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition
 plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition:
 _p_23:
@@ -12409,7 +12409,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 2483
+.word 2488
 	.no_dead_strip plt_Xamarin_Forms_Grid_get_ColumnDefinitions
 plt_Xamarin_Forms_Grid_get_ColumnDefinitions:
 _p_24:
@@ -12417,7 +12417,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 2494
+.word 2499
 	.no_dead_strip plt_Xamarin_Forms_ColumnDefinition__ctor
 plt_Xamarin_Forms_ColumnDefinition__ctor:
 _p_25:
@@ -12425,7 +12425,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 2499
+.word 2504
 	.no_dead_strip plt_Xamarin_Forms_ColumnDefinition_set_Width_Xamarin_Forms_GridLength
 plt_Xamarin_Forms_ColumnDefinition_set_Width_Xamarin_Forms_GridLength:
 _p_26:
@@ -12433,7 +12433,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 2504
+.word 2509
 	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition
 plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition:
 _p_27:
@@ -12441,7 +12441,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 2509
+.word 2514
 	.no_dead_strip plt_Xamarin_Forms_Grid_get_Children
 plt_Xamarin_Forms_Grid_get_Children:
 _p_28:
@@ -12449,7 +12449,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 2520
+.word 2525
 	.no_dead_strip plt_Xamarin_Forms_BoxView__ctor
 plt_Xamarin_Forms_BoxView__ctor:
 _p_29:
@@ -12457,7 +12457,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 2525
+.word 2530
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color
 plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color:
 _p_30:
@@ -12465,7 +12465,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 2530
+.word 2535
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_Opacity_double
 plt_Xamarin_Forms_VisualElement_set_Opacity_double:
 _p_31:
@@ -12473,7 +12473,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 2535
+.word 2540
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_HeightRequest_double
 plt_Xamarin_Forms_VisualElement_set_HeightRequest_double:
 _p_32:
@@ -12481,7 +12481,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 2540
+.word 2545
 	.no_dead_strip plt_Xamarin_Forms_Label__ctor
 plt_Xamarin_Forms_Label__ctor:
 _p_33:
@@ -12489,7 +12489,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 2545
+.word 2550
 	.no_dead_strip plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color
 plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color:
 _p_34:
@@ -12497,7 +12497,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 2550
+.word 2555
 	.no_dead_strip plt_Xamarin_Forms_Element_set_AutomationId_string
 plt_Xamarin_Forms_Element_set_AutomationId_string:
 _p_35:
@@ -12505,7 +12505,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 2555
+.word 2560
 	.no_dead_strip plt_Xamarin_Forms_Binding__ctor_string_Xamarin_Forms_BindingMode_Xamarin_Forms_IValueConverter_object_string_object
 plt_Xamarin_Forms_Binding__ctor_string_Xamarin_Forms_BindingMode_Xamarin_Forms_IValueConverter_object_string_object:
 _p_36:
@@ -12513,7 +12513,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 2560
+.word 2565
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetBinding_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindingBase
 plt_Xamarin_Forms_BindableObject_SetBinding_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindingBase:
 _p_37:
@@ -12521,7 +12521,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 2565
+.word 2570
 	.no_dead_strip plt_Xamarin_Forms_Button__ctor
 plt_Xamarin_Forms_Button__ctor:
 _p_38:
@@ -12529,7 +12529,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 2570
+.word 2575
 	.no_dead_strip plt_Xamarin_Forms_Button_set_Text_string
 plt_Xamarin_Forms_Button_set_Text_string:
 _p_39:
@@ -12537,7 +12537,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 2575
+.word 2580
 	.no_dead_strip plt_Xamarin_Forms_Button_set_TextColor_Xamarin_Forms_Color
 plt_Xamarin_Forms_Button_set_TextColor_Xamarin_Forms_Color:
 _p_40:
@@ -12545,7 +12545,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 2580
+.word 2585
 	.no_dead_strip plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler
 plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler:
 _p_41:
@@ -12553,7 +12553,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 2585
+.word 2590
 	.no_dead_strip plt_Xamarin_Forms_Button_set_Command_System_Windows_Input_ICommand
 plt_Xamarin_Forms_Button_set_Command_System_Windows_Input_ICommand:
 _p_42:
@@ -12561,7 +12561,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 2590
+.word 2595
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_43:
@@ -12569,7 +12569,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 2595
+.word 2600
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView__ctor
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView__ctor:
 _p_44:
@@ -12577,7 +12577,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 2600
+.word 2605
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_Options_ZXing_Mobile_MobileBarcodeScanningOptions
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_Options_ZXing_Mobile_MobileBarcodeScanningOptions:
 _p_45:
@@ -12585,7 +12585,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 2602
+.word 2607
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_add_OnScanResult_ZXing_Net_Mobile_Forms_ZXingScannerView_ScanResultDelegate
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_add_OnScanResult_ZXing_Net_Mobile_Forms_ZXingScannerView_ScanResultDelegate:
 _p_46:
@@ -12593,7 +12593,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 2604
+.word 2609
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingDefaultOverlay__ctor
 plt_ZXing_Net_Mobile_Forms_ZXingDefaultOverlay__ctor:
 _p_47:
@@ -12601,7 +12601,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 2606
+.word 2611
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayTopText_string
 plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayTopText_string:
 _p_48:
@@ -12609,7 +12609,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 2608
+.word 2613
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayBottomText_string
 plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayBottomText_string:
 _p_49:
@@ -12617,7 +12617,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 2610
+.word 2615
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_get_HasTorch
 plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_get_HasTorch:
 _p_50:
@@ -12625,7 +12625,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 2612
+.word 2617
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayShowFlashButton_bool
 plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayShowFlashButton_bool:
 _p_51:
@@ -12633,7 +12633,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 2614
+.word 2619
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingDefaultOverlay_add_FlashButtonClicked_ZXing_Net_Mobile_Forms_ZXingDefaultOverlay_FlashButtonClickedDelegate
 plt_ZXing_Net_Mobile_Forms_ZXingDefaultOverlay_add_FlashButtonClicked_ZXing_Net_Mobile_Forms_ZXingDefaultOverlay_FlashButtonClickedDelegate:
 _p_52:
@@ -12641,7 +12641,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 2616
+.word 2621
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_set_Overlay_Xamarin_Forms_View
 plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_set_Overlay_Xamarin_Forms_View:
 _p_53:
@@ -12649,7 +12649,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 2618
+.word 2623
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_get_Overlay
 plt_ZXing_Net_Mobile_Forms_ZXingScannerPage_get_Overlay:
 _p_54:
@@ -12657,7 +12657,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 2620
+.word 2625
 	.no_dead_strip plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View
 plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View:
 _p_55:
@@ -12665,7 +12665,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 2622
+.word 2627
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_ToggleTorch
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_ToggleTorch:
 _p_56:
@@ -12673,7 +12673,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 2627
+.word 2632
 	.no_dead_strip plt_Xamarin_Forms_Page_OnAppearing
 plt_Xamarin_Forms_Page_OnAppearing:
 _p_57:
@@ -12681,7 +12681,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 2629
+.word 2634
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_IsScanning_bool
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_IsScanning_bool:
 _p_58:
@@ -12689,7 +12689,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 2634
+.word 2639
 	.no_dead_strip plt_Xamarin_Forms_Page_OnDisappearing
 plt_Xamarin_Forms_Page_OnDisappearing:
 _p_59:
@@ -12697,7 +12697,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 2636
+.word 2641
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_IsAnalyzing_bool
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_set_IsAnalyzing_bool:
 _p_60:
@@ -12705,7 +12705,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 2641
+.word 2646
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_AutoFocus
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_AutoFocus:
 _p_61:
@@ -12713,7 +12713,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 2643
+.word 2648
 	.no_dead_strip plt_ZXing_Net_Mobile_Forms_ZXingScannerView_AutoFocus_int_int
 plt_ZXing_Net_Mobile_Forms_ZXingScannerView_AutoFocus_int_int:
 _p_62:
@@ -12721,7 +12721,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 2645
+.word 2650
 	.no_dead_strip plt_Xamarin_Forms_Image__ctor
 plt_Xamarin_Forms_Image__ctor:
 _p_63:
@@ -12729,7 +12729,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 2647
+.word 2652
 	.no_dead_strip plt_ZXing_Common_EncodingOptions__ctor
 plt_ZXing_Common_EncodingOptions__ctor:
 _p_64:
@@ -12737,7 +12737,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 2652
+.word 2657
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_65:
@@ -12745,7 +12745,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 2657
+.word 2662
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_66:
@@ -12753,7 +12753,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 2695
+.word 2700
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_67:
@@ -12761,7 +12761,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 2750
+.word 2756
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_68:
@@ -12769,7 +12769,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 2758
+.word 2764
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_69:
@@ -12777,7 +12777,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 2784
+.word 2790
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_70:
@@ -12785,7 +12785,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 2801
+.word 2807
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_71:
@@ -12793,7 +12793,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 2809
+.word 2815
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_72:
@@ -12801,7 +12801,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 2828
+.word 2834
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_73:
@@ -12809,7 +12809,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 2857
+.word 2863
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_74:
@@ -12817,7 +12817,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 2880
+.word 2887
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_75:
@@ -12825,7 +12825,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 2903
+.word 2911
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_76:
@@ -12833,7 +12833,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 2908
+.word 2916
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_77:
@@ -12841,7 +12841,7 @@ adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
 add x16, x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 2937
+.word 2945
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -12955,13 +12955,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 240,2544,78,114,70,391195135,0,19167
-	.long 128,8,8,8,0,25,21296,2120
+	.long 240,2544,78,114,70,391195135,0,19192
+	.long 128,8,8,8,0,25,21320,2120
 	.long 1576,904,0,1328,1544,992,0,696
 	.long 184,2112,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 178,121,61,88,99,97,66,46,160,102,134,23,6,141,98,31
+	.byte 192,138,4,233,98,224,110,165,186,136,17,197,193,133,214,91
 	.globl _mono_aot_module_ZXing_Net_Mobile_Forms_info
 	.align 3
 _mono_aot_module_ZXing_Net_Mobile_Forms_info:

@@ -11,6 +11,7 @@
 #import <MapKit/MapKit.h>
 #import <GLKit/GLKit.h>
 #import <CoreSpotlight/CoreSpotlight.h>
+#import <CoreLocation/CoreLocation.h>
 #import <QuartzCore/QuartzCore.h>
 #import <WebKit/WebKit.h>
 #import <AVFoundation/AVFoundation.h>
@@ -18,9 +19,11 @@
 
 @class UIApplicationDelegate;
 @class GLKViewDelegate;
+@class CLLocationManagerDelegate;
 @class WKNavigationDelegate;
 @class UIKit_UIControlEventProxy;
 @class UIActionSheetDelegate;
+@class UIActivityItemSource;
 @class UICollectionViewDataSource;
 @class UIPickerViewModel;
 @class UIScrollViewDelegate;
@@ -43,7 +46,9 @@
 @class CabinetController;
 @class MapsController;
 @class ViewController;
+@class BusController;
 @class GLKit_GLKView__GLKViewDelegate;
+@class CoreLocation_CLLocationManager__CLLocationManagerDelegate;
 @class UIKit_UIBarButtonItem_Callback;
 @class UIKit_UIView_UIViewAppearance;
 @class UIKit_UIControl_UIControlAppearance;
@@ -75,12 +80,14 @@
 @class ZXing_Mobile_ZXingScannerView;
 @class System_Net_Http_NSUrlSessionHandler_WrappedNSInputStream;
 @class System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate;
+@class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
+@class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
+@class Xamarin_Essentials_ShareActivityItemSource;
+@class Xamarin_Essentials_SingleLocationListener;
 @class Xamarin_Forms_Platform_iOS_VisualElementRenderer_1;
 @class Xamarin_Forms_Platform_iOS_ViewRenderer_2;
 @class ZXing_Net_Mobile_Forms_iOS_ZXingScannerViewRenderer;
 @class ZXing_Net_Mobile_Forms_iOS_ZXingBarcodeImageViewRenderer;
-@class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
-@class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
 @class Xamarin_Forms_Platform_iOS_iOS7ButtonContainer;
 @class Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
@@ -167,12 +174,22 @@
 	-(id) init;
 @end
 
+@interface CLLocationManagerDelegate : NSObject<CLLocationManagerDelegate> {
+}
+	-(id) init;
+@end
+
 @interface WKNavigationDelegate : NSObject<WKNavigationDelegate> {
 }
 	-(id) init;
 @end
 
 @interface UIActionSheetDelegate : NSObject<UIActionSheetDelegate> {
+}
+	-(id) init;
+@end
+
+@interface UIActivityItemSource : NSObject<UIActivityItemSource> {
 }
 	-(id) init;
 @end
@@ -328,6 +345,36 @@
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
+@interface BusController : UIViewController {
+}
+	@property (nonatomic, assign) UITextField * id_busInput;
+	@property (nonatomic, assign) MKMapView * MapShow;
+	@property (nonatomic, assign) UITextField * NumberBus;
+	@property (nonatomic, assign) UIScrollView * ShowInputs;
+	@property (nonatomic, assign) UILabel * StatusTracking;
+	@property (nonatomic, assign) UIButton * StopTrackingButton;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UITextField *) id_busInput;
+	-(void) setId_busInput:(UITextField *)p0;
+	-(MKMapView *) MapShow;
+	-(void) setMapShow:(MKMapView *)p0;
+	-(UITextField *) NumberBus;
+	-(void) setNumberBus:(UITextField *)p0;
+	-(UIScrollView *) ShowInputs;
+	-(void) setShowInputs:(UIScrollView *)p0;
+	-(UILabel *) StatusTracking;
+	-(void) setStatusTracking:(UILabel *)p0;
+	-(UIButton *) StopTrackingButton;
+	-(void) setStopTrackingButton:(UIButton *)p0;
+	-(void) viewDidLoad;
+	-(void) StartPath:(UIButton *)p0;
+	-(void) StopTracking:(UIButton *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
 @interface UIKit_UIView_UIViewAppearance : NSObject {
 }
 	-(void) release;
@@ -450,6 +497,20 @@
 	-(id) init;
 @end
 
+@interface OpenTK_Platform_iPhoneOS_iPhoneOSGameView : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	+(Class) layerClass;
+	-(void) layoutSubviews;
+	-(void) willMoveToWindow:(UIWindow *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) initWithCoder:(NSCoder *)p0;
+	-(id) initWithFrame:(CGRect)p0;
+@end
+
 @interface Xamarin_Forms_Platform_iOS_VisualElementRenderer_1 : UIView {
 }
 	-(void) release;
@@ -484,20 +545,6 @@
 @interface ZXing_Net_Mobile_Forms_iOS_ZXingBarcodeImageViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
 	-(id) init;
-@end
-
-@interface OpenTK_Platform_iPhoneOS_iPhoneOSGameView : UIView {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	+(Class) layerClass;
-	-(void) layoutSubviews;
-	-(void) willMoveToWindow:(UIWindow *)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) initWithCoder:(NSCoder *)p0;
-	-(id) initWithFrame:(CGRect)p0;
 @end
 
 @interface Xamarin_Forms_Platform_iOS_FormsApplicationDelegate : NSObject<UIApplicationDelegate> {
