@@ -8,7 +8,7 @@ namespace ETraffic
     {
         partial void Generate(UIButton sender)
         {
-
+            QrViewName.drawQR();
         }
 
         public CabinetController (IntPtr handle) : base (handle)
