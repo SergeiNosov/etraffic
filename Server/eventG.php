@@ -1,7 +1,7 @@
 <?
 
 
-$typeEvent = $_POST["type"];
+$typeEvent = $_GET["type"];
 
 
 mysql_connect('localhost','z98950oc_baz','123456');
@@ -12,9 +12,9 @@ mysql_select_db('z98950oc_baz');
  // $id_tk = $_POST["id_tk"];
  // $summ = $_POST["summ"];
 
- $id = $_POST["id"];
+ $id = $_GET["id"];
   $id_tk = $_POST["id_tk"];
- $summ = $_POST["summ"];
+ $summ = $_GET["summ"];
 
 $TkReally = false;
 if($typeEvent==1)
