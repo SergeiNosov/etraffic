@@ -232,7 +232,6 @@
     <BundleResource Include="Resources\Vector 2.png" />
     <BundleResource Include="Resources\Rectangle 3.2-2.png" />
     <BundleResource Include="Resources\Войти.png" />
-    <BundleResource Include="Resources\.DS_Store" />
     <BundleResource Include="Resources\Frame.png" />
     <BundleResource Include="Resources\Rectangle %28Stroke%29.png" />
     <BundleResource Include="Resources\Rectangle 3.1-2.png" />
