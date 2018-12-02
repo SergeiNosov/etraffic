@@ -22,7 +22,6 @@
 @class CLLocationManagerDelegate;
 @class WKNavigationDelegate;
 @class UIKit_UIControlEventProxy;
-@class __MonoTouch_UIImageStatusDispatcher;
 @class UIActionSheetDelegate;
 @class UIActivityItemSource;
 @class UICollectionViewDataSource;
@@ -44,10 +43,10 @@
 @class AVCaptureVideoDataOutputSampleBufferDelegate;
 @class AppDelegate;
 @class ViewControllerPay;
+@class CabinetController;
 @class MapsController;
 @class QrView;
 @class ViewController;
-@class CabinetController;
 @class BusController;
 @class GLKit_GLKView__GLKViewDelegate;
 @class CoreLocation_CLLocationManager__CLLocationManagerDelegate;
@@ -279,6 +278,26 @@
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
+@interface CabinetController : UIViewController {
+}
+	@property (nonatomic, assign) UITextField * CostInput;
+	@property (nonatomic, assign) UIButton * DownloadQRBtn;
+	@property (nonatomic, assign) id QrViewName;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UITextField *) CostInput;
+	-(void) setCostInput:(UITextField *)p0;
+	-(UIButton *) DownloadQRBtn;
+	-(void) setDownloadQRBtn:(UIButton *)p0;
+	-(id) QrViewName;
+	-(void) setQrViewName:(id)p0;
+	-(void) DownloadQR:(UIButton *)p0;
+	-(void) Generate:(UIButton *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
 @interface MapsController : UIViewController {
 }
 	-(void) release;
@@ -342,26 +361,6 @@
 	-(void) didReceiveMemoryWarning;
 	-(void) off:(UIButton *)p0;
 	-(void) StartScan:(UIButton *)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
-@interface CabinetController : UIViewController {
-}
-	@property (nonatomic, assign) UITextField * CostInput;
-	@property (nonatomic, assign) UIButton * DownloadQRBtn;
-	@property (nonatomic, assign) id QrViewName;
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(UITextField *) CostInput;
-	-(void) setCostInput:(UITextField *)p0;
-	-(UIButton *) DownloadQRBtn;
-	-(void) setDownloadQRBtn:(UIButton *)p0;
-	-(id) QrViewName;
-	-(void) setQrViewName:(id)p0;
-	-(void) DownloadQR:(UIButton *)p0;
-	-(void) Generate:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 

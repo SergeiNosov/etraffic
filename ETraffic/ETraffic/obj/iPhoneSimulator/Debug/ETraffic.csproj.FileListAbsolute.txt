@@ -63,15 +63,6 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.xml
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.xml
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/ETraffic.exe.config
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/_PartialAppManifest.items
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/_BundleResourceWithLogicalName.items
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/coremlc/_PartialAppManifest.items
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/coremlc/_BundleResourceWithLogicalName.items
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Erorr.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Success.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/maps.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.dll
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.xml
@@ -105,22 +96,6 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Newtonsoft.Json.pdb
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
 <<<<<<< HEAD
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/LaunchImage.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.2.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Vector.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Vector 2.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.2-2.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Войти.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Frame.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle (Stroke).png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.1-2.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.1-3.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.1.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Subtract.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Vector-2.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Vector-3.png
-/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/coins.png
 =======
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/ETraffic.csprojAssemblyReference.cache
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/ETraffic.exe.config
@@ -229,3 +204,34 @@
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Success.png
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/
 >>>>>>> master
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.dll
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.dll
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.pdb
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.xml
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.xml
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_PartialAppManifest.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_PartialAppManifest.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Erorr.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Success.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/maps.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/LaunchImage.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Rectangle 3.2.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Vector.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Vector 2.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Rectangle 3.2-2.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Войти.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Frame.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Rectangle (Stroke).png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Rectangle 3.1-2.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Rectangle 3.1-3.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Rectangle 3.1.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Rectangle.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Subtract.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Vector-2.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Vector-3.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/coins.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/Rectangle 2.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/

@@ -6,6 +6,8 @@ namespace ETraffic
 {
     public partial class CabinetController : UIViewController
     {
+        
+
         partial void Generate(UIButton sender)
         {
             try
@@ -17,6 +19,7 @@ namespace ETraffic
                     sender.Hidden = true;
                     CostInput.Hidden = true;
                     DownloadQRBtn.Hidden = false;
+
                 }
             }
             catch {}
@@ -28,17 +31,18 @@ namespace ETraffic
 
         partial void DownloadQR(UIButton sender)
         {
-            if (QrViewName.qrImage != null)
-            {
-                QrViewName.qrImage.SaveToPhotosAlbum((uiImage, nsError) =>
-                { 
-                    if (nsError != null)
-                    {
-                        // do something about the error..
-                    }
-                });
-            }
+           
+
+            var image = FromObject(QrViewName.qrImage);
+
+            var items = new[] {image };
+
+            var activity = new UIActivityViewController(items, null);
+
+            PresentViewController(activity, true, null);
         }
+
+       
 
 
     }

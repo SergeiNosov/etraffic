@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Can we use your location at all times?</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Can we use your location at all times?</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -15,8 +19,6 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string></string>
-	<key>CFBundleName</key>
-	<string>ETraffic</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.SergeiNosov.ETraffic</string>
 	<key>CFBundleShortVersionString</key>
