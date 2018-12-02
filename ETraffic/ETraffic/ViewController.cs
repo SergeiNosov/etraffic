@@ -25,6 +25,12 @@ namespace ETraffic
 
         public override void ViewDidLoad()
         {
+            var g = new UITapGestureRecognizer(() => View.EndEditing(true));
+            g.CancelsTouchesInView = false; //for iOS5
+            View.AddGestureRecognizer(g);
+
+
+
             ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             UpdateBalance();
 

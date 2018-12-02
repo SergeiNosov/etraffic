@@ -46,6 +46,7 @@
 @class CabinetController;
 @class MapsController;
 @class QrView;
+@class StartSceneController;
 @class ViewController;
 @class BusController;
 @class GLKit_GLKView__GLKViewDelegate;
@@ -282,6 +283,7 @@
 }
 	@property (nonatomic, assign) UITextField * CostInput;
 	@property (nonatomic, assign) UIButton * DownloadQRBtn;
+	@property (nonatomic, assign) UIImageView * ImageResult;
 	@property (nonatomic, assign) id QrViewName;
 	-(void) release;
 	-(id) retain;
@@ -291,8 +293,11 @@
 	-(void) setCostInput:(UITextField *)p0;
 	-(UIButton *) DownloadQRBtn;
 	-(void) setDownloadQRBtn:(UIButton *)p0;
+	-(UIImageView *) ImageResult;
+	-(void) setImageResult:(UIImageView *)p0;
 	-(id) QrViewName;
 	-(void) setQrViewName:(id)p0;
+	-(void) viewDidLoad;
 	-(void) DownloadQR:(UIButton *)p0;
 	-(void) Generate:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
@@ -315,6 +320,16 @@
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(void) drawRect:(CGRect)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface StartSceneController : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLoad;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
@@ -389,6 +404,7 @@
 	-(UIButton *) StopTrackingButton;
 	-(void) setStopTrackingButton:(UIButton *)p0;
 	-(void) viewDidLoad;
+	-(void) viewDidUnload;
 	-(void) StartPath:(UIButton *)p0;
 	-(void) StopTracking:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;

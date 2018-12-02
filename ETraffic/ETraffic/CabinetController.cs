@@ -24,7 +24,13 @@ namespace ETraffic
             }
             catch {}
         }
+        public override void ViewDidLoad()
+        {
+            var g = new UITapGestureRecognizer(() => View.EndEditing(true));
+            g.CancelsTouchesInView = false; //for iOS5
+            View.AddGestureRecognizer(g);
 
+        }
         public CabinetController (IntPtr handle) : base (handle)
         {
         }
