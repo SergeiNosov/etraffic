@@ -24,6 +24,9 @@ namespace ETraffic
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            var g = new UITapGestureRecognizer(() => View.EndEditing(true));
+            g.CancelsTouchesInView = false; //for iOS5
+            View.AddGestureRecognizer(g);
 
             ShowInputs.Hidden = false;
             MapShow.Hidden = true;
@@ -31,8 +34,12 @@ namespace ETraffic
             StopTrackingButton.Hidden = true;
 
         }
-
-       partial void StartPath(UIButton sender)
+        public override void ViewDidUnload()
+        {
+            StoptrackingHelper();
+            base.ViewDidUnload();
+        }
+        partial void StartPath(UIButton sender)
         {
             //начало движения водителя 
             if (id_busInput.Text != "" && NumberBus.Text != "")
@@ -127,17 +134,20 @@ namespace ETraffic
 
 
 
-partial void StopTracking(UIButton sender)
+        partial void StopTracking(UIButton sender)
         {
+            StoptrackingHelper();
+        }
+
+        public void StoptrackingHelper(){
             StopTrackingB = true;
             ShowInputs.Hidden = false;
             MapShow.Hidden = true;
             StatusTracking.Text = "Вы не отслеживаетесь";
             StopTrackingButton.Hidden = true;
 
-
         }
-       
+
 
 
     }

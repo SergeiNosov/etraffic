@@ -242,7 +242,7 @@
         <!--Авторизация-->
         <scene sceneID="19837">
             <objects>
-                <viewController id="19838" sceneMemberID="viewController">
+                <viewController id="19838" sceneMemberID="viewController" customClass="StartSceneController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="19835"/>
                         <viewControllerLayoutGuide type="bottom" id="19836"/>

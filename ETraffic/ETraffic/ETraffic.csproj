@@ -216,6 +216,10 @@
     <Compile Include="Framework4.0Methods\Stream4Methods.cs" />
     <Compile Include="Framework4.0Methods\String4Methods.cs" />
     <Compile Include="PayloadGenerator.cs" />
+    <Compile Include="StartSceneController.cs" />
+    <Compile Include="StartSceneController.designer.cs">
+      <DependentUpon>StartSceneController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\w4MSwP0mc_I.jpg" />
