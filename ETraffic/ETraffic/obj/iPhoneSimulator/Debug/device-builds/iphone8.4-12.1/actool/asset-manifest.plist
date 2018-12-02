@@ -6,8 +6,8 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/bundle/LaunchImage-700-568h@2x.png</string>
-			<string>/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/partial-info.plist</string>
+			<string>/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/bundle/LaunchImage-700-568h@2x.png</string>
+			<string>/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/partial-info.plist</string>
 		</array>
 	</dict>
 	<key>com.apple.actool.document.warnings</key>
@@ -18,7 +18,7 @@
 				<string>./AppIcon.appiconset/[][watch][44x44][longLook][42mm][2x][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The app icon set "AppIcon" has an unassigned child.</string>
 			<key>type</key>
