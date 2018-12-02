@@ -11,7 +11,7 @@ namespace ETraffic
         private bool qrPainted = false;
         private bool showQR = false;
         private string cost;
-        private string userId = "30";
+        private string userId = "3";
         public UIImage qrImage;
         QRGenerator qrGenerator;
         public QrView(IntPtr handle) : base(handle)
@@ -37,6 +37,7 @@ namespace ETraffic
                 return;
             }
             QRCodeData qrCodeData = qrGenerator.CreateQrCode(String.Format("{0},{1}", cost, userId), QRGenerator.ECCLevel.M);
+         
             //get graphics context
             using (CGContext g = UIGraphics.GetCurrentContext())
                 {
@@ -58,8 +59,8 @@ namespace ETraffic
                         }
                     }
                     g.DrawPath(CGPathDrawingMode.Fill);
-
-                    UIGraphics.GetImageFromCurrentImageContext();
+            
+                qrImage = UIGraphics.GetImageFromCurrentImageContext();
                     qrPainted = true;
                 }
         }
