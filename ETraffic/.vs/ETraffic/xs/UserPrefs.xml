@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{47A750FD-1A1A-4282-AE98-E632A6FAD3A1}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ETraffic/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ETraffic/QrView.cs">
     <Files>
       <File FileName="ETraffic/Main.cs" Line="1" Column="1" />
       <File FileName="ETraffic/ViewController.cs" Line="1" Column="1" />
-      <File FileName="ETraffic/CabinetController.cs" Line="29" Column="22" />
-      <File FileName="ETraffic/QrView.cs" Line="1" Column="1" />
+      <File FileName="ETraffic/QrView.cs" Line="60" Column="27" />
       <File FileName="ETraffic/Main.storyboard" />
+      <File FileName="ETraffic/Info.plist" />
+      <File FileName="ETraffic/CabinetController.cs" Line="31" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ETraffic PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DBD9A400-599E-414D-839F-E05618163053" />
+  <MonoDevelop.Ide.ItemProperties.ETraffic PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.3f726f9ed00bab0be61cb8046b32228331194403" />
 </Properties>

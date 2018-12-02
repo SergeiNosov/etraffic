@@ -24,6 +24,10 @@ namespace ETraffic
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView ImageResult { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         ETraffic.QrView QrViewName { get; set; }
 
         [Action ("DownloadQR:")]
@@ -48,6 +52,11 @@ namespace ETraffic
             if (DownloadQRBtn != null) {
                 DownloadQRBtn.Dispose ();
                 DownloadQRBtn = null;
+            }
+
+            if (ImageResult != null) {
+                ImageResult.Dispose ();
+                ImageResult = null;
             }
 
             if (QrViewName != null) {

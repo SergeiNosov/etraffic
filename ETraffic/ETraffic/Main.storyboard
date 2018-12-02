@@ -355,8 +355,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="39484" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" alwaysBounceVertical="YES">
-                                <rect key="frame" x="0.0" y="70" width="320" height="840"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="39484" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" alwaysBounceVertical="YES" keyboardDismissMode="interactive">
+                                <rect key="frame" x="0.0" y="70" width="320" height="498"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="20128" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
@@ -391,6 +391,10 @@
                                             <accessibilityTraits key="traits" image="YES"/>
                                         </accessibility>
                                     </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="41919" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="39" y="330" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -400,6 +404,7 @@
                         <outlet property="DownloadQRBtn" destination="33802" id="name-outlet-33802"/>
                         <outlet property="CostInput" destination="33774" id="name-outlet-33774"/>
                         <outlet property="QrViewName" destination="22552" id="name-outlet-22552"/>
+                        <outlet property="ImageResult" destination="41919" id="name-outlet-41919"/>
                     </connections>
                     <toolbarItems>
                         <barButtonItem title="Item" id="40700">

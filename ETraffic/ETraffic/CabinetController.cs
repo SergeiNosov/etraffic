@@ -31,7 +31,7 @@ namespace ETraffic
 
         partial void DownloadQR(UIButton sender)
         {
-           
+     
 
             var image = FromObject(QrViewName.qrImage);
 

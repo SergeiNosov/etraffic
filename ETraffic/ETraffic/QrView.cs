@@ -58,8 +58,8 @@ namespace ETraffic
                         }
                     }
                     g.DrawPath(CGPathDrawingMode.Fill);
-
-                    UIGraphics.GetImageFromCurrentImageContext();
+                g.SaveState();
+                qrImage = UIGraphics.GetImageFromCurrentImageContext();
                     qrPainted = true;
                 }
         }
