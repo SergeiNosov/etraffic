@@ -45,6 +45,7 @@
 @class ViewControllerPay;
 @class CabinetController;
 @class MapsController;
+@class QrView;
 @class ViewController;
 @class BusController;
 @class GLKit_GLKView__GLKViewDelegate;
@@ -297,6 +298,18 @@
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
+@interface QrView : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) touchesBegan:(NSSet *)p0 withEvent:(UIEvent *)p1;
+	-(void) touchesMoved:(NSSet *)p0 withEvent:(UIEvent *)p1;
+	-(void) drawRect:(CGRect)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
 @interface ViewController : UIViewController {
 }
 	@property (nonatomic, assign) UILabel * BalanceLabel;
@@ -338,9 +351,7 @@
 	-(void) setTkName:(UILabel *)p0;
 	-(void) viewDidLoad;
 	-(void) didReceiveMemoryWarning;
-	-(void) CloseMaps:(UIButton *)p0;
-	-(void) Off:(UIButton *)p0;
-	-(void) StartMaps:(UIButton *)p0;
+	-(void) off:(UIButton *)p0;
 	-(void) StartScan:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end

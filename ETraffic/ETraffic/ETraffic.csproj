@@ -164,6 +164,7 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -171,6 +172,7 @@
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Resources\en.lproj\Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -214,6 +216,23 @@
     <BundleResource Include="Resources\Erorr.png" />
     <BundleResource Include="Resources\Success.png" />
     <BundleResource Include="Resources\maps.png" />
+    <BundleResource Include="Resources\LaunchImage.png" />
+    <BundleResource Include="Resources\Rectangle 3.2.png" />
+    <BundleResource Include="Resources\Vector.png" />
+    <BundleResource Include="Resources\Vector 2.png" />
+    <BundleResource Include="Resources\Rectangle 3.2-2.png" />
+    <BundleResource Include="Resources\Войти.png" />
+    <BundleResource Include="Resources\.DS_Store" />
+    <BundleResource Include="Resources\Frame.png" />
+    <BundleResource Include="Resources\Rectangle %28Stroke%29.png" />
+    <BundleResource Include="Resources\Rectangle 3.1-2.png" />
+    <BundleResource Include="Resources\Rectangle 3.1-3.png" />
+    <BundleResource Include="Resources\Rectangle 3.1.png" />
+    <BundleResource Include="Resources\Rectangle.png" />
+    <BundleResource Include="Resources\Subtract.png" />
+    <BundleResource Include="Resources\Vector-2.png" />
+    <BundleResource Include="Resources\Vector-3.png" />
+    <BundleResource Include="Resources\coins.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />

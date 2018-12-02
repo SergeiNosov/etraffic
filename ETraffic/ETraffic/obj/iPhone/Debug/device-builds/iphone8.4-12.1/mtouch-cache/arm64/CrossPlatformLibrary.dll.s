@@ -42062,7 +42062,7 @@ bl _p_607
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x928005f0
+.word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -46115,7 +46115,7 @@ ldr x16, [x16, #2760]
 adrp x16, mono_aot_CrossPlatformLibrary_got@PAGE+4096
 add x16, x16, mono_aot_CrossPlatformLibrary_got@PAGEOFF
 ldr x15, [x16, #2768]
-.word 0x928005f0
+.word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -94685,9 +94685,9 @@ bl _mono_gsharedvt_value_copy
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd292d5e0
+.word 0xd292efa0
 .word 0xf2a00020
-.word 0xd292d5e0
+.word 0xd292efa0
 .word 0xf2a00020
 bl _p_1188
 .word 0xaa0003e1
@@ -95435,7 +95435,7 @@ bl _p_1539
 .word 0xaa0003ef
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0x928001f0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -97720,7 +97720,7 @@ bl _p_1584
 .word 0xaa0003ef
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0x928001f0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -130185,7 +130185,7 @@ _mono_aot_file_info:
 	.long 1408,23648,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 129,108,96,80,48,219,195,0,237,245,27,118,209,237,98,64
+	.byte 182,89,208,46,140,246,237,200,26,64,143,58,64,237,162,240
 	.globl _mono_aot_module_CrossPlatformLibrary_info
 	.align 3
 _mono_aot_module_CrossPlatformLibrary_info:
