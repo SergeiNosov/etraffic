@@ -194,15 +194,6 @@
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/ETraffic.csproj.CopyComplete
-/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/_PartialAppManifest.items
-/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/_BundleResourceWithLogicalName.items
-/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/coremlc/_PartialAppManifest.items
-/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/coremlc/_BundleResourceWithLogicalName.items
-/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/maps.png
-/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Erorr.png
-/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Success.png
-/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/
 >>>>>>> master
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.dll
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.dll
@@ -235,3 +226,32 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/coins.png
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 2.png
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.pdb
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.xml
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/bin/iPhoneSimulator/Debug/Plugin.Share.xml
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/_PartialAppManifest.items
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/coremlc/_PartialAppManifest.items
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Erorr.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Success.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/maps.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/LaunchImage.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.2.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Vector.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Vector 2.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.2-2.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Войти.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Frame.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle (Stroke).png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.1-2.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.1-3.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.1.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Subtract.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Vector-2.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Vector-3.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/coins.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 2.png
+/Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/

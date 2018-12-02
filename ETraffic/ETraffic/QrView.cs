@@ -13,6 +13,7 @@ namespace ETraffic
         private string cost;
         private string userId = "3";
         public UIImage qrImage;
+        public UIImageView view;
         QRGenerator qrGenerator;
         public QrView(IntPtr handle) : base(handle)
         {
@@ -37,11 +38,12 @@ namespace ETraffic
                 return;
             }
             QRCodeData qrCodeData = qrGenerator.CreateQrCode(String.Format("{0},{1}", cost, userId), QRGenerator.ECCLevel.M);
-         
+
             //get graphics context
+            UIGraphics.BeginImageContext(new CGSize(300, 300));
             using (CGContext g = UIGraphics.GetCurrentContext())
-                {
-                    var drawQuietZones = true;
+            {
+                var drawQuietZones = true;
                     var pixelsPerModule = 10;
                     var size = (qrCodeData.ModuleMatrix.Count - (drawQuietZones ? 0 : 8)) * pixelsPerModule;
                     var offset = drawQuietZones ? 0 : 4 * pixelsPerModule;
@@ -59,10 +61,14 @@ namespace ETraffic
                         }
                     }
                     g.DrawPath(CGPathDrawingMode.Fill);
-            
+                g.SaveState(); 
                 qrImage = UIGraphics.GetImageFromCurrentImageContext();
-                    qrPainted = true;
-                }
+                qrPainted = true;
+                view.Image = qrImage;
+            }
+            UIGraphics.EndImageContext();
+            Console.WriteLine("qrImage");
+                Console.WriteLine(qrImage);
         }
     }
 }
