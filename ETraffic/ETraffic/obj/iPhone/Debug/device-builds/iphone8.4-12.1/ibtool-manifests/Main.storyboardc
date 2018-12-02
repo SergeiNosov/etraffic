@@ -40,6 +40,53 @@
 				<integer>9</integer>
 			</dict>
 		</array>
+		<key>38492</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>1339</string>
+					<string>38492</string>
+				</array>
+				<key>message</key>
+				<string>Plain Style unsupported in a Navigation Item</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>38493</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>1339</string>
+					<string>38493</string>
+				</array>
+				<key>message</key>
+				<string>Plain Style unsupported in a Navigation Item</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>dnD-uz-a1d</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>dnD-uz-a1d</string>
+				</array>
+				<key>message</key>
+				<string>Highlighted property is only for display within Interface Builder (The value set for this property will not be present at runtime)</string>
+				<key>type</key>
+				<string>IBIssueTypeAttributeUnavailable</string>
+				<key>type-value</key>
+				<integer>5</integer>
+			</dict>
+		</array>
 	</dict>
 </dict>
 </plist>

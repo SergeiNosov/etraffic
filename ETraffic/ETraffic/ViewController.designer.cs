@@ -61,6 +61,10 @@ namespace ETraffic
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void CloseMaps (UIKit.UIButton sender);
 
+        [Action ("off:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void off (UIKit.UIButton sender);
+
         [Action ("Off:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void Off (UIKit.UIButton sender);

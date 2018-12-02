@@ -45,6 +45,7 @@
 @class ViewControllerPay;
 @class CabinetController;
 @class MapsController;
+@class QrView;
 @class ViewController;
 @class BusController;
 @class GLKit_GLKView__GLKViewDelegate;
@@ -279,10 +280,20 @@
 
 @interface CabinetController : UIViewController {
 }
+	@property (nonatomic, assign) UITextField * CostInput;
+	@property (nonatomic, assign) UIButton * DownloadQRBtn;
+	@property (nonatomic, assign) id QrViewName;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UITextField *) CostInput;
+	-(void) setCostInput:(UITextField *)p0;
+	-(UIButton *) DownloadQRBtn;
+	-(void) setDownloadQRBtn:(UIButton *)p0;
+	-(id) QrViewName;
+	-(void) setQrViewName:(id)p0;
+	-(void) DownloadQR:(UIButton *)p0;
 	-(void) Generate:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
@@ -294,6 +305,16 @@
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface QrView : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) drawRect:(CGRect)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
@@ -338,9 +359,7 @@
 	-(void) setTkName:(UILabel *)p0;
 	-(void) viewDidLoad;
 	-(void) didReceiveMemoryWarning;
-	-(void) CloseMaps:(UIButton *)p0;
-	-(void) Off:(UIButton *)p0;
-	-(void) StartMaps:(UIButton *)p0;
+	-(void) off:(UIButton *)p0;
 	-(void) StartScan:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end

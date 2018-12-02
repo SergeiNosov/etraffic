@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Globalization;
 using System.Text.RegularExpressions;
+using CoreAnimation;
+using Foundation;
 
 namespace ETraffic
 {
@@ -25,8 +27,14 @@ namespace ETraffic
         {
             ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             UpdateBalance();
-           
+
             base.ViewDidLoad();
+
+            StartMaps();
+
+           
+
+          
 
         }
 
@@ -96,7 +104,7 @@ namespace ETraffic
                 TkName.Hidden = true;
                 SummPayment.Hidden = true;
                 InfoPaymentLabel.Hidden = true;
-                MapsViewusr.Hidden = true;
+                MapShow.Hidden = true;
             }
             else {
                 Console.WriteLine("Success Payment");
@@ -108,23 +116,14 @@ namespace ETraffic
                 SummPayment.Hidden = false;
                 DatePayment.Text = DateTime.Today.ToString();
                 InfoPaymentLabel.Hidden = false;
-                MapsViewusr.Hidden = true;
+             
+                MapShow.Hidden = true;
 
             }
             UpdateBalance();
         }
 
-        partial void Off(UIButton sender)
-        {
-            SuccessPayment.Hidden = true;
-            ErorrPayment.Hidden = true;
-            ResultView.Hidden = true;
-            DatePayment.Hidden = true;
-            TkName.Hidden = true;
-            SummPayment.Hidden = true;
-            InfoPaymentLabel.Hidden = true;
-            MapsViewusr.Hidden = false;
-        }
+      
 
         public async void WaitGetBalance(string id)
         {
@@ -145,16 +144,11 @@ namespace ETraffic
 
         }
 
-        partial void CloseMaps(UIButton sender)
-        {
-            MapShow.Hidden = true;
-            MapCloseButton.Hidden = true;
-        }
-
-        partial void StartMaps(UIButton sender)
+    
+        public void StartMaps()
         {
             MapShow.Hidden = false;
-            MapCloseButton.Hidden = false;
+         //   MapCloseButton.Hidden = false;
 
             
                    
@@ -170,10 +164,24 @@ namespace ETraffic
 
             UpdateBus();
         }
+
+        partial void off(UIButton sender)
+        {
+            ResultView.Hidden = true;
+            ErorrPayment.Hidden = true;
+            SuccessPayment.Hidden = true;
+            DatePayment.Hidden = true;
+            TkName.Hidden = true;
+            SummPayment.Hidden = true;
+           
+            InfoPaymentLabel.Hidden = true;
+
+            MapShow.Hidden = false;
+        }
       
         public void SetNewBalanceClient(string balance)
         {
-            BalanceLabel.Text = balance + " руб";
+            BalanceLabel.Text = balance;
         }
       
         public async void UpdateBus()

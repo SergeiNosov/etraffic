@@ -2804,7 +2804,7 @@ _mono_aot_file_info:
 	.long 56,1072,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 250,157,187,246,1,217,147,182,238,107,121,91,141,21,129,75
+	.byte 249,115,33,233,113,65,34,82,115,41,187,70,152,24,42,39
 	.globl _mono_aot_module_CrossPlatformLibrary_Platform_info
 	.align 3
 _mono_aot_module_CrossPlatformLibrary_Platform_info:

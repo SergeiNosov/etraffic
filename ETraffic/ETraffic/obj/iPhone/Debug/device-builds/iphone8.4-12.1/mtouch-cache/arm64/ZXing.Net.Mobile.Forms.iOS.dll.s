@@ -5564,9 +5564,9 @@ bl _mono_gsharedvt_value_copy
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd292d5e0
+.word 0xd292efa0
 .word 0xf2a00020
-.word 0xd292d5e0
+.word 0xd292efa0
 .word 0xf2a00020
 bl _p_56
 .word 0xaa0003e1
@@ -6637,7 +6637,7 @@ _mono_aot_file_info:
 	.long 112,2568,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 197,184,246,1,183,159,49,107,209,241,3,7,129,218,108,181
+	.byte 8,167,46,99,114,140,201,149,64,141,32,140,18,175,248,32
 	.globl _mono_aot_module_ZXing_Net_Mobile_Forms_iOS_info
 	.align 3
 _mono_aot_module_ZXing_Net_Mobile_Forms_iOS_info:

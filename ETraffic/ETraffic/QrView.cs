@@ -12,7 +12,7 @@ namespace ETraffic
         private bool showQR = false;
         private string cost;
         private string userId = "30";
-        public UIImage QRImage;
+        public UIImage qrImage;
         QRGenerator qrGenerator;
         public QrView(IntPtr handle) : base(handle)
         {
