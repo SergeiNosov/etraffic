@@ -200,7 +200,7 @@ ldr x16, [x16, #208]
 .word 0xaa1903e0
 .word 0xd2800241
 .word 0xf9400322
-.word 0xf9421050
+.word 0xf9420850
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9408631
@@ -358,7 +358,7 @@ bl _p_7
 .word 0xaa0203e0
 .word 0xd2800241
 .word 0xf9400042
-.word 0xf9421050
+.word 0xf9420850
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf942de31
@@ -1057,7 +1057,7 @@ bl _p_25
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9412c30
+.word 0xf9412430
 .word 0xd63f0200
 .word 0xf90027a0
 .word 0xf94013b1
@@ -1073,7 +1073,7 @@ bl _p_25
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf942f430
+.word 0xf942ec30
 .word 0xd63f0200
 .word 0xf90023a0
 .word 0xf94013b1
@@ -1089,7 +1089,7 @@ bl _p_25
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf942f430
+.word 0xf942ec30
 .word 0xd63f0200
 .word 0xf90027a0
 .word 0xf94013b1
@@ -1099,7 +1099,7 @@ bl _p_25
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9418430
+.word 0xf9417c30
 .word 0xd63f0200
 .word 0xf90023a0
 .word 0xf94013b1
@@ -2274,7 +2274,7 @@ bl _p_46
 .word 0xaa1903e0
 .word 0xd2800021
 .word 0xf9400322
-.word 0xf941e850
+.word 0xf941e050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9418631
@@ -2572,7 +2572,7 @@ bl _p_54
 .word 0xaa0103e0
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf942a450
+.word 0xf9429c50
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf940da31
@@ -6637,7 +6637,7 @@ _mono_aot_file_info:
 	.long 112,2568,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 165,199,144,74,166,135,124,184,139,138,236,30,38,211,60,6
+	.byte 121,148,221,246,148,236,56,6,239,115,151,15,99,71,31,194
 	.globl _mono_aot_module_ZXing_Net_Mobile_Forms_iOS_info
 	.align 3
 _mono_aot_module_ZXing_Net_Mobile_Forms_iOS_info:
