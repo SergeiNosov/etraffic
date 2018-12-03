@@ -209,17 +209,31 @@
                                 <rect key="frame" x="40" y="101" width="240" height="309"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="21005">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="21005" placeholder="0" textAlignment="center">
                                         <rect key="frame" x="40" y="63" width="160" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21007">
-                                        <rect key="frame" x="56" y="169" width="129" height="30"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="43538" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Rectangle 3.png">
+                                        <rect key="frame" x="12" y="58" width="217" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Перейти к оплате"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="43539" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Rectangle 3.1-3.png">
+                                        <rect key="frame" x="0.0" y="129" width="240" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="43540" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Оплатить">
+                                        <rect key="frame" x="18" y="140" width="203" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="18"/>
+                                        <color key="textColor" colorSpace="calibratedRGB" red="0.996078431372549" green="1" blue="0.996078431372549" alpha="1"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21007">
+                                        <rect key="frame" x="0.0" y="119" width="240" height="68"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="StartPayment:" destination="16040" eventType="touchDown" id="21008"/>
                                         </connections>
@@ -355,64 +369,110 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="39484" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" alwaysBounceVertical="YES" keyboardDismissMode="interactive">
-                                <rect key="frame" x="0.0" y="70" width="320" height="498"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="42461" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" hidden="YES">
+                                <rect key="frame" x="41" y="403" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="20128" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="36" y="0.0" width="46" height="30"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="42428" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Rectangle 3.1">
+                                        <rect key="frame" x="80" y="25" width="80" height="78"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <connections>
-                                            <action selector="Generate:" destination="20027" id="31944" eventType="touchDown"/>
-                                        </connections>
-                                        <accessibility key="accessibilityConfiguration" label="G"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="33802" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" hidden="YES">
-                                        <rect key="frame" x="233" y="0.0" width="46" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="42429" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Rectangle 2-2.png">
+                                        <rect key="frame" x="101" y="40" width="38" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="33802" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="70" y="22" width="99" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="DownloadQR:" destination="20027" id="33831" eventType="touchDown"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="33774" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Введите цену">
-                                        <rect key="frame" x="87" y="0.0" width="138" height="30"/>
+                                </subviews>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="42430">
+                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="42459" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="QR-код">
+                                <rect key="frame" x="96" y="112" width="130" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KannadaSangamMN-Bold" family="Kannada Sangam MN" pointSize="34"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.41176470588235292" blue="0.20392156862745098" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coins.png" translatesAutoresizingMaskIntoConstraints="NO" id="42520">
+                                <rect key="frame" x="281" y="77" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.065.432" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42521" key="customView" fixedFrame="YES">
+                                <rect key="frame" x="97" y="71" width="176" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="31"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="22552" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" customClass="QrView" multipleTouchEnabled="YES">
+                                <rect key="frame" x="15" y="183" width="296" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES"/>
+                                </accessibility>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="41919" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="-1" y="-31" width="298" height="298"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="42460" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="20" y="167" width="283" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="33774" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Введите цену" textAlignment="center">
+                                        <rect key="frame" x="52" y="52" width="180" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                     </textField>
-                                    <view contentMode="scaleToFill" id="22552" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" customClass="QrView" multipleTouchEnabled="YES">
-                                        <rect key="frame" x="8" y="71" width="296" height="297"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="42423" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Rectangle 3.1-3.png">
+                                        <rect key="frame" x="22" y="157" width="240" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" image="YES"/>
-                                        </accessibility>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="41919" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                                <rect key="frame" x="0.0" y="-1" width="298" height="298"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                        </subviews>
-                                    </view>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сгенерировать QR-код" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="42427" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="40" y="167" width="203" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="18"/>
+                                        <color key="textColor" colorSpace="calibratedRGB" red="0.996078431372549" green="1" blue="0.996078431372549" alpha="1"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="42426" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Rectangle 3.png">
+                                        <rect key="frame" x="22" y="45" width="240" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="20128" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="9" y="148" width="265" height="59"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="Generate:" destination="20027" id="31944" eventType="touchDown"/>
+                                        </connections>
+                                        <accessibility key="accessibilityConfiguration" label="G"/>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
                     </view>
                     <navigationItem id="20032" key="navigationItem" title="Личный кабинет"/>
                     <connections>
-                        <outlet property="DownloadQRBtn" destination="33802" id="name-outlet-33802"/>
                         <outlet property="CostInput" destination="33774" id="name-outlet-33774"/>
+                        <outlet property="BlockGenerateView" destination="42460" id="name-outlet-42460"/>
+                        <outlet property="DownloadQRBtn" destination="33802" id="name-outlet-33802"/>
+                        <outlet property="BlockDownloadView" destination="42461" id="name-outlet-42461"/>
                         <outlet property="QrViewName" destination="22552" id="name-outlet-22552"/>
                         <outlet property="ImageResult" destination="41919" id="name-outlet-41919"/>
                     </connections>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="40700">
-                            <inset key="imageInsets" minX="0.0" minY="100" maxX="0.0" maxY="0.0"/>
-                        </barButtonItem>
-                    </toolbarItems>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="20029" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -534,5 +594,7 @@
         <image name="coins.png" width="30" height="30"/>
         <image name="Rectangle (Stroke).png" width="34" height="35"/>
         <image name="Rectangle 2.png" width="170" height="62"/>
+        <image name="Rectangle 3.png" width="317" height="40"/>
+        <image name="Rectangle 2-2.png" width="29" height="35"/>
     </resources>
 </document>

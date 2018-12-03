@@ -281,6 +281,8 @@
 
 @interface CabinetController : UIViewController {
 }
+	@property (nonatomic, assign) UIScrollView * BlockDownloadView;
+	@property (nonatomic, assign) UIScrollView * BlockGenerateView;
 	@property (nonatomic, assign) UITextField * CostInput;
 	@property (nonatomic, assign) UIButton * DownloadQRBtn;
 	@property (nonatomic, assign) UIImageView * ImageResult;
@@ -289,6 +291,10 @@
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIScrollView *) BlockDownloadView;
+	-(void) setBlockDownloadView:(UIScrollView *)p0;
+	-(UIScrollView *) BlockGenerateView;
+	-(void) setBlockGenerateView:(UIScrollView *)p0;
 	-(UITextField *) CostInput;
 	-(void) setCostInput:(UITextField *)p0;
 	-(UIButton *) DownloadQRBtn;

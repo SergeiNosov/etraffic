@@ -6,8 +6,16 @@ namespace ETraffic
 {
     public partial class CabinetController : UIViewController
     {
-        
 
+        public override void ViewDidLoad()
+        {
+            var g = new UITapGestureRecognizer(() => View.EndEditing(true));
+            g.CancelsTouchesInView = false; //for iOS5
+
+            View.AddGestureRecognizer(g);
+
+            base.ViewDidLoad();
+        }
         partial void Generate(UIButton sender)
         {
             try
@@ -17,10 +25,12 @@ namespace ETraffic
                 {
                     QrViewName.view = ImageResult;
                     QrViewName.DrawQR(CostInput.Text);
-                    sender.Hidden = true;
+             
                     CostInput.Hidden = true;
-                    DownloadQRBtn.Hidden = false;
+                   
                     ImageResult.Image = QrViewName.qrImage;
+                    BlockDownloadView.Hidden = false;
+                    BlockGenerateView.Hidden = true;
                 }
             }
             catch {}
