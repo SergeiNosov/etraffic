@@ -126,3 +126,5 @@
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Plugin.Share.Abstractions.pdb
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Plugin.Share.Abstractions.xml
 /Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/bin/iPhone/Debug/Plugin.Share.xml
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhone/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 2-2.png

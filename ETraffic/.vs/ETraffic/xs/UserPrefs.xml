@@ -1,22 +1,21 @@
 ﻿<Properties StartupConfiguration="{47A750FD-1A1A-4282-AE98-E632A6FAD3A1}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ETraffic/StartSceneController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ETraffic/Info.plist">
     <Files>
-      <File FileName="ETraffic/Main.cs" Line="1" Column="1" />
-      <File FileName="ETraffic/ViewController.cs" Line="28" Column="10" />
-      <File FileName="ETraffic/QrView.cs" Line="13" Column="29" />
+      <File FileName="ETraffic/Main.cs" Line="12" Column="1" />
+      <File FileName="ETraffic/ViewController.cs" Line="156" Column="11" />
+      <File FileName="ETraffic/QrView.cs" Line="1" Column="1" />
+      <File FileName="ETraffic/BusController.cs" Line="1" Column="1" />
       <File FileName="ETraffic/Main.storyboard" />
+      <File FileName="ETraffic/ViewControllerPay.cs" Line="16" Column="12" />
       <File FileName="ETraffic/Info.plist" />
-      <File FileName="ETraffic/CabinetController.cs" Line="32" Column="1" />
-      <File FileName="ETraffic/BusController.cs" Line="117" Column="66" />
-      <File FileName="ETraffic/StartSceneController.cs" Line="17" Column="11" />
-      <File FileName="ETraffic/ViewControllerPay.cs" Line="20" Column="13" />
+      <File FileName="ETraffic/CabinetController.cs" Line="37" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ETraffic PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.3f726f9ed00bab0be61cb8046b32228331194403" />
+  <MonoDevelop.Ide.ItemProperties.ETraffic PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DBD9A400-599E-414D-839F-E05618163053" />
 </Properties>

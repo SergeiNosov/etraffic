@@ -14,5 +14,8 @@ namespace ETraffic
     [Register ("StartSceneController")]
     partial class StartSceneController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

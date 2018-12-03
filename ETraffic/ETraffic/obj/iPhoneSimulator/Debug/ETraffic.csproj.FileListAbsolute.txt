@@ -255,3 +255,5 @@
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/coins.png
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 2.png
 /Users/p9gehka/Temp/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 3.png
+/Users/nosovsergej/Projects/etraffic/ETraffic/ETraffic/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.1/optimized/Rectangle 2-2.png

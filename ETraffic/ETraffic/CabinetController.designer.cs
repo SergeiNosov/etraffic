@@ -16,6 +16,14 @@ namespace ETraffic
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIScrollView BlockDownloadView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIScrollView BlockGenerateView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField CostInput { get; set; }
 
         [Outlet]
@@ -44,6 +52,16 @@ namespace ETraffic
 
         void ReleaseDesignerOutlets ()
         {
+            if (BlockDownloadView != null) {
+                BlockDownloadView.Dispose ();
+                BlockDownloadView = null;
+            }
+
+            if (BlockGenerateView != null) {
+                BlockGenerateView.Dispose ();
+                BlockGenerateView = null;
+            }
+
             if (CostInput != null) {
                 CostInput.Dispose ();
                 CostInput = null;
